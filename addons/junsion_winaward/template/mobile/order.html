@@ -1,0 +1,203 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['order']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/notime.css">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+<style>
+html,body{
+	background:#fff;
+}
+a{
+color:{$cfg['color']};
+}
+.lists{
+	width:100%;
+	height:auto;
+}
+.list-item{
+	width:94%;
+	margin: 0 3%;
+	height:140px;
+	border-bottom:1px solid #eee;
+}
+.list-item .l-top{
+	width:100%;
+	display:flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	margin-top:10px;
+	color:{$cfg['fcolor']};
+	font-size:14px;
+}
+.list-item .l-center{
+	width:100%;
+	display:flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	color:{$cfg['fcolor']};
+}
+.list-item .l-center>img{
+	width:80px;
+	height:80px;
+}
+.list-item .l-center .l-g-info{
+	flex:5;
+	height:80px;
+	color:{$cfg['fcolor']};
+	font-size:14px;
+	margin-left:5px;
+}
+.list-item .l-center .l-g-info>div{
+	line-height:26.6666666px;
+}
+.list-item .l-center .l-g-info>div>span{
+	font-size:10px;
+	background:{$cfg['color']};
+	padding:3px 5px;
+	color:#fff;
+	margin-right:3px;
+}
+.list-item .l-center .l-g-go{
+	flex:1;
+	line-height:80px;
+	text-align:right;
+}
+.list-item .l-center .l-g-go>img{
+	width:20px;
+	height:20px;
+	margin-top:30px;
+}
+.list-item .l-bot{
+	width:100%;
+	text-align:right;
+	height:30px;
+}
+.list-item .l-bot>span{
+	background:{$cfg['color']};
+	padding:7px 10px;
+	color:#fff;
+	font-size:12px;
+	border-radius:5px;
+}
+</style>
+</head>
+
+<body>
+<div class="pages" style="display:none;">
+    <div class="kh_text">{$txt['nothing']}</div>
+    <div style="color:{$cfg['fcolor']};">{$txt['selgood']}</div>
+    <div class="kh_img" id="bindstat">
+        <a href="{php echo $this->createMobileUrl('index');}">
+        <img src="{$face['app_nothing']}">
+        </a>
+    </div>
+</div>
+<div class="lists" id="lists">
+
+</div>
+{template 'footer'}
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+var right_pic = "{$face['right']}";
+var cost_txt = "{$txt['cost']}";
+$(function(){
+	getList();
+});
+
+var page = 1;
+//下拉加载
+var range = -80; //距下边界长度/单位px
+var totalheight = 0;
+var loading = false;
+$(window).scroll(function(){
+	if(loading) return false;
+  var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+  totalheight = parseFloat($('body').height()) + parseFloat(srollPos);
+  if(($("body").height()-range) <= totalheight) {
+  	if(loading) return false;
+  	page++;
+  	getList();
+  }
+});
+function getList(){
+	if(loading) return false;
+	loading = true;
+	var layerIndex = layer.load(2, {shade: 0.3});
+	$.ajax({
+		url: "{php echo $this->createMobileUrl('order',array('openid'=>$_W['openid']))}",
+		data: {page:page,scroll:true},
+		type: "post",
+		success: function(dat){
+			layer.close(layerIndex);
+			dat = JSON.parse(dat);
+			if(dat.status==1){
+				dat = dat.lists;
+				var str = '';
+				for(var i in dat){
+
+					if(dat[i].status == 1){
+						var status_str = '<span onclick="goGame('+dat[i].game_url+')">'+dat[i].status_des+'</span>';
+					}
+					else if(dat[i].status == 2){
+						var status_str = '<span onclick="goCreate('+dat[i].order_url+')">'+dat[i].status_des+'</span>';
+					}
+					else{
+						var status_str = '<span>'+dat[i].status_des+'</span>';
+					}
+					var label_str = '';
+					var other_class = '';
+					if(dat[i].label) label_str = '<span>'+dat[i].label+'</span> ';
+					else other_class = ' style="line-height: 40px" ';
+                    var height80=' style="line-height: 40px;max-height:80px;overflow: hidden;" ';
+
+					str += '<div class="list-item">';
+					str += '<div class="l-top">';
+					str += '<div>单号:'+dat[i].orderno+'</div>';
+					str += '<div>'+dat[i].status_des+'</div>';
+					str += '</div>';
+					str += '<div class="l-center">';
+					str += '<img src="'+dat[i].logo+'" />';
+					str += '<div class="l-g-info">';
+					str += '<div '+height80+'>'+dat[i].title+'-'+dat[i].sub_title+'</div>';
+					str += '<div>'+label_str+'</div>';
+					str += '<div '+other_class+'>'+cost_txt +'￥'+ dat[i].costprice+'</div>';
+					str += '</div>';
+					str += '<div class="l-g-go">';
+					str += '<img src="'+right_pic+'" />';
+					str += '</div>';
+					str += '</div>';
+					str += '<div class="l-bot">';
+					str += status_str;
+					str += '</div>';
+					str += '</div>';
+
+				}
+				$('#lists').append(str);
+				loading = false;
+			}
+			else{
+				if(page==1) $('.pages').show();
+				loading = true;
+			}
+		}
+	});
+}
+function goGame(url){
+	var layerIndex = layer.load(2, {shade: 0.3});
+	location.href=url;
+	layer.close(layerIndex);
+}
+function goCreate(url){
+	var layerIndex = layer.load(2, {shade: 0.3});
+	location.href=url;
+	layer.close(layerIndex);
+}
+</script>
+
+</body>
+</html>

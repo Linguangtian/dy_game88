@@ -1,0 +1,112 @@
+{if $_GPC['op']==''} {template 'common/header'}
+<div class="main">
+    <div class="col-lg-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <a class="btn btn-primary" style="float: right;" href="{php echo $this->createWebUrl('facemanag',array('op'=>'downimg'));}">初始化</a>
+                <h4>用户列表</h4></div>
+            <div class="panel-body">
+                <table class="table table-hover" style="vertical-align:middle; text-align:center;">
+                    <thead>
+                        <tr style="vertical-align:middle; text-align:center;">
+                            <th style="width:20%;text-align:center;">ID</th>
+                            <th style="width:10%;text-align:center;">名称</th>
+                            <th style="width:20%;text-align:center;">照片</th>
+                            <th style="width:20%;text-align:center;">操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {loop $facesqlid $items}
+                        <tr>
+                            <td>{$items['ids']}</td>
+                            <td>{$items['name']}</td>
+                            <td><img style="width: 30px;height: 30px;" src="{$items['url']}" /></td>
+                            <td><a href="{php echo $this->createWebUrl('facemanag', array('op' => 'delete', 'id' => $items['id']))}" onclick="return confirm('确认删除？');return false;" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="bottom" title="删除"><i class="fa fa-times"></i></a></td>
+                            </td>
+                        </tr>
+                        {/loop}
+                    </tbody>
+                </table>
+                <div class="pull-right">
+                    {$pager}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/if} {if $_GPC['op']=='onloadimg'} {template 'common/header-base'}
+<div class="main">
+    <div class="container message-noexist text-center">
+        <span class="error-icon my_icons"><i class="wi text-danger wi-right-sign"></i></span>
+        <div class="tips">已上传 0 /{php echo count($files)}图片，请等待！</div>
+        <div class="state">用时：
+            <label id="time">0</label> s</div>
+        <p class="indes" style="display: none;"><a href="{php echo $this->createWebUrl('facemanag')}" class="btn btn-primary">点击这里返回上一页</a> &nbsp;</p>
+        <input type="hidden" id="numss">
+    </div>
+    <script type="text/javascript">
+    var t = 0;
+    var nn = 1;
+    var timeti = setInterval(function() {
+        $("#time").text(t);
+        t++;
+    }, 1000);
+    $.get("{php echo $this->createWebUrl('getinfo', array('op' => 'ups'))}");
+    var tinums = 0;
+    var interval = setInterval(function() {
+        $.get("{php echo $this->createWebUrl('getinfo', array('op' => 'getnumid'))}", function(data) {
+            if (data) {
+                console.log(data);
+                $("#numss").val(data);
+                // $.get("{php echo $this->createWebUrl('facemanag', array('op' => 'ups'))}");
+                $(".tips").html("已上传  " + data + "/{php echo count($files)}  图片，请等待！");
+                tinums = 0;
+            } else {
+                tinums++;
+            }
+        });
+        if (tinums > 30) {
+            nn = nn+1;
+            tinums = 0;
+            if(nn==2)
+            {
+                $.get("{php echo $this->createWebUrl('getinfo', array('op' => 'upsimg'))}");
+            }
+            if (nn > 2) {
+                clearInterval(interval);
+                clearInterval(timeti);
+                $(".my_icons i").addClass("text-success");
+                $(".my_icons i").removeClass("text-danger");
+                $(".indes").show();
+            }
+        }
+    }, 1000);
+    </script>
+</div>
+{/if} 
+{if $_GPC['op']=='downimg'} {template 'common/header-base'}
+<div class="main">
+    <div class="container message-noexist text-center">
+        <span class="error-icon my_icons"><i class="wi text-danger wi-right-sign"></i></span>
+        <div class="tips">下载文件中，请等待......</div>
+         <div class="state">用时：
+            <label id="time">0</label> s</div>
+        <p class="indes" style="display: none;"></p>
+        <input type="hidden" id="numss">
+    </div>
+</div>
+<script type="text/javascript">
+    var t=0;
+    $.get("{php echo $this->createWebUrl('getinfo', array('op' => 'downfile'))}");
+    var timeti = setInterval(function() {
+        $.get("{php echo $this->createWebUrl('getinfo', array('op' => 'getnumid'))}", function(data) {
+            if (data) {
+                window.location.href=data;
+            } 
+        });
+        $("#time").text(t);
+        t++;
+    }, 1000);
+</script>
+{/if}
+{template 'common/footer'}

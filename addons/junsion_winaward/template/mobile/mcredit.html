@@ -1,0 +1,118 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['credit']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/notime.css">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+<style>
+.lists{
+	width:100%;
+	height:auto;
+}
+.l-item{
+	width:100%;
+	text-align:center;
+	display:flex;
+	display: -webkit-flex;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solide #eee;
+	border-bottom: 1px solid #eee;
+}
+.l-item .l-left{
+	width:30%;
+	color:{$cfg['fcolor']};
+}
+.l-item .l-center{
+	width:25%;
+	color:{$cfg['color']};
+}
+.l-item .l-right{
+	width:45%;
+	color:{$cfg['fcolor']};
+}
+</style>
+</head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+<div class="pages" style="display:none;">
+    <div class="kh_text">{$txt['nothing']}</div>
+    <div style="color:{$cfg['fcolor']};">{$txt['selgood']}</div>
+    <div class="kh_img" id="bindstat">
+        <a href="{php echo $this->createMobileUrl('index');}">
+        <img src="{$face['app_nothing']}">
+        </a>
+    </div>
+</div>
+<div class="lists" id="lists">
+	<div class="l-item">
+		<div class="l-left">备注</div>
+		<div class="l-center">金额</div>
+		<div class="l-right">时间</div>
+	</div>
+
+</div>
+{template 'footer'}
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+$(function(){
+	getList();
+});
+
+var page = 1;
+//下拉加载
+var range = -80; //距下边界长度/单位px
+var totalheight = 0;
+var loading = false;
+$(window).scroll(function(){
+	if(loading) return false;
+  var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+  totalheight = parseFloat($('body').height()) + parseFloat(srollPos);
+  if(($("body").height()-range) <= totalheight) {
+  	if(loading) return false;
+  	page++;
+  	getList();
+  }            
+});
+function getList(){
+	if(loading) return false;
+	loading = true;
+	var layerIndex = layer.load(2, {shade: 0.3}); 
+	$.ajax({
+		url: "{php echo $this->createMobileUrl('mcredit',array('openid'=>$_W['openid']))}",
+		data: {page:page,scroll:true},
+		type: "post",
+		success: function(dat){
+			layer.close(layerIndex); 
+			dat = JSON.parse(dat);
+			if(dat.status==1){
+				dat = dat.lists;
+				var str = '';
+				for(var i in dat){
+					str += '<div class="l-item">';
+					str += '<div class="l-left">'+dat[i].remark+'</div>';
+					str += '<div class="l-center">'+dat[i].credit+'</div>';
+					str += '<div class="l-right">'+dat[i].createtime+'</div>';
+					str += '</div>';
+				}
+				$('#lists').append(str);
+				loading = false;
+			}
+			else{
+				if(page==1) {
+					$('.pages').show();
+					$('#lists').hide();
+				}
+				loading = true;
+			}
+		}	
+	});	
+}
+</script>
+
+</body>
+</html>

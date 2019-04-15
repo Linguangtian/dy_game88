@@ -1,0 +1,2 @@
+
+{"touser": "oAyfx5L2Pq3ejbf7WzHX0F2neqNE","msgtype": "link","link": {"title": "这是图文本标题","description": "回复介绍回复介绍回复介绍回复介绍","url": "http://www.baidu.com","thumb_url": "https://www.auiju.cn/addons/tiger_tkxcx/images/3/2018/03/B321fcLkk3kOKC1feF7ob2k1RfUZFf.png"}}

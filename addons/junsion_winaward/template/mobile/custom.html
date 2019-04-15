@@ -1,0 +1,37 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['custom']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+    <link rel="stylesheet" href="{RES}css/services.css?v={TIMESTAMP}">
+<style>
+
+
+</style></head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+<div class="page">
+    <div>
+        <div class="kh_code">
+            <img src="{$face['qr']}" id="code_img">
+        </div>
+        <div class="kh_text">{$txt['app_custom']}</div>
+    </div>
+    <div class="footer">
+        <!--<button class=" click_button kh_btn" id="kh_btn">直接进入客服会话</button>-->
+    </div>
+</div>
+{template 'footer'}
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+{template 'jsweixin'}
+
+<script>
+    $("#kh_btn").click(function(){
+        wx.miniProgram.redirectTo({
+            url: '../my/my'
+        });
+    });
+</script>
+
+</body></html>

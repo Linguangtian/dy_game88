@@ -1,0 +1,18 @@
+.pages{
+    text-align:center;
+    padding:15px;
+}
+.kh_text{
+    padding-top:20%;
+    color:#FE5A99;
+    font-weight:500;
+    font-size:25px;
+    color: var(--wx_color);
+}
+.kh_img{
+    margin-top:40px;
+}
+.kh_img img{
+    width:100%;
+    height:auto;
+}

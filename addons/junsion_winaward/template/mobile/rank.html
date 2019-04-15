@@ -1,0 +1,117 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['rank']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+	<link rel="stylesheet" href="{RES}css/notime.css">
+	<link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+<style>
+html,body{
+	background:#fff;
+}
+.lists{
+	width:100%;
+	height:auto;
+}
+.l-item{
+	width:94%;
+	text-align:center;
+	margin:15px 3%;
+	display:flex;
+	display: -webkit-flex;
+	height:80px;
+	line-height:80px;
+	background:{$cfg['color2']};
+}
+.l-item .l-left{
+	width:50px;
+	color:{$cfg['fcolor']};
+}
+.l-item .l-left>img{
+	width:30px;
+	height:30px;
+	margin-top:25px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.l-item .l-center{
+	width:60px;
+	margin-top:10px;
+	margin-right:10px;
+}
+.l-item .l-center>img{
+	width:60px;
+	height:60px;
+}
+.l-nick{
+	flex:3;
+	color:{$cfg['fcolor']};
+	overflow:hidden;
+	text-align:left;
+}
+.l-item .l-right{
+	flex:2;
+	text-align:right;
+	color:{$cfg['color']};
+	margin:15px 0;
+	margin-right:10px;
+	font-size:12px;
+}
+.l-item .l-right>div{
+	font-size:12px;
+	line-height:25px;
+}
+</style>
+</head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+{if empty($lists)}
+<div class="pages">
+    <div class="kh_text">{$txt['nothing']}</div>
+    <div style="color:{$cfg['fcolor']};">{$txt['selgood']}</div>
+    <div class="kh_img" id="bindstat">
+        <a href="{php echo $this->createMobileUrl('index');}">
+        <img src="{$face['app_nothing']}">
+        </a>
+    </div>
+</div>
+{else}
+<div class="lists" id="lists">
+	<div class="l-item">
+		<div class="l-left">
+			{$mem['rank']}
+		</div>
+		<div class="l-center">
+			<img src="{$mem['avatar']}" />
+		</div>
+		<div class="l-nick">{$mem['nickname']}</div>
+		<div class="l-right">
+			<div>{$txt['redpacket']}:{$mem['total_red']}</div>
+			<div>{$txt['rcredit']}:{$mem['total_credit']}</div>
+		</div>
+	</div>
+	{loop $lists $k $l}
+	<div class="l-item">
+		<div class="l-left">
+			{if $k<=2}<img src="{$face[$k]}" />{else}{php echo $k+1;}{/if}
+		</div>
+		<div class="l-center">
+			<img src="{$l['avatar']}" />
+		</div>
+		<div class="l-nick">{$l['nickname']}</div>
+		<div class="l-right">
+			<div>{$txt['redpacket']}:{$l['total_red']}</div>
+			<div>{$txt['rcredit']}:{$l['total_credit']}</div>
+		</div>
+	</div>
+	{/loop}
+</div>
+{/if}
+{template 'footer'}
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+
+</body>
+</html>

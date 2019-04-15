@@ -1,0 +1,365 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['my']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+    <link rel="stylesheet" href="{RES}css/member.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+
+<style>
+a{
+color:{$cfg['fcolor']};
+}
+    .mask {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,.5);
+        z-index: 999999;
+    }
+    .mask > img.share_img {
+        width: 80%;
+        position: relative;
+        top: 10px;
+        left: 10%;
+    }
+    .dolist{
+    	width:100%;
+		height:auto;
+		margin-top:20px;
+		margin-bottom:100px;
+		border-top: 1px solid #eee;
+    }
+    .list-item{
+    	display:flex;
+		display: -webkit-flex;
+		width:100%;
+		height:50px;
+    }
+    .list-item .l-item{
+    	width:50%;
+    	height:50px;
+    	display:flex;
+		display: -webkit-flex;
+		border-left:1px solid #eee;
+		border-bottom:1px solid #eee;
+		justify-content: center;
+    }
+    .list-item .l-item.l-border{
+    	border-left:none;
+    }
+    .list-item .l-item>img{
+    	width:20px;
+    	height:20px;
+    	margin-top:15px;
+    }
+    .list-item .l-item>div{
+    	line-height:50px;
+    	margin-left:10px;
+    	color:{$cfg['fcolor']};
+    }
+    .copyright{
+	    width: 80%;
+	    margin: 0 10%;
+	    text-align: center;
+	    font-size: 13px;
+	    margin-bottom: 70px;
+	}
+	.kh_title>span{
+		padding: 3px 5px;
+	    background: #fff;
+	    color: {$cfg['color']};
+	    border: 1px solid #fff;
+	    border-radius: 5px;
+	    font-size: 10px;
+	    margin-left: 7px;
+	}
+	.kh_title>img{
+		width:20px;
+		height:20px;
+	    vertical-align: sub;
+	    margin-right:5px;
+	}
+	.b-item{
+		width: 100%;
+		display:flex;
+		height:80px;
+		-moz-box-shadow:1px 1px 3px {$cfg['color1']}; 
+		-webkit-box-shadow:1px 1px 3px {$cfg['color1']}; 
+		box-shadow:1px 1px 3px {$cfg['color1']};
+		border: 1px solid {$cfg['color']};
+    	border-radius: 5px;
+		margin: 10px 0;
+	}
+	.b-item .b-img{
+		width: 60px;
+		display:flex;
+		height:60px;
+		border-radius: 50%;
+	}
+	.b-item .b-title{
+		flex:2;
+		height:80px;
+		line-height:80px;
+		color: {$cfg['fcolor']};
+		text-align: left;
+	}
+	.b-item .b-price{
+		flex:1;
+		height:80px;
+		line-height:80px;
+		color: {$cfg['color']};
+		text-align: right;
+		margin-right:10px;
+	}
+</style></head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+<!--we7/pages/user/user.wxml-->
+<div class="page " id="page">
+    <div class="bg_img" style="background:url({$face['app_userbg']}) no-repeat; background-size:100% auto;-moz-background-size:100% auto">
+        <div class="header" style="padding-top:10px;">
+            <div class="kh_user">
+                <img id="header_url" src="{$mem['avatar']}">
+            </div>
+            {if $cfg['islevel']==1}<div class="kh_title" style="font-size:13px;">{if !empty($memLevel)}<img src="{php echo toimage($memLevel['logo'])}" />{$memLevel['title']}{else}{$cfg['font']['level']}{/if}{if !empty($levels)}<span onclick="showLevelDes();">{$cfg['font']['uplevel']}</span>{/if}</div>{/if}
+            <div class="kh_title" style="font-size:13px;">{$mem['nickname']}</div>
+        </div>
+        <div class="kh_box">
+            <div class="kh_box_item">
+                <a href="{php echo $this->createMobileUrl('rouge');}" class="kh_grid line"  id="my_kh">
+                    <div class="kh_my">{$txt['my']}</div>
+                    <div class="kh_grid_box">
+                        <div class="kh_grid_img">
+                            <img src="{$face['my']}">
+                        </div>
+                        <div class="kh_grid_num" id="kh_num">{if empty($rougeNum)}0{else}{$rougeNum}{/if}</div>
+                    </div>
+                </a>
+                <a href="{php echo $this->createMobileUrl('mcredit');}" class="kh_grid line" id="my_kh">
+                    <div class="kh_my">{$txt['credit']}</div>
+                    <div class="kh_grid_box">
+                    	<div class="kh_grid_pic"><text id="kh_pic">{if empty($mem['credit'])}0{else}{$mem['credit']}{/if}</text></div>
+                    </div>
+                </a>
+                {if $cfg['commission']['status'] >= 1}
+                <a href="{php echo $this->createMobileUrl('with');}" class="kh_grid">
+                    <div class="kh_my">{$txt['reback']}</div>
+                    <div class="kh_grid_box">
+                        <div class="kh_grid_pic"><text id="kh_pic">{if empty($mem['red'])}0{else}{$mem['red']}{/if}</text><text>元</text></div>
+                    </div>
+                </a>
+                {/if}
+            </div>
+        </div>
+    </div>
+    <!-- 菜单 -->
+    <div class="dolist">
+    	<div class="list-item">
+       		<a href="{php echo $this->createMobileUrl('order');}" class="l-item l-border">
+       			<img src="{$face['myorder']}" />
+       			<div>{$txt['order']}</div>
+       		</a>
+       		{if $cfg['commission']['status'] >= 1}
+       		<a href="{php echo $this->createMobileUrl('rank');}" class="l-item">
+       			<img src="{$face['rank']}" />
+       			<div>{$txt['rank']}</div>
+       		</a>
+       		{else}
+       		<a href="{php echo $this->createMobileUrl('custom');}" class="l-item">
+       			<img src="{$face['mycustom']}" />
+       			<div>{$txt['custom']}</div>
+       		</a>
+       		{/if}
+       	</div>
+       	{if $cfg['commission']['status'] >= 1}
+    	<div class="list-item">
+       		<a href="{php echo $this->createMobileUrl('mynext');}" class="l-item l-border">
+       			<img src="{$face['myNext']}" />
+       			<div>{$txt['myNext']}</div>
+       		</a>
+       		{if $cfg['poster']['switch'] == 1}
+       		<a href="{php echo $this->createMobileUrl('poster');}" class="l-item">
+       			<img src="{$face['myQr']}" />
+       			<div>{$txt['myQr']}</div>
+       		</a>
+       		{else}
+       		<a class="l-item">
+       		</a>
+       		{/if}
+       	</div>
+    	<div class="list-item">
+       		<a href="{php echo $this->createMobileUrl('redlog');}" class="l-item l-border">
+       			<img src="{$face['redLog']}" />
+       			<div>{$txt['redLog']}</div>
+       		</a>
+       		<a href="{php echo $this->createMobileUrl('rcredit');}" class="l-item">
+       			<img src="{$face['myWith']}" />
+       			<div>{$txt['myWith']}</div>
+       		</a>
+       	</div>
+       	{/if}
+       	{if $cfg['commission']['status'] >= 1}
+       	<div class="list-item">
+       		<a onclick="showCommission()" class="l-item l-border">
+       			<img src="{php echo toimage($cfg['face']['commission'])}" />
+       			<div>{$cfg['font']['commission']}</div>
+       		</a>
+       		<a href="{php echo $this->createMobileUrl('custom');}" class="l-item">
+       			<img src="{$face['mycustom']}" />
+       			<div>{$txt['custom']}</div>
+       		</a>
+       	</div>
+       	{/if}
+       	{if $isSend == 1}
+       	<div class="list-item">
+       		<a href="{php echo $this->createMobileUrl('send');}"  class="l-item l-border">
+       			<img src="{php echo toimage($cfg['face']['app_send'])}" />
+       			<div>{$cfg['font']['app_send']}</div>
+       		</a>
+       		<a class="l-item">
+       		</a>
+       	</div>
+       	{/if}
+    </div>
+    <div class="copyright">{$cfg['copyright']}</div>
+{template 'footer'}
+
+<div class="js_dialog" id="showModal2" style="display: none;">
+    <div class="weui-mask" onclick="hideCommission()" style="z-index: 10001;"></div>
+    <div class="weui-dialog modal-dialog" style="margin-top: 50px;z-index: 10001;">
+        <div class="weui-dialog_hd kh_none" id="mtitle">{$cfg['font']['commission']}</div>
+        <div class="weui-dialog_bd">
+            <div class="modal-body">
+                <textarea class="kh_sm" id="minfo" style="border:none;width:100%;height:250px;">{$cfg['commission']['rule']}</textarea>
+            </div>
+        </div>
+        <div class="weui-dialog_ft">
+
+        </div>
+    </div>
+</div>
+<div class="js_dialog" id="showModal3" style="display: none;">
+    <div class="weui-mask" onclick="hideLevelDes()" style="z-index: 10001;"></div>
+    <div class="weui-dialog modal-dialog" style="margin-top: 50px;z-index: 10001;">
+        <div class="weui-dialog_hd kh_none" id="mtitle">{$cfg['font']['updes']}</div>
+        <div class="weui-dialog_bd">
+            <div class="modal-body">
+                <textarea class="kh_sm" id="minfo" style="border:none;width:100%;height:250px;rsize:none;">{$cfg['level_des']}</textarea>
+            </div>
+        </div>
+        <div class="weui-dialog_ft">
+			<div class="kh_btn" onclick="showLevelInfo()" id="onConfirm">{$cfg['font']['myup']}</div>
+        </div>
+    </div>
+</div>
+<div class="js_dialog" id="showModal4" style="display: none;">
+    <div class="weui-mask" onclick="hideLevelInfo()" style="z-index: 10001;"></div>
+    <div class="weui-dialog modal-dialog" style="margin-top: 50px;z-index: 10001;">
+        <div class="weui-dialog_hd kh_none" id="mtitle">{$cfg['font']['myup']}</div>
+        <div class="weui-dialog_bd">
+            <div class="modal-body">
+                {loop $levels $l}
+                <div class="b-item" onclick="goUp('{$l['id']}')">
+                	<img class="b-img" src="{$l['logo']}" />
+                	<div class="b-title">{$l['title']}</div>
+                	<div class="b-price">￥{$l['price']}</div>
+                </div>
+                {/loop}
+            </div>
+        </div>
+        <div class="weui-dialog_ft">
+			<!-- <div class="kh_btn" onclick="showLevelInfo()" id="onConfirm">{$cfg['font']['myup']}</div> -->
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+$(function(){
+	layer.closeAll();
+})
+var orderid = 0;
+function goUp(lid){
+	$('#showModal4').fadeOut(200);
+	var layerIndex = layer.load(2, {shade: 0.3}); 
+	$.ajax({
+		type:'post',
+		url:"{php echo $this->createMobileUrl('doup',array('openid'=>$_W['openid']));}",
+		data:{op: 'app',lid: lid},
+		success:function(data){
+			layer.close(layerIndex); 
+			layer.closeAll();
+			data = JSON.parse(data);
+			if(data.code==1){
+				var json = data.res;
+				orderid = json.orderid;
+				WeixinJSBridge.invoke('getBrandWCPayRequest', json, function (res) {
+                      if (res.err_msg === "get_brand_wcpay_request:ok") {
+                    	  checkorder();
+                      } else {
+                    	  layer.msg('支付失败')
+                      }
+                  });
+			}
+			else if(data.code==2){
+				location.href = data.url;
+			}
+			else{
+				layer.msg(data.msg);
+			}
+		}
+		,error:function(){
+			layer.msg('网络错误，请刷新重试');
+		}
+	});
+}
+function checkorder(){
+	if(orderid > 0){
+		$.ajax({
+			 type:'POST',
+			 data:{orderid:orderid},
+			 url:'{php echo $this->createMobileUrl("CheckLevelUp");}',
+			 success:function(data){
+				  if(data == 1){
+					  var layerIndex = layer.load(2, {shade: 0.3}); 
+					  var url = "{php echo $this->createMobileUrl('my');}";
+					  location.href = url;
+					  layer.close(layerIndex); 
+				  }else{	 
+					  setTimeout(function(){
+						  checkorder();
+					  },1000);
+				  }
+			 }
+		 });
+	}
+}
+function showLevelInfo(){
+	$('#showModal3').fadeOut(200);
+	$('#showModal4').fadeIn(200);
+}
+function hideLevelInfo(){
+	$('#showModal4').fadeOut(200);
+}
+function showLevelDes(){
+	$('#showModal3').fadeIn(200);
+}
+function hideLevelDes(){
+	$('#showModal3').fadeOut(200);
+}
+function showCommission(){
+	$('#showModal2').fadeIn(200);
+}
+function hideCommission(){
+	$('#showModal2').fadeOut(200);
+}
+</script>
+</body></html>

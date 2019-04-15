@@ -1,0 +1,279 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$cfg['font']['app_send']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/notime.css?v={TIMESTAMP}">
+    <link rel="stylesheet" href="{RES}css/index.css?v={TIMESTAMP}">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+<style>
+.lists{
+	width:100%;
+	height:auto;
+}
+.item-main{
+	width:100%;
+	height:auto;
+	background: #fff;
+}
+.list-item{
+	width:94%;
+	margin: 0 3%;
+	height:90px;
+	border-bottom:1px solid #eee;
+	display:flex;
+	display: -webkit-flex;
+	padding:10px 0;
+	color:{$cfg['fcolor']};
+}
+.list-item>img{
+	width:80px;	
+	height:80px;	
+}
+.list-item .i-info{
+	flex:2;
+	height:80px;	
+	line-height:26.6666px;
+	margin-left:5px;	
+	color:{$cfg['fcolor']};
+	overflow: hidden;
+}
+.list-item .i-info>div{
+	font-size:12px;
+	height: 26.666666px;
+    overflow: hidden;
+}
+.list-item .i-info .u-name{
+	color:{$cfg['color']};
+	font-size:12px;
+}
+.list-item .i-info .u-addr{
+	color:{$cfg['color']};
+	font-size:12px;
+}
+.list-item .i-title .label{
+	padding:3px 5px;
+	background:var(--wx_color);
+	color:#fff;
+	font-size:11px;
+	color:{$cfg['fcolor']};
+}
+.list-item .i-price{
+	flex:1;
+	height:80px;	
+	line-height:40px;	
+	text-align:right;
+	color:{$cfg['fcolor']};
+}
+.m-title{
+	width:94%;
+	margin: 0 3%;
+	height:40px;
+	line-height:40px;
+	color:{$cfg['fcolor']};
+	border-bottom:1px solid #eee;
+	font-size: 13px;
+}
+.m-title>span{
+	display: block;
+    float: right;
+    font-size: 10px;
+    background: {$cfg['color']};
+    height: 24px;
+    margin-top: 8px;
+    line-height: 24px;
+    padding: 0 3px;
+    color: #fff;
+    border-radius: 5px;
+}
+.sel-express{
+    width: 80%;
+    text-align: center;
+    background: none;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.expressno{
+    width: 80%;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding-left: 8px;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+<div class="pages" style="display:none;">
+    <div class="kh_text">{$txt['nothing']}</div>
+    <div style="color:{$cfg['fcolor']};">{$txt['selgood']}</div>
+    <div class="kh_img" id="bindstat">
+        <a href="{php echo $this->createMobileUrl('index');}">
+        <img src="{$face['app_nothing']}">
+        </a>
+    </div>
+</div>
+<div class="lists" id="lists">
+</div>
+<div id="dialogs">
+    <div class="js_dialog" id="showModal3" style="display: none;">
+        <div class="weui-mask" onclick="hideSend()"></div>
+        <div class="weui-dialog modal-dialog">
+            <div class="weui-dialog_hd"></div>
+            <div class="weui-dialog_bd">
+                <div class="modal-body">
+                    <select class="sel-express" id="express">
+                    	{loop $express $k $e}
+                    	<option value="{$k}">{$e}</option>
+                    	{/loop}
+                    </select>
+                    <input class="expressno" id="expressno" value="" placeholder="请输入快递单号"/>
+                </div>
+            </div>
+            <div class="weui-dialog_ft">
+                <div class="kh_btn" id="onConfirm" onclick="dosend()">{$cfg['font']['app_send']}</div>
+            </div>
+
+        </div>
+    </div>
+</div>  
+{template 'footer'} 
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+var app_send = "{$cfg['font']['app_send']}";
+var oid = 0;
+$(function(){
+	getList();
+    $('.weui-mask').on('click', '.js_dialog', function(){
+        $(this).fadeOut(200);
+        oid = 0;
+    });
+});
+
+var page = 1;
+//下拉加载
+var range = -80; //距下边界长度/单位px
+var totalheight = 0;
+var loading = false;
+$(window).scroll(function(){
+	if(loading) return false;
+  var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+  totalheight = parseFloat($('body').height()) + parseFloat(srollPos);
+  if(($("body").height()-range) <= totalheight) {
+  	if(loading) return false;
+  	page++;
+  	getList();
+  }            
+});
+function getList(){
+	if(loading) return false;
+	loading = true;
+	var layerIndex = layer.load(2, {shade: 0.3}); 
+	$.ajax({
+		url: "{php echo $this->createMobileUrl('send',array('openid'=>$_W['openid']))}",
+		data: {page:page,scroll:true},
+		type: "post",
+		success: function(dat){
+			layer.close(layerIndex); 
+			dat = JSON.parse(dat);
+			if(dat.status==1){
+				dat = dat.lists;
+				var str = '';
+				for(var i in dat){
+					
+					str += '<div class="item-main" onclick="showSend('+dat[i].id+','+dat[i].wx_no+')">';
+					str += '<div class="m-title">单号：'+dat[i].orderno+'<span>'+app_send+'</span></div>';
+					str += '<div class="list-item">';
+					str += '<img src="'+dat[i].avatar+'" />';
+					str += '<div class="i-info">';
+					str += '<div>'+dat[i].nickname+'</div>';
+					str += '<div class="u-name">'+dat[i].uname+' '+dat[i].mobile+'</div>';
+					str += '<div class="u-addr">'+dat[i].addr+'</div>';
+					str += '</div>';
+					str += '<div class="i-price">';
+					str += '<div>X '+dat[i].num+'</div>';
+					str += '<div>'+dat[i].price+'</div>';
+					str += '</div>';
+					str += '</div>';
+					str += '<div class="m-title">商品：'+dat[i].title+'-'+dat[i].sub_title+'</div>';
+					str += '</div>';
+					str += '<div style="width:100%;height:15px;background:#eee;"></div>';
+				}
+				$('#lists').append(str);
+				loading = false;
+			}
+			else{
+				if(page==1) $('.pages').show();
+				loading = true;
+			}
+		}	
+	});	
+}
+function showSend(id, wxno){
+	if(wxno) {
+		$('#express').hide();
+		$('#expressno').attr('placeholder','请输入发货信息');
+	}
+	var $showModal3 = $('#showModal3');
+    $showModal3.fadeIn(200);
+    oid = id;
+}
+function hideSend(){
+	var $showModal3 = $('#showModal3');
+	$showModal3.fadeOut(200);
+    oid = id;
+}
+var isSubmit = false;
+function dosend(){
+	if(!oid || oid==0){
+		layer.msg('请选择需要发货的订单');
+		return false;
+	}
+	var expressno = $('#expressno').val();
+	if(!expressno){
+		layer.msg('请输入快递编号');
+		return false;
+	}
+	var express = $('#express').val();
+	if(isSubmit) return false;
+	isSubmit = true;
+	var layerIndex = layer.load(2, {shade: 0.3}); 
+	$.ajax({
+		url: "{php echo $this->createMobileUrl('dosend')}",
+		data: {oid: oid, expressno: expressno, express: express},
+		type: "post",
+		success: function(dat){
+			isSubmit = false;
+			layer.close(layerIndex); 
+			if(dat==1){
+				layer.alert(app_send+'成功', {
+				  skin: 'layui-layer-molv' //样式类名
+				  ,closeBtn: 0
+				}, function(){
+					var layerIndex = layer.load(2, {shade: 0.3}); 
+					var url = "{php echo $this->createMobileUrl('send');}";
+					location.href = url;
+					layer.close(layerIndex); 
+				});
+			}
+			else{
+				layer.msg(dat);
+			}
+		}
+		,error:function(){
+			layer.msg('网络错误，请刷新重试');
+		}
+	});
+	
+}
+</script>
+
+</body>
+</html>

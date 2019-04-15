@@ -1,0 +1,522 @@
+{template 'common/header'}
+
+
+
+<form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+   <div class="main">
+        <form action="" method="post" class="form-horizontal form" id="setting-form">
+        <input type="hidden" name="id" value="{$set['id']}">
+            <div class="panel panel-default">
+                <div class="panel-heading">参数设置</div>
+                <div class="panel-body">
+	                <ul class="nav nav-tabs" id="myTab">
+	                    <li class="active" ><a href="#tab_basic">基础设置</a></li>
+	                    <li><a href="#tab_share">顶部设置</a></li>
+	                    <li><a href="#tab_share1">其它图片</a></li>
+	
+	                </ul>
+	                <div class="tab-content">	                	
+	                	<!--基础设置-->
+	                	<div class="tab-pane  active" id="tab_basic">
+	                         <div class="panel-body">
+	                         		<div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">是否审核模式</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="shtype" id="shtype" value="0" {if $set['shtype'] ==0}checked{/if}>强制【京东】审核模式
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="shtype" id="shtype" value="1" {if $set['shtype'] == 1}checked{/if}>正常
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="shtype" id="shtype" value="2" {if $set['shtype'] ==2}checked{/if}>强制【计算器】审核模式
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="shtype" id="shtype" value="3" {if $set['shtype'] ==3}checked{/if}>强制【相册】审核模式
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="shtype" id="shtype" value="4" {if $set['shtype'] ==4}checked{/if}>强制拼多多
+						                   </label>
+						                    <span class="help-block" >强制审核模式开启了，线上和提交审核的小程序，都显示仿京东(这里选择了强制模式，下面的审核内容对应选择)（拼多多模式需要购买拼多多模块才能使用，通过率高）</span>
+						                </div>
+						            </div>
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">提交审核版本</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group">
+						                       <input type="text" name="shversion" value="{$set['shversion']}" class="form-control" placeholder="如:1.1">
+						                    </div>
+						                    <span class="help-block" ><b style="color: #ff0000;">程序提交审核时的版本号，若小程序的版本号跟这里的版本号相同，则会跳转到审核界面，避免影响正式运营的小程序，版本上线了，把这个版本号修改成其它的，不然领取不了口令</b></span>
+						                </div>
+						            </div>
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">审核内容</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <!--<label class="checkbox-inline">
+						                      <input type="radio" name="zctype" id="zctype" value="0" {if $set['zctype'] ==0}checked{/if}>正常
+						                   </label>-->
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="zctype" id="zctype" value="1" {if $set['zctype'] ==1}checked{/if}>【京东】审核模式
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="zctype" id="zctype" value="2" {if $set['zctype'] ==2}checked{/if}>【计算器】审核模式
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="zctype" id="zctype" value="3" {if $set['zctype'] ==3}checked{/if}>【相册】审核模式
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="zctype" id="zctype" value="4" {if $set['zctype'] ==4}checked{/if}>拼多多模式
+						                   </label>
+						                    <span class="help-block" >小程序版本号和这里的版本号相同的时，就会显示这里的审核内容（拼多多模式需要购买拼多多模块才能使用，通过率高）</span>
+						                </div>
+						            </div>
+						            <!--<div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">小程序H5</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group" style="width: 100%;">
+						                       <input type="text" name="weburl" value="{$set['weburl']}" class="form-control" placeholder="https://">
+						                    </div>
+						                    <span class="help-block" >这里填了H5链接，打开小程序就是一个网页小程序，其它的都没用</span>
+						                </div>
+						            </div>-->
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">首页口令编译查询</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="hometkltype" id="hometkltype" value="0" {if $set['hometkltype'] ==0}checked{/if}>不开启
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="hometkltype" id="hometkltype" value="1" {if $set['hometkltype'] == 1}checked{/if}>开启
+						                   </label>
+						                    <span class="help-block" >不开启，首页，复制内容将不检测编译查询</span>
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">详情领券方式</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="kltype" id="kltype" value="0" {if $set['kltype'] ==0}checked{/if}>小程序内复制口令
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="kltype" id="kltype" value="1" {if $set['kltype'] == 1}checked{/if}>跳转H5页面
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="kltype" id="kltype" value="2" {if $set['kltype'] == 2}checked{/if}>客服回复口令
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="kltype" id="kltype" value="3" {if $set['kltype'] == 3}checked{/if}>弹窗手工复制
+						                   </label>
+						                    <span class="help-block" >小程序领券方式</span>
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">底部菜单</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="bottomtype" id="bottomtype" value="0" {if $set['bottomtype'] ==0}checked{/if}>不显示
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="bottomtype" id="bottomtype" value="1" {if $set['bottomtype'] == 1}checked{/if}>显示
+						                   </label>
+						                    <span class="help-block" >小程序底部菜单显示</span>
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">是否开启返现</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="fxtype" id="fxtype" value="0" {if $set['fxtype'] ==0}checked{/if}>不开
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="fxtype" id="fxtype" value="1" {if $set['fxtype'] == 1}checked{/if}>开启
+						                   </label>
+						                    <span class="help-block" >会员中心是否开启返现</span>
+						                </div>
+						            </div>
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">佣金是否显示</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="dlxsyj" id="dlxsyj" value="0" {if $set['dlxsyj'] ==0}checked{/if}>不显示
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="dlxsyj" id="dlxsyj" value="1" {if $set['dlxsyj'] == 1}checked{/if}>显示(普通和代理)
+						                   </label>
+						                    <label class="checkbox-inline">
+						                      <input type="radio" name="dlxsyj" id="dlxsyj" value="2" {if $set['dlxsyj'] == 2}checked{/if}>显示(只显示代理)
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="dlxsyj" id="dlxsyj" value="3" {if $set['dlxsyj'] == 3}checked{/if}>显示(代理和普通会员都显示普通的佣金和积分)
+						                   </label>
+						                    <span class="help-block" >普通佣金和代理佣金 </span>
+						                </div>
+						            </div>
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">首页公告</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="ggtype" id="ggtype" value="0" {if $set['ggtype'] ==0}checked{/if}>不开
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="ggtype" id="ggtype" value="1" {if $set['ggtype'] == 1}checked{/if}>开启
+						                   </label>
+						                    <span class="help-block" >首页公告 不开，首页不显示</span>
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">首页秒杀</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="mstype" id="mstype" value="0" {if $set['mstype'] ==0}checked{/if}>不开
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="mstype" id="mstype" value="1" {if $set['mstype'] == 1}checked{/if}>开启
+						                   </label>
+						                    <span class="help-block" >首页秒杀 不开，首页不显示</span>
+						                </div>
+						            </div>
+				
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">是否显示代理入口</label>
+						                <div class="col-xs-12 col-sm-9">
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="dlkgtype" id="dlkgtype" value="0" {if $set['dlkgtype'] ==0}checked{/if}>不显示
+						                   </label>
+						                   <label class="checkbox-inline">
+						                      <input type="radio" name="dlkgtype" id="dlkgtype" value="1" {if $set['dlkgtype'] == 1}checked{/if}>显示
+						                   </label>
+						                    <span class="help-block" >会员中心是否显示代理入口</span>
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">详情页领券教程</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group" style="width: 100%;">
+						                       <input type="text" name="viewhelpid" value="{$set['viewhelpid']}" class="form-control" placeholder="">
+						                    </div>
+						                    <span class="help-block" >在详情页领券弹窗出来的教程</span>
+						                </div>
+						            </div>
+						            
+						             <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">自定义域名</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group" style="width: 100%;">
+						                       <input type="text" name="zdyurl" value="{$set['zdyurl']}" class="form-control" placeholder="">
+						                    </div>
+						                    <span class="help-block" >必须是HTTPS 需要加到业务域名里面去  斜杠结尾 / 如：https://baidu.com/</span>
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">签到模版ID</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group" style="width: 100%;">
+						                       <input type="text" name="qiandaomsg" value="{$set['qiandaomsg']}" class="form-control" placeholder="">
+						                    </div>
+						                    <span class="help-block" >如果没有添加模版消息，请先到主模块添加小程序模版消息内容</span>
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+							            <label for="inputPassword3" class="col-sm-2 control-label">会员中心背景</label>
+							            <div class="col-sm-10">
+							              {php echo tpl_form_field_image('hybjimg',$set['hybjimg'])}
+							              <span class="help-block" >会员中心头部背景 640*243</span>
+							            </div>
+							        </div>
+						            
+						            
+						             <div class="form-group">
+							            <label for="inputPassword3" class="col-sm-2 control-label">列表分享图标</label>
+							            <div class="col-sm-10">
+							              {php echo tpl_form_field_image('shareimg',$set['shareimg'])}
+							            </div>
+							          </div>
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">对接公众号ID</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group">
+						                       <input type="text" name="gzwid" value="{$set['gzwid']}" class="form-control" placeholder="如：2">
+						                    </div>
+						                    <span class="help-block" >填写公众号ID，必须填写，把小程序和公众与都要添加到微信开放平台，这样数据就共用了，必须填写</span>
+						                </div>
+						            </div>
+						            <div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">淘宝ID和公众号一样</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group">
+						                       <input type="text" name="tbuid" value="{$set['tbuid']}" class="form-control" placeholder="">
+						                    </div>
+						                    <span class="help-block" >填写和公众号基础设置里面授权的淘宝ID一样</span>
+						                </div>
+						            </div>
+						            <!--<div class="form-group">
+						                <label class="col-xs-12 col-sm-3 col-md-2 control-label">线上运行版本</label>
+						                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+						                    <div class="input-group">
+						                       <input type="text" name="xsversion" value="{$set['xsversion']}" class="form-control" placeholder="如:1.0">
+						                    </div>
+						                    <span class="help-block" >线上审核通过的版本 如：1.0</span>
+						                </div>
+						            </div>-->
+						            
+						            
+						             <div class="form-group">
+                                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">小程序客服查卷</label>
+                                        <div class="col-sm-9 col-xs-12">
+                                            <textarea style="height:150px;" name="flmsg" class="form-control" cols="60">{$set['flmsg']}</textarea>                                                                                                                               
+                                            <div class="help-block" style="line-height:30px;">
+                                            <b>参数设置：</b>
+                                            <!--<br>HI，#昵称#--> 
+                                            <br>商品名称#名称# 
+                                            <br>原价：#原价# 元
+                                            <!--<br>总优惠后价：#惠后价# 元-->
+                                            <br>券后价：#券后价#
+                                            <!--<br>购买地址：#拼多多短网址#-->
+
+                                            <br>【优惠详情】
+                                            <br>优惠券：#优惠券#
+                                            <!--<br>总优惠金额：#总优惠# 元-->
+                                            <!--<br>好评后奖励：#返现金额#元-->
+                                            <br>长按复制本条消息，打开【淘宝客户端】下单#淘口令#
+                                          </div>
+                                        </div>
+                                    </div>
+						              
+						
+						              <div class="form-group">
+						                    <div class="col-sm-10">
+						                        <input type="hidden" name="token" value="{$_W['token']}" /> <input
+						                            name="submit" value="submit" type="hidden" />
+						                        <hr />
+						                        <button class="btn btn-primary" type="submit">提交</button>
+						                    </div>
+						             </div>
+	                         </div>
+                        </div>
+                        <!--基础设置结束-->
+                        
+                        <!--顶部设置-->
+	                	<div class="tab-pane" id="tab_share">
+	                		
+	                		
+	                		<div class="panel we7-panel wxapp-upload-setting">
+								<div class="panel-heading"><b style="color: #ff0000;">通用</b>顶部导航栏设置</div>
+								<div class="panel-body">
+									<div class="we7-flex">
+										<div class="view-img"><img src="/web/resource/images/wxapp/setting-01.png" alt=""></div>
+										<div class="form-horizontal">
+											<div class="form-group">
+												<label class="col-xs-3 control-label">小程序标题</label>
+												<div class="col-xs-9">
+													<input type="text"  placeholder="小程序标题"  value="{$set['sharetitle']}" name="sharetitle" class="form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required">
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-xs-3 control-label">标题颜色</label>
+												<div class="col-xs-9">
+													<select  class="ng-pristine ng-untouched ng-valid ng-empty" name="titlecolor" style="width: 100px;">
+														<option {if $set['titlecolor']=="#ffffff"} checked="checked" {/if} value="#ffffff">白</option>
+														<option {if $set['titlecolor']=="#000000"} checked="checked" {/if} value="#000000">黑</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="col-xs-3 control-label">导航背景颜色</label>
+												<div class="col-xs-9">
+													{php echo tpl_form_field_color('bjcolor',$set['bjcolor'])}
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel we7-panel wxapp-upload-setting">
+								<div class="panel-heading"><b style="color: #ff0000;">超级搜</b>顶部导航栏设置</div>
+								<div class="panel-body">
+									<div class="we7-flex">
+										<div class="view-img"><img src="/web/resource/images/wxapp/setting-01.png" alt=""></div>
+										<div class="form-horizontal">
+											 <div class="form-group">
+									            <label for="inputPassword3" class="col-sm-2 control-label">背景图</label>
+									            <div class="col-sm-10">
+									              {php echo tpl_form_field_image('cjsimg',$set['cjsimg'])}
+									            </div>
+									          </div>
+									          <div class="form-group">
+												<label class="col-xs-3 control-label">标题颜色</label>
+												<div class="col-xs-9">
+													<select  class="ng-pristine ng-untouched ng-valid ng-empty" name="cjsfontcolor" style="width: 100px;">
+														<option {if $set['titlecolor']=="#ffffff"} checked="checked" {/if} value="#ffffff">白</option>
+														<option {if $set['titlecolor']=="#000000"} checked="checked" {/if} value="#000000">黑</option>
+													</select>
+												</div>
+											  </div>
+									          <div class="form-group">
+							                    <label class="col-xs-2  control-label">导航背景颜色</label>
+							                    <div class="col-xs-10">
+							                        {php echo tpl_form_field_color('cjsbjcolor',$set['cjsbjcolor'])}
+							                        <span class="help-block" >背景颜色不设置,使用默认</span>
+							                    </div>
+							                 </div>
+							                 <div class="form-group">
+									            <label for="inputPassword3" class="col-sm-2 control-label">教程图</label>
+									            <div class="col-sm-10">
+									              {php echo tpl_form_field_image('cjsjcimg',$set['cjsjcimg'])}
+									              <span class="help-block" >宽640 高不限，显示在超级搜下面的教程图片</span>
+									            </div>
+									         </div>								         
+									                 
+										</div>
+									</div>
+								</div>
+							</div>
+	                		
+	                         <div class="panel-body">
+	                         	  <div class="form-group">
+						                    <div class="col-sm-10">
+						                        <input type="hidden" name="token" value="{$_W['token']}" /> <input
+						                            name="submit" value="submit" type="hidden" />
+						                        <hr />
+						                        <button class="btn btn-primary" type="submit">提交</button>
+						                    </div>
+						             </div>
+                
+	                         </div>
+                        </div>
+                        <!--顶部设置结束-->    
+                        <!--其它广告设置-->
+	                	<div class="tab-pane" id="tab_share1">
+	                         <div class="panel-body">
+	                         	
+	                         	
+	                         	<div class="panel we7-panel wxapp-upload-setting">
+									<div class="panel-heading">首页中部通栏广告640*200</div>
+									<div class="panel-body">
+							            <div class="form-group">
+								            <label for="inputPassword3" class="col-sm-2 control-label">广告图片</label>
+								            <div class="col-sm-10">
+								              {php echo tpl_form_field_image('tlad',$set['tlad'])}
+								              <span class="help-block" >会员中心头部背景 640*243</span>
+								            </div>
+								        </div>
+								        <div class="form-group">
+							                <label class="col-xs-12 col-sm-3 col-md-2 control-label">外链地址</label>
+							                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+							                    <div class="input-group" style="width: 100%;">
+							                       <input type="text" name="tladurl" value="{$set['tladurl']}" class="form-control" placeholder="">
+							                    </div>
+							                    <span class="help-block" ></span>
+							                </div>
+							            </div>
+									</div>
+								</div>
+								
+								<div class="panel we7-panel wxapp-upload-setting">
+									<div class="panel-heading">首页【弹窗广告】335*432</div>
+									<div class="panel-body">
+							            <div class="form-group">
+							                <label class="col-xs-12 col-sm-3 col-md-2 control-label">标题</label>
+							                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+							                    <div class="input-group" style="width: 100%;">
+							                       <input type="text" name="tztitle" value="{$set['tztitle']}" class="form-control" placeholder="">
+							                    </div>
+							                    <span class="help-block" ></span>
+							                </div>
+							            </div>
+			
+								        <div class="form-group">
+								            <label for="inputPassword3" class="col-sm-2 control-label">广告图片</label>
+								            <div class="col-sm-10">
+								              {php echo tpl_form_field_image('tzimg',$set['tzimg'])}
+								              <span class="help-block" >弹窗图片335*432</span>
+								            </div>
+								        </div>
+								        <div class="form-group">
+							                <label class="col-xs-12 col-sm-3 col-md-2 control-label">显示</label>
+							                <div class="col-xs-12 col-sm-9">
+							                   <label class="checkbox-inline">
+							                      <input type="radio" name="tztype" id="tztype" value="0" {if $set['tztype'] ==0}checked{/if}>不显示
+							                   </label>
+							                   <label class="checkbox-inline">
+							                      <input type="radio" name="tztype" id="tztype" value="1" {if $set['tztype'] ==1}checked{/if}>原生
+							                   </label>
+							                   <label class="checkbox-inline">
+							                      <input type="radio" name="tztype" id="tztype" value="2" {if $set['tztype'] == 2}checked{/if}>H5
+							                   </label>
+							                    <span class="help-block" >原生链接到小程序入口获取</span>
+							                </div>
+							            </div>
+								        <div class="form-group">
+							                <label class="col-xs-12 col-sm-3 col-md-2 control-label">跳转地址</label>
+							                <div class="col-sm-9 col-xs-12" style="margin-top: 6px;">
+							                    <div class="input-group" style="width: 100%;">
+							                       <input type="text" name="tzcurl" value="{$set['tzcurl']}" class="form-control" placeholder="">
+							                    </div>
+							                    <span class="help-block" ></span>
+							                </div>
+							            </div>
+									</div>
+								</div>
+								
+								<div class="form-group">
+						            <label for="inputPassword3" class="col-sm-2 control-label">图片搜索列表头部图片</label>
+						            <div class="col-sm-10">
+						              {php echo tpl_form_field_image('stimg',$set['stimg'])}
+						            </div>
+					            </div>
+								
+								
+								<div class="form-group">
+				                    <div class="col-sm-10">
+				                        <input type="hidden" name="token" value="{$_W['token']}" /> <input
+				                            name="submit" value="submit" type="hidden" />
+				                        <hr />
+				                        <button class="btn btn-primary" type="submit">提交</button>
+				                    </div>
+				                </div>
+	                         </div>
+                        </div>
+                        <!--其它广告设置结束-->  
+                        
+                        
+                        
+                         <!--顶部设置-->
+	                	<!--<div class="tab-pane" id="tab_share">
+	                         <div class="panel-body">
+	                         	w2333
+	                         </div>
+                        </div>-->
+                        <!--顶部设置结束-->  
+	                </div>
+                </div>
+            </div>
+        </from>
+    </div>
+
+
+<script>
+require(['jquery', 'util'], function($, u){
+$(function(){
+    u.editor($('.richtext')[0]);
+});
+});
+$(function () {
+    window.optionchanged = false;
+    $('#myTab a').click(function (e) {
+        e.preventDefault();//阻止a链接的跳转行为
+        $(this).tab('show');//显示当前选中的链接及关联的content
+    })
+});
+</script>
+
+{template 'common/footer'}

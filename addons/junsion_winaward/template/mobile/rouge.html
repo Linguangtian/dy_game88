@@ -1,0 +1,174 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['my']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/notime.css?v={TIMESTAMP}">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+<style>
+a{
+color:{$cfg['color']};
+}
+.lists{
+	width:100%;
+	height:auto;
+}
+.list-item{
+	width:94%;
+	margin: 0 3%;
+	height:90px;
+	border-bottom:1px solid #eee;
+	display:flex;
+	display: -webkit-flex;
+	padding:10px 0;
+	color:{$cfg['fcolor']};
+}
+.list-item>img{
+	width:80px;	
+	height:80px;	
+}
+.list-item .i-title{
+	flex:2;	
+	height:80px;	
+	line-height:80px;
+	margin-left:5px;	
+	color:{$cfg['fcolor']};
+	font-size:14px;
+	margin-left:5px;
+}
+.list-item .i-title .label{
+	padding:3px 5px;
+	background:var(--wx_color);
+	color:#fff;
+	font-size:11px;
+	color:#fff;
+}
+.list-item .i-price{
+	flex:1;
+	height:80px;	
+	line-height:40px;	
+	text-align:right;
+	color:{$cfg['fcolor']};
+	font-size:13px;
+}
+.list-no{
+	width:94%;
+	margin: 0 3%;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #eee;
+	color:{$cfg['fcolor']};
+	font-size:14px;
+}
+.list-no>a{
+	font-size:12px;
+}
+.list-no>span{
+	display: block;
+    float: right;
+    font-size: 10px;
+    background: {$cfg['color']};
+    height: 24px;
+    margin-top: 3px;
+    line-height: 24px;
+    padding: 0 3px;
+    color: #fff;
+    border-radius: 5px;
+}
+</style>
+</head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+<div class="pages" style="display:none;">
+    <div class="kh_text">{$txt['nothing']}</div>
+    <div style="color:{$cfg['fcolor']};">{$txt['selgood']}</div>
+    <div class="kh_img" id="bindstat">
+        <a href="{php echo $this->createMobileUrl('index');}">
+        <img src="{$face['app_nothing']}">
+        </a>
+    </div>
+</div>
+<div class="lists" id="lists">
+</div>
+{template 'footer'}
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+$(function(){
+	getList();
+});
+
+var page = 1;
+//下拉加载
+var range = -80; //距下边界长度/单位px
+var totalheight = 0;
+var loading = false;
+$(window).scroll(function(){
+	if(loading) return false;
+  var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+  totalheight = parseFloat($('body').height()) + parseFloat(srollPos);
+  if(($("body").height()-range) <= totalheight) {
+  	if(loading) return false;
+  	page++;
+  	getList();
+  }            
+});
+function getList(){
+	if(loading) return false;
+	loading = true;
+	var layerIndex = layer.load(2, {shade: 0.3}); 
+	$.ajax({
+		url: "{php echo $this->createMobileUrl('rouge',array('openid'=>$_W['openid']))}",
+		data: {page:page,scroll:true},
+		type: "post",
+		success: function(dat){
+			layer.close(layerIndex); 
+			dat = JSON.parse(dat);
+			if(dat.status==1){
+				dat = dat.lists;
+				var str = '';
+				for(var i in dat){
+					var label_str = '';
+					var other_class = '';
+					if(dat[i].label) {
+						label_str = '<span class="label">'+dat[i].label+'</span>';
+						other_class = ' style="line-height: 40px" ';
+					}
+					else other_class = ' style="line-height: 80px" ';
+					var expressNO = '';
+					if(dat[i].status==2) {
+						if(dat[i].wx_no=='') expressNO = '<div class="list-no"><a href="'+dat[i].expressUrl+'">'+dat[i].express+'：'+dat[i].expressno+'</a></div>';
+						else expressNO = '<div class="list-no"><a>发货信息：'+dat[i].expressno+'</a></div>';
+					}
+					str += '<div style="width:100%;height:15px;background:#eee;"></div>';
+					str += '<div class="list-no">'+dat[i].orderno+'<span>'+dat[i].status_des+'</span></div>';
+					str += '<div class="list-item">';
+					str += '<img src="'+dat[i].logo+'" />';
+					str += '<div class="i-title" '+other_class+'>';
+					str += '<div>'+label_str+'</div>';
+					str += '<div>'+dat[i].title+' - '+dat[i].sub_title+'</div>';
+					str += '</div>';
+					str += '<div class="i-price">';
+					str += '<div>X'+dat[i].num+'</div>';
+					str += '<div>￥'+dat[i].price+'</div>';
+					str += '</div>';
+					str += '</div>';
+					str += expressNO;
+					
+				}
+				$('#lists').append(str);
+				loading = false;
+			}
+			else{
+				if(page==1) $('.pages').show();
+				loading = true;
+			}
+		}	
+	});	
+}
+</script>
+
+</body>
+</html>

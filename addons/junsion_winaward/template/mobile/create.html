@@ -1,0 +1,361 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['send']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/notime.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+<style>
+html,body{
+	background:#fff;
+}
+.lists{
+	width:100%;
+	height:auto;
+}
+.list-item{
+	width:94%;
+	margin: 0 3%;
+	height:140px;
+	border-bottom:1px solid #eee;
+}
+.list-item .l-top{
+	width:100%;
+	display:flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	margin-top:10px;
+	color:{$cfg['fcolor']};
+}
+.list-item .l-center{
+	width:100%;
+	display:flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+}
+.list-item .l-center>img{
+	width:80px;
+	height:80px;
+}
+.list-item .l-center .l-g-info{
+	flex:1;
+	height:80px;
+	margin-left:10px;
+	color:{$cfg['fcolor']};
+	font-size:13px;
+}
+.list-item .l-center .l-g-info>div{
+	{if !empty($good['label'])}
+	line-height:26.6666666px;
+	{else}
+	line-height:40px;
+	{/if}
+}
+.list-item .l-center .l-g-info>div>span{
+	font-size:10px;
+	background:{$cfg['color']};
+	padding:3px 5px;
+	color:#fff;
+	margin-right:3px;
+}
+.list-item .l-center .l-g-go{
+	line-height:80px;
+	color:{$cfg['fcolor']};
+}
+.list-item .l-center .l-g-go>img{
+	width:20px;
+	height:20px;
+	margin-top:30px;
+}
+.list-item .l-bot{
+	width:100%;
+	text-align:right;
+	height:30px;
+	color:{$cfg['fcolor']};
+}
+.list-item .l-bot>span{
+	background:#c00;
+	padding:7px 10px;
+	color:#fff;
+	font-size:12px;
+	border-radius:5px;
+}
+.item_info{
+	width:92%;
+	margin:0 4%;
+	height:40px;
+	line-height:40px;
+	display:flex;
+	display: -webkit-flex;
+	border-bottom:1px solid #eee;
+	color:{$cfg['fcolor']};
+}
+.item_info .i-left{
+	width:25%;
+	font-size:13px;
+}
+.item_info .i-right{
+	width:75%;
+	color:{$cfg['fcolor']};
+	display:flex;
+	display: -webkit-flex;
+}
+.item_info .i-right>input{
+	border:none;
+	height:40px;
+	line-height:40px;
+	color:{$cfg['fcolor']};
+}
+.goBtn{
+	width:50%;
+	margin:20px 25%;
+	height:40px;
+	line-height:40px;
+	display:block;
+	background:{$cfg['color']};
+	border-radius:5px;
+	text-align:center;
+	color:#fff;
+}
+.numbtn{
+	display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid {$cfg['color']};
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 8px;
+    line-height: 22px;
+    color:{$cfg['fcolor']};
+}
+#gnum{
+	width: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    color:{$cfg['fcolor']};
+}
+</style>
+</head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+<div class="lists" id="lists">
+	<div class="list-item">
+	{if empty($gid)}
+		<div class="l-top">
+		<div>单号：{$order['orderno']}</div>
+		</div>
+	{/if}
+	<div class="l-top">
+	<div>商品详情</div>
+	</div>
+	<div class="l-center">
+	<img src="{$good['logo']}" />
+	<div class="l-g-info">
+	<div>{$good['title']}-{$good['sub_title']}</div>
+	<div>{if !empty($good['label'])}<span>{$good['label']}</span>{/if}</div>
+	<div>{$txt['cost']}：￥{$good['costprice']}</div>
+	</div>
+	</div>
+	</div>
+</div>
+<div class="item_info">
+	<div class="i-left">联系人</div>
+	<div class="i-right">
+		<input id="uname" value="{$rouge['uname']}" placeholder="请输入联系人" />
+	</div>
+</div>
+<div class="item_info">
+	<div class="i-left">手机号码</div>
+	<div class="i-right">
+		<input id="mobile" type="tel" value="{$rouge['mobile']}" placeholder="请输入11位手机号" />
+	</div>
+</div>
+{if empty($good['type'])}
+<div class="item_info">
+	<div class="i-left">详细地址</div>
+	<div class="i-right">
+		<input id="addr" value="{$rouge['addr']}" placeholder="请输入地址" />
+	</div>
+</div>
+{else}
+<div class="item_info">
+	<div class="i-left">微信号</div>
+	<div class="i-right">
+		<input id="wx_no" value="{$rouge['wx_no']}" placeholder="请输入微信号" />
+	</div>
+</div>
+{/if}
+{if !empty($gid)}
+<div class="item_info">
+	<div class="i-left">商品单价</div>
+	<div class="i-right">
+		<input id="buyprice" value="{$good['buy']}" readonly />
+	</div>
+</div>
+<div class="item_info">
+	<div class="i-left">数量</div>
+	<div class="i-right">
+		<span class="numbtn" onclick="reduceNum()">-</span>
+		<span id="gnum">1</span>
+		<span class="numbtn" onclick="addNum()">+</span>
+	</div>
+</div>
+{/if}
+{if $good['postage']>0}
+<div class="item_info">
+	<div class="i-left">邮费</div>
+	<div class="i-right">
+		<input id="postage" value="{$good['postage']}" readonly />
+	</div>
+</div>
+{/if}
+{if !empty($gid)}
+<div class="item_info">
+	<div class="i-left">实付金额</div>
+	<div class="i-right">
+		<input id="totalprice" value="{$totalprice}" readonly />
+	</div>
+</div>
+{/if}
+{if $good['type']==1}
+<div style="color:{$cfg['color']};font-size:13px;line-height:20px;margin:5px 15px;">{$cfg['font']['dummy_order']}</div>
+{/if}
+<a class="goBtn" onclick="goPay()">提交订单</a>
+
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+function reduceNum(){
+	var num = parseInt($('#gnum').text());
+	if(num<=1){
+		num = 1;
+	}
+	else{
+		num--;
+	}
+	var buyprice = $('#buyprice').val();
+	var postage = $('#postage').val();
+	var totalPrice = parseFloat(buyprice) * num + parseFloat(postage);
+	$('#gnum').text(num);
+	$('#totalprice').val(totalPrice);
+}
+function addNum(){
+	var num = parseInt($('#gnum').text());
+	num++;
+	var buyprice = $('#buyprice').val();
+	var postage = $('#postage').val();
+	var totalPrice = parseFloat(buyprice) * num + parseFloat(postage);
+	$('#gnum').text(num);
+	$('#totalprice').val(totalPrice);
+}
+var send_str = "{$txt['send']}";
+var orderid = 0;
+var isSubmit = false;
+function goPay(){
+	if(isSubmit) return false;
+	var uname = $('#uname').val();
+	if(!uname){
+		layer.msg('请输入联系人姓名');
+		return false;
+	}
+	var mobile = $('#mobile').val();
+	if(!mobile){
+		layer.msg('请输入联系手机号');
+		return false;
+	}
+	var regPartton=/^[1][345678]\d{9}$/; //验证手机号格式
+    if(!regPartton.test(mobile)){
+    	layer.msg('请输入正确的11位手机号!');
+    	return false;
+    }
+    var addr = '';
+    var wx_no = '';
+    {if empty($good['type'])}
+	addr = $('#addr').val();
+	if(!addr){
+		layer.msg('请输入收货地址');
+		return false;
+	}
+	{else}
+	wx_no = $('#wx_no').val();
+	if(!wx_no){
+		layer.msg('请输入微信');
+		return false;
+	}
+	{/if}
+	var num = parseInt($('#gnum').text());
+	if(num && num<=0){
+		layer.msg('购买数量不能小于0');
+		return false;
+	}
+	var layerIndex = layer.load(2, {shade: 0.3}); 
+	isSubmit = true;
+	$.ajax({
+		type:'post',
+		url:"{php echo $this->createMobileUrl('createrouge',array('oid'=>$id,'gid'=>$gid,'openid'=>$_W['openid']));}",
+		data:{op: 'app',uname: uname, mobile: mobile, addr: addr, num: num, wx_no: wx_no},
+		success:function(data){
+			isSubmit = false;
+			layer.close(layerIndex); 
+			data = JSON.parse(data);
+			if(data.code==1){
+				var json = data.res;
+				orderid = json.orderid;
+				WeixinJSBridge.invoke('getBrandWCPayRequest', json, function (res) {
+                    if (res.err_msg === "get_brand_wcpay_request:ok") {
+                  	  checkorder();
+                    } else {
+                  	  layer.msg('支付失败');
+                    }
+                });
+			}
+			else if(data.code==2){
+				location.href = data.url;
+			}
+			else if(data.code==10){
+				layer.alert(send_str+'成功', {
+				  skin: 'layui-layer-molv' //样式类名
+				  ,closeBtn: 0
+				}, function(){
+					var layerIndex = layer.load(2, {shade: 0.3}); 
+					var url = "{php echo $this->createMobileUrl('rouge');}";
+					location.href = url;
+					layer.close(layerIndex); 
+				});
+			}
+			else{
+				layer.msg(data.msg);
+			}
+		}
+		,error:function(){
+			layer.msg('网络错误，请刷新重试');
+		}
+	});
+}
+function checkorder(){
+	if(orderid > 0){
+		$.ajax({
+			 type:'POST',
+			 data:{orderid:orderid},
+			 url:'{php echo $this->createMobileUrl("CheckRouge");}',
+			 success:function(data){
+				  if(data == 1){
+					  var layerIndex = layer.load(2, {shade: 0.3}); 
+					  var url = "{php echo $this->createMobileUrl('rouge');}";
+					  location.href = url;
+					  layer.close(layerIndex); 
+				  }else{	 
+					  setTimeout(function(){
+						  checkorder();
+					  },1000);
+				  }
+			 }
+		 });
+	}
+}
+</script>
+
+</body>
+</html>

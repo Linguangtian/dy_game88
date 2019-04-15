@@ -1,0 +1,64 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$cfg['font']['myQr']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+</head>
+<body>
+<style>
+a{
+color:{$cfg['color']};
+}
+.myposter{
+	width: 100%;
+	height: 100%;
+}
+#haobao{
+	width: 80%;
+    margin: 20px 10%;
+    display: block;
+    background: {$cfg['color']};
+    text-align: center;
+    color: #fff;
+    border-radius: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration-line: none;
+}
+.tips{
+	width: 80%;
+    margin-left: 10%;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 18px;
+    text-align: center;
+	
+}
+</style>
+<a href="javascript:;" id="haobao">保存海报</a>
+<div class="qrcode"></div>
+<div class="tips">{$cfg['poster']['tips']}</div>
+{template 'footer'}
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+var layerIndex = layer.load(2, {shade: 0.3});
+$.ajax({
+	url:"{php echo $this->createMobileUrl('poster',array('openid'=>$_W['openid']))}",
+	type:'post',
+	success:function(url){
+		$('.qrcode').append("<img class='myposter' src='"+url+"'>");
+		layer.close(layerIndex); 
+	}
+});
+$("#haobao").click(function(){
+	layer.msg("长按保存图片，然后发送给好友，好友点击后即可获得下线啦！");
+});
+</script>
+
+</body>
+</html>

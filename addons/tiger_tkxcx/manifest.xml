@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.0516city.com" versionCode="0.8,1.0">
+	<application setting="false">
+		<name><![CDATA[老虎-淘宝客小程序]]></name>
+		<identifie><![CDATA[tiger_tkxcx]]></identifie>
+		<version><![CDATA[1.66]]></version>
+		<type><![CDATA[activity]]></type>
+		<ability><![CDATA[老虎淘宝客小程序]]></ability>
+		<description><![CDATA[老虎淘宝客小程序]]></description>
+		<author><![CDATA[阿莫源码社区]]></author>
+		<url><![CDATA[https://www.0516city.com]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />		
+            <supports>
+    			<item type="wxapp" />
+    		</supports>
+	</platform>
+	<bindings>
+		<menu>
+			<entry title="小程序配置" do="set" state="" direct="false" />
+			<entry title="模版消息群发" do="xcxqfmoban" state="" direct="false" />
+			<entry title="海报管理" do="hb" state="" direct="false" />
+		</menu>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[CREATE TABLE IF NOT EXISTS `ims_tiger_tkxcx_hb` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `weid` int(11) DEFAULT '0',
+  `type` varchar(250) DEFAULT '0',
+  `title` varchar(250) DEFAULT '0',
+  `pic` varchar(250) DEFAULT '0',
+  `url` varchar(1000) DEFAULT '0',
+  `createtime` int(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `ims_tiger_tkxcx_set` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `weid` int(11) DEFAULT '0',
+  `gzwid` int(11) DEFAULT '0' COMMENT '对接公众号ID',
+  `shtype` int(11) DEFAULT '0' COMMENT '审核模式  1审核模式',
+  `tzurl` varchar(1000) NOT NULL COMMENT '跳转域名',
+  `xsversion` varchar(50) NOT NULL COMMENT '线上运行版本',
+  `shversion` varchar(50) NOT NULL COMMENT '提交审核版本',
+  `tbuid` varchar(100) NOT NULL COMMENT '淘宝ID',
+  `sharetitle` varchar(500) NOT NULL COMMENT '0',
+  `shareimg` varchar(500) NOT NULL COMMENT '列表分享图标',
+  `titlecolor` varchar(100) NOT NULL,
+  `bjcolor` varchar(100) NOT NULL,
+  `cjsimg` varchar(500) NOT NULL,
+  `cjsbjcolor` varchar(500) NOT NULL,
+  `cjsfontcolor` varchar(100) NOT NULL,
+  `cjsjcimg` varchar(100) NOT NULL,
+  `weburl` varchar(500) NOT NULL,
+  `fxtype` varchar(10) NOT NULL,
+  `dlkgtype` varchar(10) NOT NULL,
+  `hybjimg` varchar(500) NOT NULL,
+  `viewhelpid` varchar(500) NOT NULL,
+  `ggtype` varchar(10) NOT NULL,
+  `mstype` varchar(10) NOT NULL,
+  `tlad` varchar(500) NOT NULL,
+  `tladurl` varchar(500) NOT NULL,
+  `stimg` varchar(500) NOT NULL,
+  `flmsg` varchar(500) NOT NULL,
+  `dlxsyj` int(5) NOT NULL COMMENT '代理显示佣金  1显示',
+  `bottomtype` int(5) DEFAULT '0',
+  `qiandaomsg` varchar(500) DEFAULT '',
+  `tztype` varchar(10) DEFAULT '',
+  `tzimg` varchar(500) DEFAULT '',
+  `tzcurl` varchar(500) DEFAULT '',
+  `tztitle` varchar(500) DEFAULT '',
+  `hometkltype` varchar(10) DEFAULT '',
+  `kltype` varchar(10) DEFAULT '0',
+  `zctype` varchar(10) DEFAULT '0',
+  `zdyurl` varchar(500) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `weid` (`weid`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+]]></install>
+	<uninstall><![CDATA[DROP TABLE IF EXISTS `ims_tiger_tkxcx_hb`;
+DROP TABLE IF EXISTS `ims_tiger_tkxcx_set`;
+]]></uninstall>
+	<upgrade><![CDATA[upgrade.php]]></upgrade>
+</manifest>

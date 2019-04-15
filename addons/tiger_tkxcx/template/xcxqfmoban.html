@@ -1,0 +1,35 @@
+{template 'common/header'}
+<ul class="nav nav-tabs">
+	<li >模版消息列表</li>
+</ul>
+<div class="panel panel-default">
+      <table class="table">
+          <th>ID</th>
+          <th>名称</th>
+          <th>模版ID</th>
+          <th  style="text-align:right;">群发</th>
+
+      {loop $mb $item}
+        <tr>
+          <td>{$item['id']}</td>
+          <td>{$item['title']}</td>
+          <td>{$item['mbid']}</td>
+          <td style="text-align:right;">
+            <a href="{php echo $this->createWebUrl('xcxqfmoban', array('id' => $item['id'], 'op' => 'qf'))}" onclick="return confirm('此操作群发用户是小程序内7天内签到过的用户才能收到消息');return false;" title="群发" class="btn btn-sm btn-primary ">群发</a>
+          </td>
+        </tr>
+        {/loop}
+       </table>
+ 
+</div>
+
+<script>
+require(['jquery', 'util'], function($, u){
+	$(function(){ $('.richtext-clone').each( function() { u.editor(this); });		});
+  $('.btn').hover(function(){$(this).tooltip('show');},function(){$(this).tooltip('hide');});
+  $('.full').hover(function(){$(this).tooltip('show');},function(){$(this).tooltip('hide');});
+});
+</script>
+
+
+{template 'common/footer'}

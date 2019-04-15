@@ -1,0 +1,30 @@
+.cardWrap{
+    background:url(/static/img/bg.jpg)  no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-color:#000;
+}
+.pages {
+    filter: blur(5px);
+}
+.Refresh{
+    position: fixed;
+    top: 80%;
+    right: 16px;
+    width: 76px;
+    height: 38px;
+    border-radius: 58px;
+    background: rgba(0, 0, 0, 0.425);
+    color: #fff;
+    text-align: center;
+    line-height: 37px;
+    font-size: 16px;
+    z-index: 99;
+}
+.cardWrap {
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}

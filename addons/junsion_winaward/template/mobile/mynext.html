@@ -1,0 +1,184 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{$txt['myNext']}</title>
+    <link rel="stylesheet" href="{RES}css/weui.css">
+    <link rel="stylesheet" href="{RES}css/notime.css?v={TIMESTAMP}">
+    <link rel="stylesheet" href="{RES}css/kouhong.css?v={TIMESTAMP}">
+    <link rel="stylesheet" href="{RES}css/member.css?v={TIMESTAMP}">
+	<link rel="stylesheet" href="{RES}css/layer.css?v=3.0.3303" id="layuicss-skinlayercss">
+<style>
+.lists{
+	width:100%;
+	height:auto;
+}
+.l-item{
+	width:94%;
+	margin:0 3%;
+	display:flex;
+	display: -webkit-flex;
+	border-bottom: 1px solid #eee;
+	padding:10px 0;
+	color:{$cfg['fcolor']};
+}
+.l-item>img{
+	width:60px;
+	height:60px;
+	margin-top:10px;
+	border-radius:50%;
+}
+.l-item .l-center{
+	flex:2;
+	margin:10px 0;
+	font-size:14px;
+	line-height:30px;
+	margin-left:5px;
+	color:{$cfg['fcolor']};
+}
+.l-item .l-center>div{
+	overflow: hidden;
+	color:{$cfg['fcolor']};
+}
+.l-item .l-right{
+	flex:1;
+	text-align:right;
+	margin:10px 0;
+	font-size:10px;
+	line-height:30px;
+	color:{$cfg['fcolor']};
+}
+.top_menu{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	display:flex;
+	display: -webkit-flex;
+	border-bottom: 1px solid #eee;
+	font-size:16px;
+}
+.top_menu .t-item{
+	display:block;
+	flex:1;
+	-webkit-flex:1;
+	color:{$cfg['color']};
+	text-align:center;
+	border-left: 1px solid {$cfg['color']};
+}
+.top_menu .t-item.on{
+	color:#fff;
+	background:{$cfg['color']};
+}
+</style>
+</head>
+
+<body style="--wx_color:{$cfg['color']};--wx_color1:{$cfg['color1']};--wx_color2:{$cfg['color2']};--wx_fcolor:{$cfg['fcolor']};--wx_fcolor1:{$cfg['fcolor1']};">
+{if $cfg['commission']['status']>1}
+<div class="top_menu">
+	<a href="{php echo $this->createMobileUrl('mynext', array('type'=>0))}" class="t-item {if empty($_GPC['type'])}on{/if}">{$cfg['font']['f_commission']}</a>
+	<a href="{php echo $this->createMobileUrl('mynext', array('type'=>1))}" class="t-item {if $_GPC['type']==1}on{/if}">{$cfg['font']['s_commission']}</a>
+	{if $cfg['commission']['status']>2}<a href="{php echo $this->createMobileUrl('mynext', array('type'=>2))}" class="t-item {if $_GPC['type']==2}on{/if}">{$cfg['font']['t_commission']}</a>{/if}
+</div>
+{/if}
+<div class="kh_box">
+    <div class="kh_box_item">
+        <div class="kh_grid line" id="my_kh">
+            <div class="kh_my">{$txt['creditTotal']}</div>
+            <div class="kh_grid_box">
+                <div class="kh_grid_pic" id="kh_pic"><text id="kh_pic">{if empty($mem['total_credit'])}0{else}{$mem['total_credit']}{/if}</text></div>
+            </div>
+        </div>
+        <div class="kh_grid">
+            <div class="kh_my">{$txt['redTotal']}</div>
+            <div class="kh_grid_box">
+                <div class="kh_grid_pic"><text id="kh_pic">{if empty($mem['total_red'])}0{else}{$mem['total_red']}{/if}</text><text>元</text></div>
+            </div>
+        </div>
+    </div>
+    {if $cfg['commission']['status']==1}
+    <div class="kh_box_item">
+        <div class="kh_grid line" id="my_kh">
+            <div class="kh_my">{$txt['dayTotal']}</div>
+            <div class="kh_grid_box">
+            	<div class="kh_grid_pic"><text id="kh_pic">{if empty($dayTotal)}0{else}{$dayTotal}{/if}</text><text>人</text></div>
+            </div>
+        </div>
+        <div class="kh_grid">
+            <div class="kh_my">{$txt['total']}</div>
+            <div class="kh_grid_box">
+                <div class="kh_grid_pic"><text id="kh_pic">{if empty($total)}0{else}{$total}{/if}</text><text>人</text></div>
+            </div>
+        </div>
+    </div>
+    {/if}
+</div>
+<div class="lists" id="lists">
+
+</div>
+{template 'footer'}
+<script src="{RES}js/jquery-3.2.1.min.js"></script>
+<script src="{RES}js/layer.js"></script>
+{template 'jsweixin'}
+<script>
+var rcredit_str = "{$txt['rcredit']}";
+var redpacket_str = "{$txt['redpacket']}";
+$(function(){
+	getList();
+});
+
+var page = 1;
+//下拉加载
+var range = -80; //距下边界长度/单位px
+var totalheight = 0;
+var loading = false;
+$(window).scroll(function(){
+	if(loading) return false;
+  var srollPos = $(window).scrollTop(); //滚动条距顶部距离(页面超出窗口的高度)
+  totalheight = parseFloat($('body').height()) + parseFloat(srollPos);
+  if(($("body").height()-range) <= totalheight) {
+  	if(loading) return false;
+  	page++;
+  	getList();
+  }            
+});
+function getList(){
+	if(loading) return false;
+	loading = true;
+	var layerIndex = layer.load(2, {shade: 0.3}); 
+	$.ajax({
+		url: "{php echo $this->createMobileUrl('mynext',array('type'=>$_GPC['type'],'openid'=>$_W['openid']))}",
+		data: {page:page,scroll:true},
+		type: "post",
+		success: function(dat){
+			layer.close(layerIndex); 
+			dat = JSON.parse(dat);
+			if(dat.status==1){
+				dat = dat.lists;
+				var str = '';
+				for(var i in dat){
+					
+					str += '<div class="l-item">';
+					str += '<img src="'+dat[i].avatar+'" />';
+					str += '<div class="l-center">';
+					str += '<div>'+dat[i].nickname+'</div>';
+					str += '<div>'+dat[i].createtime+'</div>';
+					str += '</div>';
+					str += '<div class="l-right">';
+					str += '<div>'+rcredit_str+':'+dat[i].tcommission+'</div>';
+					str += '<div>'+redpacket_str+':￥'+dat[i].tcommission_red+'</div>';
+					str += '</div>';
+					str += '</div>';
+					
+				}
+				$('#lists').append(str);
+				loading = false;
+			}
+			else{
+				loading = true;
+			}
+		}	
+	});	
+}
+</script>
+
+</body>
+</html>
