@@ -315,7 +315,10 @@ function getCurrentMenu($menu_list, $route, $return = [], $level = 0)
                     <?php endif; ?>
                     <?php if (Yii::$app->user->isGuest == false): ?>
                         <a class="dropdown-item"
-                           href="$_SERVER['HTTP_HOST']/web/index.php?c=user&a=login&">退出登录</a>
+                           href="<?= Yii::$app->urlManager->createUrl(['mch/passport/logout']) ?>">返回系统</a>
+                    <?php elseif (Yii::$app->admin->isGuest == false): ?>
+                        <a class="dropdown-item"
+                           href="<?= Yii::$app->urlManager->createUrl(['mch/passport/logout']) ?>">返回系统</a>
                     <?php else: ?>
                         <a class="dropdown-item"
                            href="<?= Yii::$app->urlManager->createUrl(['mch/permission/passport/logout']) ?>">退出登录</a>

@@ -18,6 +18,13 @@ use app\modules\api\models\mch\ShopCatForm;
 use app\modules\api\models\mch\ShopListForm;
 use app\modules\api\models\mch\ShopDataForm;
 use app\models\Order;
+use app\models\OrderDetail;
+use app\models\mch;
+use app\models\Option;
+use app\models\goods;
+
+
+
 
 class IndexController extends Controller
 {
@@ -35,13 +42,15 @@ class IndexController extends Controller
 
     public function actionApply()
     {
+		
+			
         $form = new ApplyForm();
         $form->store_id = $this->store->id;
         $form->user_id = \Yii::$app->user->id;
-        $res=$form->search();
+		$res=$form->search();
+		
 
-
-
+		
         return new BaseApiResponse($res);
     }
 
@@ -51,42 +60,9 @@ class IndexController extends Controller
         $form->attributes = \Yii::$app->request->post();
         $form->store_id = $this->store->id;
         $form->user_id = \Yii::$app->user->id;
-        $res=$form->save();
-        if($res){
-            $Order =new  Order();
-            $is_shop=$Order->find()->where(['user_id'=>\Yii::$app->user->id,'is_apply_order'=>1])->count('id');
-            if(!$is_shop){
-                //还不是
-                $model =new  Order();
-                $model->store_id =$this->store->id;
-                $model->user_id=\Yii::$app->user->id;
-                $model->order_no=date('YmdHis') . mt_rand(100000, 999999);
-                $model->total_price= '0.01';
-                $model->pay_price= '0.01';
-                $model->second_price= '30';
-                $model->third_price= '30';
-                $model->first_price= '30';
-                $model->addtime= time() ;
-                $model->is_apply_order= 1 ;
-                $model->pay_type= 1 ;
-                $model->is_pay= 0 ;
-                $model->insert();
-
-                $form = new OrderDetail();
-                $form->order_id=$model->primaryKey;
-                $form->goods_id=111111111;
-                $form->total_price=0.02;
-                $form->addtime=time() ;
-                $form->is_delete=0;
-                $form->attr='111';
-                $form->is_level=0;
-                $form->integral='1';
-                $form->attr='1';
-                $form->pic='1';
-                $form->insert();
-            }
-        }
-
+		
+		$res=$form->save();
+		
         return new BaseApiResponse($res);
     }
 
@@ -95,7 +71,14 @@ class IndexController extends Controller
         $form = new ShopDataForm();
         $form->store_id = $this->store->id;
         $form->attributes = \Yii::$app->request->get();
-        return new BaseApiResponse($form->search());
+		$res=$form->search();
+		$res['data']['bond']['safe']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/safe.png';
+		$res['data']['bond']['sell']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/sell.png';
+		$res['data']['bond']['stable']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/stable.png';
+		$res['data']['bond']['original']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/original.png';
+		
+		
+        return new BaseApiResponse($res);
     }
 
     public function actionShopList()

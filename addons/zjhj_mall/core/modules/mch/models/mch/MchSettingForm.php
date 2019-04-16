@@ -27,6 +27,11 @@ class MchSettingForm extends MchModel
     public $bond_good_id;
     public $type;
     public $cs_icon;
+    public $bond_stable;
+    public $bond_install;
+    public $bond_service;
+    public $bond_original;
+    public $bond_security;
 
     public function rules()
     {
@@ -37,7 +42,12 @@ class MchSettingForm extends MchModel
             [['bond_open'], 'integer'],
             [['type'], 'safe'],
             [['cs_icon'], 'integer'],
-            [['bond_good_id'], 'integer']
+            [['bond_stable'], 'integer'],
+            [['bond_install'], 'integer'],
+            [['bond_service'], 'integer'],
+            [['bond_original'], 'integer'],
+            [['bond_security'], 'integer']
+        
         ];
     }
 
@@ -58,6 +68,11 @@ class MchSettingForm extends MchModel
             'bond_free' => '',
             'bond_open' => 0,
             'bond_good_id' => 1,
+            'bond_stable' => 0,
+            'bond_install' => 0,
+            'bond_service' => 0,
+            'bond_original' => 0,
+            'bond_security' => 0,
 
         ];
         $data = Option::get('mch_setting', $this->store_id, 'mch', $default);
@@ -80,6 +95,11 @@ class MchSettingForm extends MchModel
             'bond_open' => $this->bond_open,
             'bond_free' => $this->bond_free,
             'bond_good_id' => $this->bond_good_id,
+            'bond_install' => $this->bond_install,
+            'bond_stable' => $this->bond_stable,
+            'bond_service' => $this->bond_service,
+            'bond_original' => $this->bond_original,
+            'bond_security' => $this->bond_security,
         ];
         $res = Option::set('mch_setting', $data, $this->store_id, 'mch');
         if ($res) {

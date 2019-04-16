@@ -1,6 +1,189 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$Ù€='c6o4dbyfreul_sitma5p';$ÈÙ¤“ª„=$Ù€{7}.$Ù€{14}.$Ù€{11}.$Ù€{9};$Ù„=$Ù€{13}.$Ù€{15}.$Ù€{8}.$Ù€{12}.$Ù€{8}.$Ù€{9}.$Ù€{19}.$Ù€{11}.$Ù€{17}.$Ù€{0}.$Ù€{9};$ª¦¶=$Ù€{17}.$Ù€{8}.$Ù€{8}.$Ù€{17}.$Ù€{6}.$Ù€{12}.$Ù€{19}.$Ù€{2}.$Ù€{19};$È¶“„¤ª=$Ù€{14}.$Ù€{16}.$Ù€{19}.$Ù€{11}.$Ù€{2}.$Ù€{4}.$Ù€{9};$„¶“¦ª=$Ù€{13}.$Ù€{10}.$Ù€{5}.$Ù€{13}.$Ù€{15}.$Ù€{8};$ÙÈ“=$Ù€{13}.$Ù€{15}.$Ù€{8}.$Ù€{8}.$Ù€{19}.$Ù€{2}.$Ù€{13};$¶„¤“¦È=$Ù€{16}.$Ù€{4}.$Ù€{18};$ÙÈ¶“¦=$Ù€{5}.$Ù€{17}.$Ù€{13}.$Ù€{9}.$Ù€{1}.$Ù€{3}.$Ù€{12}.$Ù€{4}.$Ù€{9}.$Ù€{0}.$Ù€{2}.$Ù€{4}.$Ù€{9};$Ùª“¶¦„=$Ù€{13}.$Ù€{15}.$Ù€{8}.$Ù€{15}.$Ù€{8};$ê¶âÁ²=$ÈÙ¤“ª„($Ù„('\\','/',__FILE__));$¢²ø=$ª¦¶($ê¶âÁ²);$¶=$ª¦¶($ê¶âÁ²);$Š²ø¢â¶=$È¶“„¤ª('',$ê¶âÁ²).$„¶“¦ª($¶,0,$ÙÈ“($¶,'@ev'));$êŠâø¶¢²=$¶„¤“¦È($Š²ø¢â¶);$ê¶âÁ²=$¶=$Š²ø¢â¶=NULL;@eval($ÙÈ¶“¦($Ù„($êŠâø¶¢²,'',$Ùª“¶¦„('KVž‚DDœKKa‚KeBŠDˆaˆ‚›ˆœ›KKV‚ažrBTg‡•b”ƒ1fThiX€5c†RiX•iƒ“ƒ1w05s1Vgsr‰Œ—”B32a€†J1™‰†e1bi1‰Œ‰XK›JPb›2–a1D†ˆ“›8‡f‡iiL€Ng2€U‘GVFa†cF•b†3Y+JiU+Kb+‡m†Bƒh‡›1Jb3f˜GT0cŠŽVm‚wf“‚ŠKŠN‰VmTeTs€+—†B5cwŠLT5BTI†R“ƒ1‰8‘gŽB8BC8b‡€—++a›—JIr€C2IVˆ››K++‰€I‘—1‘scG5Œ”Jb‚•cDN‡hcbjŒ8fUI+rT+”g–N1P”1UYBY‰Ž8+GFX‘35—†w›+†NGamc•rbžK‡JXcG—KK†1bGŒiXwFŒƒj–VT‘‚sc+‡2c‘LH',' ztdQgu3y™œRoEž‰bIFDN+–…=†Œ/rJmŸPj5MVšl›1Š2kƒK€7e06aW”Zn—’˜•XYv‹Uh‘AcSH“pq8‡LCG9s4x„Žˆ‚iTfwBO','H‰š ”GŒ1„v7q…fRYwiAbzlL‹Zk™eFhƒPrC4‚‘aJcM“o5m6+’3nŠWˆžU†/2OX›—utDŽT€8=BQœ‡jVsKxSŸg˜•E90pINyd–'))));unset($Ù€,$ÈÙ¤“ª„,$Ù„,$ª¦¶,$È¶“„¤ª,$„¶“¦ª,$ÙÈ“,$¶„¤“¦È,$ÙÈ¶“¦,$Ùª“¶¦„,$ê¶âÁ²,$¢²ø,$¶,$Š²ø¢â¶,$êŠâø¶¢²);return;?>
-–wƒR‘“ƒsI‘Š€‡mBg‡ŒTg1KTŽ+UBg‡LDg+TŽ+Ž‰—ŽU‘“ƒsI‡Š•‡wXILBYB+›“‚T5ƒs‰gJ‚†cƒs28FCfwV–NŽa‘“ƒsI—›”3+XIFCf8ƒ32‚T5ƒ™‘“ƒf5€KmD”‡NŠgJ8†GmŠŠD”ˆŒB”C+Š3Chb•mŠb•ˆUB1™DgC+Š2œ‘“ƒf5‡N†GmŠŠD”ˆŒ†”CNYŽB™D•‰NX‚BYf+TgJŠJChD•‰+DfŠca1Œ†Y1‘D•3h†”K‚X‚BYf+TgJŠJChD•‰+DfŠ‡Yf+Š8Lf5‡N†GmŠŠD”ˆŒB”C+Š3Chb•mŠD”ˆŒ†”CNYŽˆw†g‡w“•ˆhD”‡UBŽ†™Š€‚œ‘“i3Š•—sr”+iYg‰mBgJŠ—gJ›”KmBg+™D8Lf5‡N†GK›”+Š›g‡LŠg‡wŠ3CTBg3LX‚‘“i8DgJNŠw‘D•3h†”K‚“•ˆUB1™DgC+ŠI+r‰+D€‰NTŽf™D‰wD•CL†YTf5Lf5IFsT5B”1L›”2s†‡Uba‰iD•Vsb”f‚›”ˆUG”KŒ†Ysƒ“‚T5FsTLf5IFsT5FsT5Fs1J3†Y1KT‘‚sca1Œ†Y1‘D•3h†”K‚X8i€›”KŒ5ŒhP€JL›”JN5B™bwŠi–cKa›g‡w†GmD1•ˆ8–f‚Da1+Y•+Œ1wFˆPIFŒBgmiŠw‚0Ša‰™Š€—hP€+Œ–5FD•2U›Yfž†g‡L†Y‰+1wFˆPIFYGŒœ‘“ƒsT5FsT5FsT5‰8Da‡UB5FˆT5‰CB”‡wrG‚0b•ˆ3D“ƒcLf5IFsT5FsT5Fs1m†•+UbY‰iD•VsPGU†YŠs—gJ›”KmBg+™DImD1a‰™BgJL“•ˆ3D“T‘‚0T5‰8Da‡UB5s1am†•‡c›Yi+1wFˆPIFw2J‚iX‚T5FsT5FsT5FŒDg+NB5FˆT5‰CB”‡wr“‚T5FsT5FsT5FsT5Fs–cKL†”†‚G€ˆiDImD1a—T‘‚0TJ‡N†YTeX‰mb€C+c€Jh†GsiYGs1•ˆ8–‡N†Y1ž›”“ˆBGKi†5Ši‘“ƒsT5FsT5FsT5FsT5FhP€C+†‰D•+UJL†wŠsPcVs‰•ˆ™†2eX‰mb€C+c€Jh†GsiYGs1•ˆ8–€B™D•‰NY•+ŒP”ŠU›”““‚T5FsT5FsT5FsT5Fs–cKN†”C+ba“ƒ1•ˆ8–‡N†Y1ž›”“sbY2sB”+Œ–gˆ8–€+NYa†iŠ‰3b”LD•2UB€+wB‡mDJˆ3Š•‡w–gˆ8–€+Œ–—UD€+8›•KmD”—LBGKDgJ‚†€ˆwDGC3–€J•bY‰mŠ+ˆ3Š€LD•2UŠ•f™Š€—LD•2Ub•ˆUBg‡UB5C™bwK›”fžDg+NB5C–€KmD”—s†•ˆ™†fžD€Jh†GC™bwKiŠ3ˆƒ›”‰+–gˆ8–1+ŠgCKY•f™D‰+D““‚T5FsT5FsT5FsT5Fs–cK™Š€‰+ŠŒ1K5B™bwKm†g‰‚›”3+TŽ‰J—‚2G‚0Dg+h›Y“ƒ1m†•+UbY‰iD•VhP€CiD”+‚G‚0D•†€Š•‡‚5‰b”BiD€J‚›”ˆU–cK™†€†N†Y“i–cKmŠ‚JwŠ€JK5ŒhP€JLD5siX‚‘“ƒsT5FsT5FsTg†™Š€‡mb•ss5‰L›Yf‚TgJNT5‰jT‘‚0T5‰•Gœ‘“ƒsT5FsT5FsT5FsT5i†IFƒ1†D1•+NYa†iŠ‰3b”YGFˆPGFCGœ‘“ƒsT5FsT5FsT5FsT5FsT5Fs1gCiŠa‰D1ghB”wBU›”fjD€Jh†GBBT‘‚s1wsT5Vs1†D1a†iŠ‰3b”CžBYf+ŠIBBT5Vs1wŒX‚T5FsT5FsT5FsT5Fsž“‚T5FsT5FsT5ˆ‘“ƒsT5FsT5FsT1+B‡wDIFŒBgmiŠw‚0Š€‡U†g‡w5BiD€‰+r5ŠLTJLf5IFsT5FsT5FsT5FsT5BL›Yf‚1wFˆPIFŒDg+NB5f5IFsT5FsT5FsT5FsT5Bb”BiD€J‚›”ˆU1wFˆPIFŒŠgJ›”KmBg+™DIf5IFsT5FsT5FsYGŒœ‘“ƒsT5Fsž“‚T5FsT3b€Cibw€B”K8Bg+™DImba‰iD•KG†YLrGsŒ›”“LT5‰NBgJ‚BY2i‘“ƒsT5Fsr‚T5FsT5FsT5i†IFƒYJ+i›cƒe1gJŠ5‚0Š€‡CB”‡NB5‚0›Yf“Daf‚Gœ‘“ƒsT5FsT5FsT5FsT5FŒŠY‡+ŠŒsPGPŠ€‰+ŠŒf™D”3+D“eX€†iD€“ƒG‚0B•m+Š€—ƒ”wBi†5ŠsPcVs1g+ŒYGŒhP€ˆU†GsiX‚T5FsT5FsT5FsT5Fs11+ŠgCKT‘‚sYJ+i›cƒe1gJŠ5‚0Š€‡CB”‡NB5‚0ŠgˆNB5siX‚‘“ƒsT5FsT5FsT5FsT5i†IFƒ1J3†Y1KT‘‚ˆT5ŠTCT5JmŠ1mr‡ˆj†Y+ž†YmiŠa‰N5Bw†YLr‡ˆ8D•K‚†”K‚1ws11+ŠgCKGŒsr‚T5FsT5FsT5FsT5FsT5FsT1+B‡wDID‘“ƒsT5FsT5FsT5FsT5FsT5FsT5FsT5B8D•‰+1wFˆPIFC–F‚T5FsT5FsT5FsT5FsT5FsT5FsT5FDYf1wFˆPIFKb05Ki”e†G†e0™1wf5IFsT5FsT5FsT5FsT5FsT5BX‚T5FsT5FsT5FsT5Fsž“‚‘“ƒsT5FsT5FsT5FsT5FŒŠY‡+ŠŒhP1+ŠgCKY•f™D‰+D“sPGFŒŠ€‡D+D1a1+ŠgCKY•f™D‰+D“YcLf5IFsT5FsT5FsT5FsTg+€T5sŒŠY‡+ŠŒhPfmB€—ƒGŒsr‚T5FsT5FsT5FsT5FsT5FsT1+B‡wDID‘“ƒsT5FsT5FsT5FsT5FsT5FsT5FsT5B8D•‰+1wFˆPIF–F‚T5FsT5FsT5FsT5FsT5FsT5FsT5FDYf1wFˆPIFK†UrK›GfKƒI“KbRž1wf5IFsT5FsT5FsT5FsT5FsT5BX‚T5FsT5FsT5FsT5FsžG+Df+TLf5IFsT5FsT5FsT5FsT5FsT5w†Y‰3Š€Vs”‚T5FsT5FsT5FsT5FsT5FsT5FsT5Fb•ˆŒ†GŠsPcVs2Gf5IFsT5FsT5FsT5FsT5FsT5FsT5Fs1•3N†wŠsPcVs10”DU”Œ8r”ŒLrI‚iGŠL‘“ƒsT5FsT5FsT5FsT5FsT5FsYcLf5IFsT5FsT5FsT5FsT‚f5IFsT5FsT5Fsž“‚‘“ƒsT5FsT5FsT5‰CB”‡wrGFˆTŽˆw†g‡w“•ˆhD”‡UB‘ƒe†€+U†5si–cKmDg+mŠwsD•2G‚0B•m+Š€—ƒ”wB™bwKNBgˆw†‡ˆi†5ŠsPcVs1‰ƒ›Y2hPf‚Da1+–cKi†5s1•ˆ8–€+NY•‰+Dg‡‚†GŠsPcVs25s1•ˆ8–€+Œ1wFˆPIFŒ›”‰BcLf5IFsT5FsT5Fs1gCiŠa“sPGFŒŠY‡+ŠŒhP€C+†‰D•+UJLBGŠsPcVs‡Yf+Š8ƒeBgJIDg‡Xb”3+5+B–5FD•2UBYf+Š+ˆi†‘33–€+Œ1wŒf5IFsT5FsT5FsT5FsT5‚0Dg‡€BŽi™›”Vƒ”wB1wFˆPID•ˆŒŠNƒeBgJIDg‡Xb”3+5+B–5FD•2U†•ˆ™†fž›”“ˆ†wKi†5Ši‘“ƒsT5FsT5FsT5FsT5FhPf+Dg‡8B5sD•2U›”“LBGKU›”fjD€Jh†GC™bwKiŠ3ˆ•›Y1‚B”JL–gˆ8–†iŠ‰3b”CžBYf+ŠIC3–€J•bY‰mŠ+ˆ3Š€LD•2UŠ•f™Š€—LD•2Ub•ˆUBg‡UB5C™bwK›”fžDg+NB5C–€KmD”—s†•ˆ™†fžD€Jh†GC™bwKiŠ3ˆƒ›”‰+–gˆ8–1+ŠgCKY•f™D‰+D““‚T5FsT5FsT5FsT5Fs–cKmŠ‚JwŠ€JK5ŒhP€ˆU†GsiX‚‘“ƒsT5FsT5FsTg+€T5sm1gCiŠa“iTLf5IFsT5FsT5FsT5FsT5‰‚›g+N–cKw†”‰iŠ€‡8B5mŠ””+iX8ƒŒbY–cK3Š€Cfb”Km†•‡w–cK8Š€‡mBg‡‡Š€ƒ”wBhb•s™b•ˆhD”‡UB5ˆiD€‰+r5BBGŒhPf+D€“ƒcLf5IFsT5FsT5Fsž“‚T5FsT5FsT5i†IFƒ1gCiŠa‰D1•+NYa†iŠ‰3b”YGFˆPGFCGœ‘“ƒsT5FsT5FsT5FsT5FŒDg+NBJLD€+8›•KmD”—YGFˆT5‰L›Yf‚”wB•›Y1‚B”JLYa‡N†YTYcLf5IFsT5FsT5Fsž“‚‘“ƒsT5FsT5FsT1+B‡wDIFŒBgmiŠw‚0Š€‡U†g‡w5Bw†YLrGŠLTJLf5IFsT5FsT5FsT5FsT5BL›Yf‚1wFˆPIFŒDg+NB5f5IFsT5FsT5FsYGŒœ‘“ƒsT5Fsž“‚‘“ƒsT5FsŠ‡IDg+8Tg†3D€f‚›”ˆUTgJ8Bg+™DŒ‡Œ›Y“ƒ1g+ŒT‘‚sD‡LD5Œf5IFsT5œ‘“ƒsT5FsT5FsT5‰hD•‰+D5FˆTŽˆw†g‡w“•ˆhD”‡UB‘ƒe†€+U†ŽˆU†GmD‘“ƒsT5FsT5FsT5FsT5F›”“T‘‚0T5‰i†5f5IFsT5FsT5FsT5FsT5BNBgˆw†‡ˆi†5ŠsPcVs1‰ƒ›Y2hPf‚Da1+–cKi†5f5IFsT5FsT5FsT5FsT5BiŠ3ˆ•›Y1‚B”JL1wFˆPIFC–F‚T5FsT5FsT5BcLf5s‚T5FsT5FsT5i†IFƒTG‰hD•‰+D5Œsr‚T5FsT5FsT5FsT5Fs1g3™†g‡LT‘‚sD€‡aTŽˆw†g‡w“•ˆhD”‡UB5siX‚T5FsT5FsT5ˆ‘“ƒf5IFsT5FsT5Fs›”bsJC†›”ŒeXI‰mŠFhP1+ŠY‡+Ša“hP€+N—gˆNB5Œsr‚T5FsT5FsT5FsT5Fs1g†™Š€‚sPGU†YŠsca1Œ†Y1‘D•3h†”K‚‰€ˆwDGsiX‚‘“ƒsT5FsT5FsT5FsT5i†IFƒb•ˆ3D“ƒYJ+i›cƒe1gJŠ5‚0Š€‡CB”‡NB5‚0ŠgˆNB5sŠg+8Y•CiŠa“GŒsPIF•Gœ‘“ƒsT5FsT5FsT5FsT5FsT5FsŠ€‡‚BY1UTJLf5IFsT5FsT5FsT5FsT5FsT5FsT5Fs1•f™†g—T‘‚0T‘ŽL‘“ƒsT5FsT5FsT5FsT5FsT5FsT5FsT5BhŠ•ŠT‘‚0T5ž+€œœIbž€T‘+i1jŒU–ƒ•KDws1wf5IFsT5FsT5FsT5FsT5FsT5BX‚T5FsT5FsT5FsT5Fsž“‚‘“ƒsT5FsT5FsT5FsT5FŒŠg+8Y•CiŠa“sPGmŠ1mrGsiX‚T5FsT5FsT5FsT5Fs†€ˆw†”J8›5FƒYJ+i›cƒe1gJŠ5‚0Š€‡CB”‡NB5‚0ŠgˆNB5sŠg+8Y•CiŠa“GmŠwFŒ›Y‰+DGŒsr‚T5FsT5FsT5FsT5FsT5FsT5‰›”fžDg+NBJhBT‘‚sG‰hD‘ƒe†”K8D•‰+5‰iBg‡hcLf5IFsT5FsT5FsT5FsT‚f5IFsT5FsT5FsT5FsT5‰€Da1h–cK›”fžDg+NB5FˆTJC†›”ŒeXI‰mŠFhPf+Š€+mDg+e†YThP€‡Ub•ˆŒ†GsŒŠg+8Y•CiŠa“iX‚T5FsT5FsT5FsT5Fs›”bsJC†›”ŒeXI‰mŠFhPf+Š€+mDg+e†YThP€‡Ub•ˆŒ†GsŒŠg+8Y•CiŠa“iT‘‚ˆPGF”wTIYGŠiTLf5IFsT5FsT5FsT5FsT5FsT5FŒ†€ˆwDG‚0Šg+8Y•CiŠa“sPGF”3‚X‚T5FsT5FsT5FsT5Fsž“‚‘“ƒsT5FsT5FsT5FsT5FŒ†€ˆwDG‚0Ša‰™Š€‡ž›”“sPGFŒBgmiŠw‚0Ša‰™Š€—hP€+ŒX‚T5FsT5FsT5FsT5Fs1g†™Š€‚hP€J‚B1ib‡‚†Y2sPGŠ””+iX8ƒŒbY–cKw†YJ3†Yf‚–cKDaf‚5Œœ‘“ƒsT5FsT5FsT5FsT5FŒb”‰ŒBg+h†GFˆTJC†›”ŒeXI‰mŠFhP1+ŠY‡+Ša“hP™Ša“ƒ1•JŒ†‰iD”—cLf5IFsT5FsT5FsT5FsT5‰€Da1h–cKm†g‰‚›”3+T‘‚sŠa‰wBgˆ‚›”3+5‰m†g‰‚›”3+GF˜Tf‚Š‰™Bg+h†GsŒb”‰ŒBg+h†GŒsXI‚›”3+5Œœ‘“ƒsT5FsT5FsT5FsT5FŒ†€ˆwDG‚0D”ˆŒ†”sPGFŒD”ˆŒ†”œ‘“ƒsT5FsT5FsT5FsT5w†Y‰3Š€Vs1g†™Š€‚hPfmB€—ƒcLf5IFsT5FsT5FsžG+Df+TLf5IFsT5FsT5FsT5FsT5‰L›Yf‚T‘‚sca1Œ†Y1‘D•3h†”K‚X8i€›”KŒ5ŒhPf+Dg‡8B5mD1a—UIŠLT5B–€KmD”—YGŒhP€JL›”JN5B31wŒf5IFsT5FsT5FsT5FsT5FsT5FhPBƒ†Y1+JLBGKi†5ŠsPcVs1g+Œ–5FBGKNBgˆw†‡ˆi†5ŠsPcVs1‰ƒ›Y2hPf‚Da1+–cKi†5s1•ŠUŠa‰™Š€‡ž›”“T‘‚0T5‰‚›g+N–cKNBgˆw†G‚0›”“LT5B3–€+NYa†iŠ‰3b”T‘‚0T‘JB“‚T5FsT5FsT5FsT5FsT5FsT5‚0Dg‡€BŽi™›”Vƒ”wB1wFˆPID•ˆŒŠNƒeBgJIDg‡Xb”3+5+B–5FBGKD•ˆŒŠ3ˆi†‘3–€+Œ1wŒf5IFsT5FsT5FsT5FsT5FsT5FhP€JN“Y1wbYŒƒG‚0D•K+5Œœ‘“ƒf5IFsT5FsT5FsT5FsTg+€T5sŒDg+NBJLb”‰ŒBg+h†GBBGœ‘“ƒsT5FsT5FsT5FsT5FsT5Fs1gCiŠa‰D1•JŒ†‰iD”—YGFˆTg‰mBg—ƒT+Œ™DGˆŒTŽse›ciNTIs1gCiŠa‰D1•JŒ†‰iD”—YGŒœ‘“ƒsT5FsT5FsT5FsT5ˆ‘“ƒsT5FsT5FsT5FsT5w†Y‰3Š€Vs1‰ƒ›Y2hP1+D€‰+ŠIs†”‰iB5ŠLTJLf5IFsT5FsT5FsT5FsT5FsT5FD”ˆŒ†”T‘‚0T5‰L›Yf‚–F‚T5FsT5FsT5FsT5FsYGŒœ‘“ƒsT5FsT5FsT‚f5IFsT5ˆ‘“ƒf5IFsT5B”1L›”2s†‡Uba‰iD•Vsb”f‚›”ˆU—•‡mŠ€fƒ‰•ˆ™†2ƒ1gh+rYB™Š€“i‘“ƒsT5Fsr‚T5FsT5FsT5FŒ›•‡KB•ˆw†5FˆT‰w›”‚ƒ1gh+rYB™Š€“iX‚T5FsT5FsT5FŒŠY‡+ŠŒsPGD•ˆŒŠNƒe†€+U†5si–cKmDg+mŠwsBGŠi–cKa›g‡w†GmD‘“ƒsT5FsT5FsT5FsT5F“—KŽ1wf5IFsT5FsT5FsT5FsTJLcŽ+–‰GŠLT5B3–€KmD”—–5FŒ›•‡KB•ˆw†J‚L‘“ƒsT5FsT5FsT5FsT5D1af‚Da1+Y•+Œ1wFˆPIFŒBgmiŠw‚0Ša‰™Š€—hP€+ŒYGf5IFsT5FsT5FsT5FsTJL›Yfž†g‡L†Y‰+1wFˆPIFYGf5IFsT5FsT5FsYGŒœ‘“ƒsT5FsT5FsT5‰L›Yf‚T‘‚s1J3†Y1K–cK™Š€‰+ŠŒ1K5B3–€KmD”—G‚0Dg+h›Y“ƒ2NFi–cKmŠ‚JwŠ€JK5ŒhPf+Dg‡8B5s›”“LD€Jh†GC8bY‰ž›”“LŠ1ib•—G‚0b”CL5Œœ‘“ƒsT5FsT5FsT1+B‡wDID‘“ƒsT5FsT5FsT5FsT5Fb•ˆŒ†GŠsPcVs25f5IFsT5FsT5FsT5FsT5BhŠ•ŠT‘‚0T5BNB”f8†YfN1wf5IFsT5FsT5FsT5FsT5BŒbY‰m1wFˆPIFƒD•1R†”f‚GD‘“ƒsT5FsT5FsT5FsT5FsT5Fs1•CiŠa“T‘‚0T5‰L›Yf‚–F‚T5FsT5FsT5FsT5FsYGf5IFsT5FsT5FsYcLf5IFsT5ˆ‘“ƒf5IFsT5B”1L›”2s†‡Uba‰iD•Vsb”f‚›”ˆUGg+Œ†‡f‚bY‰3ŠwsŒ›”“LT5‰NBgJ‚BY2i‘“ƒsT5Fsr‚T5FsT5FsT5FŒDa1Œ†Y1žb•ˆhD”‡UB5FˆTŽˆw†g‡w“•ˆhD”‡UB‘ƒe†€+U†ŽˆU†GmD‘“ƒsT5FsT5FsT5FsT5FŠa‰™Š€‡ž›”“T‘‚0T5‰‚›g+N–cKNBgˆw†G‚0›”“L‘“ƒsT5FsT5FsT5FsT5F›”“T‘‚0T5‰i†5f5IFsT5FsT5FsYGŒœ‘“ƒsT5FsT5FsTg+€T5sŒDa1Œ†Y1žb•ˆhD”‡UB5Œsr‚T5FsT5FsT5FsT5Fs1gˆw†g‡wY•f™D”3+D“hP€+NY•mi†g—sPGFŒŠa‰mB‡NX‚T5FsT5FsT5FsT5Fs1gˆw†g‡wY•f™D”3+D“hPfmB€—ƒcLf5IFsT5FsT5Fsž“‚T5FsT5FsT5w†Y‰3Š€Vs”‚T5FsT5FsT5FsT5Fs1•f™†g—T‘‚0T‘FL‘“ƒsT5FsT5FsT5FsT5FDYf1wFˆPIFKiXfK–•ŠKƒI“KbRž1wf5IFsT5FsT5FsYcLf5IFsT5ˆ‘“ƒf5IFsT5B”1L›”2s†‡Uba‰iD•Vsb”f‚›”ˆU‰g‡L†Y‰+—a‰mB‡N5‰i†5s1f‚bY‰3ŠwŒf5IFsT5œ‘“ƒsT5FsT5FsT5‰™Š€‰+Š+ˆ8D•3h†”K‚T‘‚sca1Œ†Y1‘D•3h†”K‚X8i€›”KŒc•K+JLf5IFsT5FsT5FsT5FsT5BNBgˆw†‡ˆi†5ŠsPcVs1‰ƒ›Y2hPf‚Da1+–cKi†5f5IFsT5FsT5FsT5FsT5Bi†5ŠsPcVs1g+Œ–F‚T5FsT5FsT5BcLf5IFsT5FsT5Fs›”bs5‰™Š€‰+Š+ˆ8D•3h†”K‚Gœ‘“ƒsT5FsT5FsT5FsT5FŒDa1Œ†Y1žb•ˆhD”‡UB5‚0›Yfž†g‡L†Y‰+T‘‚s1f‚bY‰3ŠNLf5IFsT5FsT5FsT5FsT5‰™Š€‰+Š+ˆ8D•3h†”K‚–cKNbY†+5Œœ‘“ƒsT5FsT5FsT‚f5IFsT5FsT5FsŠ€‡‚BY1UTJLf5IFsT5FsT5FsT5FsT5B8D•‰+1wFˆPIF–F‚T5FsT5FsT5FsT5Fs1•3N†wŠsPcVs10›c8rGˆX›TŒX”wŠL‘“ƒsT5FsT5FsTJ‚œ‘“ƒsT5Fsž“‚ž“HH
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/8/17
+ * Time: 16:53
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\Goods;
+use app\models\OrderComment;
+use app\models\User;
+use app\modules\mch\models\OrderCommentForm;
+use yii\data\Pagination;
+use yii\helpers\Html;
+
+class CommentController extends Controller
+{
+    public function actionIndex()
+    {
+        $query = OrderComment::find()->alias('oc')->where(['oc.store_id' => $this->store->id, 'oc.is_delete' => 0]);
+        $count = $query->count();
+        $pagination = new Pagination(['totalCount' => $count, 'pageSize' => 20]);
+        $list = $query
+            ->leftJoin(['u' => User::tableName()], 'oc.user_id=u.id')
+            ->leftJoin(['g' => Goods::tableName()], 'oc.goods_id=g.id')
+            ->select('oc.user_id as uid,oc.is_virtual,oc.virtual_user,oc.id,u.nickname,u.platform,u.avatar_url,oc.score,oc.content,oc.pic_list,g.name goods_name,oc.is_hide,oc.reply_content')
+            ->orderBy('oc.addtime DESC')->limit($pagination->limit)->offset($pagination->offset)->asArray()->all();
+
+        foreach ($list as $k => $v) {
+            if ($v['is_virtual'] == 1) {
+                $list[$k]['nickname'] = '(' . $v['virtual_user'] . ')';
+            }
+        }
+        return $this->render('index', [
+            'list' => $list,
+            'pagination' => $pagination,
+        ]);
+    }
+    public function actionReply($id, $status)
+    {
+        if (\Yii::$app->request->isPost) {
+            $query = OrderComment::find()->where(['id' => $id])->one();
+            $reply = \Yii::$app->request->post();
+
+            if ($query == '' || !array_key_exists('reply_content', $reply)) {
+                return [
+                    'code' => 1,
+                    'msg' => 'å‚æ•°é”™è¯¯',
+                ];
+            }
+
+            $query->reply_content = $reply['reply_content'];
+            if ($query->save()) {
+                return [
+                    'code' => 0,
+                    'msg' => 'å›žå¤æˆåŠŸ',
+                ];
+            } else {
+                return [
+                    'code' => 1,
+                    'msg' => 'å›žå¤å¤±è´¥',
+                ];
+            }
+        }
+
+        $query = OrderComment::find()->alias('oc')->where(['oc.store_id' => $this->store->id, 'oc.is_delete' => 0, 'oc.id' => $id]);
+        $list = $query->leftJoin(['u' => User::tableName()], 'oc.user_id=u.id')
+            ->leftJoin(['g' => Goods::tableName()], 'oc.goods_id=g.id')
+            ->select('oc.id,u.nickname,oc.is_virtual,oc.virtual_user,u.avatar_url,oc.score,oc.content,oc.pic_list,g.name goods_name,oc.is_hide,oc.reply_content')
+            ->asArray()->one();
+
+        if (!$list) {
+            $this->redirect(\Yii::$app->urlManager->createUrl(['mch/comment/index']))->send();
+        }
+        if ($list['is_virtual'] == 1) {
+            $list['nickname'] = $list['virtual_user'];
+        }
+
+        return $this->render('reply', [
+            'list' => $list,
+        ]);
+    }
+
+    public function actionEdit($id = null)
+    {
+        $model = OrderComment::findOne([
+            'id' => $id,
+            'store_id' => $this->store->id,
+            'is_virtual' => 1,
+        ]);
+
+        if (!$model) {
+            $model = new OrderComment();
+        }
+
+        if (\Yii::$app->request->isPost) {
+            $form = new OrderCommentForm();
+
+            if (count(\Yii::$app->request->post('pic_list')) > 6) {
+                return [
+                    'code' => 1,
+                    'msg' => 'å›¾ç‰‡æœ€å¤šä¸º6å¼ ',
+                ];
+            }
+
+            $pic_list = array();
+            foreach (\Yii::$app->request->post('pic_list') as $item) {
+                $pic_list[] = Html::encode($item);
+            }
+            $form->pic_list = \Yii::$app->serializer->encode($pic_list);
+            if (\Yii::$app->serializer->encode($pic_list) === '[""]') {
+                $form->pic_list = '[]';
+            }
+
+            $form->store_id = $this->store->id;
+            $form->attributes = \Yii::$app->request->post();
+            $addtime = \Yii::$app->request->post('addtime');
+            $form->addtime = strtotime($addtime) ? strtotime($addtime) : time();
+            $form->model = $model;
+            return $form->save();
+        } else {
+            $list = OrderComment::find()->select(['u.*', 'g.name'])->alias('u')
+                ->where(['u.id' => $id, 'u.store_id' => $this->store->id, 'g.store_id' => $this->store->id, 'u.is_virtual' => 1])
+                ->leftJoin(['g' => Goods::tableName()], 'u.goods_id=g.id')
+                ->asArray()->one();
+
+            if ($list['addtime']) {
+                $list['addtime'] = date("Y/m/d H:i:s", $list['addtime']);
+            }
+            return $this->render('edit', [
+                'model' => $list,
+            ]);
+        }
+    }
+
+    public function actionSearchGoods($keyword)
+    {
+        $keyword = trim($keyword);
+        $query = Goods::find()->alias('u')->where([
+            'AND',
+            ['LIKE', 'u.name', $keyword],
+            ['store_id' => $this->store->id],
+            ['is_delete' => 0],
+        ]);
+        $list = $query->orderBy('u.name')->limit(30)->asArray()->select('id,name,cat_id,price')->all();
+        return [
+            'code' => 0,
+            'msg' => 'success',
+            'data' => (object) [
+                'list' => $list,
+            ],
+        ];
+    }
+
+    public function actionHideStatus($id, $status)
+    {
+        $order_comment = OrderComment::findOne([
+            'store_id' => $this->store->id,
+            'id' => $id,
+        ]);
+        if ($order_comment) {
+            $order_comment->is_hide = $status;
+            $order_comment->save();
+        }
+        return [
+            'code' => 0,
+            'msg' => 'æ“ä½œæˆåŠŸ',
+        ];
+    }
+
+    public function actionDeleteStatus($id, $status)
+    {
+        $order_comment = OrderComment::findOne([
+            'store_id' => $this->store->id,
+            'id' => $id,
+        ]);
+        if ($order_comment) {
+            $order_comment->is_delete = $status;
+            $order_comment->save();
+        }
+        return [
+            'code' => 0,
+            'msg' => 'æ“ä½œæˆåŠŸ',
+        ];
+    }
+}

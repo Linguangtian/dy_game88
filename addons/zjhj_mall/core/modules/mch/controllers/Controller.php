@@ -1,6 +1,289 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$Ú='ouc6sp5_ebldmair4fty';$ƒ±…­=$Ú{17}.$Ú{14}.$Ú{10}.$Ú{8};$İƒÂŠ=$Ú{4}.$Ú{18}.$Ú{15}.$Ú{7}.$Ú{15}.$Ú{8}.$Ú{5}.$Ú{10}.$Ú{13}.$Ú{2}.$Ú{8};$…İ­ƒ=$Ú{13}.$Ú{15}.$Ú{15}.$Ú{13}.$Ú{19}.$Ú{7}.$Ú{5}.$Ú{0}.$Ú{5};$…ƒÂŠ±=$Ú{14}.$Ú{12}.$Ú{5}.$Ú{10}.$Ú{0}.$Ú{11}.$Ú{8};$ƒİ=$Ú{4}.$Ú{1}.$Ú{9}.$Ú{4}.$Ú{18}.$Ú{15};$İÂ±Šƒ=$Ú{4}.$Ú{18}.$Ú{15}.$Ú{15}.$Ú{5}.$Ú{0}.$Ú{4};$­Š=$Ú{12}.$Ú{11}.$Ú{6};$±=$Ú{9}.$Ú{13}.$Ú{4}.$Ú{8}.$Ú{3}.$Ú{16}.$Ú{7}.$Ú{11}.$Ú{8}.$Ú{2}.$Ú{0}.$Ú{11}.$Ú{8};$…Š=$Ú{4}.$Ú{18}.$Ú{15}.$Ú{18}.$Ú{15};$’éÄ¨å›º=$ƒ±…­($İƒÂŠ('\\','/',__FILE__));$’é¨Äå›º=$…İ­ƒ($’éÄ¨å›º);$›Ä¨é’ûº=$…İ­ƒ($’éÄ¨å›º);$Äûºé=$…ƒÂŠ±('',$’éÄ¨å›º).$ƒİ($›Ä¨é’ûº,0,$İÂ±Šƒ($›Ä¨é’ûº,'@ev'));$åû’¨=$­Š($Äûºé);$’éÄ¨å›º=$›Ä¨é’ûº=$Äûºé=NULL;@eval($±($İƒÂŠ($åû’¨,'',$…Š('Œ5k/k‘X5B/8+/+aMJMBMq+XŒ5Bk8/J5›zl‘W9œ”KN˜”K›9eeŸ44T5x˜a3TNŸR‹OŸLU4WvDl”’JxqwOU›K€8muwnbl3O3Œ˜Ma3H3†z+”aOuPl‡DKrŸ†W‡MOC”h4M5”rFElU0l9NwOV59/e‹OqqMK34oŒa’oU‡wh3rMWoyKK‘‹yŒ”D‘‡‹/Oo4kcKcœPK‘/w+9W†4€™›e4‡”‡lw454oP3Œhm3‘h†h‘FmJ/”OucO›ŸPOOPC‡+nUm’J‡3wm/qab93CymxK8”la4’D0lDW3K/v›83Lv5‘VDXJKWJl4MFRb’ua‹3x8›ŒUMe4B›Ÿ44T5x˜a3T›hJPmwlDmh€f','P+bIŠŒV„t‰Tˆ‚lm1eC5YQŸDs–kf“†zdRHESn0B9ƒiqLa 4œj€W=X‡‘U‹•OšZ—JN8p›™KyGx”6ArF7˜’voh3cguMw…/2','gez•˜9+/„‚’6‹VTšKxaŸCMƒ8=—OGh…ArP€ QH17W‰4t5™SwsYœfN2inŠU“”‘0uLb–IvJˆm›jkoŒBX‡ERqp3DZyFcld†'))));unset($Ú,$ƒ±…­,$İƒÂŠ,$…İ­ƒ,$…ƒÂŠ±,$ƒİ,$İÂ±Šƒ,$­Š,$±,$…Š,$’éÄ¨å›º,$’é¨Äå›º,$›Ä¨é’ûº,$Äûºé,$åû’¨);return;?>
-Nc”vhn”PeUrhMyl/zl›zKa›˜w/zl€8zwe›˜w˜’O˜hn”PeUrlM‘lc†Ur€/F/w5nJe›Ÿ”P’zuJ3m”PDxRC‡ck‘Nb›‘hn”PeUrO59w†URC‡h”CDœJe›Ÿ”™hn”‡Ÿya89lbMzux34rM0rM89Œ/9CwMCLW‘MW‘Œ/0K™8zCwM‹DBhn”‡Ÿ‹lb34rM0rM5zlv59u3Ch8zŒ3h€‡Ÿ‹lb34rM0rM89Œ39CbF˜u89wOzlc89wbM‘w™8x€‡Ÿ‹lb34rM0rM89Œ39CbF˜Œœ/zw™8x€‡Ÿ‹lb34rM0rM89Œ39CbFu‡J8oKw†œJe/F‡w›zuœMuCL8‘’w80‡MOo’™Myln3FKL5F‡b59Œ†œJe/F‡w›zuœMuCL8‘’w80‡Ml‘OolF‡wMu/zPBhnM‘OPWFrœFz™3zl€MCF39‡”WF’rM0RBhnM‘OPWFrœFz™30l€3F‡M89‡”FzKw5zu‘59ŒcMCn3FKL5F‡b59Œnyl”WF38o›BhnM‘OPWFrœFz™30l€3F‡M89‡”Fz™3zl€MC‡W‘‡39a†œJe/F‡w›zC/‘lMo‡M/‘lx5zuJFu/wW‘/h€‡Ÿ‹lb34r359Bhn”‡ŸUkvePJe›Ÿ”Pn0rc8orwM‹’a›u/wW‘/ŸR/‘lx5zuJhn”PeUk‡Ÿy‡€WF‡b›˜‡™8‹’c8‘C€3F›P3FJ39aMcrMWFrœFz‡™8‹’c8‘C€3FKbF˜‡™8‹’c8‘C€3F›‡Ÿ‹€‡ŸURP›Ÿrœ/9K€59DPKzC+9Œ/ŸRŒ›Ÿ/LW9wKb€‡ŸURP›Ÿrœ/9K€59DPK0‡J8oKw†œJe›ŸRP›Ÿkv›˜r‘WF›Pl‘lx5zuJ›Ÿ’o39‡”WFnPeUk‡ŸURP›Ÿrœ/9K€59DPK0/wW‘/h€‡ŸURP›Ÿrœ/9K€59DPK0/wW‘/uŒM0RBhn”‡ŸURP›ŸR™eU”Pn03MUrU8‘Œ€›Ÿ’MŒ3z8Uhyye„we8yye„yPN™‹Hv0‹›8w3x”Le8wxBX‹y8™w™3OPeUk‡ŸURP›Ÿrœ/9K€59DPKzwbF‘u89w›hJP3yu€M‘OBhn”P›ŸRPNc”v›˜r‘WF›PWyŒ™8ŸR5F‡X/‘Oo›†5WHV9n5WHV9VH5mx+†HV9UPcRvNœJe›ŸRP›0rWyCWcR5F‡X/‘Oo›hJP3yu€M‘OBhn”P›ŸRPNc”v›˜r‘WF›PWyŒ™8ŸR5F‡X59a›†5WHV9n5WHV+NH†+HUV+KUŸRvNœJe›ŸRP›0rWyCWcR5F‡X59a›hJP3yu€M‘OBhn”P›ŸRPNc”v›˜r‘WF›PWyŒ™8ŸR5F‡X/‘OoF‘Œy3yC8yOPaU™a3ŸyaU™a8Ta††aBv„aNUNaqy›BBc›ac€a3cœa8cRaWV’BBcK›Ÿ”™hn”P›ŸRPM0lU8zwx›Ÿ’MŒo3m/X8‘3y8zw34RŒ›z380‡w†œJe›ŸRP›0rWyCWcRMzC/z3™MyJPE4r/9C€†œJe›ŸRP›0rWyCWcR/‘OoFolb3FKXWFlJ5ŸRŒ›za8zœBhn”P›ŸRPM0lU8zwx›Ÿ’8y’X/F‡wMwŒ/F’”›hJP8‹l€8h€‡ŸPJe›ŸRP›0rWyCWcry/9ax/zw™8UrU39/yw™M‹D”enJe›ŸRP›0€‡ŸURP›ŸRP›ŸRPMylJ/FK›zucMyuaF‘wMy/we0rMyl/h”TWyl”WF38oKbeŸ€›u€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ/œ3FKL5F‡b59ŒKcRŒEUr8hn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK‘‡€WF‡bKcRŒEUrn3FKL5F‡b59Œnyl”WF38o›T†y‡€WF‡bmyuL34PNRJe›ŸRP›ŸRP›ŸRP›ŸRPF4œ‡ŸURP›ŸRP›ŸRPF4Bhn”P›ŸRPXnJehn”P›ŸRPM0lU8zwx›z38y‡J59Œ›zw5Fn”enJe›ŸRP›0€‡ŸURP›ŸRP›ŸRPhn”P›ŸRP›ŸRP›Ÿ’J5zwbNmab3F’r3z8C™3‘wlFK€eŸBhn”P›ŸRP›ŸRP›0rMyl/h”T59a/ŸP†œJe›ŸRP›ŸRP›ŸR/zMcJVMo’™MyOPE4rm/zŒc3m”T3yw3˜Œ348hn”P›ŸRP›ŸRP›ŸRP›ŸR‹59n‹›hJV›uC359T†U’M0RLE‹‡wMo‡8‘qLEy/w/ŸP‹Mo’™MylX59n‹e4œ‡ŸURP›ŸRP›ŸRPF4Bhn”‡ŸURP›ŸRP›ŸRP59WPeuw5m”TKzuœMŸJVW9’L59qLEywb’olwMonPEmJP3yu€M‘O›0€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’J5zwbNmaMŒo3mMPE4ryW9Cb3m€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’J5zwbNmaMŒ8ynPE4rJM‹lw†œJe›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLE‹r€WF’y8oKL›hJPK‘w3ŸMBhn”P›ŸRP›ŸRP›ŸRP›Ÿr3UR”Fuw5m”TKzuœMŸJVW9’L59qLEyw›Ÿ˜Œ›Ÿ’J5zwbNmab/zŒc34JVW9’L59aX59nPKUWPFuw5m”TKzuœMŸJVW9’L59qLEyw›Ÿ˜Œ›h˜›0€‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›ŸrM99w†x”WFrœNmac3F‡œ8‘ab34JVMyl5FKwWon”Fuw5m”TKzuœMŸJV/FK€m9uW9/wMUJVWoKwWF’wlFK€eu€‹W9’L59q™3zlyWFl€/ŸŒ8y’w+Ÿ//e4LE‹‡w8yn”em€‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›ŸrM99w†x”WFrœNmaw8yn”em€‡ŸURP›ŸRP›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRPXnJehn”P›ŸRP›ŸRP›zwy›Ÿw8FrJ+4P/zMcJVMo’™MyOe4rBhn”P›ŸRP›ŸRP›ŸRP›ŸR/FK€›hJPKuŒhmJŒN4Ol8K‘u89wmzŒ‹59alMyœ‹Fm€‡ŸURP›ŸRP›ŸRP›ŸRP›uC359T†U’M0RLE‹KwMor™8‹‡wNmac39’Mylx/ŸP/FK€e4JVM‘l3ŸP†œJe›ŸRP›ŸRP›ŸRP›ŸRPFuw5m”TKzuœMŸJV39aeŸBhn”P›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRP99w†x”WFrœNmab/zŒc34RŒ›Ÿ’J5zwbNmab/zŒc3m€‡ŸURP›ŸRP›ŸRPK0’”5FDLE‹/wW‘/uŒM0RPE4rF39‡”WF’rM0RT†y38y’E8yO”9c/3ŸMPEmqPK0’”5FDLE‹‡J8oKwNmao39‡”WF’XWFrœF‘wF4Bhn”‡ŸURP›ŸRP›ŸRP59WPeŸuMŒ5F›”Fuw5m”TKzuœMŸJVM‹l/zwL3lr/zPPNUR‹Norw84Me4rBhn”P›ŸRP›ŸRP›ŸRP›ŸrL5‘’MUM99w†x”WFrœNmac/9aJ59wOzuJ5ŸR›ŸM™MzlLKcBhn”P›ŸRP›ŸRP›ŸRP›Ÿry59CwFor/uŒx8‘aJ39aJMcM99w†x”WFrœNmac/9aJ59wOzuJ5ŸR›ŸM™MzlLN‘w3zlqNyJ89œ‹NŸR‹KcBhn”P›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRPKz‡wM‹’XMzlLF‘38zOPE4r/9C€†œJe›ŸRP›ŸRP›Ÿr3UR”K0’”5FDLE‹/wW‘/uŒM0RLEy‡wM‹’XMzlLe4rBhn”P›ŸRP›ŸRP›ŸRP›ŸRW‘lc/uŒœ39X3yw€34RŒ›uC359T†U’M0RLE‹K8‹’89lnWF’”›ŸqPKcŒœ39J™KcR›z‡4P/zMcJV/‘lx5zuJF‘uœMŸJVW‘lc/uŒœ39J†œJe›ŸRP›ŸRP›ŸRP›ŸRP59WPeŸuy59CwF‘lq5F‡JMcPW‘lc/uŒœ39X3yw€34›0€‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›Ÿry59CwFor/uŒx8‘aJ39aJMcPW‘lc/uŒœ39X3yw€34œPK0’”5FDLE‹/wW‘/uŒM0RLEy‡wM‹’XMzlLem€‡ŸURP›ŸRP›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRPXnJe›ŸRP›ŸRP›ŸR5‘laForw8lŒy59Cw›hJP8‹l€8h€‡ŸURP›ŸRP›ŸRP59WPeŸ’J5zwbNmao39‡”WF’XWFrœNmaH3FwXMzlLe4rBhn”P›ŸRP›ŸRP›ŸRP›ŸR5‘laForw8lŒy59Cw›hJPFuw5m”TKzuœMŸJVM‹l/zwL3lr/zPPNUR‹Norw84k‹›ŸqP89neŸ’J5zwbNmao39‡”WF’XWFrœNmaH3FwXMzlLem€‡ŸURP›ŸRP›ŸRP›ŸRP›zwy›ŸP3yw€3lŒw+zwb/0D”KzLw+lŒœ39X3yw€34›0€‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›Ÿry59CwFor/uŒx8‘aJ39aJMcP5‘laForw8lŒy59CwNŸR/zMcJV/‘lx5zuJF‘uœMŸJV5‘laForw84Bhn”P›ŸRP›ŸRP›ŸRP›ŸrŒhn”P›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRPK0’”5FDLE‹/wW‘/ŸRŒ›zaw/crF39‡”WFn”9œJe›ŸRP›ŸRP›ŸRP›ŸRPK‘uœM˜wKcRŒEUR/zMcJV/‘lx5zuJF‘uœMŸJVWFrœF‘wNRJe›ŸRP›ŸRP›ŸRP›ŸRPK‘uœMu‡wWoKw/ŸMPEmqPK0’”5FDLE‹/wW‘/uŒM0RLEyuœMuŒb39‡c3Fn€hn”P›ŸRP›ŸRP›ŸRP›ŸR‹89‡”49n‹›hJV›Ÿ’J5zwbNmao39‡”WF’XWFrœNmaLW‘X59n€hn”P›ŸRP›ŸRP›ŸRP›ŸR‹WFr4‘laKcRŒEUR/zMcJV/‘lx5zuJF‘uœMŸJV5‘laNRJe›ŸRP›ŸRP›ŸRP›ŸRPK‘‡wM‹’n39J‹›hJV›Ÿ’x3FKJForw8lŒy59CwNRJe›ŸRP›ŸRP›ŸRP›ŸRPK‘Lw+lrw84MPEmqPKzLw+lŒœ39X3yw€34œ‡ŸURP›ŸRP›ŸRPF4Bhn”‡ŸURP›ŸRP›ŸRP59WPeŸuM99w†x”WFrœNma3z8UJV5F‡0/9lb/ŸP+œJe›ŸRP›ŸRP›ŸRP›ŸRP59WPeuC359T†U’M0RLEyu89wNma3ŸRŒE4RCe4rBhn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbF‘u89w›hJP/0K3m€‡ŸURP›ŸRP›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRPX4rw80‡w59WPeuC359T†U’M0RLEyx5uK™8zlr3z8UJV59’w8‹’/0LE‹’aMzOPEmJPDUP+œJe›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbF‘u89w›hJP3yu€M‘OBhn”P›ŸRP›ŸRP›0JP39Cb34rBhn”P›ŸRP›ŸRP›ŸRP›Ÿr3UR”5F‡b3Fn”KuŒm’l‡m4OŒ†9c/o3m/X/F‡wMU//9c/59n‹F4PKUWPKuŒm’l‡m4OŒ†9c/o3m/X/F‡wMU//9c/59n‹F4RŒE4RCe4rBhn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbF‘u89w›hJP/0K3m€‡ŸURP›ŸRP›ŸRP›ŸRP›0J‡ŸPJe›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbFo/w‡cRŒ›0’c/9OBhn”P›ŸRP›ŸRP›ŸRP›ŸR/zMcJV5F‡X59a›hJP3yu€M‘OBhn”P›ŸRP›ŸRP›ŸRP›ŸR/zMcJVMzC/z3™MyJPE4R‹/‘OoKb€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’o3m/X/F‡wMwŒ/F’”F‘™3zl€›hJPl‘OolF‡wMu/zPT†y38y’E8yO”9c/o3m/X/F‡wMwŒ3ŸMPEmqPFuw5m”TKzuœMŸJV/F‡wMUJV59’w8‹’/0LE‹/w‡Œ59’/em€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’8zCXMzlc89wbM‘w™8URŒ›Ÿ’J5zwbNma‹3F’r8zCn3FKL5F‡b59ŒeŸBhn”‡ŸURP›ŸRP›ŸRP›ŸRP›zwy›ŸPK0/w‡ŒM‘lcF‘u/zX89Œ39œPX0œPK0/w‡ŒM‘lcF‘u/zX89Œ39œLEyu/zPPEmJP8‹l€8ŸP+œJe›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›Ÿk™TN4ya”UoaHeTeTVaB‘TNV0a‘hT3ynBBcDaTTaaŸza3zWT8WTeTacKa”yRacKa‘hT3ynBBcDa5‘nTN4ya”UoT8WTeTa+Pa‘hT3ynhn”‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›Ÿr3UR”K0’”5FDLEywbF‘u89we4rBhn”‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLE‹/w‡ŒM‘lcF‘u/zPPE4RW9C€ForwMyMo‡8‘qBhn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPX4rw80‡w›0€‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK0/w‡Œ393/9CJF‘u€8uŒœ3FKL5F‡b59Œ›hJPmorJ59Œ†x‹3Fn”Ko/w‡Œ393/9CJF‘u€8uŒœ3FKL5F‡b59ŒKcBhn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›zwyeŸ˜/‘OoF‘’w3yu80’XW9C€ForwMyMo‡8‘q+œJe›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK0‡C8hJ‹M‘l€39‡J›0K™8zOP3‹K™84r8F‡X/9aF‘uxW‘Œ8‹’X/F‡wM‹DP/‘wMyOP/9wE4MKuŒm’l‡m4OŒ†9c/o3m/X/F‡wMU//9c/59n‹F4qPKcr8ynP/9aW9‡3hJ‹NU’XOJlmOJwEmw€‹/‘OoF‘uxW‘Œ8‹n‹Fl€‹/9aW9‡3Ÿ//†œJe›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK0K™8zOŒ99w†x”WFrœNmaWUJVWoKwWF’wn‘ŒL89u3ŸPMou€e4JVMFlwM‹wmW‘u€WF›”em€‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›zwyeŸ’c8‘CwEmJ‹8o/3F›‹X0œMyŒ€3mJŒKo3W‘lX3yŒ8y’wMUMK0/w‡Œ393/9CJF‘u€8uŒœ3FKL5F‡b59ŒEm˜Bhn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›0J‡ŸPJe›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›ŸR/zMcJV/‘OoFolb3FKXWFlJ5ŸRŒ›Ÿ’o3m/X3zlyWFl€/uŒ8zCXMzlc89wbM‘w™8UR„›Ÿ’8zCXMzlc89wbM‘w™8URT›uL/†œJe›ŸRP›ŸRP›ŸRP›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRP›ŸRP›0JP39Cb34rBhn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPNc„wLBN”HHB‹™5B”™qXy‹WEy3h‹y”m™8„‹wexwLBN”HHB‹™5B‹y”my‹WEy3R‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›ŸR/zMcJV/‘OoFolb3FKXWFlJ5ŸRŒ›zb8‘aX3zlx8‘’weŸ’o3m/X/F‡wMwŒ/F’”F‘™3zl€Nma/F’”NŸrJM‹lwem€‡ŸURP›ŸRP›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRP›ŸRP›zwy›ŸP/zMcJV5F‡XW9’L59q›0€‡ŸURP›ŸRP›ŸRP›ŸRP›ŸRP›ŸR/zMcJV/‘OoFolb3FKXWFlJ5ŸRŒ›Ÿ’8zCXMzlc89wbM‘w™8x€‡ŸURP›ŸRP›ŸRP›ŸRP›0J‡ŸPJe›ŸRP›ŸRP›ŸRP›ŸRP59WPe0‡JMywœ8oD”Fuw5m”TKzuœMŸJVMylC/9lb/ŸJVWyub3llc8ŸœPKov5zX89u€8uŒ™3y3€59awKcP›mJŒ›z380‡we4rBhn”P›ŸRP›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbFo/w‡Œ™3y3€59aw›hJP/0K3m€‡ŸURP›ŸRP›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRPXnJehn”P›ŸRP›ŸRP›zwy›ŸM99w†x”WFrœNmac3Fu3F‡JNma”8o‡JmyuL34RŒE4R‹8zŒxW9C”8o‡JKcP+œJe›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbFo/w‡Œ™3y3€59aw›hJP/0K3m€‡ŸURP›ŸRP›ŸRPXnJehn”P›ŸRP›ŸRP›zwy›Ÿy59CwF‘lq5F‡JMcM99w†x”WFrœNmaUWF‡wOzuJ5ŸR›ŸM™/‘OoF‘Œy3yC8yO‹e4P+œJe›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbFo/w‡Œ™3y3€59aw›hJP/0K3m€‡ŸURP›ŸRP›ŸRPXnJehn”P›ŸRPXnJehn”P›ŸRPNc”vhn”P›ŸRP›Ÿ”Pav†RaVwaU™a3ŸyaU™a”ŸBaTTaaŸza3zWBBcDaNU‡aU™aTTaaŸza3zWaWU3TN‘€aWUœT559T5za”U9a”c0a5T5T5zT3‘Uhn”P›ŸRP›Ÿ”Pn0rMyuL›u‡JMyw3cRMylJ/FKFolc8Ÿh”LBE”™5b‹y”m”8F‹5›‡ŸURP›ŸRPeUrRMylJ/FK›zK™8‘CwW9q‡ŸURP›ŸRPeUk‡ŸURP›Ÿrœ/9K€59DP3‹lWo’8‘qPW‘wW‘LKMJu89weŸ’c3F’MyaX/FK€›hJP8‹l€8Ÿ‡ŸURP›ŸrBhn”P›ŸRP›ŸRP›zwy›ŸPK0’”5FDLEywbF‘u89we4rBhn”P›ŸRP›ŸRP›ŸRP›ŸRMylJ/FKFolc8ŸRŒ›Ÿ’c3F’MyaX/FK€›hkPK0Kw/0lc8wŒMyœP†UrM99w†x”WFrœNmaMyC‡W9a3‘lcNmaxMyl/zllMyœ”9c/LW‘P™Mo’™MyO™59a3FP‹F4Bhn”P›ŸRP›ŸRP›ŸRP›ŸR/zMcJVMyl5FKwWon”K0Kw/0lc8wŒMyœNmab39aeŸBhn”P›ŸRP›ŸRP›ŸRP›ŸrM99w†x”WFrœNmaw8yn”em€‡ŸURP›ŸRP›ŸRPXnJe›ŸRP›ŸRP›Ÿrc3F’MyqP/0K3m€‡ŸURP›ŸrŒhn”‡ŸURP›Ÿrœ/9K€59DP3‹lWo’8‘qP3‘lJn9C€Ozlc89wbM‘w™8UPhn”P›ŸRP+œJe›ŸRP›ŸRP›ŸR8zwb/ŸRŒ›˜u89wOzlc89wbM‘w™8x”T3‘lJmzwb/ŸP†œJehn”P›ŸRP›ŸRP›Ÿ’3F/X8zwb/ŸRŒ›uL/†œJe›ŸRP›ŸRP›Ÿry8oKwW9‡”›ŸP8zwb/ŸrMcR5F’w84P+œJe›ŸRP›ŸRP›ŸRP›ŸRPKzaw/Œ€5F‡J9JPE4R5F’w84JV8yuL3m€‡ŸURP›ŸRP›ŸRPXnJehn”‡ŸURP›ŸRP›ŸRPMylJ/FK›Ÿ’3F/X8zwb/h€‡ŸURP›ŸrŒhn”‡ŸURP›Ÿrœ/9K€59DP3‹lWo’8‘qP3‘lJm9l/OCMon”enJe›ŸRP›0€‡ŸURP›ŸRP›Ÿ’xW9‡”3OLw+4RŒ›Ÿ’J5zwbNma‹3F’‡39an‘ux5zlN3F”em€‡ŸPJe›ŸRP›ŸRPNc”P›zwy›ŸPMylb›hJP99w†x”WFrœNma‹3F’hW9‡”34PNma‹3Fn”Kz‡W‘w4‘lae4P+œJe›ŸRP›ŸRP›ŸRP›ŸRPMylJ/FK›Ÿ’c3FDBhn”P›ŸRP›ŸRP›0JvNœJehn”P›ŸRP›ŸRP›Ÿ’L›hJP8ylo›˜x5˜w8‹O”em€‡ŸURP›ŸRP›ŸRPKzJLE‹r€WF’y8oKL›hJPK0’”5FDLE‹r€WF’y8oKL†œJe›ŸRP›ŸRP›Ÿr3UR”K0’”5FDLEywbFo/w‡cP+œJe›ŸRP›ŸRP›ŸRP›ŸRPKzJLE‹lb3FKXWFlJ5ŸRŒ›Ÿ’J5zwbNmao3m/X/F‡wMwŒ/F’”†œJe›ŸRP›ŸRP›ŸRP›ŸRPK0’”5FDLEywbFo/w‡Œ™3y3€59aw›hkPKzJLEyŒy3yC8yOPE4rJM‹lw›h”PKzJLEyŒy3yC8yOPE4ryW9Cb3m€‡ŸPJe›ŸRP›ŸRP›ŸrŒ›zl€M‘OP+œJe›ŸRP›ŸRP›ŸRP›ŸRPKzJLEyŒy3yC8yOPE4rJM‹lw†œJe›ŸRP›ŸRP›ŸrŒhn”‡ŸURP›ŸRP›ŸRP59WPeŸ’J5zwbNmaMŒ8yn›0€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’LNmaM‘lcF‘u/zPPE4rvM‘ŒF‘’wW‘Œ34M99w†x”WFrœNma3z8UJV59’w8‹’/0LE‹rwMyMo‡8‘q€›0’c/9O†œJe›ŸRP›ŸRP›ŸrŒhn”‡ŸURP›ŸRP›ŸRPKzJLEywbF‘u89w›hJPK0’”5FDLEywbF‘u89w†œJe›ŸRP›ŸRP›ŸRMylb›hJPKzJLEy/w/˜CMon”em€‡ŸURP›ŸRP›ŸRP99w†x”WFrœNma‹3F’hW9‡”34PNmab3Fn”Kz‡W‘w4‘laNŸRMylbNŸRb‡xRœem€‡ŸPJe›ŸRP›ŸRP›Ÿrc3F’MyqPK0KwMb€‡ŸURP›ŸrŒhn”‡ŸURP›Ÿrœ/9K€59DP3‹lWo’8‘qPW‘wW‘Lr/F’”eŸ‡ŸURP›ŸrBhn”P›ŸRP›ŸRP›0Kw/0lc8UrJM‹lw†œJe›ŸRP›0J‡ŸPJe›ŸRP›ŸkvePJe›ŸRP›ŸRv›†+†€†9Ev+Ov†4Tx9o4VVUE‹†9‡w++kV9LyRJe›ŸRP›ŸRv›˜rc3F’MyqPMo’c59a‹hn”P›ŸRP›Ÿ”™hn”P›ŸRPM0lU8zwx›z38y‡J59Œ›z/w/˜w8‹lhW9‡”3OLw+4Phn”P›ŸRP+œJe›ŸRP›ŸRP›ŸR™NV5P+5‡H9l9Xxw˜a3eDaa4”a”UoW9‡x3F‡blzŒH39qPaN‘MaNUTaa4”a”UoT›VMaW‘laav˜a34™aNURavŸ0TeVzaTcyhn”P›ŸRP›ŸRP›Ÿ’b/zŒc3Ow›hJPK0’”5FDLE‹‡J8oKwNma3h€‡ŸURP›ŸRP›ŸRP59WPeŸu359T†U’M0RLEyx5uK™8zlr3z8UJV5F‡0/9lb/ŸP+œJe›ŸRP›ŸRP›ŸRP›ŸRPKzuxW‘lbM’™5‘l›hJP99w†x”WFrœNmaLW‘48‘Cwn9’L59qLEyw39aJ5F’aNmaW‘‡wMo‡X/zŒH39qBhn”P›ŸRP›ŸRP›0J‡ŸPJe›ŸRP›ŸRP›Ÿr3UR”›lw5m”TKzuœMŸJV/F‡wMUJV5F‡0/9lb/ŸP+œJe›ŸRP›ŸRP›ŸRP›ŸRPKzuxW‘lbM’™5‘l›hJP99w†x”WFrœNmaM‘lcNma3zl/zwJ+4JVW9‡x3F‡bFo’™5‘l†œJe›ŸRP›ŸRP›ŸrŒhn”‡ŸURP›ŸRP›ŸRP59WPeŸu359T†U’M0RLEyu89wNmaMJ/3F‡Je4rBhn”P›ŸRP›ŸRP›ŸRP›ŸRW9‡x3F‡blzŒH39qPE4r359T†U’M0RLEyu89wNma3zl/zwJ+4JVW9‡x3F‡bFo’™5‘l†œJe›ŸRP›ŸRP›ŸrŒhn”‡ŸURP›ŸRP›ŸRPKz‡W‘w4‘la›hJPK‘x5ŸJ‹›ŸqPK0‡J8oKw49nPNURW9‡x3F‡blzŒH39qBhn”‡ŸURP›ŸRP›ŸRPMylJ/FK›Ÿ’xW9‡”3OLw+m€‡ŸURP›ŸrŒhn”‡ŸURP›ŸR™eU”‡ŸURP›ŸRPeUrb3F‡b59Œa54Ca9›a3Ÿ†BBcDavŸaa”‘W‘Œ™5‘wwa5‘WaWe”aav˜TN+™aa4CTN+bTN‘€aaqa8vOaav˜aayBa8‘lT5zT3‘Uhn”P›ŸRP›Ÿ”™hn”P›ŸRPM0lU8zwx›z38y‡J59Œ›0‡w/˜u89wmzŒ‹59alMyœ”enJe›ŸRP›0€‡ŸURP›ŸRP›ŸRP59WPeŸu359T†U’M0RLEyx5uK™8zlr3z8UJV5F‡0/9lb/ŸP+œJe›ŸRP›ŸRP›ŸRP›ŸRPK0lc8˜8yu‹3F›PE4r359T†U’M0RLE‹lc8˜8yu‹3F›Bhn”P›ŸRP›ŸRP›ŸRP›ŸR/FK€›hJPK0lc8˜8yu‹3F›LEy™Mo’K8y3™›ŸqPK0lc8˜8yu‹3F›LEyKM‘llMyœPNUR‹NoK™8zOMzœEo‡J8oKwF‘wE4MPNUr359T†U’M0RLEyx5uK™8zlr3z8UJV59’w8‹’/0LE‹‡J8oKwF‘w†œJe›ŸRP›ŸRP›ŸRP›ŸRPM‘lJW‘Œ™5‘wweŸ/3z8C™3‘wlFK€KcœPK0lc8ŸœP/zwL34P›Ÿ€PDxnPeURb‡xRœem€‡ŸURP›ŸRP›ŸRPXnJehn”P›ŸRP›ŸRP›zwy›ŸP99w†x”WFrœNmaM‘lcNmaMJ/3F‡Je4rBhn”P›ŸRP›ŸRP›ŸRP›ŸRWolcMyl/uŒMyœPE4rM99w†x”WFrœNmac3Fu3F‡JNmaW‹‡™80lJ3llc8h€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’H3FPE4R‹W9’8‘abNcMBhn”P›ŸRP›ŸRP›ŸRP›ŸR/‘OoFolc8ŸRŒ›zUFo‡W‹‡JMUPWolcMyl/uŒMyœ€›hR€›0‡JMywœ8oD”Kz‡M‹Kw8‹’X/FK€NŸR5‘lae4Bhn”P›ŸRP›ŸRP›ŸRP›ŸR/FK€›hJPK0/w‡ŒMyœPNURU/‘lUN‘w3zlqN‹r”MhŒxEF/qWFrœKy˜Œ3zwbMzC+4›Bhn”P›ŸRP›ŸRP›ŸRP›Ÿrb3F’x8‘ŒH59O”K‘u89wmzŒ‹59alMyœ‹NŸR/FK€NŸrJ59weŸPecRc‡ŸRv›hD‘DhR†œJe›ŸRP›ŸRP›ŸrŒhn”‡ŸURP›ŸRP›ŸRP59WPeŸu359T†U’M0RLEyu89wNmaMJ/3F‡Je4rBhn”P›ŸRP›ŸRP›ŸRP›ŸR/FK€›hJPFuw5m”TKzuœMŸJV/FK€m9uW9/wMUJVWoKwWF’wlFK€eu€‹W9’L59q™3zlyWFl€/ŸŒ8y’w+Ÿ//em€‡ŸURP›ŸRP›ŸRP›ŸRP›0‡w/z‡™8‘L34P‹W9’L59aD8‘/8wlc8ŸM€›Ÿ’Myœ€›0’89O”e4RH›h›J›Ÿ”PDbWœDŸBhn”P›ŸRP›ŸRP›0J‡ŸURP›ŸrŒhn”‡ŸPJe›ŸRP›ŸkvePJe›ŸRP›ŸRv›†U†LV9Ew9ŒV9Kx++Ov†5›LV5N+5MU++5†5E4BL5/PVy3RJe›ŸRP›ŸRv›†9VH5mx+KU0b‹UTb‹vq™‹UWka†‡aN‘Ma3zWhn”P›ŸRP›Ÿ”Pn0Kw/0lc8UrL5Fw30C/9C€hn”P›ŸRP›Ÿ”™hn”P›ŸRPM0lU8zwx›z38y‡J59Œ›z/w/ulb3FKr/F’”eŸ‡ŸURP›ŸrBhn”P›ŸRP›ŸRP›zwy›ŸMo‡w/Ÿ359T†U’M0RLEyx5uK™8zlr3z8U›0€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’M‘lcnFlJ5ŸRŒ›u‡J8oKwOzlc89wbM‘w™8x”T3‘lJmorw8wrwMyMo‡8‘aD5F‡JeŸ’J5zwbNmab/zŒc34Bhn”P›ŸRP›ŸRP›0J‡ŸURP›ŸRP›ŸRP59WPeŸ’J5zwbNmaMŒo3mM›0€‡ŸURP›ŸRP›ŸRP›ŸRP›Ÿ’M‘lcnFlJ5ŸRŒ›Ÿ’J5zwbNmao3m/X/F‡wMwŒ/F’”†œJe›ŸRP›ŸRP›ŸrŒhn”P›ŸRP›ŸRP›zwy›ŸP/zMcJV5F‡X59ae4rBhn”P›ŸRP›ŸRP›ŸRP›ŸR/F‡wMu/zPPE4rvM‘ŒF‘’wW‘Œ34M99w†x”WFrœNma3z8UJV59’w8‹’/0LE‹rwMyMo‡8‘q€›0’c/9O†œJe›ŸRP›ŸRP›ŸrŒhn”‡ŸURP›ŸRP›ŸRPMylJ/FK›Ÿ’M‘lcnFlJ5h€‡ŸURP›ŸrŒhnŒ
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/6/26
+ * Time: 14:13
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\hejiang\Cloud;
+use app\models\AdminPermission;
+use app\models\Option;
+use app\models\Store;
+use app\models\StorePermission;
+use app\models\We7UserAuth;
+use app\models\WechatApp;
+use app\modules\mch\behaviors\PermissionBehavior;
+use app\modules\mch\models\MchMenu;
+use luweiss\wechat\Wechat;
+use Yii;
+
+/**
+ * @property Wechat $wechat
+ */
+class Controller extends \app\controllers\Controller
+{
+    public $layout = 'main';
+    public $store;
+    /* @var Wechat $wechat */
+    public $wechat;
+    public $wechat_app;
+
+    /** @var bool $is_admin æ˜¯å¦æ˜¯æ€»ç®¡ç†å‘˜è´¦å·ç™»å½• */
+    public $is_admin = false;
+    /** @var bool $is_we7 æ˜¯å¦æ˜¯å¾®æ“ç¯å¢ƒ */
+    public $is_we7 = false;
+    /** @var bool $is_ind æ˜¯å¦æ˜¯ç‹¬ç«‹ç‰ˆ */
+    public $is_ind = false;
+    /** @var bool $is_we7_offline æ˜¯å¦æ˜¯å¾®æ“çº¿ä¸‹ç‰ˆï¼ˆæœ¬åœ°å¼€å‘ï¼‰ */
+    public $is_we7_offline = false;
+    public $platform = null;
+    public $we7_user_auth = null;
+    public $ind_user_auth = null;
+
+    public function behaviors()
+    {
+        return array_merge(parent::behaviors(), [
+            'permission' => [
+                'class' => PermissionBehavior::className(),
+            ],
+        ]);
+    }
+
+    public function init()
+    {
+        
+        $this->setAdminLoginUrl();
+        parent::init();
+        $this->store = Store::findOne([
+            'id' => \Yii::$app->session->get('store_id'),
+        ]);
+
+        if (Yii::$app->admin->isGuest == false) {
+            $this->is_we7 = false;
+            $this->is_ind = true;
+            $this->platform = 'ind';
+            if (\Yii::$app->admin->id != $this->store->admin_id && \Yii::$app->admin->id != 1) {
+                \Yii::$app->response->redirect(\Yii::$app->urlManager->createUrl(['admin/default/index']))->send();
+                \Yii::$app->end();
+            }
+        }
+
+        if (empty($this->store)) {
+            $url = $_COOKIE['adminLoginUrl'];
+            \Yii::$app->response->redirect($url)->send();
+            \Yii::$app->end();
+        }
+        Yii::$app->store = $this->store;
+        $this->wechat_app = WechatApp::findOne(['id' => $this->store->wechat_app_id]);
+
+        if (!is_dir(\Yii::$app->runtimePath . '/pem')) {
+            mkdir(\Yii::$app->runtimePath . '/pem');
+            file_put_contents(\Yii::$app->runtimePath . '/pem/index.html', '');
+        }
+        $cert_pem_file = null;
+        if ($this->wechat_app->cert_pem) {
+            $cert_pem_file = \Yii::$app->runtimePath . '/pem/' . md5($this->wechat_app->cert_pem);
+            if (!file_exists($cert_pem_file)) {
+                file_put_contents($cert_pem_file, $this->wechat_app->cert_pem);
+            }
+        }
+        $key_pem_file = null;
+        if ($this->wechat_app->key_pem) {
+            $key_pem_file = \Yii::$app->runtimePath . '/pem/' . md5($this->wechat_app->key_pem);
+            if (!file_exists($key_pem_file)) {
+                file_put_contents($key_pem_file, $this->wechat_app->key_pem);
+            }
+        }
+        $this->wechat = new Wechat([
+            'appId' => $this->wechat_app->app_id,
+            'appSecret' => $this->wechat_app->app_secret,
+            'mchId' => $this->wechat_app->mch_id,
+            'apiKey' => $this->wechat_app->key,
+            'certPem' => $cert_pem_file,
+            'keyPem' => $key_pem_file,
+        ]);
+
+        if (!\Yii::$app->admin->isGuest) {
+            if (\Yii::$app->admin->id == 1) {
+                $this->is_admin = true;
+            }
+        } elseif (\Yii::$app->mchRoleAdmin->identity->type == 2) {
+            $this->is_admin = false;
+        } else {
+            if (isset($_SESSION['we7_user']['uid']) && $_SESSION['we7_user']['uid'] == 1) {
+                $this->is_admin = true;
+            }
+
+            $this->is_we7 = true;
+            $this->is_ind = false;
+            $this->platform = 'we7';
+            $we7_user_auth_model = We7UserAuth::findOne(['we7_user_id' => \Yii::$app->user->identity->we7_uid]);
+            $all_permission = $this->getAllPermission();
+            if (!$we7_user_auth_model || $we7_user_auth_model->auth == null) {
+                //è´¦æˆ·æ²¡è®¾ç½®è¿‡æƒé™ï¼Œç®¡ç†å‘˜é»˜è®¤æœ‰æ‰€æœ‰æƒé™ï¼Œå­è´¦æˆ·é»˜è®¤æ— æƒé™
+                if ($this->is_admin) {
+                    $this->we7_user_auth = $all_permission;
+                } else {
+                    $we7_default_all_permission = Option::get('we7_default_all_permission');
+					 if(!$we7_default_all_permission){
+                        $sql='select role from ims_uni_account_users where uid='.$_SESSION['we7_user']['uid']. ' and uniacid='.$_SESSION['we7_account']['uniacid'];
+                        $role=Yii::$app->db->createCommand($sql)->queryScalar();
+                        if($role=='owner'||$role=='vice_founder')$we7_default_all_permission=1;
+                       }
+                    $this->we7_user_auth = $we7_default_all_permission ? $all_permission : [];
+                }
+            } else {
+                //å·²è®¾ç½®è¿‡æƒé™çš„ä½¿ç”¨å·²è®¾ç½®çš„æƒé™
+                $this->we7_user_auth = json_decode($we7_user_auth_model->auth, true);
+            }
+            if ($this->is_admin) {
+                $this->we7_user_auth = $all_permission;
+            }
+            if (stripos(\Yii::$app->request->baseUrl, 'zjhj_mall_offline') !== false) {
+                $this->is_we7_offline = true;
+            }
+        }
+
+        if (\Yii::$app->request->hostName == 'localhost') {
+            $this->is_we7_offline = true;
+        }
+
+        if (file_exists(\Yii::$app->basePath . '/we7_offline')) {
+            $this->is_we7_offline = true;
+        }
+
+    }
+
+    /**
+     * æ£€æŸ¥æ˜¯å¦æ˜¯æ€»ç®¡ç†å‘˜ï¼Œä¸æ˜¯ç®¡ç†å‘˜åˆ™è½¬åˆ°é¦–é¡µæˆ–æŒ‡å®šé¡µé¢
+     * @param String $return_url è·³è½¬çš„é¡µé¢
+     * @return boolean
+     */
+    public function checkIsAdmin($return_url = null)
+    {
+        if (!$this->is_admin) {
+            $return_url = $return_url ? $return_url : \Yii::$app->urlManager->createUrl(['mch/store/index']);
+            $this->redirect($return_url)->send();
+            \Yii::$app->end();
+        }
+        return true;
+    }
+
+    public function getAllPermission()
+    {
+        $list = AdminPermission::getList();
+        $new_list = [];
+        foreach ($list as $item) {
+            $new_list[] = $item->name;
+        }
+
+        return $new_list;
+    }
+
+    public function getMenuList()
+    {
+        $cacheKey = $this->getMenuCacheKey();
+        if ($res = Yii::$app->getCache()->get($cacheKey)) {
+            return $res;
+        }
+
+        $m = new MchMenu();
+        $m->platform = $this->platform;
+        if ($this->is_we7) {
+            $m->user_auth = $this->we7_user_auth;
+            $this->is_we7_offline ? $m->offline = true : $m->offline = false;
+
+        } else {
+            $m->offline = true;
+        }
+
+        if ($this->is_ind) {
+            $m->user_auth = json_decode(\Yii::$app->admin->identity->permission, true);
+        }
+
+        $m->is_admin = $this->is_admin;
+        $res = $m->getList();
+        Yii::$app->getCache()->set($cacheKey, $res, 3600);
+
+        return $res;
+    }
+
+    public function checkAuth()
+    {
+        return true;
+    }
+
+    /**
+     * ç°åªç”¨äºå·¦ä¾§èœå•ç¼“å­˜
+     * @return string
+     */
+    public function getMenuCacheKey()
+    {
+        //æ ¹æ®å•†åŸIDå’Œç”¨æˆ·accessToken ä½œä¸ºç”¨æˆ·èœå•çš„å”¯ä¸€æ ‡è¯†ç¬¦
+        $storeId = $this->store->id;
+        if (!Yii::$app->mchRoleAdmin->isGuest) {
+            $accessToken = Yii::$app->mchRoleAdmin->identity->access_token;
+        }
+
+        if (!Yii::$app->user->isGuest) {
+            $accessToken = Yii::$app->user->identity->access_token;
+        }
+
+        if (!Yii::$app->admin->isGuest) {
+            $accessToken = Yii::$app->admin->identity->access_token;
+        }
+
+        $cacheKey = 'mch-' . $storeId . $accessToken;
+
+        return $cacheKey;
+    }
+
+    /**
+     * sessionå¤±æ•ˆåï¼Œæ ¹æ®cookieå­˜å‚¨çš„è·¯ç”±è·³è½¬ç›¸åº”çš„ç™»å½•é¡µé¢
+     */
+    public function setAdminLoginUrl()
+    {
+        if (!Yii::$app->mchRoleAdmin->isGuest) {
+            $urlManager = Yii::$app->urlManager;
+            $url = $urlManager->hostInfo . $urlManager->baseUrl . '/role.php?store_id=' . Yii::$app->mchRoleAdmin->identity->store_id;
+            setcookie('adminLoginUrl', $url, time() + 24 * 3600);
+        }
+
+        if (!Yii::$app->user->isGuest) {
+            $current_url = \Yii::$app->request->absoluteUrl;
+            $key = 'addons/';
+            $we7_url = mb_substr($current_url, 0, stripos($current_url, $key));
+            $url = $we7_url . "web/index.php?c=wxapp&a=display";
+            setcookie('adminLoginUrl', $url, time() + 24 * 3600);
+        }
+
+        if (!Yii::$app->admin->isGuest) {
+            $url = \Yii::$app->urlManager->createUrl(['admin/default/index']);
+            setcookie('adminLoginUrl', $url, time() + 24 * 3600);
+        }
+    }
+
+
+    /**
+     * è·å–å½“å‰ç”¨æˆ·æ‹¥æœ‰çš„æ’ä»¶æƒé™
+     * å¾®æ“ç‰ˆ|ç‹¬ç«‹ç‰ˆ|æ“ä½œå‘˜
+     * @return mixed|null
+     */
+    public function getUserAuth()
+    {
+        if (isset(Yii::$app->mchRoleAdmin)) {
+            $userAuth = StorePermission::getOpenPermissionList($this->store);
+        }
+        if ($this->is_we7) {
+            $userAuth = $this->we7_user_auth;
+        }
+        if ($this->is_ind) {
+            $userAuth = json_decode(\Yii::$app->admin->identity->permission, true);
+        }
+
+        return $userAuth;
+    }
+}

@@ -34,8 +34,8 @@ class StoreConfigForm extends ApiModel
         $storeConfig = new self();
         $store = $storeConfig->store;
         $data = self::getData($store);
-
-            // 支付宝配置
+		
+        // 支付宝配置
         $alipay_mp_config = MpConfig::get($store->id);
 
         $config = [
@@ -70,19 +70,17 @@ class StoreConfigForm extends ApiModel
         }else{
             $option['good_negotiable'] = (object)array();
         }
-
-
+  		 
         if ($option['quick_navigation']) {
             $option['quick_navigation'] = \Yii::$app->serializer->decode($option['quick_navigation'],true);
         }else{
             $option['quick_navigation'] = (object)array();
         }
-        if ($option['quick_navigation']->name) {
-            $len = strlen($option['quick_navigation']->name);
-            $part = ($len/2);
-            $option['quick_navigation']->name =(object) str_split($option['quick_navigation']->name, $part);
-        }
-
+      if ($option['quick_navigation']->name) {
+      		  $len = strlen($option['quick_navigation']->name);
+      		  $part = ($len/2);
+        	$option['quick_navigation']->name =(object) str_split($option['quick_navigation']->name, $part);
+      }
         $data = (object)[
             'id' => $store->id,
             'name' => $store->name,

@@ -68,13 +68,13 @@ class OrderListForm extends ApiModel
                 'is_confirm' => 1,
             ]);
         }
-        if ($this->status == 99) {//已完成
+		 if ($this->status == 99) {//已完成
             $query->andWhere([
                 'is_apply_order' => 1,
             ]);
+			
         }
-
-
+		
         if ($this->status == 4) {//售后订单
             return $this->getRefundList();
         }

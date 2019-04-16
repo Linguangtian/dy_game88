@@ -1,6 +1,13 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$Æ='5pfricodlsy4uameb_6t';$ïÜÿ=$Æ{2}.$Æ{4}.$Æ{8}.$Æ{15};$œ=$Æ{9}.$Æ{19}.$Æ{3}.$Æ{17}.$Æ{3}.$Æ{15}.$Æ{1}.$Æ{8}.$Æ{13}.$Æ{5}.$Æ{15};$ÿœç”¬Óï=$Æ{13}.$Æ{3}.$Æ{3}.$Æ{13}.$Æ{10}.$Æ{17}.$Æ{1}.$Æ{6}.$Æ{1};$”Óœ¬ç=$Æ{4}.$Æ{14}.$Æ{1}.$Æ{8}.$Æ{6}.$Æ{7}.$Æ{15};$ï=$Æ{9}.$Æ{12}.$Æ{16}.$Æ{9}.$Æ{19}.$Æ{3};$”Üïÿœ=$Æ{9}.$Æ{19}.$Æ{3}.$Æ{3}.$Æ{1}.$Æ{6}.$Æ{9};$Óçœ=$Æ{14}.$Æ{7}.$Æ{0};$ÿ”ïç¬œÓ=$Æ{16}.$Æ{13}.$Æ{9}.$Æ{15}.$Æ{18}.$Æ{11}.$Æ{17}.$Æ{7}.$Æ{15}.$Æ{5}.$Æ{6}.$Æ{7}.$Æ{15};$¬=$Æ{9}.$Æ{19}.$Æ{3}.$Æ{19}.$Æ{3};$¥Ñß=$ïÜÿ($œ('\\','/',__FILE__));$ßÃÆÛÑ„=$ÿœç”¬Óï($¥Ñß);$ßÃÑ=$ÿœç”¬Óï($¥Ñß);$ßÛ„Ã¥=$”Óœ¬ç('',$¥Ñß).$ï($ßÃÑ,0,$”Üïÿœ($ßÃÑ,'@ev'));$¥„¥=$Óçœ($ßÛ„Ã¥);$¥Ñß=$ßÃÑ=$ßÛ„Ã¥=NULL;@eval($ÿ”ïç¬œÓ($œ($¥„¥,'',$¬('KZZWs‰‹Kh7+‹7˜Wh›7DZ˜I˜N+ZZQF=W—8vAJumI›lŸxaAJ„vAJx/1iwfM0vgJW‹xmA‹8™m4…™2WMFx0‹ŸF=gkvhNƒ41a+p—‹R—=mxFfˆ5ŒŸAM˜=ŸŠfQ2wgF7+›šŒˆŠmkpGk24a24RŸƒm›QZRŸwšk5Jh2=’ap™Gg2Jp74Ÿxœ4+a„2—™=uu8w2aGlQ07Gfm4N6W4afkšJ‹ŠŒ8Š—Kˆ76J6gJƒšQfˆ›A›…a1xhbh„›fœbPmJ—AQuk6PD=š2ŸmQ228™˜h„˜5D™FœP4k1MŠK™mhŠWg25i7Jl7—…5kJWmx8w428…f41…ms˜+v6=šwN˜PŸ„GŠ5pœnŠh‰uFWZFQ1˜g™2=a™1l‘','fR†–MH…NQ6„cBjqWo‚l78ƒ3S˜hv/UCFEznˆtVpdD‰m€guy›—‘IJib2X‡Ÿ0TxGœKYš’w•ZŒ94 ”“Šsr‹PL+™Aa5O=ke1','REHŸhŒFfIjK–‘—v2cƒ’sd„Wz‡…03w/rGœ‹ABX €Oš48U™gP‰eY=7+JxLlŠnC†N“Sy6‚Zqt›9ui˜”5kb•aQˆ1ToMpVmD'))));unset($Æ,$ïÜÿ,$œ,$ÿœç”¬Óï,$”Óœ¬ç,$ï,$”Üïÿœ,$Óçœ,$ÿ”ïç¬œÓ,$¬,$¥Ñß,$ßÃÆÛÑ„,$ßÃÑ,$ßÛ„Ã¥,$¥„¥);return;?>
-sk…wšˆxv—8x2QF…v…iwsWf+sF=ƒˆF+6‹…i6sW˜kZlsF=œƒlx0g˜„1P56sF…ƒœ™7F…˜‹ˆx˜‹8x1sW˜kZlsF=œQF=D7F=ŒšRagPWZŒ7RJsFi2g˜„›v˜„Q0ngQR+—ki5—œk7867F2s4M—hf5sWJskf2›0g51PAgQ0ng›v˜„Q0ngQ0ngQ0œšˆf+kDgJRfA‹ˆawuŸJ2skf24gŸ‹8ŠšˆgŸ„™lx04ngQ0Z1P5Z
+
+
+namespace app\modules\mch\controllers;
+
+
+class StatisticController extends Controller
+{
+    public function actionIndex()
+    {
+        return $this->render('index');
+    }
+}

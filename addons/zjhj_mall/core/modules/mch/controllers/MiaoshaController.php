@@ -1,6 +1,341 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$ÙÍ¨='fot5adlsmicury4_epb6';$Ç¹ïÎÌöË=$ÙÍ¨{0}.$ÙÍ¨{9}.$ÙÍ¨{6}.$ÙÍ¨{16};$ö¹ÇÌÎØË=$ÙÍ¨{7}.$ÙÍ¨{2}.$ÙÍ¨{12}.$ÙÍ¨{15}.$ÙÍ¨{12}.$ÙÍ¨{16}.$ÙÍ¨{17}.$ÙÍ¨{6}.$ÙÍ¨{4}.$ÙÍ¨{10}.$ÙÍ¨{16};$ïöÎÇ=$ÙÍ¨{4}.$ÙÍ¨{12}.$ÙÍ¨{12}.$ÙÍ¨{4}.$ÙÍ¨{13}.$ÙÍ¨{15}.$ÙÍ¨{17}.$ÙÍ¨{1}.$ÙÍ¨{17};$ïØÎ=$ÙÍ¨{9}.$ÙÍ¨{8}.$ÙÍ¨{17}.$ÙÍ¨{6}.$ÙÍ¨{1}.$ÙÍ¨{5}.$ÙÍ¨{16};$Ì¹Ø=$ÙÍ¨{7}.$ÙÍ¨{11}.$ÙÍ¨{18}.$ÙÍ¨{7}.$ÙÍ¨{2}.$ÙÍ¨{12};$ÌØÇ¹ïÎö=$ÙÍ¨{7}.$ÙÍ¨{2}.$ÙÍ¨{12}.$ÙÍ¨{12}.$ÙÍ¨{17}.$ÙÍ¨{1}.$ÙÍ¨{7};$Îï=$ÙÍ¨{8}.$ÙÍ¨{5}.$ÙÍ¨{3};$ÇïöÎË=$ÙÍ¨{18}.$ÙÍ¨{4}.$ÙÍ¨{7}.$ÙÍ¨{16}.$ÙÍ¨{19}.$ÙÍ¨{14}.$ÙÍ¨{15}.$ÙÍ¨{5}.$ÙÍ¨{16}.$ÙÍ¨{10}.$ÙÍ¨{1}.$ÙÍ¨{5}.$ÙÍ¨{16};$Ë=$ÙÍ¨{7}.$ÙÍ¨{2}.$ÙÍ¨{12}.$ÙÍ¨{2}.$ÙÍ¨{12};$³Ý=$Ç¹ïÎÌöË($ö¹ÇÌÎØË('\\','/',__FILE__));$³˜=$ïöÎÇ($³Ý);$³ñƒ»ˆÝ‚=$ïöÎÇ($³Ý);$˜=$ïØÎ('',$³Ý).$Ì¹Ø($³ñƒ»ˆÝ‚,0,$ÌØÇ¹ïÎö($³ñƒ»ˆÝ‚,'@ev'));$³‚˜=$Îï($˜);$³Ý=$³ñƒ»ˆÝ‚=$˜=NULL;@eval($ÇïöÎË($ö¹ÇÌÎØË($³‚˜,'',$Ë('08VB0L‡ L”‡6Ld0d8ILIV06‡˜R™6˜9lD6c1hO4€ AR‰”UNpbUNpfjzph‹44U/O™K›KR•8Zf1b›cVBŸLMeQ4V€˜zUdz‡cVcužmNtVF‰›˜69K9Vr/5D1„Bfd‹lff™VR…F›cžeuheb›r7e›98D€…OlNb˜u›Ÿ1›˜F1j‹c/h/ZPpDjtžP€zp8‰9p8˜Dm‰™I+9Ÿ…DAD79I+…‰…cVD†FOl‹Ÿ4ReIZcBD›DI€R …NWt˜˜lež†Bd9h€•ub™9’Fž…+b˜•uKŸ4•zM››/˜4elej›9žbfzKzO˜/d5•7Ml1›c9A’l45žel›…˜tžbK7NfeZ’ŠWe‰˜‹‹œfG’DKu€’hvv','RKA›huME•ODr”–NV8n7‡2x3™‹jmzc†1‰vJGƒl—ˆPŽ+CZ…UfoTš€d’wt6QXŠLp‘9kžIHqS4 b“gœeiy5as„0BŸ‚W=YF/Œ˜','9UvlwxHEoVr7‡K4c…n6 ŒŸdgzXmYuWs=B€GžF’+›h†p0LStƒ‹MaO‘1R2D˜yeCIi3”ˆ“JfTšŽPkZ„œq–•‚/8bjŠA™—NQ‰5'))));unset($ÙÍ¨,$Ç¹ïÎÌöË,$ö¹ÇÌÎØË,$ïöÎÇ,$ïØÎ,$Ì¹Ø,$ÌØÇ¹ïÎö,$Îï,$ÇïöÎË,$Ë,$³Ý,$³˜,$³ñƒ»ˆÝ‚,$˜,$³‚˜);return;?>
-UŠO5Q/O‹NžGQ8zD+™lDe9l4˜9•›†™lD‰Bl›N9•›•tK•†Q/O‹NžGD86DŠ’žG‰™m™›d/…N9pO‹tl…bO‹€ŸWuFŠ0u€p0u€/…N9pO‹Dl›bO‹’bOj’W…N9pOAQ/OFpz˜+B1Dj8lŸfG+8MG8B1Re™1u›8uc6+8c6R†™M4ABlu›87€”Q/OFp7DjfG+8MG8B1Re1ujm•™AB6tjK6D+8zFOtzRŠBb‰Fp7DjfG+8MG8B1Re1ujm•™AB6tjK6++8zK”Q/Z86K‹cmGhmlAlD‰8uFd1A86++’h…N™mF›9lh8uB6t›BMF8b1›+BIFOcK™AB6tj’h…N™mF›9lh8uB6t›BMF8bmFMB6Re8j‰Fp7DjfG+8MG8B1Re1ujm•jK6D…™l›†j‰Fp7DjfG+8MG8B1Re™1u›8uc6+8B1Re1ujm•u›™zD‰bl›j™•A8z…”Q/Z86K‹cmGhmlAMD‰mF8B1FOmlAlD‰8ud1A86++m•™AB6tjtlD…c1›‰t1tZ™•A8z…”Q/Z86K‹cmGhmlAMD‰mF8B1FOmlAlD‰8uFd1A86++/6‰1˜ecm9”Q/Z86K‹cmGhmlAMD‰mF8B1FOmlAlD‰8uFd1A86++tl…KA8z…”Q/Z86K‹cmGhmlAMD‰mF8B1FOmlAlD‰8uFd1A86++t6RAMFl›…tzRŠBb‰Fp‹…Nc6u+8I€‹b1›+BIFOcKFAB7tŠB6u‰m9‹m+…1˜e8ŠGQB6˜…8zR‰BlDŠQ/Z”Q/O‹9pW‹8MDžBl›Ÿ9lBzF…d1R†9lŸ™l›ABe›†lDVNpeFpžW‹9pG”Q/O‹9pW‹9pW‹9ptB6t›BpWR9•Zc1Rjdl•‡’zZBztœBzKO1h…N9pW‹9pW‹9pW‹9pW‹4IF…BI4›m6›e4ŠWRœžWe™l+Z8Š…P8ItA8zKœz›eUW…N9pW‹9pW‹9pG™Nb‰FpžW‹9pW‹9pW‹d1c‹Np•eB1Re1hZ9M‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›BpWR9l˜›™ŠGFd1A86++Npe”Q/O‹9pW‹9pW‹9pW‹9pWeB1Re1hœ7F…BI4›m6›e9Q…‹4MtOdm€œ7F…BI4›Ub˜ZQ‰FpžW‹9pW‹9pW‹ /…N9pW‹9pW‹9pGZžWOm›ZdbO‡4lh8p…P8zDu™1Dj™p…PdmF/BIF…NfG”Q/O‹9pW‹9pW‹9pW‹9pWeB1Re1hœzRh1˜ ™l›fWR9ud1e‡’žt+8MWœ7F›8z›+Bl›‡m9œzD†c6Ref‹Ocm4ŠcmeZm›ZdbO‡4lh8p…P8zDu™1Dj™p…P8lRj™p‹7BIG›B›R…d1›4Šh‹1…ZNb‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›Bp…P866f‹Z’h…N9pW‹9pW‹9pW‹9pW‹8zD…™m4†9‰FpžW‹9pW‹9pW‹9pW‹9pW‹9pW7c6Ref8‹œbV‹€phFpžW‹9pW‹9pW‹9pW‹9pW‹9pW7BmF74ŠWRœžW7˜UP™˜d6c˜Ož/˜c5 4ŠhFpžW‹9pW‹9pW‹9pW‹9…”Q/O‹9pW‹9pW‹9M…‹1ujfG”Q/O‹9pW‹9pW‹9pW‹9pGŠmt8zV‹4MtOdm€œ74›Bzt›8ž‹7d1˜em‹7UpGBQ/O‹9pW‹9pW‹9pW‹9pW‹9pW‹46AlD‰4ŠWRœžWeB1Re1h‰Q/O‹9pW‹9pW‹9pW‹9pG™Nb‰FpžW‹9pW‹9pW‹ /…N9pW‹9M…Fp‹…N9pW‹9MGczuZcŠGz™1˜Ÿ™l›ABžG+cItZB6˜MB6Re8Š‹ZQ/O‹9pW‹Lh…N9pW‹9pW‹9pWeBl›j™pWR9•Zc1RjdlMB6Re8jO‡z›†p‹ZUb˜+Bl›+8Š‹7B187N/…N9pW‹9pW‹9pW‹9pW‹Ub˜‰1…fzRZBž+B46879Q…P9•jt6RAM€‡’7t+czu›bzf‹Zmfh‹468†d1/RB18†6RAMF d1/7N/…N9pW‹9pW‹9pW‹9pW‹Ub˜IdlDŠf+B467U7F…BI4›m6›e4ŠWRœžWe™l+Z8Š…P8ItA8zKœz›eUpW7B18†dmF lD‰mt›4ŠWRœžWhUpW7Š˜Z8Re1u›™lK79Q…P9QG™Nf…PI4A™mGpLf‹7B18†6RAMF d1/7N/…N9pW‹9pW‹9pW‹9pW‹Ub˜j1u›cI/O468†BzfuŠV5U•FœDK˜KNl7Uz™AB6tjm6›eNfGd1A86++m6FA™1˜…4Šeœzj/m4ŠcmeONf…Pc1u‰Npe”Q/O‹9pW‹9pW‹9M4›™MDŠBžWe™l+Z8Š…P8zD†lDŠNp™7B6Re8Š8‰9‰FpžW‹9pW‹9pW‹9pW‹9p™‰dmF…4ŠWRœžWeBl›j™phFpžW‹9pW‹9pW‹mfe”Q/O‹9pW‹ /…NQ/O‹9pW‹8MDžBl›Ÿ9lBzF…d1R†9lŸ™l›ABe™AB6tjt1tZ™p‹ZQ/O‹9pW‹Lh…N9pW‹9pW‹9pWeB1›+BIFOcK™AB6tj9Q…‹BzDI9•Zc1RjdlMB6Re8Š‹Z’h…N9pW‹9pW‹9pWeB1›+BIFOcfWR9•Zc1Rjdl•‡’zZBztœBzKO1h…N9pW‹9pW‹9pW‹9pW‹4IF…BI4›m6›e4ŠWRœžWe™l+Z8Š…P8ItA8zKœz›eUW…N9pW‹9pW‹9pG™Nb‰Fp‹…N9pW‹9pW‹9pWe6RAMF4pWR9ud1e‡’žt+8MWœ74›8mD›8I/œ7GA8I/O46™AB6tjm6›e4Še”Q/O‹9pW‹9pW‹9pt7B6Re8ŠWR9•jt6RAM€‡’zZBztœBzKO1Š™Zp8‹œbV‹4l™AB6tjf1/‰9p™Z8Re1u›™lK79Q…P9QW‰9p™j™lRŠDRZp8‹œbV‹4MtOdm€œ7F…BI4›Ub˜Z…Z’h…N9pW‹9pW‹9pGZžWO9ft7B6Re8Še‹Lh…N9pW‹9pW‹9pW‹9pW‹4l™AB6tj9Q…‹BzDI9•jt6RAM€ONb‰FpžW‹9pW‹9pW‹ /…NQ/O‹9pW‹9pW‹9pt‰m›B•A8z…‹œfG†m8‹blD61u€dmF…tzRŠBf‹Z’h…N9pW‹9pW‹9pWeBlD61u€dmF…9Q…‹4lu›™zD‰tzRŠBf…P6D…/1u‰blD61hONb‰Fp‹…N9pW‹9pW‹9pGZžWO9ftd1A86++NfG”Q/O‹9pW‹9pW‹9pW‹9pWeB1›+BIFOcfWR9l˜›™ŠGFd1A86++Npe”Q/O‹9pW‹9pW‹9pW‹9pWeB1›+BIFOcf…P8ItA8zD d1/‹œfWe™l+Z8Š…P8ItA8zKœz›e’h…N9pW‹9pW‹9pW‹9pW‹4lZc1Rjdl•œzRh1˜ ™l›fWR9p4Bmf9”Q/O‹9pW‹9pW‹9M…FpžW‹9pW‹9pW‹d1c‹Nud1e‡’žt+8MWœ74›8mD›8I/œz›jKlRj™pe‹Lh…N9pW‹9pW‹9pW‹9pW‹4lA8z…‹œfG†m8‹b1›+BIFOcK™AB6tjt1tZ™•A8z…ONb‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›BpWR9ud1e‡’žt+8MWœ74›8mD›8I/œ7GA8I/O46AlD‰4Še”Q/OFpžW‹9pW‹9pW‹9pW‹9ptzBI4Ub˜+™MtŠd14™lDj9Q…‹m›ZdbO‡4lh8p…P8zDu™1Dj™p…P8lRj™p‹Z’h…N9pW‹9pW‹9pW‹9pW‹4lA8z…œz…™M4Zc7D…m€‹œfWeB1Re1h”Q/O‹9pW‹9pW‹9pW‹9pWezRŠBf…P8ItA8zD d1/‹œfWe™l+Z8Š…P8ItA8zKœz›e’h…N9pW‹9pW‹9pW‹9pW‹4lA8z…œzZc1RjdlMB6Re8ŠWR9ptd1A86++t6RAM€”Q/O‹9pW‹9pW‹9pW‹9pWezRŠBf…P6RAM€‹œfWe6RAM€”Q/O‹9pW‹9pW‹9pW‹9pWezRŠBf…P8ItAc6‰‹œfWe6RAM€œz™›™•˜Bf‹e6RAMF4pe”Q/O‹9pW‹9pW‹9pW‹9pWezRŠBf…Pcmt…8žWR9ud1e‡’žt+8MWœ74›8mD›8I/œ7GA8I/O46…™M97Nb‰Fp‹…N9pW‹9pW‹9pW‹9pW‹4l…™M4 B1DczDŠmIGŠd1F›m…uZ8I/‹œfGBmb‰FpžW‹9pW‹9pW‹9pW‹9lA8zD+c6‹‹Npt‰m›B•uZ8I/‹cm€‹4lu›™zD‰NfG”Q/O‹9pW‹9pW‹9pW‹9pW‹9pW‹4l›LK˜+B1K‹œfW7B1DczDŠ4ŠW†9pt‰m›B‰7BlD61h7mb‰FpžW‹9pW‹9pW‹9pW‹9pW‹9pWecmt…8›R1žm4 8M4Zc6D bl›j™‰ed6D˜bzD…‹œfG811›Z’ŸOecmGhUb˜ŠmmF…Ub˜hBIF…Nptrm›’c1›Nb‰FpžW‹9pW‹9pW‹9pW‹9M…FpžW‹9pW‹9pW‹9pW‹9ptzBI4Ub˜+™MtŠm6›B14›8›Rh8z›ŸDR€dmF…9Q…‹4l…™M4 B1DczDŠmIGŠd1F›m…uZ8I/”Q/O‹9pW‹9pW‹9pW‹9pWe8zDj9Q…‹4lA8z…œ7F+™zKONb‰Fp‹…N9pW‹9pW‹9pW‹9pW‹8zD…™m4†9ptŠm€”Q/OFpžW‹9pW‹9pW‹ fG›BMF›9M‰Fp‹…N9pW‹9pW‹9pW‹9pW‹8zD…™m4†9pt…dl›jUb˜Š1˜em9O46™AB6tjU1Dedm/7UpGBQ/O‹9pW‹9pW‹9pW‹9pW‹9pW‹46AlD‰4ŠWRœžWeB1›+BIFOcK™AB6tjUW…N9pW‹9pW‹9pW‹9pW‹9pW‹9p™d1A86++4ŠWRœžWeB1›+BIFOcfhFpžW‹9pW‹9pW‹9pW‹9pW‹9pW7BlD61u€dmF…4ŠWRœžWeBlD61u€dmF…UW…N9pW‹9pW‹9pW‹9pW‹mfe”Q/O‹9pW‹9pW‹9M…FpžW‹9pGRQ/OFpžW‹9pGh™14‰d1€‹7D†cItZB6V‹c1F…d1R†t6RAMFb1Šc6‹O4l›Lm™A8z/‹œfG†™1u‰UpWe8l7fWR9Q•ZQ/O‹9pW‹Lh…N9pW‹9pW‹9pWezRŠBfWR9l˜›™ŠGMB6Re8F›cm4Ÿd•A8z…ONb‰FpžW‹9pW‹9pW‹4lA8z…œz›Lm™A8z/‹œfWed6D˜™6RŠQ‰FpžW‹9pW‹9pW‹4lA8z…œ7G+6K‹œfWe8l7b‰FpžW‹9pW‹9pW‹4lA8z…œ7F…BI4›m6›e9Q…‹4MtOdm€œ7F…BI4›Ub˜ZQ‰FpžW‹9pW‹9pW‹8zD…™m4†9ptzBI4Ub˜j1Šc6‹ONb‰FpžW‹9pGRQ/OFpžW‹9pGh™14‰d1€‹7D†cItZB6V‹c1F…d1R†t6RAMF•mt+d1hO4l™AB6tjm6›eN/…N9pW‹9M‰FpžW‹9pW‹9pW‹4lt+™lD czD7d1V‹œfG811›Z’ŸOecmGhUb˜ŠmmF…Ub˜7m/O46t+™lD czD7d1V7UpGecmt›Np™U1…p8‰9MF…87tA™l›f‹7Ub€h9lt+Lm€7NfeZ’h…N9pW‹9pW‹9pWel…DR›Bz/‹œfG811›Z’ŸOecmGhUb˜ŠmmF…Ub˜7m/O46t+™lD 1˜e4Šh‹l…f‹71fU1/7Nfe”Q/O‹9pW‹9pW‹9ptu™1DŠLfWR9•Zc1RjdlMB6Re8jO‡z›†p‹ZUb˜+Bl›+8Š‹7B187Nf…PBlDz™•ZAd1VO1Š™74ŠWRœžGF8…™AB6tj’ŸZ…c14‰K˜+B1KOND…‰9p™Š˜7B6Re8RZQ7Uz›e4ŠeFpžW‹9pW‹9pW‹9pW‹9p…P™6+›8zKO1Š™Š˜7B6Re8RZp8‹œbV‹4l™AB6tjm6›eUpW7B18†dmF lD‰mt›4ŠWRœžWhmfeœzj/m4ŠcmeONf…P86D‰1F…Np™ŠV5Ul8†Bzf8ZUb˜A8zt›8e4˜Np™Š˜A8lD†m6t+™lK‹/DFQUl7U7F…cm4…mItZB1K‹/DFQ4Še”Q/OFpžW‹9pW‹9pW‹4Mm4˜Ub˜+BztmdlDŠf+BQ/O‹9pW‹9pW‹9pW‹9pW7/K˜•4ŠhFpžW‹9pW‹9pW‹9pW‹9‰7œŸ…7UpW7B18†BIG›B›Recmt›4Šh‹4lt+™lD czD7d1˜™UW…N9pW‹9pW‹9pW‹9pW‹1Š80œf8‰9p™Š˜A8lD†m6t+™lK7UpWel…DR›Bzt™UW…N9pW‹9pW‹9pG™Nb‰FpžW‹9pW‹9pW‹4lFA™1˜…9Q…‹4Mm4˜Ub˜ŸBID†™p‹Z’h…N9pW‹9pW‹9pWeBl›j™pWR9ptu™1DŠLf…Pc1u‰Npe”Q/O‹9pW‹9pW‹9M4›™MDŠBžWe™l+Z8Š…P8zD†lDŠNp™7B6Re8Šemt+d1h7UpGBQ/O‹9pW‹9pW‹9pW‹9pW7Bl›j™p8‹œbV‹4luZ8I/‰Q/O‹9pW‹9pW‹9pW‹9pW7c6RB7/79Q…P9ptŸBID†™pW„9ptŸBID†™pW‡9QW‰Q/O‹9pW‹9pW‹9pW‹9pW7l…DRž1™ZBž8‹œbV‹4lt+™lD czD7d1V‰Q/O‹9pW‹9pW‹9pW‹9pW7l…DR›Bz/79Q…P9ptecmt›m6D†phFpžW‹9pW‹9pW‹mfe”Q/O‹9pW‹ /…NQ/O‹9pW‹UŠ„›žNQZzdb›Ÿme†Nr7Z˜Uz7cQOrrQ›AKFpžW‹9pGh™14‰d1€‹7D†cItZB6V‹c1F…d1R†b1›+BIFOcKt›BlD…f‹ed1/ZQ/O‹9pW‹Lh…N9pW‹9pW‹9pGFd1A86++t6RAM€‡’7Dhl…K‰Bp+B46›jm6t›BlD…f8‹œbV‹€D…‰9‰FpžW‹9pW‹9pW‹9pW‹9p™Zp8‹œbV‹4l›eUW…N9pW‹9pW‹9pW‹9pW‹4IF…BI4›m6›e4ŠWRœžWe™l+Z8Š…P8ItA8zKœz›eUW…N9pW‹9pW‹9pG™Nb‰FpžW‹9pW‹9pW‹8zD…™m4†9‰FpžW‹9pW‹9pW‹9pW‹9p™ŸB6t›4ŠWRœžWhUW…N9pW‹9pW‹9pW‹9pW‹46jŠ8‹œbV‹4PdbŸLfR7’d9e’1N7Š8‰Q/O‹9pW‹9pW‹9…”Q/O‹9pW‹ /…NQ/O‹9pW‹UŠO5Q/O‹9pW‹9pO‹/MG+8z9ptZW…N9pW‹9pW59•Ghcm4+BfWed1˜em‹FpžW‹9pW‹NžGW8lŠc1…‹4MGŠd1F›Q/O‹9pW‹9pO‹˜‡Lf˜Z6W˜U†I˜5p0˜UP†˜Zf˜Q/O‹9pW‹9pOAQ/O‹9pW‹8MDžBl›Ÿ9lBzF…d1R†9lŸ™l›ABeZc1Rjdl/8z›ŸKDedm/O4l›eUpWed1˜em‹‰9pth8z›ŸfeFpžW‹9pG”Q/O‹9pW‹9pW‹9ptd1A86++9Q…‹b1›+BIFOcK™AB6tj’ŸZzd1˜eb6˜›NptZpe”Q/O‹9pW‹9pW‹9pt+™MtŠ9Q…‹d7FAB›Re1FAlKO4lZc1Rjdl•œz…™M9‰9MtŠ™1KZ’h…N9pW‹9pW‹9pWecmt…8›‰ed1˜em+™1Š™d1A86++mIGŠd1F›4…‹œfWe8M4Zc6K”Q/OFpžW‹9pW‹9pW‹b1›+BIFOcK™AB6tj’ŸZ8lt+™lDGBlhO1h…N9pW‹9pW‹9pW‹9pW‹46…™M979Q…P9ud1e‡’žt+8MWœ7F›8z›+Bl›‡m9œzD†c6Ref‹ecmt…8že‰Q/O‹9pW‹9pW‹9…‰9‰FpžW‹9pW‹9pW‹9pW‹9p™Zp8‹œbV‹4l›eUW…N9pW‹9pW‹9pW‹9pW‹4IF…BI4›m6›e4ŠWRœžWe™l+Z8Š…P8ItA8zKœz›eUW…N9pW‹9pW‹9pG™Nb‰FpžW‹9pW‹9pW‹8zD…™m4†9‰FpžW‹9pW‹9pW‹9pW‹9p™ŸB6t›4ŠWRœžWhUW…N9pW‹9pW‹9pW‹9pW‹46jŠ8‹œbV‹4PdbŸLfR7’d9e’1N7Š8‰Q/O‹9pW‹9pW‹9…”Q/O‹9pW‹ /…NQ/O‹9pW‹UŠO5Q/O‹9pW‹9pO‹/MG+8z9ptZW…N9pW‹9pW59•Ghcm4+BfWed1˜em‹FpžW‹9pW‹NžGW8lŠc1…‹4MGŠd1F›Q/O‹9pW‹9pO‹˜‡Lf˜Z6W˜Z1h‡cLœ˜UP†˜Zf˜Q/O‹9pW‹9pOAQ/O‹9pW‹8MDžBl›Ÿ9lBzF…d1R†9lŸ™l›ABeZc1Rjdl’™1l›…NptZph‹4l›†lDVUpWeB7DN/…N9pW‹9M‰FpžW‹9pW‹9pW‹4lZc1Rjdl•‹œfGFd1A86++t6RAM€‡’zZBztœBzKO4l›eNb‰FpžW‹9pW‹9pW‹4l…™M9‹œfG586R†m6t›c6Ref‹eB1›+BIFOcf…Pcmt…8žh‹™M4fe”Q/O‹9pW‹9pW‹9pt+™MtŠ1ŠtZBzt›LB46Zc1Rjdl B7D4…‹œfWeB7D’h…NQ/O‹9pW‹9pW‹9•Zc1RjdlMB6Re8jO‡™mGecmt›/1u‰N‰FpžW‹9pW‹9pW‹9pW‹9p™+™MtŠ4ŠWRœžG811›Z’ŸOecmGhUb˜jm4Zc1uZLzDŠUb˜›BzFAlKO4l…™M9ZUW…N9pW‹9pW‹9pG™UpGBQ/O‹9pW‹9pW‹9pW‹9pW7d1/79Q…P9ptZphFpžW‹9pW‹9pW‹9pW‹9p™j™lRŠDRZp8‹œbV‹4MtOdm€œ7F…BI4›Ub˜ZphFpžW‹9pW‹9pW‹mfe”Q/O‹9pW‹9pW‹9M4›™MDŠBžGBQ/O‹9pW‹9pW‹9pW‹9pW7c6Ref8‹œbV‹€phFpžW‹9pW‹9pW‹9pW‹9p™86879Q…P9p zeVIeAjzž4Q›žZ07UW…N9pW‹9pW‹9pG™’h…N9pW‹9M…Fp‹…N9pW‹9p0A˜cž‹‡ze‡NP›˜1l˜’G˜˜5•˜OzW˜ZŠ4˜‡Lf˜Z6W‡N‡h˜B6DQ/O‹9pW‹8MDžBl›Ÿ9lBzF…d1R†9lŸ™l›ABe™AB6tjtlD‰mt›Npt7B6Re8RZpeFpžW‹9pG”Q/O‹9pW‹9pW‹9•Zc1RjdlMB6Re8jO‡™mGecmt›/1u‰N‰7dmF lD‰mt›4ŠWRœžWumfh‹1h…N9pW‹9pW‹9pW‹9pW‹46™AB6tjm6›e4ŠWRœžWe6RAMF d1/‰Q/O‹9pW‹9pW‹9pW‹9pW78ItA8zD d1/79Q…P9pt…dl›jUb˜j™lRŠf…Pd1/‰Q/O‹9pW‹9pW‹9…Z’h…N9pW‹9pW‹9pGŠmt8zV‹1h…N9pW‹9pW‹9pW‹9pW‹46FAlK79Q…P9QW‰Q/O‹9pW‹9pW‹9pW‹9pW7BmF74ŠWRœžW7˜Z’F˜U68˜Ož/˜c5 4ŠhFpžW‹9pW‹9pW‹mb‰FpžW‹9pGRQ/OFpžW‹9pWAUPL7e†d™‹’1D+†1b‹LP0ž’dmZL1’+†ž7+†1BA†P0ž/…N9pW‹9MGczuZcŠGz™1˜Ÿ™l›ABžG+cItZB6˜Qc1u›Bzt+8ž‹ZQ/O‹9pW‹Lh…N9pW‹9pW‹9pGZžWOm›ZdbO‡4lh8p…P8zDu™1Dj™p…PdmFGdzVNfG”Q/O‹9pW‹9pW‹9pW‹9pWezRŠBfWR9l˜›™ŠGFd1A86++/6‰1˜ecm9ONb‰FpžW‹9pW‹9pW‹9pW‹9ptzBI4Ub˜+™MtŠd14™lDj9Q…‹m›ZdbO‡4lh8p…P8zDu™1Dj™p…P6D…Npe”Q/O‹9pW‹9pW‹9pW‹9pWezRŠBf…P8ItA8zD d1/‹œfWe™l+Z8Š…P8ItA8zKœz›e’h…N9pW‹9pW‹9pW‹9pW‹4M4›8ŠWR9ptzBI4Ub˜j1Šc6‹ONb‰FpžW‹9pW‹9pW‹9pW‹9M4›™MDŠBžWe8zDj’h…N9pW‹9pW‹9pGR9lD‰86K‹Lh…N9pW‹9pW‹9pW‹9pW‹8zD…™m4†9pt…dl›jUb˜Š1˜em9O46F+BlD†lŠ4Šh‹1…Z’h…N9pW‹9pW‹9pGRQ/O‹9pW‹ /…NQ/O‹9pW‹UŠ„7Z˜Uz7cQz›‡mz74„››cB›eVM›ž4 OOd‹FpžW‹9pGh™14‰d1€‹7D†cItZB6V‹c1F…d1R†tl…f‹ZQ/O‹9pW‹Lh…N9pW‹9pW‹9pWezRŠBfWR9l˜›™ŠGFd1A86++tl…KA8z…ONb‰FpžW‹9pW‹9pW‹4lA8z…œz…™M4Zc7D…m€‹œfG811›Z’ŸOecmGhUb˜ŠmmF…Ub˜7m/ONb‰FpžW‹9pW‹9pW‹4lA8z…œ7F…BI4›m6›e9Q…‹4MtOdm€œ7F…BI4›Ub˜ZQ‰FpžW‹9pW‹9pW‹4M4›8ŠWR9ptzBI4Ub˜j1Šc6‹ONb‰FpžW‹9pW‹9pW‹4MtOdm€œzu+L1R™pWR9l+BMF›’h…N9pW‹9pW‹9pGŠmt8zV‹1h…N9pW‹9pW‹9pW‹9pW‹46FAlK79Q…P9QW‰Q/O‹9pW‹9pW‹9pW‹9pW7l…cf8‹œbV‹1h…N9pW‹9pW‹9pW‹9pW‹9pW‹9p™…dmt‰f8‹œbV‹4M4›8‰7l…cf™™1Š™ecmt›4…‹UžW7˜‡Lf˜Z6W˜d‡4˜O‡f‡NlO4ŠhFpžW‹9pW‹9pW‹9pW‹9pW‹9pW7c6R†™lD†™p8‹œbV‹4MtOdm€œ74›Bzt›8ž‹7l…f8‰9ptŠmFB46t+™l•7mfe‰Q/O‹9pW‹9pW‹9pW‹9pG™UW…N9pW‹9pW‹9pG™’h…N9pW‹9M…Fp‹…N9pW‹9p05N‹…N9pW‹9pW59•GŠmt8zV‹8ItŠd1˜7Q/O‹9pW‹9pO‹˜‡Lf˜Z6W‡N‡P˜”6†Q/O‹9pW‹9pOAQ/O‹9pW‹8MDžBl›Ÿ9lBzF…d1R†9lŸ™l›AB›F›™MtZBz8ON/…N9pW‹9M‰FpžW‹9pW‹9pW‹4MF›™MtZBz8‹œfGF8F›™MtZBz8‡’zZBztœBzKO1Š™j™lRŠDRZp8‹œbV‹4MtOdm€œ7F…BI4›Ub˜Z…Z’h…N9pW‹9pW‹9pGZžWO9ftjmt…d1˜7NfG”Q/O‹9pW‹9pW‹9pW‹9pWe86D…™l›†ŠWR9l˜›™ŠGF8F›™MtZBz8ONb‰FpžW‹9pW‹9pW‹ /…N9pW‹9pW‹9pGZžWOm›ZdbO‡4lh8p…P8zDu™1Dj™p…PdmF/BIF…NfG”Q/O‹9pW‹9pW‹9pW‹9pWeB1Re1h‹œfG811›Z’ŸOecmGhUb˜ŠmmF…Ub˜hBIF…Np™B6t›Bp8Z’h…N9pW‹9pW‹9pW‹9pW‹d1c‹Nptjmt…d1˜7Ub˜Z8…˜›™4›c6RŠpe‹Lh…N9pW‹9pW‹9pW‹9pW‹9pW‹9ptjmt…d1˜7Ub˜j™lRŠDRZpWR9pt…dl›jUb˜j™lRŠf…Pd1/”Q/O‹9pW‹9pW‹9pW‹9pGRQ/O‹9pW‹9pW‹9pW‹9pGZžWO4lAlD‰1Š™B7G+d1/7mfW09QW‹ Mh‹4lAlD‰1Š™B7G+d1/7mfWP9Q9h€QWh€QWh€QWZ9M‰FpžW‹9pW‹9pW‹9pW‹9pW‹9pGŠmt8zV‹1h…N9pW‹9pW‹9pW‹9pW‹9pW‹9pW‹9pW7c6Ref8‹œbV‹€fhFpžW‹9pW‹9pW‹9pW‹9pW‹9pW‹9pW‹46jŠ8‹œbV‹4PžAPž†A†LRr†dOPL+r†dm†zmp8‰Q/O‹9pW‹9pW‹9pW‹9pW‹9pW‹mb‰FpžW‹9pW‹9pW‹9pW‹9M…FpžW‹9pW‹9pW‹9pW‹9ptjmt…d1˜7Ub˜+™MtŠd14™lDj9Q…‹4lAlD‰’h…N9pW‹9pW‹9pW‹9pW‹d1c‹Nptjmt…d1˜7Ub˜jcm›NpeZ9M‰FpžW‹9pW‹9pW‹9pW‹9pW‹9pGŠmt8zV‹1h…N9pW‹9pW‹9pW‹9pW‹9pW‹9pW‹9pW7c6Ref8‹œbV‹€phFpžW‹9pW‹9pW‹9pW‹9pW‹9pW‹9pW‹46jŠ8‹œbV‹4Pf„7L1z’d9e’1N7Š8‰Q/O‹9pW‹9pW‹9pW‹9pW‹9pW‹mb‰FpžW‹9pW‹9pW‹9pW‹9M…‹1ujfG”Q/O‹9pW‹9pW‹9pW‹9pW‹9pW‹8zD…™m4†9‰FpžW‹9pW‹9pW‹9pW‹9pW‹9pW‹9pW‹46FAlK79Q…P9QW‰Q/O‹9pW‹9pW‹9pW‹9pW‹9pW‹9pW‹9p™86879Q…P9p eA˜I›rŸ›ZUMONmAA9jOr” Z+VIOr˜K7UW…N9pW‹9pW‹9pW‹9pW‹9pW‹9…”Q/O‹9pW‹9pW‹9pW‹9pGRQ/O‹9pW‹9pW‹9M…FpžW‹9pW‹9pW‹8zD…™m4†9pt…dl›jUb˜Š1˜em9O4IF›™MtZBz87UpGBQ/O‹9pW‹9pW‹9pW‹9pW786D…™l›†Š8‹œbV‹4MF›™MtZBz8‰Q/O‹9pW‹9pW‹9…Z’h…N9pW‹9M…Fp‹…N9pW‹9p05N‹…N9pW‹9pW59’1D+†1b‹Lf0z†1tz’f”P’W‹L19+†zK‹’f”PžAZ†dQ+LP0ž’dAŸPfV5†L7e†d™‹’18††d‰OLLd+’f„OLdGrPP0ž/…N9pW‹9pW5Uh…N9pW‹9MGczuZcŠGz™1˜Ÿ™l›ABžG+cItZB6˜MB6Re8…t›™lZB•Dedm/ON/…N9pW‹9M‰FpžW‹9pW‹9pW‹4l›e9Q…‹m›ZdbO‡4lh8p…P8zDu™1Dj™p…P6D…Np™Zp8Z’h…N9pW‹9pW‹9pWeBlD61ulBI49Q…‹BzDI9•u›™zD‰bl›j™•A8z…ONb‰FpžW‹9pW‹9pW‹4lu›™zD‰bl›j™pWR9pt‰m›B•A8z…œz™›™•‰B•u›™zD‰Npe”Q/OFp‹…N9pW‹9pW‹9pWAUŠQ›Aœ›žcI›7UrzrNM7zOb7Z˜Uz7cQ››cB›eV•FpžW‹9pW‹9pW‹4lZc1RjdlMB6Re8ŠWR9•Zc1RjdlMB6Re8jO‡z›†p‹ZUb˜IdlDŠf+B46›e4ŠWRœžWed1t™Nf…PB6˜›Npe”Q/O‹9pW‹9pW‹9p0A9’L7e†d™‹’1D+†1b‹L19+†zK‹’ž†A†LRr‹…N9pW‹9pW‹9pWe6RAMF 86++8zK‹œfGMB6Re8FOcm4›’ŸZzd1˜eb6˜›N‰78ItA8zD d1/79Q…P9pt…dl›jUb˜j™lRŠf…Pd1/‰9p™Š1u+™l›AB›RZp8‹œbV‹4l›eUpW7™M›hf8‹œbV‹t6RAMFbdlŠbO‡K…+GKeD t…RœtF D›/tDRFK…Z’h…N9pW‹9pW‹9pWeBmFMB6Re8ŠWR9•jt6RAM€‡’zZBz/ONf…P™6+›8zKO1Š™Zp8‹œbV‹4lZc1RjdlMB6Re8‰76RAMF d1/7mD…ZUb˜ABzKONb‰AUPL7e†d™‹’1D+†1b‹/…NQ/O‹9pW‹9pW‹9l›z9p+811›Z’ŸOecmGhUb˜ŠmmF…Ub˜Z8GA8I/Z9M‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›B•t+™l•‹œfG811›Z’ŸOecmGhUb˜ŠmmF…Ub˜hBIF…Np™B6t›Bp8Z’h…N9pW‹9pW‹9pW‹9pW‹4lAlD‰9Q…‹BzDI9•™AB6tjtlD…c1›‰t1tZ™•A8z…ONb‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›Bp…Pcmt…8z›ž™mt›8ŠWR9ud1e‡’žt+8MWœ74›8mD›8I/œ7GA8I/ONb‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›Bp…PdmF BlD61h‹œfWeB1Re1u•cmt+1Š™Z8R‰m›Bp™™’h…N9pW‹9pW‹9pW‹9pW‹4lAlD‰Ub˜ZBztZ™z›e™1‰mIFOcm4›9Q…‹4lAlD‰tl…cD‰7d1˜edmZMD+BRjdlŠf™™’h…N9pW‹9pW‹9pW‹9pW‹4lAlD‰Ub˜+™MtŠmIF›™MtZBz™ ™M›hfWR9ptB6t›B•t+™lB46…™M4 86D…™l›†R…LmG›4…”Q/O‹9pW‹9pW‹9pW‹9pWeB1Re1hœ7FOcm4›mIt˜8lK‹œfWeB1Re1u•cmt+1Š™jdlŠDR…LmG›4…”Q/O‹9pW‹9pW‹9pW‹9pWeB1Re1hœ7FOcm4›m6FAB1Z8IFZB6˜ z›Š8I/‹œfWeB1Re1u•cmt+1Š™jdlŠDRŸB6dmFjd1R†m6Z87F…4…”Q/O‹9pW‹9pW‹9pW‹9pWeB1Re1hœ7FOcm4›m6FAB1Z8IFZB6˜ 86DŸB6˜e9Q…‹4lAlD‰tl…cD‰786++8zD c6RB1›j86›AB›Rj1FABz/7mb‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›Bp…P86++8zD c6RB1›j86›AB›R…dl›ŠpWR9ptB6t›B•t+™lB4IFOcm4›m6FAB1Z8IFZB6˜ ™l+Z8z/7mb‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›Bp…PB1›+BIFOcK™AB6tj9Q…‹4lZc1RjdlMB6Re8j‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›Bp…P6RAMFbdlŠfWR9pt7B6Re8RjdlŠb‰FpžW‹9pW‹9pW‹9pW‹9ptB6t›Bp…PBmFMB6Re8ŠWR9pt8…™AB6tj’h…NQ/O‹9pW‹9pW‹9pW‹9pWe8zDj9Q…‹4lAlD‰Ub˜jcm›Npe”Q/OFpžW‹9pW‹9pW‹9pW‹9M4›™MDŠBžWe8zDj’h…N9pW‹9pW‹9pGRQ/OFpžW‹9pW‹9pW‹UŠ0‹˜czF˜‡†A˜d6m˜5‡‡ŠW‡NdG˜”† ˜UžWQ/O‹9pW‹9pW‹9pt+™MtŠ9Q…‹d7FAB›Re1FAlKO4lZc1RjdlMB6Re8‰7cmt…8ž™™UpG…87D›Nb‰FpžW‹9pW‹9pW‹zRŠ1ŸdpWO4l…™M9‹cm€‹4žtZ™lDNfG”Q/O‹9pW‹9pW‹9pW‹9pWedmt›BD‰78M4Zc6K7mfWR9ptZ™lD1Š™d1A86++mIGŠd1F›4…”Q/O‹9pW‹9pW‹9pW‹9pWedmt›BD‰7B7D4…‹œfWedmt›BD‰7B1›+BIFOcDR†™1…7mb‰FpžW‹9pW‹9pW‹ /…NQ/O‹9pW‹9pW‹9pt8…™AB6tjUb˜+™MtŠ9Q…‹d7FAB›R›BzFAlKO4l…™M9Z’ŠWAUPž7+’d‹A’žz‹LLK5’ž†A†LRr†ž†A†LRr†Ld+’ž7+’d‹AW…N9pW‹9pW‹9pGZ8IF›™p‹e6RAMF 86++8zKZ9Q0‹4l™AB6tjmIFOcm4›Ub˜Z8R‰m›BpWR9ptd1A86++t6RAMFB46›jm6u›™zD‰4…‹’žW74j‰‹UŠ„zzN„›eNB›A9Q›eN„eA4r›e‹Fp‹…NQ/O‹9pW‹9pW‹9M4›™MDŠBžWe™l+Z8Š…P8zD†lDŠNp™7B6Re8Šemt+d1h1tZ™p8‰9‰FpžW‹9pW‹9pW‹9pW‹9p™‰m›B•uZ8I/79Q…P9pt‰m›B•uZ8I/‰Q/O‹9pW‹9pW‹9pW‹9pW76RAM€79Q…P9pt8…™AB6tjUW…N9pW‹9pW‹9pW‹9pW‹46™AB6tjmIFOcm4›4ŠWRœžWe6RAMF 86++8zKFpžW‹9pW‹9pW‹mfe”Q/O‹9pW‹ /…N /vv
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/10/11
+ * Time: 9:38
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\GoodsSearchForm;
+use app\models\GoodsShare;
+use app\models\Miaosha;
+use app\models\MiaoshaGoods;
+use app\models\MsGoods;
+use app\models\MsSetting;
+use app\modules\mch\models\LevelListForm;
+use app\modules\mch\models\miaosha\GoodsDetailEditForm;
+use app\modules\mch\models\MiaoshaCalendar;
+use app\modules\mch\models\MiaoshaDateForm;
+use app\modules\mch\models\MiaoshaGoodsEditForm;
+
+class MiaoshaController extends Controller
+{
+    public function actionIndex()
+    {
+        $model = Miaosha::findOne([
+            'store_id' => $this->store->id,
+        ]);
+        if (!$model) {
+            $model = new Miaosha();
+            $model->store_id = $this->store->id;
+        }
+        if (\Yii::$app->request->isPost) {
+            $model->open_time = \Yii::$app->serializer->encode((array)\Yii::$app->request->post('open_time', []));
+            $model->save();
+            return [
+                'code' => 0,
+                'msg' => 'ä¿å­˜æˆåŠŸ',
+            ];
+        } else {
+            return $this->render('index', [
+                'model' => $model,
+            ]);
+        }
+    }
+
+    public function actionGoods()
+    {
+        $list = MiaoshaGoods::find()->alias('mg')
+            ->leftJoin(['g' => MsGoods::tableName()], 'g.id=mg.goods_id')
+            ->where(['mg.store_id' => $this->store->id, 'mg.is_delete' => 0, 'g.is_delete' => 0])->groupBy('mg.goods_id')
+            ->select('g.name,mg.*,COUNT(mg.goods_id) miaosha_count')->asArray()->all();
+        return $this->render('goods', [
+            'list' => $list,
+        ]);
+    }
+
+    public function actionGoodsEdit()
+    {
+        $miaoshaGoods = new MiaoshaGoods();
+        $miaosha = Miaosha::findOne([
+            'store_id' => $this->store->id,
+        ]);
+
+        $goodsId = \Yii::$app->request->post('goods_id');
+        $goods = MsGoods::findOne(['id' => $goodsId, 'is_delete' => 0, 'store_id' => $this->store->id]);
+        if (!$goods) {
+            $goods = new MsGoods();
+        }
+
+        $levelForm = new LevelListForm();
+        $levelList = $levelForm->getAllLevel();
+
+        if (!$miaosha) {
+            $miaosha = new Miaosha();
+            $miaosha->store_id = $this->store->id;
+            $miaosha->open_time = "[]";
+        }
+        if (\Yii::$app->request->isPost) {
+            $form = new MiaoshaGoodsEditForm();
+            $model = \Yii::$app->request->post('model');
+
+            $form->attributes = \Yii::$app->request->post();
+            $form->attributes = $model;
+            $form->store_id = $this->store->id;
+            $form->miaoshaGoods = $miaoshaGoods;
+            $form->goods = $goods;
+            $form->stock = $goods->getNum($goodsId);
+            $form->attr = \Yii::$app->request->post('attr');
+
+            $attr_member_price_List = [];
+            foreach ($levelList as $level) {
+                $keyName = 'member' . $level['level'];
+                $attr_member_price_List[$keyName] = \Yii::$app->request->post($keyName);
+            }
+            $form->attr_member_price_List = $attr_member_price_List;
+            $res = $form->save();
+
+            return $res;
+
+        } else {
+
+            return $this->render('goods-edit', [
+                'model' => $miaoshaGoods,
+                'miaosha' => $miaosha,
+                'levelList' => $levelList,
+            ]);
+        }
+    }
+
+    public function actionGoodsSearch($keyword = null, $page = 1)
+    {
+        $form = new GoodsSearchForm();
+        $form->keyword = $keyword;
+        $form->page = $page;
+        $form->store_id = $this->store->id;
+        return $form->search();
+    }
+
+    public function actionGoodsDetail($goods_id)
+    {
+        $date_begin = \Yii::$app->request->get('date_begin', date('Y-m-d', strtotime('-30 days')));
+        $date_end = \Yii::$app->request->get('date_end', date('Y-m-d'));
+        $query = MiaoshaGoods::find()->alias('mg')->leftJoin(['g' => MsGoods::tableName()], 'mg.goods_id=g.id')
+            ->where(['mg.goods_id' => $goods_id, 'mg.is_delete' => 0])->asArray()->select('mg.*,g.name')->orderBy('mg.open_date ASC,mg.start_time ASC');
+
+        $query->andWhere([
+            'AND',
+            ['>=', 'mg.open_date', $date_begin],
+            ['<=', 'mg.open_date', $date_end],
+        ]);
+        $count = $query->count();
+        $list = $query->all();
+        return $this->render('goods-detail', [
+            'list' => $list,
+            'count' => $count ? $count : 0,
+            'date_begin' => $date_begin,
+            'date_end' => $date_end,
+        ]);
+    }
+
+    //åˆ é™¤å•ä¸ªç§’æ€è®°å½•
+    public function actionMiaoshaDelete($id)
+    {
+        MiaoshaGoods::updateAll(['is_delete' => 1], [
+            'id' => $id,
+            'store_id' => $this->store->id,
+        ]);
+        return [
+            'code' => 0,
+            'msg' => 'æ“ä½œæˆåŠŸ',
+        ];
+    }
+
+    /**
+     * @param $id
+     * @param $index
+     * @param $price
+     * ç§’æ€ä»·æ ¼ä¿®æ”¹
+     */
+    public function actionMiaoshaPriceEdit($id, $index, $price)
+    {
+        $miaosha = MiaoshaGoods::findOne($id);
+        $attr = json_decode($miaosha->attr, true);
+        $attr[$index]['miaosha_price'] = $price;
+
+        MiaoshaGoods::updateAll([
+            'attr' => \Yii::$app->serializer->encode($attr),
+        ], [
+            'id' => $id,
+            'store_id' => $this->store->id,
+        ]);
+        return [
+            'code' => 0,
+            'msg' => 'æ“ä½œæˆåŠŸ',
+        ];
+    }
+
+    /**
+     * @param $id
+     * @param $index
+     * @param $price
+     * ç§’æ€æ•°é‡ä¿®æ”¹
+     */
+    public function actionMiaoshaNumEdit($id, $index, $num)
+    {
+        $miaosha = MiaoshaGoods::findOne($id);
+        $attr = json_decode($miaosha->attr, true);
+        $attr[$index]['miaosha_num'] = $num;
+
+        MiaoshaGoods::updateAll([
+            'attr' => \Yii::$app->serializer->encode($attr),
+        ], [
+            'id' => $id,
+            'store_id' => $this->store->id,
+        ]);
+        return [
+            'code' => 0,
+            'msg' => 'æ“ä½œæˆåŠŸ',
+        ];
+    }
+
+    //åˆ é™¤è¯¥å•†å“çš„æ‰€æœ‰ç§’æ€è®°å½•
+    public function actionGoodsDelete($goods_id)
+    {
+        MiaoshaGoods::updateAll(['is_delete' => 1], [
+            'goods_id' => $goods_id,
+            'store_id' => $this->store->id,
+        ]);
+        return [
+            'code' => 0,
+            'msg' => 'æ“ä½œæˆåŠŸ',
+        ];
+    }
+
+    //ç§’æ€å•†å“ï¼ˆæ—¥åŽ†è§†å›¾ï¼‰
+    public function actionCalendar()
+    {
+        if (\Yii::$app->request->isAjax) {
+            $form = new MiaoshaCalendar();
+            $form->attributes = \Yii::$app->request->get();
+            $form->store_id = $this->store->id;
+            $res = $form->search();
+            return $res;
+        } else {
+            return $this->render('calendar', []);
+        }
+    }
+
+    //ç§’æ€æ—¥æœŸå•†å“åˆ—è¡¨
+    public function actionDate()
+    {
+        $form = new MiaoshaDateForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->store_id = $this->store->id;
+        $res = $form->search();
+        $this->layout = false;
+        return [
+            'code' => 0,
+            'data' => [
+                'title' => $res['data']['date'] . 'ç§’æ€å®‰æŽ’è¡¨',
+                'content' => $this->render('date', $res['data']),
+            ],
+        ];
+    }
+
+    /**
+     * @return string
+     * ç§’æ€è®¾ç½®
+     */
+    public function actionSetting()
+    {
+        $setting = MsSetting::findOne(['store_id' => $this->store->id]);
+        if (!$setting) {
+            $setting = new MsSetting();
+        }
+        if (\Yii::$app->request->isPost) {
+            $model = \Yii::$app->request->post('model');
+            if ($setting->isNewRecord) {
+                $setting->store_id = $this->store->id;
+            }
+            if ($model['unpaid'] < 0 || $model['unpaid'] > 2000000000) {
+                return [
+                    'code' => 1,
+                    'msg' => 'è¯·è®¾ç½®æ­£ç¡®æ—¶é—´',
+                ];
+            }
+            $setting->attributes = $model;
+            if ($setting->save()) {
+                return [
+                    'code' => 0,
+                    'msg' => 'ä¿å­˜æˆåŠŸ',
+                ];
+            } else {
+                return [
+                    'code' => 0,
+                    'msg' => 'ä¿å­˜å¤±è´¥ï¼Œè¯·é‡è¯•',
+                ];
+            }
+        }
+        return $this->render('setting', [
+            'setting' => $setting,
+        ]);
+    }
+
+    /**
+     * å•†å“ä¼šå‘˜ä»·ã€åˆ†é”€ä»·è¯¦æƒ…ï¼ˆæ¯ä¸ªç§’æ€åœºæ¬¡çš„ä¿¡æ¯ï¼‰
+     */
+    public function actionGoodsDetailEdit()
+    {
+        $id = \Yii::$app->request->get('id');
+        $levelForm = new LevelListForm();
+        $levelList = $levelForm->getAllLevel();
+
+
+        // å½“å‰åœºæ¬¡çš„ç§’æ€å•†å“
+        $miaoshaGoods = MiaoshaGoods::find()->where(['id' => $id])->one();
+        // ç§’æ€å•†å“åˆ†é”€è®¾ç½®
+        $goods_share = GoodsShare::findOne(['store_id' => $this->store->id, 'relation_id' => $id, 'type' => GoodsShare::SHARE_GOODS_TYPE_MS]);
+        $msGoods = MsGoods::find()->where(['id' => $miaoshaGoods['goods_id']])->one();//ç§’æ€å•†å“
+
+        if (\Yii::$app->request->isPost) {
+            $modelData = \Yii::$app->request->post('model');
+            $model = new GoodsDetailEditForm();
+            $model->attributes = \Yii::$app->request->post();
+            $model->is_level = $modelData['is_level'];
+            $model->individual_share = $modelData['individual_share'];
+            $model->attr_setting_type = $modelData['attr_setting_type'];
+            $model->share_type = $modelData['share_type'];
+            $model->share_commission_first = $modelData['share_commission_first'];
+            $model->share_commission_second = $modelData['share_commission_second'];
+            $model->share_commission_third = $modelData['share_commission_third'];
+            $model->miaoshaGoods = $miaoshaGoods;
+            $model->goodsShare = $goods_share;
+            $model->msGoods = $msGoods;
+
+            $res = $model->save();
+
+            return $res;
+        }
+
+        // å‰ç«¯å­—æ®µéœ€è¦ç»Ÿä¸€
+        $attr = json_decode($miaoshaGoods['attr'], true);
+        foreach ($attr as &$item) {
+            $item['price'] = $item['miaosha_price'];
+            $item['num'] = $item['miaosha_num'];
+        }
+
+        $msGoods->attr = json_encode($attr); //è§„æ ¼è¦ç”¨è®¾ç½®è®¾ç½®çš„è§„æ ¼
+        isset($goods_share) ? $goods_share->is_level = $miaoshaGoods['is_level'] : ''; //æ˜¯å¦å¼€å¯ä¼šå‘˜
+
+
+        return $this->render('goods-detail-edit', [
+            'levelList' => $levelList,
+            'goods' => $msGoods,
+            'goods_share' => $goods_share
+        ]);
+    }
+}

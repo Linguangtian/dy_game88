@@ -64,9 +64,6 @@ class AdminPermission extends \yii\db\ActiveRecord
         }
         self::$list = self::find()->where(['is_delete' => 0])->orderBy('sort ASC,id ASC')->all();
         $plugin_list = CloudPlugin::getInstalledPluginList();
-
-
-
         foreach ($plugin_list as $plugin) {
             self::$list[] = (object)[
                 'id' => null,
@@ -76,7 +73,6 @@ class AdminPermission extends \yii\db\ActiveRecord
                 'sort' => 1000,
             ];
         }
-
         return self::$list;
     }
 }

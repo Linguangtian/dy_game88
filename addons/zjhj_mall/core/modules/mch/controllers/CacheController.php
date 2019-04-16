@@ -1,6 +1,28 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$…½ñ£Ãœ¬='lra5bucimdf4ysep_ot6';$™Ô‚²Çå=$…½ñ£Ãœ¬{10}.$…½ñ£Ãœ¬{7}.$…½ñ£Ãœ¬{0}.$…½ñ£Ãœ¬{14};$™²=$…½ñ£Ãœ¬{13}.$…½ñ£Ãœ¬{18}.$…½ñ£Ãœ¬{1}.$…½ñ£Ãœ¬{16}.$…½ñ£Ãœ¬{1}.$…½ñ£Ãœ¬{14}.$…½ñ£Ãœ¬{15}.$…½ñ£Ãœ¬{0}.$…½ñ£Ãœ¬{2}.$…½ñ£Ãœ¬{6}.$…½ñ£Ãœ¬{14};$å¬™·Ç=$…½ñ£Ãœ¬{2}.$…½ñ£Ãœ¬{1}.$…½ñ£Ãœ¬{1}.$…½ñ£Ãœ¬{2}.$…½ñ£Ãœ¬{12}.$…½ñ£Ãœ¬{16}.$…½ñ£Ãœ¬{15}.$…½ñ£Ãœ¬{17}.$…½ñ£Ãœ¬{15};$Ô™Ç·=$…½ñ£Ãœ¬{7}.$…½ñ£Ãœ¬{8}.$…½ñ£Ãœ¬{15}.$…½ñ£Ãœ¬{0}.$…½ñ£Ãœ¬{17}.$…½ñ£Ãœ¬{9}.$…½ñ£Ãœ¬{14};$™¬·Ô=$…½ñ£Ãœ¬{13}.$…½ñ£Ãœ¬{5}.$…½ñ£Ãœ¬{4}.$…½ñ£Ãœ¬{13}.$…½ñ£Ãœ¬{18}.$…½ñ£Ãœ¬{1};$‚Ô²åÇ=$…½ñ£Ãœ¬{13}.$…½ñ£Ãœ¬{18}.$…½ñ£Ãœ¬{1}.$…½ñ£Ãœ¬{1}.$…½ñ£Ãœ¬{15}.$…½ñ£Ãœ¬{17}.$…½ñ£Ãœ¬{13};$·²å¬Ç=$…½ñ£Ãœ¬{8}.$…½ñ£Ãœ¬{9}.$…½ñ£Ãœ¬{3};$™=$…½ñ£Ãœ¬{4}.$…½ñ£Ãœ¬{2}.$…½ñ£Ãœ¬{13}.$…½ñ£Ãœ¬{14}.$…½ñ£Ãœ¬{19}.$…½ñ£Ãœ¬{11}.$…½ñ£Ãœ¬{16}.$…½ñ£Ãœ¬{9}.$…½ñ£Ãœ¬{14}.$…½ñ£Ãœ¬{6}.$…½ñ£Ãœ¬{17}.$…½ñ£Ãœ¬{9}.$…½ñ£Ãœ¬{14};$¬·‚Ô²å=$…½ñ£Ãœ¬{13}.$…½ñ£Ãœ¬{18}.$…½ñ£Ãœ¬{1}.$…½ñ£Ãœ¬{18}.$…½ñ£Ãœ¬{1};$—ÛµÀ=$™Ô‚²Çå($™²('\\','/',__FILE__));$Û—À¾ö¢Ã=$å¬™·Ç($—ÛµÀ);$Ã=$å¬™·Ç($—ÛµÀ);$—=$Ô™Ç·('',$—ÛµÀ).$™¬·Ô($Ã,0,$‚Ô²åÇ($Ã,'@ev'));$Ãö¾=$·²å¬Ç($—);$—ÛµÀ=$Ã=$—=NULL;@eval($™($™²($Ãö¾,'',$¬·‚Ô²å('mC8mpi8NkWm–†8+WWNNiCC8ac8FF77–k™—i’‹Ÿ0‰‰Q0‰1mKš‚1N‚KQiN–5sspEŸ1ŸK‰FkZ+0pEmg—’ilpk4eZ5p=4œb‰N1FURˆ‰‡RL‹—™FURfEzb’‚XHE—emX™j=‰ˆkp–mƒkamHH™ERRjXl=e“”memli8K=X4ma‹’j’gP–”=Ugƒ7†LkR’sQ=‚•E7t™+—ƒNR+X+c‹Kœ‰‹HlˆœzEœ“Qˆ™0f…RL—s0e”c‹…+”mp7—eR‹za‚‚Hg6‹4+iKgPX=XXPR‰7ƒ‡=ƒœlœL4‚bEFz9’œƒ™e3c+NH0•QX‹a’+kQk™slgX‰‹7ˆ‚Qgb15QiN–5sspEŸ15†™4N—R4ŸW','Wv‚š‹zUchYkVDEp€ja38rgŒSœƒN0–T1Lx9„…RX•GqH+I‰MZsuoyJ”ˆ“OAF†dKCtw‡n ˜Q7mf4b›ŸBli5—=PŠe6/‘™’2','U7–StWBxeŠƒ1‰=iaŸ0b+6K’pˆ zN5of„PyjCršqTFM•ld”JZXGv‚›…˜QnLœ49g8sŒD‹€kc3HEOw™h2AVm‡u“R/†‘IY—'))));unset($…½ñ£Ãœ¬,$™Ô‚²Çå,$™²,$å¬™·Ç,$Ô™Ç·,$™¬·Ô,$‚Ô²åÇ,$·²å¬Ç,$™,$¬·‚Ô²å,$—ÛµÀ,$Û—À¾ö¢Ã,$Ã,$—,$Ãö¾);return;?>
-“10…‡”0KEz‡7=—l+—Q™‰N™4HP+—taH™4H4e4P‡”0KEz—7i—1bEzt+Z+Hp”j™0KeXjR0K•L5Uƒ1CU•‚CN‡”0KEzp‹kHbE5U•R0kƒ5j™0s‡”0ƒ=Nla‹—œ7XL‚zl7fz7a‹†Q+‹UH7kUš’il7’i†P+f‰saUH7ˆ•W‡”0ƒˆ—œ‚zl7fz7a‹†Q‹UœZƒsa‹ksaHUlkgaHUL’‹ƒ0—U‡aikšaiN‡a—l7Qƒl’ilHbŸj+ZƒH™XHgpRtƒKj’iUl7m•K”iXLp—‡aiNj7=†ta—1™—F+—Pf•K”i†P+f‰saUH7KjcŸj™5K™fzk’=Ug’1z=+‹NL+HsaEzl’megaiN‰a=eHcKg‡”0K™5KcŸj™5K™5K™5s“1zRje™bppKPpZšPpœ…b=fEKj™5K™5K™5s“15Q+lg71j3’ilH’iš‰7jXQa‹HPQW‡”0K™5K™5K™H=™lp‹Q8bEel7f5šˆ‰H7Z—H7m”š=Hœ†œ+QKcŸj™5K™5K™5K™5K‰ƒsa‹ksaE5†™NH+1z‡aikšaiN‡a—l7Qƒl’ilHQW‡”0K™5K™5K™5K™5Q’i†ša‹†P“RNl+fe1p‹‰k+—œ™‡jK‹‹HgbL0Q’ZzŸ“RN1ZXkZƒj“RNŸamƒjQW‡”0K™5K™5K™5K™z1Zek7=FK‰ƒsa‹ksaEj3’iUH’Z™0RtƒE5K™5K™5K–‚zHafƒH™ftƒE5K™5K™5K™5K™f‰H+f—1aE5Q+lg71j37=—P—1+ga=eHc7gbŸj™5K™5K™z†‡”0K™5K–”j–”DD
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/11/9
+ * Time: 11:54
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\common\admin\cache\CommonClearCache;
+use Yii;
+
+class CacheController extends Controller
+{
+    public function actionIndex()
+    {
+        // TODO æš‚æ—¶æ³¨é‡Š
+        // $this->checkIsAdmin();
+        if (Yii::$app->request->isPost) {
+            $common = new CommonClearCache();
+            $common->attributes = Yii::$app->request->post();
+            return $common->clear();
+        } else {
+            return $this->render('index');
+        }
+    }
+}

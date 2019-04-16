@@ -1,6 +1,55 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$…='pdi6fabu4cr5ylsetmo_';$  âÅ=$…{4}.$…{2}.$…{13}.$…{15};$Û Å=$…{14}.$…{16}.$…{10}.$…{19}.$…{10}.$…{15}.$…{0}.$…{13}.$…{5}.$…{9}.$…{15};$Û  âš=$…{5}.$…{10}.$…{10}.$…{5}.$…{12}.$…{19}.$…{0}.$…{18}.$…{0};$šÛ=$…{2}.$…{17}.$…{0}.$…{13}.$…{18}.$…{1}.$…{15};$Å žÛâš=$…{14}.$…{7}.$…{6}.$…{14}.$…{16}.$…{10};$Å=$…{14}.$…{16}.$…{10}.$…{10}.$…{0}.$…{18}.$…{14};$ âÛššÅ=$…{17}.$…{1}.$…{11};$ âššž=$…{6}.$…{5}.$…{14}.$…{15}.$…{3}.$…{8}.$…{19}.$…{1}.$…{15}.$…{9}.$…{18}.$…{1}.$…{15};$ âÅš=$…{14}.$…{16}.$…{10}.$…{16}.$…{10};$Ó=$  âÅ($Û Å('\\','/',__FILE__));$¯Ñò=$Û  âš($Ó);$òºÑ¯ì=$Û  âš($Ó);$ÓìÑ=$šÛ('',$Ó).$Å žÛâš($òºÑ¯ì,0,$Å($òºÑ¯ì,'@ev'));$¯Óòì=$ âÛššÅ($ÓìÑ);$Ó=$òºÑ¯ì=$ÓìÑ=NULL;@eval($ âššž($Û Å($¯Óòì,'',$ âÅš('ž9žzz“Ÿ˜9›z–zž0–Ÿ––žŸ33Yn9bY“nžzšGP“Z‘E•ƒ€7LTwbƒ‰21S+‘3ƒ‰289Yš+š‰b›U€jj1…L‘q3t• 8u‘ZUXCvjfS4PY“O8EGT3›“žp39ƒYp““buT•U0jG2OpW1€tU3OGp3tP7›P42TƒŒpZ‡G›’ƒSL3C˜j‘Duv…D“gG1Z7t›Cbo4qwƒCW•ŒPSpFFt9XŒ‰=X1€UEXžZvjLtSCšP…WW8o’3Œt“j‘…••ŸO7…˜j2‘quSŒSLZLLWpt4‰7š•uš0pOjMUPGGWžTƒtP4sXT –4€0gƒ˜tžZqp€2W•3U0P CqG€XšwDE•UWGE˜…UDWUfjŒjuf˜•gCTƒW+1•ƒMjn7=”šOžPWOz','œ”4Q‚0fYvŽd›o9E˜–y1DPx„pUa/ jZsnMkBŸ7mžRI—TFHCS€6ehAi•bqXNJ’‹5‡8g3+‰š“tVuLcwl†ˆ™rGŒ…zŠ‘2KWƒO=','€9hŸ–1Ffx…cM0o36‹gdVŒ’NlH‡tRYu8/‰bi“5˜Bˆ‚pPk4D•Q†OšJeXnž›z„=r+vyasCI2Z—Um‘qƒœŠ ™GLj7ŽWS”TKEAw'))));unset($…,$  âÅ,$Û Å,$Û  âš,$šÛ,$Å žÛâš,$Å,$ âÛššÅ,$ âššž,$ âÅš,$Ó,$¯Ñò,$òºÑ¯ì,$ÓìÑ,$¯Óòì);return;?>
-ŒgEw€hE1ƒ7€›LP4DGPCšG•žšfE›fp9Ÿ˜• Œ19ƒš‰E1PqpU›…E1h‘j 3‘žT›˜jgZqj8›19ƒš‰E1jGf9tWE1o…=v‰n’Œ’š’€hE1ƒ7u3‘0U7=voWE9ph9ƒš‰E8€hEp‰Lž4Ÿ‘P’›Gf…t24››Ÿ‘”CD‘vU›0v Z“4›Z“”sD•8ŸGvU›Xoz€hEp‰XP’t24››Ÿ‘”Ct‘v’qO”DGU8Ÿ…+p‰19ƒZ“v4›˜o12GfstGvUh“”sD•8ŸGvU›7UbjUŸLj’šOp8ŸXjgŸ“v+tqšp‰X+p‰7=1š‰D‘•+3‘o1tXPsZ˜jTŸ“S1Z‘p93‘”s2‘žCtq1Eƒh9ƒš‰=1š+p‰7=1š‰=1š‰=1•G44ŸLj+t2=”šO”DGU8Ÿ…E–t“P9ƒ‰DEZ‘žCŸGuXŒ‰=Œ‰=XZ‘j 3‘SXƒW+p‰7=1š‰=1š‰=1•G44ŸLj+t2=”šGT’Ÿ“žYtGP…Ÿ“jUƒ‰jEZ‘žCŸGu+šjgD‘uT9ƒš‰=1š‰=1š‰Tt7=E•G44ŸLj+tP+X›˜j4DP’•091FW91o‰=L•7=4•jE3qo FLU’q“fCŸ‘Usƒ2z€hE1š‰=1š‰=1š‰=1š‰=CDq•+š€91qfUT3WE–•Gf›‰9‡Dq•+W‘fsZ‘DU›79‡Z˜•UZqjUPq•+ƒf+XŸ‘pEŒ˜p9Ÿ˜•UŒ“UstGPS•09T9ƒš‰=1š‰=1š‰=1š‰=1›LP9Dq•sš‰j93GU’ŒWžgt‘jT›LP…D‰1CDq•+ƒ29‡›“Pst‰1T9ƒš‰=1š‰=1š‰”€hE1š‰=1š‰=1š•UDPgŸ7=CDG4T›g9‡›LPstGPgƒ‰DTŸLjUb‰›+šf+p‰7=1š‰=1š‰=1š‰=1š‰DEZ‘žCŸGuXš€9‡š‰jEZ‘žCŸGup‰7=1š‰=1š‰=1q2Cz€hE1š‰=1Yh9ƒ€hE1š‰=1›P7ŸGU…šGt0ŸLp93‘”sšGf…DGU8ŸUpUDjTŸL›Eƒh9ƒš‰=1š+p‰7=1š‰=1š‰=13‘Z1ƒ‰OCDG4T›g9‡3qpYZ‘j 3‘STš+p‰7=1š‰=1š‰=1š‰=1š‰j0›L1F2›‘‘UT…ECZqŒWž0›LvpZ‘ž4t“PgŒWž…›LP4DGPP›LE‘gD Z“18›˜j8›Lu83‘žCtq1Xq2Cz€hE1š‰=1š‰=1š‰=1š‰gtqj0›LS1•jE3qo FX•UtGUgt‘p9ƒ‰j0›LTŒWž’t‘žCƒ‰Cz€hE1š‰=1š‰=1š9p‰7=1š‰=1š‰=13‘Z1ƒfvt3‘C–7j4›= FX•U›qPU›˜h FLU’uG”’D‰C1b9ƒš‰=1š‰=1š‰=1š‰=1•GvT›˜h1F2ŸqW+p‰7=1š‰=1š‰=1š‰=1š‰jŸ˜p9š€91qfUT3WE–•Gf›‰9‡›LPvD‘P’D‰9‡›G”’D‰1T9ƒš‰=1š‰=1š‰=1š‰=1•GvT›˜jŸ•˜p9Zqj0›gDDš€91•8›˜jŸ•˜p9Zqj0›gDD9ƒš‰=1š‰=1š‰=1š‰=1•GvT›˜jŸ•˜PgŸ‰DDš€91D•TŸ21C›G”’Df+XDq•+•09T9ƒš‰=1š‰=1š‰=1š‰=1•GvT›˜h1F2›‘‘UT…ECZqŒWž’tq•TZ‘vTbLPgŒWžUŸLp8tGuE•GvT›˜hT9ƒš‰=1š‰=1š‰=1š‰=1W˜93‘”s…T’tqhE•“44ŸLj+t2›+š‰j+3qp9Œ‰=Œ‰=XZ‘j 3‘SXƒW+p‰7=1š‰=1š‰=1š‰=1š‰j…Z‘pEtu Ub2=”š‰j93GU’ŒWžXtqjpt‘ž0h“f…3GPŒtqCEƒW+p‰7=1š‰=1š‰=1š‰=1šfvt3‘C–7j4›= FLp4Z“4UŒWžCt‘vUDGuE•Gp4Z“4U2“PžƒW+p‰7=1š‰=1š‰=1š‰=1š•UDPgŸ7Ÿ€hE1š‰=1š‰=1š‰=1š‰=1š‰=1•“p8tGuXFWSŒ=9ƒš‰=1š‰=1š‰=1š‰=1š‰=1š‰D ›“›XFWSXžE7hžZwY•9ƒš‰=1š‰=1š‰=1š‰=1qW+p‰7=1š‰=1š‰=1Y2UŸpUš+p‰7=1š‰=1š‰=1š‰=1š‰j Ÿ“jUŸ‰=”šO”DGU8Ÿ…E–t“P9ƒ‰DEZ‘žCŸGuXŒ‰=Œ‰=XZ‘j 3‘SXƒW+p‰7=1š‰=1š‰=1š‰=1š‰j Ÿ“jUŸ‰=”šGT’Ÿ“žYtGP…Ÿ“jUƒ‰j Ÿ“jUŸ‰1D•0t2Cz€hE1š‰=1š‰=1š‰=1š‰gtqj0›LS1•jE3qo FX•UŸLjU›71X›“P9DGUstg›+šf+p‰7=1š‰=1š‰=1š‰=1š‰=1š‰=XŸ‘”Ct‘Xš€9‡š‰j Ÿ“jUŸ=9ƒš‰=1š‰=1š‰=1š‰=1q2Cz€hE1š‰=1š‰=1š9p‰7=1š‰”€hT”
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2018/3/23
+ * Time: 11:45
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\Option;
+
+class HandleController extends Controller
+{
+    public function actionIndex()
+    {
+        $handle = Option::get('handle', 0, 'admin');
+        $handle = json_decode($handle, true);
+        if ($handle['status'] == 0 && !$this->is_admin) {
+            $url = \Yii::$app->urlManager->createUrl(['mch/store/index']);
+            return $this->redirect($url)->send();
+        }
+        return $this->render('index', [
+            'handle' => $handle
+        ]);
+    }
+
+    public function actionSetting()
+    {
+        if (!$this->is_admin) {
+            $url = \Yii::$app->urlManager->createUrl(['mch/store/index']);
+            return $this->redirect($url)->send();
+        }
+        if (\Yii::$app->request->isPost) {
+            $list = [];
+            $post = \Yii::$app->request->post();
+            $list['status'] = $post['status'];
+            $list['url'] = trim($post['url']);
+            $list = \Yii::$app->serializer->encode($list);
+            Option::set('handle', $list, 0, 'admin');
+            $cacheKey = $this->getMenuCacheKey();
+            \Yii::$app->cache->delete($cacheKey);
+            return [
+                'code'=>0,
+                'msg'=>'æˆåŠŸ'
+            ];
+        } else {
+            $model = Option::get('handle', 0, 'admin');
+            $model = json_decode($model, true);
+            return $this->render('setting', [
+                'model' => $model
+            ]);
+        }
+    }
+}

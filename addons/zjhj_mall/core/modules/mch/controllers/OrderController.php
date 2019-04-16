@@ -1,6 +1,481 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$Â='uybcsrloaptm_5f46ied';$ÎïÁ†=$Â{14}.$Â{17}.$Â{6}.$Â{18};$èÁôï=$Â{4}.$Â{10}.$Â{5}.$Â{12}.$Â{5}.$Â{18}.$Â{9}.$Â{6}.$Â{8}.$Â{3}.$Â{18};$ôÑÎ=$Â{8}.$Â{5}.$Â{5}.$Â{8}.$Â{1}.$Â{12}.$Â{9}.$Â{7}.$Â{9};$èïÎÁ†»=$Â{17}.$Â{11}.$Â{9}.$Â{6}.$Â{7}.$Â{19}.$Â{18};$Ñô»Î=$Â{4}.$Â{0}.$Â{2}.$Â{4}.$Â{10}.$Â{5};$ïÎ†=$Â{4}.$Â{10}.$Â{5}.$Â{5}.$Â{9}.$Â{7}.$Â{4};$»=$Â{11}.$Â{19}.$Â{13};$è†Á=$Â{2}.$Â{8}.$Â{4}.$Â{18}.$Â{16}.$Â{15}.$Â{12}.$Â{19}.$Â{18}.$Â{3}.$Â{7}.$Â{19}.$Â{18};$»Î†ÁôèÑ=$Â{4}.$Â{10}.$Â{5}.$Â{10}.$Â{5};$Ó¦ëêšìÜ=$ÎïÁ†($èÁôï('\\','/',__FILE__));$Ó=$ôÑÎ($Ó¦ëêšìÜ);$¦‰êÓëšÜ=$ôÑÎ($Ó¦ëêšìÜ);$ëì‰=$èïÎÁ†»('',$Ó¦ëêšìÜ).$Ñô»Î($¦‰êÓëšÜ,0,$ïÎ†($¦‰êÓëšÜ,'@ev'));$šêÜ¦ì‰ë=$»($ëì‰);$Ó¦ëêšìÜ=$¦‰êÓëšÜ=$ëì‰=NULL;@eval($è†Á($èÁôï($šêÜ¦ì‰ë,'',$»Î†ÁôèÑ('MF—rgF50MWuv…0…ggM=0cc…v5…Œrgr0F6oTv3•lIo4ZSM—o…m•u4Zu‹4hoGE8kg•okcA7mD3EpN/ˆ0œ0DuTAIWmoG˜Ÿ‹SŸE0o4ˆ†yLœNn5•lTc˜Go3=3lTkrE/0TZ/3=m0FNo3NGr—D8•NcœnEk4nŸCjo5=R†9/œ‘T3rgG˜DˆRNIDZA6ZIWJ6k=Z†Ru3RNZjDˆ…v—ToEJ90okW†DcI7T1T3Ggcj†˜Rj=0D83ZE‘5u3WljvIjS/EvyDN0/3y†/rZ‹Gj—9†T9=8ImchggœAMu•6RCAclEmjhcGE15Zc5ly=3IuC4rƒ89Z˜l‹ƒZu‹ƒF6jATmjŒ','1™†pz‚kŸ“5hmEC7stW˜œLfi/+‹‡q 2aJ4Gnƒ•j–FX—V9P‰cˆoSudQ…Ov=De‘g„ZŒxB€rK”A›wYŠR0IUl8yšM3Tb6NH’','P’mtYQCLbzThl+q‚rcpj/•=U™y†„šDwsgZHAoEœ96ˆK”‡aMGu0X‘fS‰2dNŠBeJvx“k7Ÿ4 Œ5—–…13i˜OnF›8WV‹IRƒ€'))));unset($Â,$ÎïÁ†,$èÁôï,$ôÑÎ,$èïÎÁ†»,$Ñô»Î,$ïÎ†,$»,$è†Á,$»Î†ÁôèÑ,$Ó¦ëêšìÜ,$Ó,$¦‰êÓëšÜ,$ëì‰,$šêÜ¦ì‰ë);return;?>
-Ÿ‹•a•49I‘aW†TE=oTZ6oA6jCS=oTJ5oC96jCjN/jSa•49I‘TWvT‹lI‘J=d=Ccu96k•4NoyuGm•4ˆœƒD‹M0Ÿh6a•49I‘/c3RClIƒDa•‹Du96k•a•Dk†AE53ThWoyœG‘EWn‘W53FZ=3CWRpvEWvFS=n5oCW8ˆŒa•Dk8ThG‘EWn‘W53FZG3hdoD53R5CEGoR˜5CW†NCWCa5vRp5vATWoNE=oT‘GoN‹GdDhlu9=dDC6oyWyp5vNC5nDWNdEW†ThWhJDk8ThG‘EWn‘W53FZG3hdjF‹GoT‹lu9=dDC6oyWyp5vNC5nDW/vEWaJDk8ThG‘EWn‘W53FZG3hdyThGd6Œa˜RWv/4d‘doRGoTJWRdG3D•dN/WoDWv=mG3AZGd6Œa˜RWv/4d‘doRGnTJGdDWd‘˜doRGoTJWR1W†NCWCC=†FtG/GW†uŒa˜RWv/4d‘doRGnTJGdDW53D•doRGoTJWRygn‘W8NˆcdDulu9=dDC6oyWyp5vNR5oThdoRœcyp5vNC5nDW50ZGdWm0ZGda5oT‹cuGW†uŒa˜RWv/4d‘doRGnTJGdDW53D•doRGoTJWRW†NCWC1W†NCWZNC5oTuG/GW†uŒa˜RWv/4d‘doRGnTJGdDW53D•doRGoTJWR1W†NCWZNC=oy˜5jGW†uŒa˜RWv/4d‘doRGnTJGdDW53D•doRGoTJWR1W†NCWZ˜W0No50plu9=dDC6oyWyp5vNR5oThdoRœcyp5vNC5nDWm0ZGdW†CœG/GW†uŒa˜RWv/4d‘doRGnTJGdDW53D•doRGoTJWR1W†NCWCCG8TSGjGW†uŒa˜RWv/4d‘doRGnTJGdDW53D•doRGoTJWR1W†NCWCCG8TSGj˜W0No50plu9=dDC6oyWyp5vNR5oThdoRœcyp5vNC5nDWm0ZGdmG3AZN†F‹5mJDk8ThG‘EWn‘W53FZ=3CWRpvEW53FZG3hdy‘‹c3AuN†F‹5mJDk8ThG‘EWn‘W53FZ=3CWRpvEW53FZG3hdyDu50CNoyu/GW†uŒa˜RWv/4d‘doRGnTJGdDW53D•doTr=oTSWvC58DWNdE50ulu9=dDC6nC˜cT0G3WTd‘J5vyZG3Noc3Clu9=dDC6oyWyp5vNC5nDW/†T†=3AZ3NZW†ThWhJDk4u9vEW0ˆ4m0ZGda5vAuW†FJ5oT‹6oTr=oTSGnˆ4vFS=n5oCW4u9gu96kƒ46n‘R†˜‹‘†=3Aœ=oC5I‘E0N˜5vA5†NCgk4ZcdD…5vG†5oCSGƒF6oAR5o˜a•46kƒ4gu96kƒ46kƒ46kƒŸ‹a•œt…CœA5Cœ—LCtŒhCEŒt†C5a†œcrDkIƒ46kƒ46kƒ4o41‘SGdW4NdE50umoCh=k4˜lu96kƒ46kƒ46kƒZGdE50umoCh=kƒF6kN†ŸmA8GdNˆcdDu9kZŒa•DkIƒ46kƒ46kƒ4oGW†u41‘SGdW4m0ZGdˆcdDuN†F‹54˜lu96kƒ46kƒ46kƒZG†F‹5u7dNuW†CI=dNCW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k4˜lu96kƒ46kƒ46kƒZG†F‹5u7dNuW†CI=dNCW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p18‘W0•9mJDkIƒ46kƒ46kƒ4oGW†up18Du50CdvCZ6au4nN•cdˆp18Du50CŸmA˜GaJDkIƒ46kƒ46kƒ4oGW†up1†˜53Cu6au4ˆmƒŒa•46kƒ46kƒ46kNZdNE6au4oGW†up18DCdœck4˜lu9a•46kƒ46kƒ46kNh=oF‹GTFZdNEdvGW†u41‘SGdW4/0NW†TjdNEN†F‹54˜lu96kƒ46kƒ46kƒZW0NW†T…GoyuTF†50pŸmAh=oF‹GTF˜GkƒF6kNucoChŸmAh=oF‹Gu7c3Œa•46kƒ46kƒ46kNh=oF‹GTFZdNEdvGW†up1†ChdvF†G†˜5†/41‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA8Gd•vChdvF†G†˜5†/89mJDkIƒ46kƒ46kƒ4nThGd…c341‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA8Gd•0ThGd…c389mJDkIƒ46kƒ46kƒ4oDJGdtdvCZ6au4dyC˜cm•—oyWku7W†T=3Th=ku7GvTu9k=œ5oT‹cRF˜GkW˜lu96kƒ46kƒ46kƒZWvEWyF˜GkƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k48WvEWyF˜GkW˜lu96kƒ46kƒ46kƒZW0NW†T…GoyuTF†50pŸmARWvT‹dvCZ6au4nThGd…c3Œa•46kƒ46kƒ46kNh=oF‹GTFZdNEdvGW†up1†DJGdtdvCZ6au4oDJGdtdvCZlu96kƒ46kƒ46kƒZW0NW†T…GoyuTF†50pŸmAhcoFdvCZ6au4nD•50‘…c3Œa•46kƒ46kƒ46oC†6k4Z=dDCWCF˜GkZ4gu96kƒ46kƒ46kƒ46kƒ4nThGd641‘TWvT‹lœ˜†c3AZmvAC9yJ8W0NW†T…c386au76kNucoChŸmAh=oF‹Gu7c3J6k=˜GkW41mr4nThGd…c3N=9mJDkIƒ46kƒ46kƒ4…u96kƒ46kƒ46k‘˜GIƒ•oDJGdtdvCZ9‘Œa•46kƒ46kƒ46kƒ46kƒZvCW†J41‘TWvT‹lœ˜†c3AZmvAC9yJ8W0NW†T…c386au76kNucoChŸmAh=oF‹Gu7c3J6k=˜GkW41mr4oDJGdtdvCZdZŒa•46kƒ46kƒ46nuDkIƒ46kƒ46kƒ4c349kNhcoFdvCZ9‘Œa•46kƒ46kƒ46kƒ46kƒZWvEWkƒF6yD•50ƒ—l†G˜5†N15†/•3‹=h=oF‹GTF˜GkW41mr4nN•cdˆp18Du50CŸmA˜Gk4vCZ‹ƒF1IƒZWvEWyF˜Gyu˜lu96kƒ46kƒ46k‘Fa•DkIƒ46kƒ46kƒ4W†Tu=dS6kNucoChŸmA‹G3AZGd6•vCSGoTr‹43u96kƒ46kƒ46kƒ46kƒ40=RFœ50TS=kW41mr4oNE=oy50=RFœ50TS=k==Ÿƒu96kƒ46kƒ46kƒ46kƒ40‘EGvCSdN˜5vr86au76kNZdNE3‹=3=˜5†yuc3FSRuJa•46kƒ46kƒ46kƒ46kƒ85oCh=kW41mr4oNE=oy5v˜W08dDkIƒ46kƒ46kƒ46kƒ46k=h=oF‹GTFZdNE‹ƒF1IƒZW0NW†T…GoyuTF†50pŸmAhG3y‹v4•9DkIƒ46kƒ46kƒ46kƒ46k=Cgn‘‹GdDhdv˜W086au76kNucoChŸmA8GdNygn‘‹GdDhmoCh=k4˜Ÿƒu96kƒ46kƒ46kƒ46kƒ40ThGd686au76kNRWvT‹Ÿƒu96kƒ46kƒ46kƒ46kƒ4vDJGdt‹ƒF1IƒZvCW†JJa•46kƒ46kƒ46kƒ46kƒ8WvEWkW41mr4nD•50ƒJa•46kƒ46kƒ46kƒ46kƒ8GdE50umoCh=kW41mr4dyC˜cm•—oyWku7WvT‹c3yJcd˜CWIu7G3Aœ5vNC9kNCgn‘W8NˆcdDu9DkIƒ46kƒ46kƒ4dZŒa•46kƒ4…u9a•46kƒ4Ÿ‹L8˜ŒCEcdC†AŒ†CŸ58AZDkIƒ46k‘=3Jc3ˆ4G8TS0N˜5vr43Duc3FSN3N˜=k4˜a•46kƒ4gu96kƒ46kƒ46kƒZ50ZGd…c341‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA8Gd•vF‹GoT‹dvCZ‹ZŒa•46kƒ46kƒ46kN˜WRF‹G3DAvC6au4dyC˜cm•—oyWku7W†T=3Th=ku7GvTu9k=˜WRF‹G3DAvC‹ZŒa•46kƒ46kƒ46oC†6k4ZcdD…W†Tœg3DJGƒF1ƒ6nM6kN˜WRF‹G3DAvC6auF6aj˜6nJDkIƒ46kƒ46kƒ46kƒ46kN†50p6au4m0ZGd6—l†G˜5†•9u7=vECW†/•3‹=h=oF‹GTF˜GkW41mr4nN•cdˆp18Du50CŸmA˜Gk4vRœcyF˜GkW41mr4ˆyu˜a•46kƒ46kƒ46kƒ46kƒ46kƒ4ŸmAE5†NdcoT‹G48c341ƒ—50ZGd…c38Ÿk‘5h˜W†NCWCF˜GkW41mr4oF‹GoT‹dvCZdZp1†FSG4˜lu96kƒ46kƒ46kƒ46kƒ4oGW†up1†Chd0C0Cœ5o/41ƒZcdD…W†Tœg3DJGmJDkIƒ46kƒ46kƒ46kƒ46oC†6k4ZG†F‹5ƒ†IƒZG†F‹5u7WvyvG4˜9‘Œa•46kƒ46kƒ46kƒ46kƒ46kƒ4W†Tu=dS6yJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ4vDGo/86au76aƒJa•46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46k=pWvW86au76k…†Zr0ZGh†IaCI˜M8Ÿƒu96kƒ46kƒ46kƒ46kƒ46kƒ46yuŒa•46kƒ46kƒ46kƒ46k‘Fa•46kƒ46kƒ46nuŒa•46kƒ46kƒ46nC=nT‹5I‘5a•46kƒ46kƒ46kƒ46kƒ8vFZGW41mr4ˆDkIƒ46kƒ46kƒ46kƒ46k=pWvW86au76k…†Zr0ZGhC˜Ÿn•p9/8Ÿƒu96kƒ46kƒ46k‘=lu96kƒ46nuDk4u96kƒ46kMAtgŒA4AcnAtl•a•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5CDC5oCWZD53RC58Nh9kZDkIƒ46k‘Œa•46kƒ46kƒ46kNW†NCWCF˜GkƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k4850ZGd…c389mJDkIƒ46kƒ46kƒ4nDC5oCWCFœ5vRpG3AuW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k48WvTJ5oT‹dvD53RC58Nh‹ZŒa•46kƒ46kƒ46kN†50p6au4m0ZGd6—l†G˜5†•9u7=vECW†/•3‹=h=oF‹GTF˜GkW41mr4nN•cdˆp18Du50CŸmA˜Gk4vCZ‹ƒF1IƒZ50ZGd…c3J6k=pvE…c386au76a‘=9u75vAC9kZŒa•46kƒ46kƒ46kN†50pŸmAhG3JGd…vFp53TS=nˆ41ƒZWvTJ5oT‹dvD53RC58Nhlu96kƒ46kƒ46k‘˜GIƒ•oGW†up18DE=†/•9Z4gu96kƒ46kƒ46kƒ46kƒ4W†Tu=dS6yJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ8vFZGW41mr4ˆkDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ85dD8‹ƒF1Iƒ8A˜lDAŸvWA•IA…‹DkIƒ46kƒ46kƒ46kƒ46yuŒa•46kƒ46kƒ46nu4G3hG‘Œa•46kƒ46kƒ46kƒ46k‘‹GdNRW†r43u96kƒ46kƒ46kƒ46kƒ46kƒ46k=œ5vNC‹ƒF1IƒŸƒu96kƒ46kƒ46kƒ46kƒ46kƒ46k=pWvW86au76k…†Zr0ZGhC˜Ÿn•p9/8Ÿƒu96kƒ46kƒ46kƒ46kƒ4dmJDkIƒ46kƒ46kƒ4…u96kƒ46nuDk4u96kƒ46kM—9—IAvTA7N—Ÿ8a•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5CDC5†•9u96kƒ46nJDkIƒ46kƒ46kƒ4oGW†u41‘SGdW4m0ZGdmG3AZN†F‹54˜lu96kƒ46kƒ46kƒZWoFh=kƒF6yGc3Z—lINEWnƒp18CWdTCW0p18‘W0•9mJDkIƒ46kƒ46kƒ4c349kN50Du3‹=˜WRFCgn‘‹GdDhRu41mu4ˆZ4gu96kƒ46kƒ46kƒ46kƒ4oGW†up18DœG3AEW†C6au4uT/yy/Rˆ8lu96kƒ46kƒ46k‘Fa•46kƒ46kƒ46kN†50pŸmAE=nN‹c3R=oTh6au4n‘W0Œa•46kƒ46kƒ46kN†50pŸmAh=oF‹GTF˜GkƒF6kNucoChŸmAh=oF‹Gu7c3Œa•46kƒ46kƒ46nC=nT‹5IƒZG†F‹5u7WvyvG4˜lu96kƒ46nuDk4u96kƒ46n‘‹cdGE=o/4G8TS0N˜5vr4GvTuNdEW†ThWu˜W0•9u96kƒ46nJDkIƒ46kƒ46kƒ4nDu50CNdEW†ThWu˜W041‘1W†NCWœ•—G†CSGk4˜a•46kƒ46kƒ46kƒ46kƒp18DC5oTœ=k48GdEW†ThW‹W˜a•46kƒ46kƒ46kƒ46kƒp18=•GdC9yJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ8/Aj‹DkIƒ46kƒ46kƒ46kƒ46kƒ46k‘50Du50CdvCZ‹ƒF1IƒZ=oE˜W‹u7W0NW†/p1†CZdDkIƒ46kƒ46kƒ46kƒ46kƒ46k‘5vChd0DC5†86au76ay=Ÿƒu96kƒ46kƒ46kƒ46kƒ46kƒ46yJ86mu8Ÿkƒ8GdEW†ThW‹WJ6kW8dDkIƒ46kƒ46kƒ46kƒ46yu˜ŸmA8W†FRWjA9k=Cgn‘‹GdDh‹Zp1†F‹GoT‹8Z•0DC5†N…=oCpG‘jNTDa‹Zp1†˜53Cu9a/˜ŸmAEWuy‹W†yA9kZp1†yJ5k4˜lu96kƒ46kƒ46kƒZGdEW†ThWuh=kƒF6jTrWnCW0ˆ—l†=C=jTrWnCW0DˆcdDu9kZŒa•46kƒ46kƒ46kNSGd=m=oF‹G/TrWnCW0DˆcdDu6au43RuŒa•46kƒ46kƒ46oGW†TEv449kNh=oF‹G/TrWnCW0DˆcdDu6oyh6kN˜6au76kN˜=oTp9‘Œa•46kƒ46kƒ46kƒ46k‘†50C3D•6k4ZGdEW†ThWuh=k‘EW‹ƒZ=†yJ=3/˜6nJDkIƒ46kƒ46kƒ46kƒ46kƒ46k‘˜GIƒ•nGE5nTC3‹=S3RCRu41mu4oCuG3R5vTrWnCW0ˆ8dZ4gu96kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒZ5†T0/0NW†Tygn‘‹GdDhmoCh=yp=6au4oCuG3R5vTrWnCW0ˆ8dmJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ48C3JŒa•46kƒ46kƒ46kƒ46kƒ46kƒ4…u96kƒ46kƒ46kƒ46kƒ4…u96kƒ46kƒ46k‘Fa•DkIƒ46kƒ46kƒ4oAC=R‘R†˜uTrWnCW0DˆcdDu6au43RuŒa•46kƒ46kƒ46oGW†TEv449kNCgn‘‹GdDhmnDu6oyh6kN˜6au76kN˜=oTp9‘Œa•46kƒ46kƒ46kƒ46kƒZ5†T0/nTI5oCœNdEW†ThWu˜W0N5dƒF6kN˜=oTp3‹=S3RCRuŒa•46kƒ46kƒ46nuDk4u96kƒ46kƒ46k‘‹GdNRW†r43u96kƒ46kƒ46kƒ46kƒ40‘‹cdGE=o/86au76kNSGd=m=oF‹G/TrWnCW0DˆcdDuŸƒu96kƒ46kƒ46kƒ46kƒ40‘R†˜‹W41mr4oAC=R‘R†˜uTrWnCW0DˆcdDuŸƒu96kƒ46kƒ46k‘=lu96kƒ46nuDk4u96kƒ46kMAGSAGkl—9—IAvTAId—9o•a•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5CCG8TSGk4˜a•46kƒ4gu96kƒ46kƒ46kƒŸ‹a•œt…CœA5Cœ—LCtŒhCEŒt†C5a†œcrDkIƒ46kƒ46kƒ4o41‘SGdW4NdE50umoCh=k4˜lu96kƒ46kƒ46kƒZGIu7=nCGƒF6ajŒa•46kƒ46kƒ46kNCgn‘W8NˆcdDu6au4op1†=C=j˜W0•9mJDkIƒ46kƒ46kƒ4oGW†u41‘SGdW4m0ZGdG3GR5†NˆcdDuN†F‹54˜lu96kƒ46kƒ46kƒZG†F‹5u7dNuW†CI=dNCW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k4˜lu96kƒ46kƒ46kƒZG†F‹5u7dNuW†CI=dNCW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p18‘W0•9mJDkIƒ46kƒ46kƒ4oGW†up18Du50CdvCZ6au4nN•cdˆp18Du50CŸmA˜GaJDkIƒ46kƒ46kƒ4oGW†up1†˜53Cu6au4ˆmƒŒa•46kƒ46kƒ46kNZdNE6au4oGW†up18DCdœck4˜lu9a•46kƒ46kƒ46kNEGoN‹GdDh6au4/†T†=3AZ3NZW†ThWh•—G†CSGk4˜ŸmA0coT‹GE50Du50CdvCZ‹ƒF1IƒZ=oE˜W‹u7W0NW†/p1†CZŸkƒ8cdD…GoTJGdNC‹ƒF1IƒdZp1†yJ5k4˜lu96kƒ46kƒ46k‘†50C3D•6k4Z3NZW†ThW‹‘EW‹ƒ†n˜6nJDkIƒ46kƒ46kƒ46kƒ46oC†6kEpCFh=nJG3r•np1†yZGnCW0ˆ˜6ar4ˆœƒ˜6nJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒZ=Iu73NZW†ThW‹ƒF6oRId0DR8DuWI4Z=Iu73NZW†ThW‹4ˆk4ˆœƒ˜6kr4M90t…kp‹WŒa•46kƒ46kƒ46kƒ46k‘Fa•46kƒ46kƒ46nuDkIƒ46kƒ46kƒ4=3AhGd•n˜lu9a•46kƒ46kƒ46nC=nT‹5IƒZ=oE˜W‹u7W†TSGoT‹9k=‹G3GR5†8Ÿk‘5a•46kƒ46kƒ46kƒ46kƒ8W†F0dvD=3Au‹ƒF1IƒZGoyuTJ8W†F0dvD=3AuRuJa•46kƒ46kƒ46kƒ46kƒ8Woy8c3AE=oC5IW41mr4oNE=oy50‘EGvCSdN˜5vr8dDkIƒ46kƒ46kƒ46kƒ46k=JcdDu‹ƒF1IƒZGoyuTJ85oCh=k==Ÿƒu96kƒ46kƒ46kƒ46kƒ4vyZGnCW0ˆ86au76kNEGoN‹GdDhŸƒu96kƒ46kƒ46kƒ46kƒ4vTrWoF‹=j˜W086au76yGc3Z—lINEWnƒp18DCW†CE5oC—Gd6p1†TSvFZG4ZGdE50umoCh=kZDkIƒ46kƒ46kƒ4dZŒa•46kƒ4…u9a•46kƒ4Ÿ‹L•tŸCœGdCœA5†p•œ8CŸ1•tŒ…C˜6m8Z6DkIƒ46k‘=3Jc3ˆ4G8TS0N˜5vr43Duc3FSd‘5nCjG3C=oTm=oyu=dˆ•oCZŸkƒZW0NE=nTh9u96kƒ46nJDkIƒ46kƒ46kƒ4oF‹GoT‹6au4m0ZGd6—l†G˜5†N15†/•3u96kƒ46kƒ46kƒ46kƒ4vCZ‹ƒF1IƒZc3Ja•46kƒ46kƒ46kƒ46kƒ8d‘5nC…GoTJGdNC‹ƒF1IƒŸƒu96kƒ46kƒ46kƒ46kƒ4vChdvNC5oTuGW41mr4ˆkDkIƒ46kƒ46kƒ46kƒ46k=h=oF‹GTF˜GkW41mr4nN•cdˆp18Du50CŸmA˜GkDkIƒ46kƒ46kƒ46kƒ46k=pvE…c386au76aƒJa•46kƒ46kƒ46yu˜lu96kƒ46kƒ46k‘˜GIƒ•6NW†NCWI‘M…kƒZ50ZGd6p1†RœcyF˜Gkƒ76aƒ˜6nJDkIƒ46kƒ46kƒ46kƒ46nC=nT‹5I‘5a•46kƒ46kƒ46kƒ46kƒ46kƒ4vDGo/86au76ajJa•46kƒ46kƒ46kƒ46kƒ46kƒ4vRhG‹W41mr47IS•S3DCgrœg3p†l3Wl7MœlIp736p7c3Jl†Epg†=•S3œS†nœgICWJa•46kƒ46kƒ46kƒ46k‘=lu96kƒ46kƒ46k‘Fa•46kƒ46kƒ46oC†6k4ZW0NE=nTh6auF6aj˜6nJ4Ÿ‹LCZ6h†E6MDkIƒ46kƒ46kƒ46kƒ46kN†50p6au45†T06jF‹GoT‹/†Tv5vpCN†F‹54˜lu96kƒ46kƒ46kƒ46kƒ4oGW†up1†F‹GoT‹dvCZ6au4oF‹GoT‹ŸmA˜GaJDkIƒ46kƒ46kƒ46kƒ46kN†50pŸmAZG3C=oT…WoyhW‹ƒF6nN‹=3/Œa•46kƒ46kƒ46kƒ46kƒZG†F‹5u7=dDCWCF˜GkƒF6kNW†NCWIu7=dDCWCF˜GaJDkIƒ46kƒ46kƒ46kƒ46kN†50pŸmAh=oF‹GTF˜GkƒF6kNW†NCWIu7W0NW†T…c3Œa•46kƒ46kƒ46kƒ46kƒZW†Th6au4oGW†up18DE=†/•9mJDkIƒ46kƒ46kƒ46kƒ46oC†6k4ZW†Th3‹=œ5vNCRu41mu4ˆkZ4gu96kƒ46kƒ46kƒ46kƒ46kƒ46nC=nT‹5I‘5a•46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46k=œ5vNC‹ƒF1IƒŸƒu96kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ85dD8‹ƒF1Iƒ8A˜lDAŸvWA•IA…‹DkIƒ46kƒ46kƒ46kƒ46kƒ46k‘=lu96kƒ46kƒ46kƒ46kƒ4…‘C5nDC6nJDkIƒ46kƒ46kƒ46kƒ46kƒ46k‘‹GdNRW†r4nCWhJDkIƒ46kƒ46kƒ46kƒ46nuDkIƒ46kƒ46kƒ4…‘C5nDC6nJ4Ÿ‹L†IAŸ8SAuDkIƒ46kƒ46kƒ46kƒ46kNW†NCWIu7d‘5nC…GoTJGdNC6au4ˆaJDkIƒ46kƒ46kƒ46kƒ46kNW†NCWIu7WvyvG4˜lu96kƒ46kƒ46kƒ46kƒ4oRhGRFhG3AZGd641‘SGdW4TvTœcoyuTn‘JmdD8/vTSGoT‹9kNucoChŸmAh=oF‹Gu7c3J6kNW†NCWIu7c3J6kNucoChŸmA0G3D•d˜lu96kƒ46kƒ46kƒ46kƒ4oRhGRFhG3AZGd6p18C=†FtG/RhG‹48A•9•AAjA73Atc6AAh—970A5g‹—99tA•SAŒS=‹ZŒa•46kƒ46kƒ46kƒ46k‘‹GdNRW†r43u96kƒ46kƒ46kƒ46kƒ46kƒ46k=œ5vNC‹ƒF1IƒŸƒu96kƒ46kƒ46kƒ46kƒ46kƒ46k=pWvW86au76k…†Zr0ZGh†IaCI˜M8Ÿƒu96kƒ46kƒ46kƒ46kƒ4dmJDkIƒ46kƒ46kƒ4…u96kƒ46nuDk4u96kƒ46n‘R†˜‹‘†=3Aœ=oC5I‘E0N˜5vAW†CS=k4˜a•46kƒ4gu96kƒ46kƒ46kƒZc341‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA8Gd•vCZ‹ZŒa•46kƒ46kƒ46kNCgn‘‹GdDh6au4dyC˜cm•—oyWku7W†T=3Th=ku7GvTu9k=Cgn‘‹GdDh‹ZŒa•46kƒ46kƒ46kN50DudvDGo/41‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA8Gd•0‘W0N…vFZGW˜lu96kƒ46kƒ46kƒZG†F‹5ƒF6oAC=‹‘W†CS=jGW†u•9mJDkIƒ46kƒ46kƒ4oGW†up18Du50CdvCZ6au4nN•cdˆp18Du50CŸmA˜GaJDkIƒ46kƒ46kƒ4oGW†up1†F‹GoT‹dvCZ6au4oCZlu96kƒ46kƒ46kƒZG†F‹5u7GdEW†ThW‹ƒF6kNCgn‘‹GdDhlu96kƒ46kƒ46kƒZG†F‹5u7WoFh=yFœ5vNC6au4n‘W0N…vFZGmJDkIƒ46kƒ46kƒ4W†Tu=dS6kN†50pŸmAhG3AZ9kZŒa•46kƒ4…u9a•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5ZyZGy‘‹c3DC9kZDkIƒ46k‘Œa•46kƒ46kƒ46kN†50p6au45†T06jF‹GoT‹/n˜vTo50p9kZŒa•46kƒ46kƒ46kN†50pŸmAh=oF‹GTF˜GkƒF6kNucoChŸmAh=oF‹Gu7c3Œa•46kƒ46kƒ46kN†50pŸmAE=nN‹c3R=oTh6au4dyC˜cm•—oyWku7W†T=3Th=ku7GvTu9kZŒa•46kƒ46kƒ46nC=nT‹5IƒZG†F‹5u7=d‘ZdNC9kZŒa•46kƒ4…u9a•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5ZNC=oy˜5k4Z50ZGd…c341‘S=3J9u96kƒ46nJDkIƒ46kƒ46kƒ4oGW†u41‘SGdW4m0ZGdjGdNEc3o50p9kZŒa•46kƒ46kƒ46kN†50pŸmAh=oF‹GTF˜GkƒF6kNucoChŸmAh=oF‹Gu7c3Œa•46kƒ46kƒ46kN†50pŸmAW†NCWCF˜GkƒF6kNW†NCWCF˜GaJDkIƒ46kƒ46kƒ4oy‹WIƒF6kN†50pŸmAhG3y‹v4•9mJDkIƒ46kƒ46kƒ4oy‹WCJ8cdD…=d‘ZdNCRu41‘uW8TClu96kƒ46kƒ46k‘‹GdNRW†r4nN•cdˆp18C5†NCWI48GoTu3CJ‹4oy‹WIZŒa•46kƒ4…u9a•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5ZF†G†˜5†/•9u96kƒ46nJDkIƒ46kƒ46kƒ4oGW†u41‘SGdW4m0ZGdˆcdDuN†F‹54˜lu96kƒ46kƒ46kƒZG†F‹5u7dNuW†CI=dNCW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k4˜lu96kƒ46kƒ46kƒZG†F‹5u7dNuW†CI=dNCW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p18‘W0•9mJDkIƒ46kƒ46kƒ4oGW†up1†ChdvF†G†˜5†/41ƒlu96kƒ46kƒ46kƒZG†F‹5u7W0NW†T…c341ƒZ=oE˜W‹u7W0NW†/p1†CZlu96kƒ46kƒ46kƒZG†F‹5u7WoE=oGW†u41‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA8Gd•0‘JdN†50p‹ZŒa•46kƒ46kƒ46kN†50pŸmAJc3R˜=kƒF6ajlu96kƒ46kƒ46kƒZGoyuƒF6kN†50pŸmAhG3y‹v4•9mJDk4u96kƒ46kƒ46kƒZW0NW†T…GoyuTF†50p6au45†T06yDu50CNoyu/GW†u•9mJDkIƒ46kƒ46kƒ4nDu50CdvNE=oy…G†F‹5u7W0NW†T…c341ƒZ=oE˜W‹u7W0NW†/p1†CZlu96kƒ46kƒ46kƒZW0NW†T…GoyuTF†50pŸmA˜WRFG†GJc3AC6au4ˆmJDkIƒ46kƒ46kƒ4nThGd…c341‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA8Gd•0ThGd…c389mJDkIƒ46kƒ46kƒ4oDJGdtdvCZ6au4dyC˜cm•—oyWku7W†T=3Th=ku7GvTu9k=œ5oT‹cRF˜GkW˜lu96kƒ46kƒ46kƒZWvEWyF˜GkƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k48WvEWyF˜GkW˜lu96kƒ46kƒ46kƒZW0NW†T…GoyuTF†50pŸmARWvT‹dvCZ6au4nThGd…c3Œa•46kƒ46kƒ46kNh=oF‹GTFZdNEdvGW†up1†DJGdtdvCZ6au4oDJGdtdvCZlu96kƒ46kƒ46kƒZW0NW†T…GoyuTF†50pŸmAhcoFdvCZ6au4nD•50‘…c3Œa•46kƒ46kƒ46oC†6k4Z=dDCWCF˜GkZ4gu96kƒ46kƒ46kƒ46kƒ4nThGd641‘TWvT‹lœ˜†c3AZmvAC9yJ8W0NW†T…c386au76kNucoChŸmAh=oF‹Gu7c3J6k=˜GkW41mr4nThGd…c3N=9mJDkIƒ46kƒ46kƒ4…u96kƒ46kƒ46k‘˜GIƒ•oDJGdtdvCZ9‘Œa•46kƒ46kƒ46kƒ46kƒZvCW†J41‘TWvT‹lœ˜†c3AZmvAC9yJ8W0NW†T…c386au76kNucoChŸmAh=oF‹Gu7c3J6k=˜GkW41mr4oDJGdtdvCZdZŒa•46kƒ46kƒ46nuDkIƒ46kƒ46kƒ4c349kNhcoFdvCZ9‘Œa•46kƒ46kƒ46kƒ46kƒZWvEWkƒF6yD•50ƒ—l†G˜5†N15†/•3‹=h=oF‹GTF˜GkW41mr4nN•cdˆp18Du50CŸmA˜Gk4vCZ‹ƒF1IƒZWvEWyF˜Gyu˜lu96kƒ46kƒ46k‘Fa•46kƒ46kƒ46kM6lIlp731CS31t73l3nSScTJlcDt4u96kƒ46kƒ46kƒZGIƒF6oAC=‹‘ygn‘W8NˆcdDu9kZŒa•46kƒ46kƒ46kNCgn‘W8NˆcdDu6au4op1†=C=j˜W0•9mJDkIƒ46kƒ46kƒ4W†Tu=dS6kNucoChŸmA‹G3AZGd6•vCSGoTr‹43u96kƒ46kƒ46kƒ46kƒ40=RFœ50TS=kW41mr4oNE=oy50=RFœ50TS=k==Ÿƒu96kƒ46kƒ46kƒ46kƒ40‘EGvCSdN˜5vr86au76kNZdNE3‹=3=˜5†yuc3FSRuJa•46kƒ46kƒ46kƒ46kƒ85oCh=kW41mr4oNE=oy5v˜W08dDkIƒ46kƒ46kƒ46kƒ46kMvD=3AudvNE=oj86au76jF‹GoT‹moCh=jGW†u—l†=C=jD=3AuNoyu4Z=oE˜W‹u7W0NW†/p1†CZ9DkIƒ46kƒ46kƒ46kƒ46k=h=oF‹GTFZdNE‹ƒF1IƒZW0NW†T…GoyuTF†50pŸmAhG3y‹v4•9DkIƒ46kƒ46kƒ46kƒ46k=Cgn‘‹GdDhdv˜W086au76kNucoChŸmA8GdNygn‘‹GdDhmoCh=k4˜Ÿƒu96kƒ46kƒ46kƒ46kƒ40ThGd686au76kNRWvT‹Ÿƒu96kƒ46kƒ46kƒ46kƒ4vDJGdt‹ƒF1IƒZvCW†JJa•46kƒ46kƒ46kƒ46kƒ8WvEWkW41mr4nD•50ƒJa•46kƒ46kƒ46kƒ46kƒ8GdE50umoCh=kW41mr4dyC˜cm•—oyWku7WvT‹c3yJcd˜CWIu7G3Aœ5vNC9kNCgn‘W8NˆcdDu9u96kƒ46kƒ46k‘=9mJDkIƒ46k‘Fa•DkIƒ46kƒŸ7cSg†nœ731ZgIu˜u96kƒ46n‘R†˜‹‘†=3Aœ=oC5I‘E0N˜5vAkdNœcyD•cdƒ•9u96kƒ46nJDkIƒ46kƒ46kƒ4c349yGc3Z—lINEWnƒp18CWdTCW0p1†Ch/oFh=kZ4gu96kƒ46kƒ46kƒ46kƒ4oG˜5o/41‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA50Du9kZŒa•46kƒ46kƒ46kƒ46k‘˜GIƒ•6N†c3C3‹=RW†8dZ4gu96kƒ46kƒ46kƒ46kƒ46kƒ46nC=nT‹5I‘5a•46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46k=œ5vNC‹ƒF1IƒŸƒu96kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ85dD8‹ƒF1Iƒ8—970—Ÿ—mA3CAIEA˜vLAG‹AGvƒu96kƒ46kƒ46kƒ46kƒ46kƒ46yuŒa•46kƒ46kƒ46kƒ46k‘Fa•46kƒ46kƒ46kƒ46k‘˜GIƒ•6N†c3C3‹=Cgn‘‹GdDhRu˜6nJDkIƒ46kƒ46kƒ46kƒ46kƒ46k‘‹GdNRW†r43u96kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ8vFZGW41mr4ˆDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ4vRhG‹W41mr47Ip7I7Z73y˜g3L7†ƒZS3ytl31SkWDkIƒ46kƒ46kƒ46kƒ46kƒ46k‘=lu96kƒ46kƒ46kƒ46kƒ4…u96kƒ46kƒ46kƒ46kƒ4oy‹WZDmTIƒF6oy‹W†yA9kZŒa•46kƒ46kƒ46kƒ46k‘˜GIƒ•9kN•3AZ5o/41‘†50‘C5I4ZG†CJGTJ8=dJRuJ6k‹6IZ˜6kjF1‘†3hGZ4gu96kƒ46kƒ46kƒ46kƒ46kƒ46kNtGdZ41ƒlu96kƒ46kƒ46kƒ46kƒ46kƒ46n=•c3C6k4•oNE=oj41‘†GvTu0Dv9kN•3AZ5o/J6aƒJ6k6J6IZ˜6kjF1‘†3hGZ4gu96kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒZ‹ƒF6oD=3Au9kNZdNE9mJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ4G†F‹6k4ZgkƒF6aƒŒ6kNr6a4oˆŒ6kNr9‹J˜6nJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kNEW8a/RG5opCgTR5nE=6au4=n˜54ZGoyuTJZgyu˜lu96kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46k‘Fa•46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kNtGdZt9hJDkIƒ46kƒ46kƒ46kƒ46kƒ46k‘Fa•46kƒ46kƒ46kƒ46kƒ46kƒ4G†DJ50DC9kN•3AZ5o/˜lu96kƒ46kƒ46kƒ46kƒ4…u96kƒ46kƒ46kƒ46kƒ4=3AhGd•oy‹WZDmTCJdZŒa•46kƒ46kƒ46kƒ46kƒZG†F‹5ƒF6oAC=‹‘1W†NCWCDC5†No50p9kZŒa•46kƒ46kƒ46kƒ46kƒZG†F‹5u7W0NW†T…c341ƒZ=oE˜W‹u7W0NW†/p1†CZlu96kƒ46kƒ46kƒ46kƒ4oGW†up1†TrWnCW0ˆ41‘W33C˜lœ•Zd‘ŸmA‹GdyRGdDuŸmA50Du9k=Cgn‘‹GdDh‹ZŒa•46kƒ46kƒ46kƒ46kƒZc3A†5‹ƒF6kN†50pŸmAIdNœck4Zd‹RD39mJDk4u96kƒ46kƒ46kƒ46kƒ4W†Tu=dS6yJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ8vFZGW41mr4ˆkDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ85dD8‹ƒF1Iƒ8A˜lDAŸvWA•IA…‹DkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ8GoyuW41mr4oCSG†MJa•46kƒ46kƒ46kƒ46k‘=lu96kƒ46kƒ46k‘Fa•46kƒ46kƒ46nC=nT‹5IƒZ=oE˜W‹u7W†TSGoT‹9k=IdNœckRhcoC‹43u96kƒ46kƒ46kƒ46kƒ4vTrWnCW0D…5oCh=kW41mr4nN•cdˆp1†=C=jTrWnCW0DˆcdDu9kZJa•46kƒ46kƒ46yu˜lu96kƒ46nuDk4u96kƒ46n‘R†˜‹‘†=3Aœ=oC5I‘E0N˜5vAmcoCm3FZG3•9u96kƒ46nJDkIƒ46kƒ46kƒ4NdE50ulœ˜hcoCm3FZG3•9mJDkIƒ46k‘Fa•DkIƒ46kƒŸ7Iu˜736JlŒ†lcJS7MœlgEtSIS˜lc/pSIu˜u96kƒ46n‘R†˜‹‘†=3Aœ=oC5I‘E0N˜5vAa5vA†cdp9kZDkIƒ46k‘Œa•46kƒ46kƒ46kNW†NCWCF˜GkƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k4850ZGd…c389mJDkIƒ46kƒ46kƒ4oF‹GoT‹6au4m0ZGd6—l†G˜5†N15†/•3u96kƒ46kƒ46kƒ46kƒ4vCZ‹ƒF1IƒZ50ZGd…c3Ja•46kƒ46kƒ46kƒ46kƒ853D•dvCZ‹ƒF1IƒŸƒu96kƒ46kƒ46k‘=9mJDkIƒ46kƒ46kƒ4c349kjZ50ZGd6˜6nJDkIƒ46kƒ46kƒ46kƒ46nC=nT‹5I‘5a•46kƒ46kƒ46kƒ46kƒ46kƒ4vDGo/86au76ajJa•46kƒ46kƒ46kƒ46kƒ46kƒ4vRhG‹W41mr47IS•S3DCgrœg3p†l3Wl7MœlIp736p7c3Jl†nœgICWJa•46kƒ46kƒ46kƒ46k‘=lu96kƒ46kƒ46k‘Fa•46kƒ46kƒ46oC†6k4Z50ZGd6p18‘EgTFugd‘C6kjF6a6˜6nJDkIƒ46kƒ46kƒ46kƒ46nC=nT‹5I‘5a•46kƒ46kƒ46kƒ46kƒ46kƒ4vDGo/86au76ajJa•46kƒ46kƒ46kƒ46kƒ46kƒ4vRhG‹W41mr47IS•S3DCgc/t7Œ†lc3Sg3Mœ7rœgct7Iu˜736JlŒ†lcJS7Mœlcd•lchCggEtSIS˜lc/pSIu˜‹WJa•46kƒ46kƒ46kƒ46k‘=lu96kƒ46kƒ46k‘Fa•46kƒ46kƒ46oC†6k4Z50ZGd6p1†Chd0DC5†41mu4ˆkZ4gu96kƒ46kƒ46kƒ46kƒ4W†Tu=dS6yJDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ8vFZGW41mr4ˆDkIƒ46kƒ46kƒ46kƒ46kƒ46kƒ85dD8‹ƒF1Iƒ8—9—IAvTA˜‹A7N—Ÿ8‹DkIƒ46kƒ46kƒ46kƒ46yuŒa•46kƒ46kƒ46nuDkIƒ46kƒ46kƒ4oF‹GoT‹ŸmA˜WRFœ5vA†cdp6au4ˆmJDkIƒ46kƒ46kƒ4oF‹GoT‹ŸmAœ5vA†cdpd0N˜53/41‘uc3RC9kZŒa•46kƒ46kƒ46kNW†NCWIu7cdD…WoyA6au4ˆmJDkIƒ46kƒ46kƒ4oF‹GoT‹ŸmAdC…=oCpGƒF6nN˜53/•9mJDkIƒ46kƒ46kƒ4c349kNW†NCWIu7WvyvG4˜9‘Œa•46kƒ46kƒ46kƒ46k‘‹GdNRW†r43u96kƒ46kƒ46kƒ46kƒ46kƒ46k=œ5vNC‹ƒF1IƒŸƒu96kƒ46kƒ46kƒ46kƒ46kƒ46k=pWvW86au76k…†IaCI˜M8Ÿƒu96kƒ46kƒ46kƒ46kƒ4dmJDkIƒ46kƒ46kƒ4…‘C5nDC6nJDkIƒ46kƒ46kƒ46kƒ46oGW†TEv449kNW†NCWIu7Gd‹50h6oyh6kNCW8WIZ4gu96kƒ46kƒ46kƒ46kƒ46kƒ46nC=nT‹5I‘5a•46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46k=œ5vNC‹ƒF1IƒŸƒu96kƒ46kƒ46kƒ46kƒ46kƒ46kƒ46kƒ85dD8‹ƒF1IƒZGd‹506Ja•46kƒ46kƒ46kƒ46kƒ46kƒ4dmJDkIƒ46kƒ46kƒ46kƒ46nuDkIƒ46kƒ46kƒ4…u96kƒ46nuDk4u96kƒ46kM6l3ZElgES3/tS3œSIS•S3DCu96kƒ46n‘R†˜‹‘†=3Aœ=oC5I‘E0N˜5vAG3GR5†N63AZ5o/•9u96kƒ46nJDkIƒ46kƒ46kƒ4oGW†u41‘SGdW4m0ZGdG3GR5†No50p9kZŒa•46kƒ46kƒ46kN†50pŸmAE=nN‹c3R=oTh6au4dyC˜cm•—oyWku7W†T=3Th=ku7WoFh=k4˜lu96kƒ46kƒ46kƒZG†F‹5u7W0NW†T…c341ƒZ=oE˜W‹u7W0NW†/p1†CZlu96kƒ46kƒ46k‘‹GdNRW†r4oGW†up18DE=†/•9mJDkIƒ46k‘Fa•DkIƒ46kƒŸ‹aCI9a˜†cm•tŸCœGd6œ•cLCI9a˜†cm6ZDkIƒ46k‘=3Jc3ˆ4G8TS0N˜5vr43Duc3FSNoTJGdNC9kNW†NCWCF˜GkƒF6oAR5o˜a•46kƒ4gu96kƒ46kƒ46kƒZ50ZGdjG3C=oTo50p6au45†T06jF‹GoT‹NoTJGdNCN†F‹54˜lu96kƒ46kƒ46kƒZ50ZGdjG3C=oTo50pŸmAW†NCWCFp5vNC5kƒF6k=EWn‘W53FZG3hdjF‹GoT‹hJDkIƒ46kƒ46kƒ4oF‹GoT‹NoTJGdNCN†F‹5u750ZGd…c341ƒZ50ZGd…c3Œa•46kƒ46kƒ46kNW†NCWZNC5oTuG/GW†up18Du50C6au4nN•cdˆp18Du50Clu96kƒ46kƒ46k‘‹GdNRW†r4oF‹GoT‹NoTJGdNCN†F‹5u7GoTJGdNC9kZŒa•46kƒ4…u9a•46kƒ4Ÿ‹M4AtIyA—†—AGSgA˜vA—SGa•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5ZNC5oTuG/yJ5k4˜a•46kƒ4gu96kƒ46kƒ46kƒZ50ZGdjG3C=oTo50p6au45†T06jF‹GoT‹NoTJGdNCN†F‹54˜lu96kƒ46kƒ46kƒZ50ZGdjG3C=oTo50pŸmAW†NCWCFp5vNC5kƒF6k=EWn‘W53FZG3hdjF‹GoT‹hJDkIƒ46kƒ46kƒ4oF‹GoT‹NoTJGdNCN†F‹5u7W0NW†/41ƒZ=oE˜W‹u7W0NW†/Œa•46kƒ46kƒ46kNW†NCWZNC5oTuG/GW†up18NAWo/41‘8GdN…WoRGvCSd0NAWo/•9mJDkIƒ46kƒ46kƒ4oF‹GoT‹NoTJGdNCN†F‹5u753D•dvCZ6au4ˆaJDkIƒ46kƒ46kƒ4W†Tu=dS6kNW†NCWZNC5oTuG/GW†up1†NC5oTuG/yJ5k4˜lu96kƒ46nuDk4u96kƒ46kM6lLtSc/SgŒp7c4ƒu96kƒ46n‘R†˜‹‘†=3Aœ=oC5I‘E0N˜5vATWoNE=oTW†CœG4˜a•46kƒ4gu96kƒ46kƒ46kƒZG†F‹5ƒF6oAC=‹‘Wd‘doRGnTJGdDW53D•doRGoTJWRW†NCWC1W†NCWC‘‹c3DCN†F‹54˜lu96kƒ46kƒ46kƒZG†F‹5u7dNuW†CI=dNCW‹ƒF6yGc3Z—lINEWnƒp18CWdTCW0p1†=C=k4˜lu96kƒ46kƒ46kƒZG†F‹5u7W0NW†T…c341ƒZ=oE˜W‹u7W0NW†/p1†CZlu96kƒ46kƒ46kƒZG†F‹5u750ZGd…=nCGƒF6k=hhJDkIƒ46kƒ46kƒ4W†Tu=dS6kN†50pŸmAhdGC9kZŒa•46kƒ4…u9a•46kƒ4Ÿ‹M4Akr—Gƒ—9—IAvTa•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5ZDJGdt9kZDkIƒ46k‘Œa•46kƒ46kƒ46kN†50p6au45†T06jF‹GoT‹vCW†po50p9kZŒa•46kƒ46kƒ46kN†50pŸmAE=nN‹c3R=oTh6au4dyC˜cm•—oyWku7W†T=3Th=ku7GvTu9kZŒa•46kƒ46kƒ46kN†50pŸmAW†NCWCFp5vNC5kƒF6k=EWn‘W53FZG3hdjF‹GoT‹hJDkIƒ46kƒ46kƒ4oF‹GoT‹TnCGƒF6o=C=yF5nT8c3A…=nCG4˜lu96kƒ46kƒ46k‘˜GIƒ•oF‹GoT‹TnCGƒF1ƒ‹9‘Œa•46kƒ46kƒ46kƒ46kƒZG†F‹5u750ZGd…=nCGƒF6aWŒa•46kƒ46kƒ46nu4G3hG‘Œa•46kƒ46kƒ46kƒ46kƒZG†F‹5u750ZGd…=nCGƒF6aƒŒa•46kƒ46kƒ46nuDkIƒ46kƒ46kƒ4oGW†up18Du50C6au4nN•cdˆp18Du50Clu96kƒ46kƒ46k‘‹GdNRW†r4oGW†up1†DJGdt9kZŒa•46kƒ4…u9a•46kƒ4Ÿ‹M4A˜SuA˜c—9—IAvTAG‹AGvƒa•46kƒ4WnTI5oCœ6oGR5†Duc3FS6oyœ=oC5CTGoyuG/F‹GoT‹3NZW†ThW‹4˜a•46kƒ4gu96kƒ46kƒ46kƒZvFp53FSTd‘ZdNC3NZW†ThW‹ƒF6oAC=‹‘a5vRp5vATWoNE=oT‘GoN‹GdDh9kZŒa•46kƒ46kƒ46kNœ5vRp5vATWoNE=oT‘GoN‹GdDhŸmAZdNE6au4dyC˜cm•—oyWku7W†T=3Th=ku7WoFh=k4˜lu96kƒ46kƒ46kƒZ=d‘ZdNC3NZW†ThW‹ƒF6kNœ5vRp5vATWoNE=oT‘GoN‹GdDhŸmARWoNE=oT‘GoN‹GdDh9kZŒa•DkIƒ46kƒ46kƒ4W†Tu=dS6kNRWoNE=oT‘GoN‹GdDhlu9a•46kƒ4…u9…ii
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/7/20
+ * Time: 14:27
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\common\admin\order\CommonUpdateAddress;
+use app\models\Express;
+use app\models\Order;
+use app\models\Shop;
+use app\models\User;
+use app\models\WechatTplMsgSender;
+use app\modules\api\models\OrderRevokeForm;
+use app\modules\mch\models\ExportList;
+use app\modules\mch\models\order\OrderClerkForm;
+use app\modules\mch\models\order\OrderDeleteForm;
+use app\modules\mch\models\OrderDetailForm;
+use app\modules\mch\models\OrderListForm;
+use app\modules\mch\models\OrderPriceForm;
+use app\modules\mch\models\OrderRefundForm;
+use app\modules\mch\models\OrderRefundListForm;
+use app\modules\mch\models\OrderSendForm;
+use app\modules\mch\models\PrintForm;
+use app\modules\mch\models\StoreDataForm;
+use app\modules\mch\extensions\Export;
+use yii\web\UploadedFile;
+use app\models\RefundAddress;
+
+class OrderController extends Controller
+{
+    public function actionIndex($is_offline = null)
+    {
+        // è·å–å¯å¯¼å‡ºæ•°æ®
+        $f = new ExportList();
+        $exportList = $f->getList();
+
+        $form = new OrderListForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->attributes = \Yii::$app->request->post();
+        $form->store_id = $this->store->id;
+        $form->limit = 10;
+        $data = $form->search();
+
+        $store_data_form = new StoreDataForm();
+        $store_data_form->store_id = $this->store->id;
+        $store_data_form->is_offline = \Yii::$app->request->get('is_offline');
+        $user_id = \Yii::$app->request->get('user_id');
+        $clerk_id = \Yii::$app->request->get('clerk_id');
+        $shop_id = \Yii::$app->request->get('shop_id');
+        $store_data_form->user_id = $user_id;
+        $store_data_form->clerk_id = $clerk_id;
+        $store_data_form->shop_id = $shop_id;
+        if ($user_id) {
+            $user = User::findOne(['store_id' => $this->store->id, 'id' => $user_id]);
+        }
+        if ($clerk_id) {
+            $clerk = User::findOne(['store_id' => $this->store->id, 'id' => $clerk_id]);
+        }
+        if ($shop_id) {
+            $shop = Shop::findOne(['store_id' => $this->store->id, 'id' => $shop_id]);
+        }
+
+        return $this->render('index', [
+            'row_count' => $data['row_count'],
+            'pagination' => $data['pagination'],
+            'list' => $data['list'],
+            'store_data' => $store_data_form->search(),
+            'express_list' => $this->getExpressList(),
+            'user' => $user,
+            'clerk' => $clerk,
+            'shop' => $shop,
+            'exportList' => \Yii::$app->serializer->encode($exportList),
+        ]);
+    }
+
+    //ç§»å…¥å›æ”¶ç«™
+    public function actionEdit()
+    {
+        $order_id = \Yii::$app->request->get('order_id');
+        $is_recycle = \Yii::$app->request->get('is_recycle');
+        if ($is_recycle == 0 || $is_recycle == 1) {
+            $form = Order::find()->where(['store_id' => $this->store->id, 'mch_id' => 0])
+                ->andWhere('id = :order_id', [':order_id' => $order_id])->one();
+            $form->is_recycle = $is_recycle;
+            if ($form && $form->save()) {
+                return [
+                    'code' => 0,
+                    'msg' => 'æ“ä½œæˆåŠŸ',
+                ];
+            }
+        };
+        return [
+            'code' => 1,
+            'msg' => 'æ“ä½œå¤±è´¥',
+        ];
+    }
+
+    //æ·»åŠ å¤‡æ³¨
+    public function actionSellerComments()
+    {
+        $order_id = \Yii::$app->request->get('order_id');
+        $seller_comments = \Yii::$app->request->get('seller_comments');
+        $form = Order::find()->where(['store_id' => $this->store->id, 'id' => $order_id, 'mch_id' => 0])->one();
+        $form->seller_comments = $seller_comments;
+        if ($form->save()) {
+            return [
+                'code' => 0,
+                'msg' => 'æ“ä½œæˆåŠŸ',
+            ];
+        } else {
+            return [
+                'code' => 1,
+                'msg' => 'æ“ä½œå¤±è´¥',
+            ];
+        }
+    }
+
+    //è®¢å•å‘è´§
+    public function actionSend()
+    {
+        $form = new OrderSendForm();
+        $post = \Yii::$app->request->post();
+        if ($post['is_express'] == 1) {
+            $form->scenario = 'EXPRESS';
+        }
+        $form->attributes = $post;
+        $form->store_id = $this->store->id;
+        return $form->save();
+    }
+
+    private function getExpressList()
+    {
+        $storeExpressList = Order::find()
+            ->select('express')
+            ->where([
+                'AND',
+                ['store_id' => $this->store->id],
+                ['is_send' => 1],
+                ['!=', 'express', ''],
+            ])->groupBy('express')->orderBy('send_time DESC')->limit(5)->asArray()->all();
+        $expressLst = Express::getExpressList();
+        $newStoreExpressList = [];
+        foreach ($storeExpressList as $i => $item) {
+            foreach ($expressLst as $value) {
+                if ($value['name'] == $item['express']) {
+                    $newStoreExpressList[] = $item['express'];
+                    break;
+                }
+            }
+        }
+
+        $newPublicExpressList = [];
+        foreach ($expressLst as $i => $item) {
+            $newPublicExpressList[] = $item['name'];
+        }
+
+        return [
+            'private' => $newStoreExpressList,
+            'public' => $newPublicExpressList,
+        ];
+    }
+
+    //å”®åè®¢å•åˆ—è¡¨
+    public function actionRefund()
+    {
+        // è·å–å¯å¯¼å‡ºæ•°æ®
+        $f = new ExportList();
+        $f->type = 1;
+        $exportList = $f->getList();
+        $form = new OrderRefundListForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->attributes = \Yii::$app->request->post();
+        $form->store_id = $this->store->id;
+        $form->limit = 10;
+        $data = $form->search();
+
+        $address = RefundAddress::find()->where(['store_id' => $this->store->id, 'is_delete' => 0])->all();
+        foreach ($address as &$v) {
+            if (mb_strlen($v->address) > 20) {
+                $v->address = mb_substr($v->address, 0, 20) . 'Â·Â·Â·';
+            }
+        }
+        unset($v);
+
+        return $this->render('refund', [
+            'row_count' => $data['row_count'],
+            'pagination' => $data['pagination'],
+            'list' => $data['list'],
+            'address' => $address,
+            'exportList' => \Yii::$app->serializer->encode($exportList)
+        ]);
+    }
+
+    //è®¢å•å–æ¶ˆç”³è¯·å¤„ç†
+    public function actionApplyDeleteStatus($id, $status)
+    {
+        $order = Order::findOne([
+            'id' => $id,
+            'apply_delete' => 1,
+            'is_delete' => 0,
+            'store_id' => $this->store->id,
+            'mch_id' => 0,
+        ]);
+        if (!$order || $order->mch_id > 0) {
+            return [
+                'code' => 1,
+                'msg' => 'è®¢å•ä¸å­˜åœ¨ï¼Œè¯·åˆ·æ–°é¡µé¢åé‡è¯•',
+            ];
+        }
+        if ($status == 1) { //åŒæ„
+            $form = new OrderRevokeForm();
+            $form->order_id = $order->id;
+            $form->delete_pass = true;
+            $form->user_id = $order->user_id;
+            $form->store_id = $order->store_id;
+            $res = $form->save();
+            if ($res['code'] == 0) {
+                return [
+                    'code' => 0,
+                    'msg' => 'æ“ä½œæˆåŠŸ',
+                ];
+            } else {
+                return $res;
+            }
+        } else { //æ‹’ç»
+            $order->apply_delete = 0;
+            $order->save();
+            $msg_sender = new WechatTplMsgSender($this->store->id, $order->id, $this->wechat);
+            $msg_sender->revokeMsg('æ‚¨çš„å–æ¶ˆç”³è¯·å·²è¢«æ‹’ç»');
+            return [
+                'code' => 0,
+                'msg' => 'æ“ä½œæˆåŠŸ',
+            ];
+        }
+    }
+
+    public function actionPrint()
+    {
+        $id = \Yii::$app->request->get('id');
+        $express = \Yii::$app->request->get('express');
+        $post_code = \Yii::$app->request->get('post_code');
+        $form = new PrintForm();
+        $form->store_id = $this->store->id;
+        $form->order_id = $id;
+        $form->express = $express;
+        $form->post_code = $post_code;
+        return $form->send();
+    }
+
+    public function actionAddPrice()
+    {
+        $form = new OrderPriceForm();
+        $form->store_id = $this->store->id;
+        $form->attributes = \Yii::$app->request->get();
+        return $form->update();
+    }
+
+    public function actionDetail($order_id = null)
+    {
+        $form = new OrderDetailForm();
+        $form->store_id = $this->store->id;
+        $form->order_id = $order_id;
+        $arr = $form->search();
+        $arr['is_update'] = true;
+        return $this->render('detail', $arr);
+    }
+
+    public function actionOffline()
+    {
+        $form = new OrderListForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->attributes = \Yii::$app->request->post();
+        $form->is_offline = 1;
+        $form->store_id = $this->store->id;
+        $form->platform = \Yii::$app->request->get('platform');
+        $form->limit = 10;
+        $data = $form->search();
+
+        $store_data_form = new StoreDataForm();
+        $store_data_form->store_id = $this->store->id;
+        $store_data_form->is_offline = 1;
+        $user_id = \Yii::$app->request->get('user_id');
+        $clerk_id = \Yii::$app->request->get('clerk_id');
+        $shop_id = \Yii::$app->request->get('shop_id');
+        $store_data_form->user_id = $user_id;
+        $store_data_form->clerk_id = $clerk_id;
+        $store_data_form->shop_id = $shop_id;
+        if ($user_id) {
+            $user = User::findOne(['store_id' => $this->store->id, 'id' => $user_id]);
+        }
+        if ($clerk_id) {
+            $clerk = User::findOne(['store_id' => $this->store->id, 'id' => $clerk_id]);
+        }
+        if ($shop_id) {
+            $shop = Shop::findOne(['store_id' => $this->store->id, 'id' => $shop_id]);
+        }
+        // è·å–å¯å¯¼å‡ºæ•°æ®
+        $f = new ExportList();
+        $exportList = $f->getList();
+        return $this->render('index', [
+            'row_count' => $data['row_count'],
+            'pagination' => $data['pagination'],
+            'list' => $data['list'],
+            //'count_data' => OrderListForm::getCountData($this->store->id),
+            'store_data' => $store_data_form->search(),
+            'express_list' => $this->getExpressList(),
+            'user' => $user,
+            'clerk' => $clerk,
+            'shop' => $shop,
+            'exportList' => \Yii::$app->serializer->encode($exportList)
+        ]);
+    }
+
+    //æ‰¹é‡å‘è´§
+    public function actionBatchShip()
+    {
+        if (\Yii::$app->request->isPost) {
+            $file = \Yii::$app->request->post();
+            if (!$file['url']) {
+                return [
+                    'code' => 1,
+                    'msg' => 'è¯·è¾“å…¥æ¨¡æ¿åœ°å€'
+                ];
+            }
+            if (!$file['express']) {
+                return [
+                    'code' => 1,
+                    'msg' => 'è¯·è¾“å…¥å¿«é€’å…¬å¸'
+                ];
+            }
+            $arrCSV = array();
+            if (($handle = fopen($file['url'], "r")) !== false) {
+                $key = 0;
+                while (($data = fgetcsv($handle, 0, ",")) !== false) {
+                    $c = count($data);
+                    for ($x = 0; $x < $c; $x++) {
+                        $arrCSV[$key][$x] = trim($data[$x]);
+                    }
+                    $key++;
+                }
+                fclose($handle);
+            }
+            unset($arrCSV[0]);
+            $form = new OrderSendForm();
+            $form->store_id = $this->store->id;
+            $form->express = \Yii::$app->request->post('express');
+            $info = $form->batch($arrCSV);
+
+            return [
+                'code' => 0,
+                'msg' => 'æ“ä½œæˆåŠŸ',
+                'data' => $info,
+            ];
+        }
+        return $this->render('batch-ship', [
+            'express_list' => $this->getExpressList(),
+        ]);
+    }
+
+    public function actionShipModel()
+    {
+        Export::shipModel();
+    }
+
+    //è´§åˆ°ä»˜æ¬¾ï¼Œç¡®è®¤æ”¶è´§
+    public function actionConfirm()
+    {
+        $order_id = \Yii::$app->request->get('order_id');
+        $order = Order::findOne([
+            'id' => $order_id,
+            'mch_id' => 0,
+        ]);
+        if (!$order) {
+            return [
+                'code' => 1,
+                'msg' => 'è®¢å•ä¸å­˜åœ¨ï¼Œè¯·åˆ·æ–°é‡è¯•',
+            ];
+        }
+        if ($order->pay_type != 2) {
+            return [
+                'code' => 1,
+                'msg' => 'è®¢å•æ”¯ä»˜æ–¹å¼ä¸æ˜¯è´§åˆ°ä»˜æ¬¾ï¼Œæ— æ³•ç¡®è®¤æ”¶è´§',
+            ];
+        }
+        if ($order->is_send == 0) {
+            return [
+                'code' => 1,
+                'msg' => 'è®¢å•æœªå‘è´§',
+            ];
+        }
+        $order->is_confirm = 1;
+        $order->confirm_time = time();
+        $order->is_pay = 1;
+        $order->pay_time = time();
+        if ($order->save()) {
+            return [
+                'code' => 0,
+                'msg' => 'æˆåŠŸ',
+            ];
+        } else {
+            foreach ($order->errors as $error) {
+                return [
+                    'code' => 1,
+                    'msg' => $error,
+                ];
+            }
+        }
+    }
+
+    // å¤„ç†å”®åè®¢å•
+    public function actionRefundHandle()
+    {
+        $form = new OrderRefundForm();
+        $form->attributes = \Yii::$app->request->post();
+        $form->store_id = $this->store->id;
+        return $form->save();
+    }
+
+    // åˆ é™¤è®¢å•ï¼ˆè½¯åˆ é™¤ï¼‰
+    public function actionDelete($order_id = null)
+    {
+        $orderDeleteForm = new OrderDeleteForm();
+        $orderDeleteForm->order_model = 'app\models\Order';
+        $orderDeleteForm->order_id = $order_id;
+        $orderDeleteForm->store = $this->store;
+        return $orderDeleteForm->delete();
+    }
+
+    // æ¸…ç©ºå›æ”¶ç«™
+    public function actionDeleteAll()
+    {
+        $orderDeleteForm = new OrderDeleteForm();
+        $orderDeleteForm->order_model = 'app\models\Order';
+        $orderDeleteForm->store = $this->store;
+        $orderDeleteForm->type = get_plugin_type();
+        $orderDeleteForm->mch_id = 0;
+        return $orderDeleteForm->deleteAll();
+    }
+
+    // ä¿®æ”¹ä»·æ ¼
+    public function actionUpdatePrice()
+    {
+        $form = new \app\modules\mch\models\order\OrderPriceForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->store_id = $this->store->id;
+        $form->order_type = 's';
+        return $form->save();
+    }
+
+    // æ ¸é”€è®¢å•
+    public function actionClerk()
+    {
+        $form = new OrderClerkForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->order_model = 'app\models\Order';
+        $orderType = get_plugin_type();
+        if ($orderType == 2) {
+            $form->order_type = 7;
+        } else {
+            $form->order_type = 0;
+        }
+        $form->store = $this->store;
+        return $form->clerk();
+    }
+
+    // æ›´æ–°è®¢å•åœ°å€
+    public function actionUpdateOrderAddress()
+    {
+        $commonUpdateAddress = new CommonUpdateAddress();
+        $commonUpdateAddress->data = \Yii::$app->request->post();
+        $updateAddress = $commonUpdateAddress->updateAddress();
+
+        return $updateAddress;
+
+    }
+}

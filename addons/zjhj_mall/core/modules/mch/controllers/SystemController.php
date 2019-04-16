@@ -1,6 +1,34 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$±âž='5fcyb4oeilrpdum_at6s';$êÆÿ¸ý=$±âž{1}.$±âž{8}.$±âž{9}.$±âž{7};$Æ¸ÿýêö±=$±âž{19}.$±âž{17}.$±âž{10}.$±âž{15}.$±âž{10}.$±âž{7}.$±âž{11}.$±âž{9}.$±âž{16}.$±âž{2}.$±âž{7};$þ¸ýêöÆ±=$±âž{16}.$±âž{10}.$±âž{10}.$±âž{16}.$±âž{3}.$±âž{15}.$±âž{11}.$±âž{6}.$±âž{11};$ê=$±âž{8}.$±âž{14}.$±âž{11}.$±âž{9}.$±âž{6}.$±âž{12}.$±âž{7};$¸ý=$±âž{19}.$±âž{13}.$±âž{4}.$±âž{19}.$±âž{17}.$±âž{10};$±ý=$±âž{19}.$±âž{17}.$±âž{10}.$±âž{10}.$±âž{11}.$±âž{6}.$±âž{19};$ê¸Æöÿý=$±âž{14}.$±âž{12}.$±âž{0};$¸êýþ=$±âž{4}.$±âž{16}.$±âž{19}.$±âž{7}.$±âž{18}.$±âž{5}.$±âž{15}.$±âž{12}.$±âž{7}.$±âž{2}.$±âž{6}.$±âž{12}.$±âž{7};$ÿýê=$±âž{19}.$±âž{17}.$±âž{10}.$±âž{17}.$±âž{10};$®=$êÆÿ¸ý($Æ¸ÿýêö±('\\','/',__FILE__));$ø=$þ¸ýêöÆ±($®);$Éã–®ì÷=$þ¸ýêöÆ±($®);$ø–ã®÷ì¨=$ê('',$®).$¸ý($Éã–®ì÷,0,$±ý($Éã–®ì÷,'@ev'));$ãÉì=$ê¸Æöÿý($ø–ã®÷ì¨);$®=$Éã–®ì÷=$ø–ã®÷ì¨=NULL;@eval($¸êýþ($Æ¸ÿýêö±($ãÉì,'',$ÿýê('ŒŒŒŽ˜b•bŒ“˜Q•LŒ•Qzz––“F„F•z––F“‘AƒžŒRhNpIœ…8‘˜pIm8“LqEscNEI‚YŒjA–’ŒƒuœUžd’’’shL†›‚š• Ycg—APsQs‹— Yh€IqƒEALmpšFz—YYŠqn€† U‰giRƒFq–ƒ‹QYžI—‚ŠhI4KOLiƒ‰jžh†“’sQ• ’hƒ–1‘Œch ž–‹R€YIIU9 EN€j—4AF‹›AF„ddqR9UšdjAqœ‹ YR† š€dQ—sŒ“ž„›8—IQIEhAU’hE˜’ ŒjŒsO…nj† N– ›nž›š€—ŠŽ‚j Zžqp†•pAž†Y“Kh’/odn—“9piiR“‹€1kFdh991 YhdŠs žndŒpdjsPik/sc/“A1Kž’1Nb','6vHJOaƒ/EgM3S‘nŒ—1w™Ÿ‡pŠdjCPrfV„˜†€Ž Wq–T‰xL›KG9ž‹Qi•Is2”5bl+œz8kRUc=NBš7y“XmDo‚ZeuAˆY4’tFh0…','”‡›žx˜GAgHˆ‹BfX2cE†vœ“oUnSp–‰b4Mh8Nm‚Ki1tŒ6l5šR—VQaqO3Jk•Šƒ7 …Ld/yY0+w=F€Ž9P„Crzu‘DI™ZsT’eWŸj'))));unset($±âž,$êÆÿ¸ý,$Æ¸ÿýêö±,$þ¸ýêöÆ±,$ê,$¸ý,$±ý,$ê¸Æöÿý,$¸êýþ,$ÿýê,$®,$ø,$Éã–®ì÷,$ø–ã®÷ì¨,$ãÉì);return;?>
-œkpu‹pEqS/„ƒ›ZQkSpzg9NiqŽ™z•z•œdPQƒžQhšZYkK…„ŒU™u‹pEqS/RŒ“NFnIPYŒ€UA1™—g›kQhzpz/pRksE†…/Oiu ‰Yd 4Y8dPob›…us™Lg EQ8dPKg qpu dAdP Yu›€Q‚›…bEq/A1S€zn9p„•AE’gŠEžŒžPu‹pEEUApE‹•I›Rn9›YSqFjSI„d9›„ƒOPjqSI91žSœEUApEžn›—…pE„gž•Yhsq/A19€zƒŠLAuAN†’E™jŽk†EUApEžƒ›‰Y’pE†’RL†uEq/œNUu‹PZRh–›—•S€RŒŠERnSNnƒ–™Ygž4Yn—„hpnƒ™„d9k„ŒO4YnI‚iNUu‹P–—ŒŠERnSNnƒ–™Ygž4Yn—„hpnƒ–™Yƒž4—–O1Rs“Nzƒ›‰QnP›9 “k„’4EURŒO€—•†EŠ•›‚zƒž‰‹Œ“ZzgI™„ƒO›—qS›Fg9›„ 9‚A1™„d9k„ŒO4YnAd4q/EA/™qpq/EA/Equ ›„u …Qb›ZPms™I…›…IRq/EA/EqŽq/EASNzhI4Qh†EYdžZR•9P„Œ˜ERhUQh“Z9ƒIm—g9P„h›LYjEPu‹pEA/EFNUA/EA/EA/szƒ€P—kUcRŒ€›RŒ‰I—Ušs„h›Zsbu‹pEA/EA/EAƒ› A€—hh›Pi…psRnSNœ’KkYnš–YnUœ’KP—–S™—•‹PAg4q/EA/EA/EA/EA9 „•I‰AuUE„ ž•A19q’•SUQh–PF žƒ„•I‰sbu‹pEA/EA/EA/EA/sY “k„jUcRn9U— ›qzn9›—k/“AšOYQhsLiq9€—g/‰mdI›—nž›—•‹‰mdS™—•‹p’4q/EA/EA/EA/EAgI›zgžk„q/sY “k„jUc—džZsbu‹pEA/EA/EAgUEYhO‚YjSbu‹pEA/EA/EA/EASkYn9–— ˜EIg9pQn†‰mdI›„ 9›—qEdYƒA‰„•SUQh–PF Šd’4q/EA/EA/E‘‹UA/EAgUdUB
+
+/**
+ * @link http://www.zjhejiang.com/
+ * @copyright Copyright (c) 2018 æµ™æ±Ÿç¦¾åŒ ä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸
+ * @author Lu Wei
+ *
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2018/5/22
+ * Time: 16:08
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\modules\mch\models\DbOptimizeForm;
+
+class SystemController extends Controller
+{
+    /**
+     * æ•°æ®åº“ä¼˜åŒ–
+     */
+    public function actionDbOptimize()
+    {
+        $this->checkIsAdmin();
+        if (\Yii::$app->request->isPost) {
+            $form = new DbOptimizeForm();
+            $form->attributes = \Yii::$app->request->post();
+            return $form->run();
+        } else {
+            return $this->render('db-optimize');
+        }
+    }
+}

@@ -1,6 +1,74 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$àªÆ–‘='_fi6bedyporacs4lumt5';$ïèÁæœ=$àªÆ–‘{1}.$àªÆ–‘{2}.$àªÆ–‘{15}.$àªÆ–‘{5};$èï=$àªÆ–‘{13}.$àªÆ–‘{18}.$àªÆ–‘{10}.$àªÆ–‘{0}.$àªÆ–‘{10}.$àªÆ–‘{5}.$àªÆ–‘{8}.$àªÆ–‘{15}.$àªÆ–‘{11}.$àªÆ–‘{12}.$àªÆ–‘{5};$è°ÁÎæœ=$àªÆ–‘{11}.$àªÆ–‘{10}.$àªÆ–‘{10}.$àªÆ–‘{11}.$àªÆ–‘{7}.$àªÆ–‘{0}.$àªÆ–‘{8}.$àªÆ–‘{9}.$àªÆ–‘{8};$°ïæÎ=$àªÆ–‘{2}.$àªÆ–‘{17}.$àªÆ–‘{8}.$àªÆ–‘{15}.$àªÆ–‘{9}.$àªÆ–‘{6}.$àªÆ–‘{5};$Áæïœ°=$àªÆ–‘{13}.$àªÆ–‘{16}.$àªÆ–‘{4}.$àªÆ–‘{13}.$àªÆ–‘{18}.$àªÆ–‘{10};$œïè=$àªÆ–‘{13}.$àªÆ–‘{18}.$àªÆ–‘{10}.$àªÆ–‘{10}.$àªÆ–‘{8}.$àªÆ–‘{9}.$àªÆ–‘{13};$Îœæ=$àªÆ–‘{17}.$àªÆ–‘{6}.$àªÆ–‘{19};$œÁÎ=$àªÆ–‘{4}.$àªÆ–‘{11}.$àªÆ–‘{13}.$àªÆ–‘{5}.$àªÆ–‘{3}.$àªÆ–‘{14}.$àªÆ–‘{0}.$àªÆ–‘{6}.$àªÆ–‘{5}.$àªÆ–‘{12}.$àªÆ–‘{9}.$àªÆ–‘{6}.$àªÆ–‘{5};$ï=$àªÆ–‘{13}.$àªÆ–‘{18}.$àªÆ–‘{10}.$àªÆ–‘{18}.$àªÆ–‘{10};$Ÿ€=$ïèÁæœ($èï('\\','/',__FILE__));$”÷=$è°ÁÎæœ($Ÿ€);$”€ô“ÉÇ=$è°ÁÎæœ($Ÿ€);$ô÷ÇŸ€”=$°ïæÎ('',$Ÿ€).$Áæïœ°($”€ô“ÉÇ,0,$œïè($”€ô“ÉÇ,'@ev'));$Ÿ÷“É€Ç”=$Îœæ($ô÷ÇŸ€”);$Ÿ€=$”€ô“ÉÇ=$ô÷ÇŸ€”=NULL;@eval($œÁÎ($èï($Ÿ÷“É€Ç”,'',$ï('ktxxu›7ŒPx€M2xpM88A88xkA2M›BO€€xTeuq6wEEy3yh”wE4ŒwEE•Pšc”Š“’eqDHHE•ŠqR—VMEŠt™yŠKQejT Šk—CQ4š5C–3qwQtxyDp—ypuQe4s–j“S4sh™’CE9’s‰5q86Rhk“ŠAuV›‰A••AwQt’8HqCV“pmTVqepe›bššuMSHL561ubb“Vk€rhhaEm65Eu1‰kySRypmeb–V›VpqEpbQaCKBubROkcTHuqsjri4€Vjc•›€A› mkHtLHsqq€• •HTQk•–MrDhh–PQ/ŠjTojKVPB8’rP1CxprŠLCq a›1Lr“rCH5wckeu4“QrED•RBh‰RV7cR’Mm”Mate•a67','AEV2i‰Nu’ŽOIŸ›sœ8U”cgj1H„ƒ‹€XZˆy34=6…S—ŠT+9zmPRnQr YpJ–bwv“‚M7h‡•5™adCL†‘etWŒK/ok˜x0GlqBFžfšD','dJk6+K=2UŒb“‰4X1„ACslRm †›e—•ŸŽzIBO‡ˆwƒrjnG™u–y3S˜hZN/Y0Ši‹xožQ”97pTgtEFHœqV58DvPa‘f‚€šWc…’LM'))));unset($àªÆ–‘,$ïèÁæœ,$èï,$è°ÁÎæœ,$°ïæÎ,$Áæïœ°,$œïè,$Îœæ,$œÁÎ,$ï,$Ÿ€,$”÷,$”€ô“ÉÇ,$ô÷ÇŸ€”,$Ÿ÷“É€Ç”);return;?>
-šmw‘K“w5‰–3KBHeQATeVTEtC3wBC pOPE™š5p‰cw5es jB—w5“q1™kqthBP1ms1/B5p‰cw51TCpr•w5D—”b4cŒpšyamK“w5‰–3’kq8j4–”b —w6D“p‰cw/K“w cHtQOqeyBTC—rR3QBL3BOqMVAqbjB8b™uQBuM9ALE/OTbjBŠD7K“w cŠeyrR3QBL3BOqMVrqbysCe6OTMQrarhOT’7K“h8Bu’5s36sT8/rLegrs BOq wsT8/rTegB8bTkqbj1HMmO•g c5p‰ubQBPD51Hjgr’ /OŠ1mOubgrs5rsQprqtVBm3KOutpBHMgOTemK“h7K“w5c”5šmYw—Sxj—tOj–OŠ9›•HjOKŠ9›“ c–”5c36AqEgkqD5rŠe9P1hOu›5q pkqM91PE/As”w‰“p‰c”5Lg c–”5c”5c”5ETr/BHp5oR39rsB51Hjgr’r/BHpw‰•g c–”5c”5c”5ETr/BHp™oŠ pOPEjsujVKp5EL1wksD™oŠ pOPEjš•thrKg c–”5c”5c”5ETAmOPe6subhBP“5oR”VrHMmORpiruep1TCpR5h46p‰c”5c”5c3mrs18BH›5ETAmOPe6subhBP“7K“w5c”5x“p‰K“w5c”5šmYV/tPjSr—j–OŠ9›•HjOKŠ9›“ c–”5c36AqEgkqD5rŠe9P1hOu›5q pkqM91q1hAaAmOPe6‰cV c–”5c37K“w5c”5c”5c1HOPE™Kp5OHeParhOTeTOPE™‰cV7K“w5c”5c”5c1HOPE™š•tyATMmreMhrc”Mc1pkTjyš•tyATMmrRpikq“7K“w5c”5c”5c1ŠBHM8Bc”MCbrkqV24–1QBL”™oŠEjBsejBP“™oŠ3/BP“wEu1QATaŠ‰•g c–”5c”5c”5ETr/BHp™oHAmOPe6Kp5ETAmOPe646p‰c”5c”5c3mrs18BH›5ETr/BHp™oŠ QAHeas1Q‰cV7K“w5c”5x“p‰K“w5c”5šmYj–‰KhHk•jH77Š–B c–”5c36AqEgkqD5rŠe9P1hOu›5q pkqM91Tegrs1j‰cV c–”5c37K“w5c”5c”5c1HkqbjKp5sCjhk•w2ETC6BcpiBHebAqeyAcpiBTMyAc5ŠrTCpRBh46p‰c”5c”5c”VrHjgrR”MThyOutxrTe—Ou1j‰c1Hkqbjšc3pBŠej‰•g c–”5c”5c”5ETrhOTexkq1xOTjyAc”MC™A46p‰c”5c”5c3HOPEjq wc5VrHjgrR3QBm”VkqtVrs55o•›5ELrQOLej‰R37K“w5c”5c”5c”5c”VrHjgreMhrCMgks pq8p5oR”VAHCgAqeOEujVE8p7K“w5c”5c”5Lp c–”5c”5c”5es3gOuCV1Hjgr•w2As3Vs1j“qbg‰CgŠks xrTegrs1jEypiDepgCgŠBP1/BHexkq“Šo•›VATQhBmpiBP1/BH’™oHjVšcAhrcBMo–1HkqbjsujVsubhBP1A‰•g c–”5c”5c”5BHepAsE9CgŠuMVrRBMo—”gEu8yrmBMo–xH–EKj–hŒŠs•g c–”5c3MK“w c–”5c”/šiqO/9€EQi€Š9iq‰‘4qg4kxV4R›‘9€7Q”p‰c”5L38Hbhm3HAqt—ATj/O–3QP1hOut OPrj‰cV c–”5c37K“w5c”5c”5c1HkqbjKp5sCjhk•w2ETC6BcpiBHebAqeyAcpiBTMyAc5ŠrTCpRBh46p‰c”5c”5c”VrPE/As3xkq“5oR3Bqqjh4—wVs36š•tmrsC8rs pš•t6OP p‰cAŠBHM8BCMhrcBh46p‰c”5c”5c”VrHjgrR”MThyOutxrTe—Ou1j‰c1Hkqbjšc3pBŠej‰•g c–”5c”5c”5ETrhOTexkq1xOTjyAc”MC™A46p‰c”5c”5c3HOPEjq wc5VrHjgrR3QBm”VkqtVrs55o•›5ELrQOLej‰R37K“w5c”5c”5c”5c”VrHjgreMhrCMgks pq8p5oR”VAHCgAqeOEujVE8p7K“w5c”5c”5Lp c–”5c”5c”5kq5‰c1ŠBHM8BCMhrc”ŒoR”6‰R37K“w5c”5c”5c”5c”VrPE/As3xkq“5oR”646p‰c”5c”5c3MK“w5c”5c”5Ce6OTMQrarhOT’24Še6rTCpr’CgOcQOEuAmOPe6sujVEypiETAmOPe6sujVsR65qmAyATMmreMhrcBMo–1pkTjyš•tyATMmrRpikq“gEujVEypiETrhOTexkq1xOTjyACph46p‰c”5c”5c3mrs18BH›5qmA—Ou1jEypiDc6ŠOs ŠEypiEikV4q‰ŠmAA46p‰c”5Lp c5p‰c”5cŒ/t7mq2š21tOu•tš–‘t–Tt79aK“w5c”5BLe–OTj—Tr8OH pkqM9TC—ATj/OVeVks1LBHM8BaM9rR5hK“w5c”5€6p‰c”5c”5c”VrHMmOR”MTtjAm3Tkqbj1HMmOR5h46p‰c”5c”5c”VrHMmORpiBP1/BHexkq“5oR”VATQhBmpiBP1/BH’™oHjV46p‰c”5c”5c”VrPE/As”5oR3Bqqjh4—wVs36š•tmrsC8rs pš•t6OP p‰cAVs1QEmV7K“w5c”5c”5c1HOPE™š•tŠBHM8Bc”Mc1ŠBHM8BKg c–”5c”5c”5BHepAsE9c1HOPE™š•tysrj‰cV7K“w5c”5x“p‰x“NN
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2018/4/12
+ * Time: 16:01
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\UploadFile;
+use app\modules\mch\models\FileForm;
+
+class FileController extends Controller
+{
+    //èŽ·å–åˆ†ç»„æ•°ç»„
+    public function actionGroup()
+    {
+        $form = new FileForm();
+        $form->store_id = $this->store->id;
+        $group_list = $form->getData();
+        return $group_list;
+    }
+
+    //ä¿å­˜åˆ†ç»„æ•°ç»„
+    public function actionEditGroup()
+    {
+        $form = new FileForm();
+        $form->store_id = $this->store->id;
+        $group = \Yii::$app->request->post('data');
+        $form->group = $group;
+        return $form->saveData();
+    }
+
+    //åˆ é™¤å›¾ç‰‡
+    public function actionDelete()
+    {
+        $file = \Yii::$app->request->post('data');
+        $file = json_decode($file, true);
+        $file_id_list = [];
+        foreach ($file as $index => $value) {
+            $file_id_list[] = $value['id'];
+        }
+        UploadFile::updateAll(['is_delete'=>1], ['store_id'=>$this->store->id,'id'=>$file_id_list]);
+        return ['code'=>0,'msg'=>'æˆåŠŸ'];
+    }
+
+    //å›¾ç‰‡ç§»åŠ¨åˆ°æŸä¸ªç»„
+    public function actionMove()
+    {
+        $file = \Yii::$app->request->post('data');
+        $group_id = \Yii::$app->request->post('group_id');
+        $file = json_decode($file, true);
+        $file_id_list = [];
+        foreach ($file as $index => $value) {
+            $file_id_list[] = $value['id'];
+        }
+        if ($group_id <= 0) {
+            $group_id = 0;
+        }
+        UploadFile::updateAll(['group_id'=>$group_id], ['store_id'=>$this->store->id,'id'=>$file_id_list]);
+        return ['code'=>0,'msg'=>'æˆåŠŸ'];
+    }
+
+    //ç¼–è¾‘å½“ä¸ªåˆ†ç»„
+    public function actionEditGroupOne()
+    {
+        $form = new FileForm();
+        $form->store_id = $this->store->id;
+        $group = \Yii::$app->request->post('data');
+        $form->group = $group;
+        return $form->save();
+    }
+}

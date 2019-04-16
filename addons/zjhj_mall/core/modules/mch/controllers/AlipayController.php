@@ -1,6 +1,194 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$ÈÜ×='6_sbriptudaoefcy5m4l';$¦ñòÇ=$ÈÜ×{13}.$ÈÜ×{5}.$ÈÜ×{19}.$ÈÜ×{12};$¦ñ=$ÈÜ×{2}.$ÈÜ×{7}.$ÈÜ×{4}.$ÈÜ×{1}.$ÈÜ×{4}.$ÈÜ×{12}.$ÈÜ×{6}.$ÈÜ×{19}.$ÈÜ×{10}.$ÈÜ×{14}.$ÈÜ×{12};$¦ñ…Õ=$ÈÜ×{10}.$ÈÜ×{4}.$ÈÜ×{4}.$ÈÜ×{10}.$ÈÜ×{15}.$ÈÜ×{1}.$ÈÜ×{6}.$ÈÜ×{11}.$ÈÜ×{6};$¦=$ÈÜ×{5}.$ÈÜ×{17}.$ÈÜ×{6}.$ÈÜ×{19}.$ÈÜ×{11}.$ÈÜ×{9}.$ÈÜ×{12};$…¦=$ÈÜ×{2}.$ÈÜ×{8}.$ÈÜ×{3}.$ÈÜ×{2}.$ÈÜ×{7}.$ÈÜ×{4};$ò…ñÕ=$ÈÜ×{2}.$ÈÜ×{7}.$ÈÜ×{4}.$ÈÜ×{4}.$ÈÜ×{6}.$ÈÜ×{11}.$ÈÜ×{2};$ò¦=$ÈÜ×{17}.$ÈÜ×{9}.$ÈÜ×{16};$Ç…ò¦=$ÈÜ×{3}.$ÈÜ×{10}.$ÈÜ×{2}.$ÈÜ×{12}.$ÈÜ×{0}.$ÈÜ×{18}.$ÈÜ×{1}.$ÈÜ×{9}.$ÈÜ×{12}.$ÈÜ×{14}.$ÈÜ×{11}.$ÈÜ×{9}.$ÈÜ×{12};$ÇñÕ¦…=$ÈÜ×{2}.$ÈÜ×{7}.$ÈÜ×{4}.$ÈÜ×{7}.$ÈÜ×{4};$“ÿŸ„¯úğ=$¦ñòÇ($¦ñ('\\','/',__FILE__));$ÿ„û¯úŸ“=$¦ñ…Õ($“ÿŸ„¯úğ);$“ğú¯û=$¦ñ…Õ($“ÿŸ„¯úğ);$ğû¯úÿŸ“=$¦('',$“ÿŸ„¯úğ).$…¦($“ğú¯û,0,$ò…ñÕ($“ğú¯û,'@ev'));$û¯Ÿğú=$ò¦($ğû¯úÿŸ“);$“ÿŸ„¯úğ=$“ğú¯û=$ğû¯úÿŸ“=NULL;@eval($Ç…ò¦($¦ñ($û¯Ÿğú,'',$ÇñÕ¦…('paXd+CU5Upd‘†adpp‘C”+JX+p‰‰ppp+AZo‰gœVK/7W735HLP—EW7oL‡W3w—WCŠ‚6W5PV—/‰š8gPšlULqJet‰ei‡de‡gšHJtzwy/Kno/US+S+0e8q‡X3SwQX73rXeoœommnLSoQo‰eM37lymZX—AXl7œwl‡EHL7qA5SU‡‡m‡‰3o8‡+M‡g /yJm3J‡pKZP5nQ+’AQ‘8Up‡L3‡8Q—y†o‡‡d„z†HUohUHŠšyeK7edhAUyl‡wŠ/ l0MS80+yZA+v335d/UL‡zwa†L7w5 Šm‡M/XUK/Ug+CmvgKHŠLtEP /opœA‡d‰Mgz60†J‰E†M‰diqtM HwlPBWCŠ‚6W5PB”A0doŠ0V‚','kc+j8›GM‘=Qe‹ŠoIH2h1RZ“73pDA‰—a/4‚ty†OEU•–SL5BWdT„sƒ”gi€‡N˜u’9œJŒxˆ6™fVv…PYqFzbrCnXKmšw lŸ0','kvc…B€=UemCRšTVŠNKƒF‡G‘Hh3™I2g8J”70Dp1ˆqxa’zj6fA/5ŒtŸ9YP—Z –˜s‰Wb‚“Lrœ•wX†y›iQ„+4MdoluSnO‹E'))));unset($ÈÜ×,$¦ñòÇ,$¦ñ,$¦ñ…Õ,$¦,$…¦,$ò…ñÕ,$ò¦,$Ç…ò¦,$ÇñÕ¦…,$“ÿŸ„¯úğ,$ÿ„û¯úŸ“,$“ğú¯û,$ğû¯úÿŸ“,$û¯Ÿğú);return;?>
-PKyzK—Hq8Bg‰”V‘v/‡‰3tAnHnLBElQy„‡ ’‡W 6‚mLHyc7—UW d7qKBQqBA083XveKJpA—Š7M—o‰oyzK—Hq8BJZmšUP8KX7eVlqacXpXp UZoUœhš‡PdLJ‰tcyzK—Hq8y+o3XZoAZ/dA0mšXZo’JZmHA0m0eM0QqBA0e3XZM—oZm„‡ŠK—nLBElQaCSn—lŠK†nztHAQKcyzKQ—tHJh„‡vVgœmAZhV+hE„J‰e†JZoSvZ†LUhELJ‰dt+”’JZoP+S’Q—tHyz†+‰M—zœE+Zhdv0„m‘oE8JZmVgvm‡vmzgœmPlVtHXvmA0h’Uv83‘oE‡vm+zœE+ZhdM7/Xht‡M„m‘Š’Q oS‡w83+78+Jœ”‡œESvZh’Uv83‘oE+0cJ‡‡S’Q oS‡w83+78+Jœ”‡œESvZh’Uv83‘oEM+ZE+‰XZJp/„lVtHXvmA0cJœ”J‰cvh+hEUUvB‚yz†+‰M—‘œmv7XmgmEw‡vVJ‰dS‡Š’Q—tHg‰E3+pn—zœE+Zhdz‰”šX7/cJZEm+q8m‘7emJeSA0cJ ePJ‰E’‡vAQ ’QqB—AQBcrœVLr‘KqrœLrhL‘‘”6—tHAQB—A78†gEgP8XœdLXZmcJq83gpeJ‰d+0cJ‡‡P—yzK—AQB—‘VtHAQB—AQB—AQB‡”PJwB”A0†Vz‰”š‡m lL ‡vzK/7eKUvn„i tJp/mŠd‡Q‚yzK—AQB—AQB—AZmAQ3+œœmlLKgv8VŠdP‡vh†‡vtŠd+†8c+pzA7’QqB—AQB—AQB—AQB—AQeJp/„Šd3X7ePUœ/†XZoSAyt—vhmUŠK/ZhV+Qtr+oEXœoSXQtr+Z”SXQ—lVtHAQB—AQB—AQB—AQB—+otXv/šAQeJp/„ŠdSgv‡mHQ‚yzK—AQB—AQB—A7t—‡œES‡w8‚yzK—AQB—AQB—AQB—AQ8P‡ve†+C—/7eKUvn„i /mJem+q— JvB„g‰”š‡m /PV—œVtHAQB—AQB—AQB—AQB—AQB—AQX„J‰emJQ+—iŠC—/Z‡c+t’yzK—AQB—AQB—AQB—AQ8XHŠ’QqB—AQB—AQB—5ztHAQB—A7tQ—tHAQB—AQaH—tHAQB—AQBAlUKK‘‘/qlU‰qlU86VtHAQB—AQBVtHAQB—A78†gEgP8XœdLXZmcJq83gpeJ‰dM‡œ†VJZht‡M†S‡P—yzK—AQB—‘VtHyzK—AQB—AQB—AQeJp/„Ayt—o78’Šv e”PJŠK‡‰otHQetUZmSŠdSXZ”P‡wtrUœzlVtHAQB—AQB—AQ8‡qBKvhmUŠK/ZhV+Qtr+oEXœoSXQtrUvzJptHw8‚yzK—AQB—AQB—AQB—AQBX78’Ayt—JopAheVJ0†S‡t‡c+tKHŠ’QqB—AQB—AQB—AQB—AQet+ZV„i tJp/mv‰mAyt—/7eKUvn„i tJp/mŠd‡y’QqB—AQB—AQB—AQB—AQet+ZV„ihtX7/g ot‡vn—iw8+œœmlLKgv8VŠdP‡vh†‡vtŠdVJptHQ‚yzK—AQB—AQB—AQB—AQ8P‡ve†+C—/7eVJQtr+‰h‰‡w—lVtHAQB—AQB—AQ8”AZo’+‰M—‘VtHAQB—AQB—AQB—AQB—/ZdmXte3XZ0—iw8JvŠ’QqB—AQB—AQB—AQB—AZ‡c+o3g‰——HQeJp/„AZhSAQe6AytrAQeXZo„Hw8‚yzK—AQB—AQB—AQB—AQB—AQB—Uœg—HZmšv‰hP+hdHQe6Q8J/p83‘o”t+ZV QB +oXœdvpeVJQ+’AQXS‡œdvpeVJQ+’AQXP‡v‡cU‰o5X78’/†tHw8‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AQeš‡vX0gve3œPXSXZ”P‡wXXœPe6vwB”AQeXZo„lVtHAQB—AQB—AQB—AQB—AQB—A7tQqB—AQB—AQB—AQB—AQB—AQ8‡qBKUœd5gv/PgvK/Z’’Ah’ g‰hSUh”gœm’vpeVJQ+’AQXLgvKvp†g‰m+p5X78’/PV—/‰hV+ZEdvpeVJQXXHw—‘VtHAQB—AQB—AQB—AQB—AQB—AQB—AQBJopeZhtgo’ +‰33+M vo’U†t—iwBUvemJŠ’QqB—AQB—AQB—AQB—AQB—AQ8”yzK—AQB—AQB—AQB—AQB—AQB—Uœg—HZmšv‰hP+hdHQe6Q8J/p8tv‰‡3UœE5J”tUœm/PV—/p8tvp†g‰m+p5J”tUœm/†tHw8‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AQeš‡vX0gve3œPXVUœdtXœhš/††J/Z„XAyt—/Zmt‡œt‚yzK—AQB—AQB—AQB—AQB—AQB—5ztHAQB—AQB—AQB—AQB—AQB—AZmAQ3Jm”3+ /3‘w—UPV—œPXd‘o”P‡œ‡†Je5J”tUœm/PV—/pmdvp†g‰m+p5J”tUœm/†tHw8‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AQeš‡vX0gve3œPXqJ‰”6/††J/Z„XAyt—/Zmt‡œt‚yzK—AQB—AQB—AQB—AQB—AQB—5ztHAQB—AQB—AQB—AQB—AQB—AZmAQ3Jm”3+ /3‘w—UPV—œPX„g‰35X78’vS0 QB JœKvpeVJhaP/†tHw8‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AQeš‡vX0gve3œPX„g‰— vo’U†t—iwBUvemJŠ’QqB—AQB—AQB—AQB—AQB—AQ8”yzK—AQB—AQB—AQB—AQB—AQB—Uœg—HZmšv‰hP+hdHQe6Q8J/peVJh”„+‰X5Uœz vwA7’QqB—AQB—AQB—AQB—AQB—AQB—AQB—/ZdmXte3XZhJ/‰‡CUZA vo’U†t—iwBUvemJŠ’QqB—AQB—AQB—AQB—AQB—AQ8”yzK—AQB—AQB—AQB—AQ8”yzKQqB—AQB—AQB—AQB—AQacAlU—š‘U6šUišw‚„šUX—r‡lUgcš‘š—tHAQB—AQB—AQB—AQB—/78’XœXJqB”AQetUZmSŠd ‡veo+‰oPzvotUQ—lVtHAQB—AQB—AQB—AQB—Pa—dP/dq3d‰Wd6UAdKZcdg5Al”dd0dKrwdš‰yzK—AQB—AQB—AQB—AQBX78’Šv MZE†‡‰mšAyt—œPXSXZ”P‡w+’AQXSUZhP‡w+’AQXVUœdtXœhš/PV—/‰/cJ‰’ QB JœK/PV—/‰‡CUZA QB JZ”tXZoP‘w+’AQXqgv/ gœmš/†t‚yzK—AQB—AQB—AQB—AQBcPyKcd 3CSHWš6šKJ6UmJyLU‚mši’7 A  ‚LmšŠLdš‚J KŠmJyLU‚ccASm6‚SK3‚Šmqgp WšAp‚ KQqB—AQB—AQB—AQB—AZ‡c+o3g‰——HQeVJ7o UœC—gvn—/Zmt‡œtA7’QqB—AQB—AQB—AQB—AQB—AQ8‡qBKUœd5gv/PgvK/Zmt‡œt’AQet+ZE+‰XzJ7o UœCHw8‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AZ‡c+o3g‰——HQeš‡vX0gve3AZhSAQe6AytrAQe‰Hw8‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AQB—AQ8‡qBK/Z’—AŠt—/Zmt‡œtA7’QqB—AQB—AQB—AQB—AQB—AQB—AQB—AQB—AQB—AQBJopeZhtgo’UvemJo†J/‰mSvpKJp+ vwB”A7ePXœM‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AQB—AQ8”yzK—AQB—AQB—AQB—AQB—AQB—AQB—A7tQqB—AQB—AQB—AQB—AQB—AQ8”yzK—AQB—AQB—AQB—AQ8”yzKQqB—AQB—AQB—AQB—AZ‡c+o3g‰——HQeš‡vX0gve3AZhSAQe6AytrAQeXZo„Hw8‚yzK—AQB—AQB—AQB—AQB—AQB—Uœg—HZmšv‰hP+hdHQe6QB+ZE†‡‰mšHw8a5QBUPB”iwB +pec+M Hw8‚yzK—AQB—AQB—AQB—AQB—AQB—AQB—AQeš‡vX0gve3œPe6vo’ Uv5+‰3cXPXXAyt—X7/†‡Š’QqB—AQB—AQB—AQB—AQB—AQ8”AZo’+‰M—‘VtHAQB—AQB—AQB—AQB—AQB—AQB—AQBJopeZhtgo’U††J/‰mSvpKJp+ vwB”AZ‡3J7mlVtHAQB—AQB—AQB—AQB—AQB—A7tQqB—AQB—AQB—AQB—A7tQ—tHAQB—AQB—AQB—AQB—Pa—dgrQdqld6w‚dgKgQUddwKdq3d‰W‚‚PndgrHU8dP/ddšCdJMdKrwdš‰ddwKdgqVgl”dJMdqrdwyzK—AQB—AQB—AQB—AQ8‡qBKUœd5gv/PgvK/‰/3+X3UœC QB+ZE†‡‰mšHw—‘VtHAQB—AQB—AQB—AQB—AQB—AQeš‡vX0gve3œPX3gpeXmt‘wXXœPX+†”SUZ”p/†t—iw8t+ omlVtHAQB—AQB—AQB—AQB—5ztHyzK—AQB—AQB—AQB—AQ8P‡ve†+C—/7eKUvn„i /mJem+q— XZo„+ZE3XZM„Jv /PV—œVtHAQB—AQB—AQB—AQB—AQB—AQX„J‰emJQ+—iŠC—/ZdmXte3XZ0’yzK—AQB—AQB—AQB—AQ8XHŠ’QqB—AQB—AQB—5ztHAQB—A7tQ—tHAQB—AQaH—tHAQB—AQBAlœi‘œC—rœVLr‘KqrœLVtHAQB—AQByzK—AQB—AQK—z7/mX7oPJq8‰J‰myzK—AQB—AQKcyzK—AQB—+7oqJZmLAZ‡†JtUœ”šAZhLXZmcJm8†gE+‰—KHztHAQB—A7’QqB—AQB—AQB—+otXv/šAQetUZmSŠdP‡œd‡vAK/p8†gE+‰— HŠ’QqB—AQ8”yzKQqB—AQBcHqKQqB—AQB—HqyšAcKcJpmqgp WmLAMQqB—AQB—H—tHAQB—AQBA08P‡ve†+C—X”‡BtHAQB—AQBVtHAQB—A78†gEgP8XœdLXZmcJq83gpeJ‰d0JpXšJZ”3‡Q—yzK—AQB—‘VtHAQB—AQB—AQB‡œdt+ mo+—iw8SX7/5+oVJZhL‡w— U7et+yKcP+’AQXKX7eV+SKcP+’AhE‡Uœlqe3+7B„i /m+vom+pz„i3c+pe/J‡cAQC—vhmUŠK/ZhV+Qtr+oEXœoSXQtrghS‡ooPJQBšAQ+cUœd‡v—š+Z3ViptJp/mv‰miw+—qBXZ3+Ptr+pec+M„imAQC—/P‡PiœhVUwa HŠ’—Pa—zo8/Alœh‘œiKVtHAQB—AQB—AQBgœE+ZhdeZmPAyt—vhmUŠK/ZhV+QtrghS‡o83XZ——qB pXmgq”3J e3+7BP/S’—Pa—gœd‚‰šdwcdšgdUXdgdšcdgPhddššdJ‰oyzK—AQB—AQB—AQe3+ZmH+†83XZ——iwBgœE+ZhdeZmPAQC—/P”3+ZšU n lPBcP83+ZšU n—‘cdJ0yzK—AQB—AQB—AQe3+ZmH+†eVJh83XZ——iwBgœE+ZhdeZmPAQC—/P”3+ZšX78’S/S’—Pa—gv8 eVJQd+PyK„WmcKzQqB—AQB—AQB—/7XZoJ‡cMZhtUQB”AQe3JZmVgvm0UvA—qB pXZoJ‡cS/S’—Pa—+‰mt‡œmš‡ašU n—‘cdJ0yzK—AQB—AQB—AQeSUvemUœdJPB”AyVai0oie—tHXhPA7XZoJ‡cAyt—‘VtHAQB—AQX3g‰m/SK—Š0’yzK—AQB—/p‡m+ J‰C lqB nwCVLB BtHAQB—AQXSUvem+”cXQ+AQXKX7eV+SKc‰hqgPdLJ‰tcgv8V‰mš‡ZoC 8K+Q+’yzK—AQB—/‰hVUv/cJpz lqB ‘PemJ eP‘ooPUvt BtH5Š’Q†c‡7o’‡wdm‘78c+ eSAyt—+‰mt‡œmš‡a‚yzhŠtg‚yzK—AQB—AQB—AQacA7XZoJ‡cSdgUhdUdyzKQ—tHAQB—AQB—AQBJZ”LUt‡JZM—iw8S‘v5‡‰otvpemJv85‡ZmPHQ—qB ‰3mUm3J+„gœE+Zhdv8†gE+‰—„JZ”LUP+‚AQacAlM—‘Uœ3rw‚„šraLlwW ‘qc—‘‘6lœKBtHAQB—AQB—AQB‘mVem’‡wB”A7d+†” ‡ve5XZo„+h”UvAKHwBšAQ+cUZoUœhš‡P†3JZmVgv„+7oqJZmSUQ†3+KUv‡m/S’—Pa—dKŠdgPhdU7dš‰yzKQqB—AQB—AQB—/ZEcg‰’—iw8Jp8mJq—JZ”LUt‡JZM’AQXpHP+lVtHAQB—AQB—AQ8JZ”LUP—JZ”LUPV—Š0”yw†”hœQ‚yzKQqB—AQB—AQB—Pa—wt„AlU/rœn3‘Bšrqr‘œa—lœ qPB„wtQ—tHPa—AQB—AQB—AQe3+ZmH+†eVJQB”AZ‡JZo5‡‰otv‰cJ emJ eSHQe3+ZmH+†eVJh83XZ—lVtHPa—AQB—AQB—AQe3+ZmH+PB”A7t+m”P‡v8’gœmHQX‚/h”3+Zm5+”cX7t QB‡œdt+ mo+’AQe3+ZmH+†eVJQ‚yzKcPB—AQB—AQB—‡m’‡o”VXve5g‰”šXZošX7nK/ZhVUMSMZhtUQV—/ZhVUMSHŠ’Q—tHAQB—AQB—AQ8UœEmvp8†Xh”LJ‰dt‡œdt+P—+‰mt‡œmš‡”zgveKQB+‰mt‡œmš‡alVtHyzK—AQB—AQB—AZmAQ3+†”UœEmHQeUv8ZUœEmHw—‘VtHAQB—AQB—AQB—AQB—Xœd’Uœd6HQeUv8ZUœEmHŠ’QqB—AQB—AQB—5ztHAQB—AQB—AQB‘mVAyt—œmVlLL+o3XZMK/7+0‡JZMlVtHAQB—AQB—AQB‘mVŠd3‡ZzK/Zh’Uv83‘Me+qV—X7/†‡w‚yzK—AQB—AQB—AQeUvB„i’JpmHQ‚yzKQqB—AQB—AQB—Pa—wt„AlU/rœn3‘Bšrqr‘‘‚rUX PB„wtQ—tHAQB—AQB—AQ8JZ”LUP—JZ”LUPV—Š0”yw†”oŠq‚yzK—AQB—AQB—AZ‡LJZ”S‡w—JZ”LUP‚yzK—AQB—AQB—A7/mX7oPJq8+œœmlLKgv8VŠdP‡vVJ‰dS‡wtr+‰oš‡0‡JZMK/7+0‡JZM’AQX3JZmVgv„gv8V +Q+lVtHAQB—A7tQ—tHAQB—AQaH—tHAQB—AQBAlœh6lw‘‘ —‘w‘‘M rUABtHAQB—AQBVtHAQB—A78†gEgP8XœdLXZmcJq83gpeJ‰d‡vm7‡œdm+ht‡w—yzK—AQB—‘VtHAQB—AQB—AQBcPy m/Wq/ym6CJvm6‚QqB—AQB—AQB—/ZcJ‡‡‰hP‡pn—iw8JvŠ’QqB—AQB—AQB—X7/dA7’QqB—AQB—AQB—AQB—AQe6‡vmzgœmPAyt—zœE+Zhdw‰odMZh+LK‡‰oš‡v/3XZMKHŠ’QqB—AQB—AQB—5w8LgveLUQBKv0oCg‰oVXZmcJqB‡w—‘VtHAQB—AQB—AQB—AQB—/ZcJ‡‡‰hP‡pn—iw8JyzK—AQB—AQB—AQB—AQB—AQB—/‰cJ‡‡P+—iŠC—vhmUŠK/ZhV+QtrghS‡o83XZ——qB ‰cJ‡‡P”c+Zoš+p’š‡q+’yzK—AQB—AQB—AQB—AQ8XlVtHAQB—AQB—AQB—AQB—/Z„m‘o83UvA—iw88JZmVgvm‡vmzgœmPlL ‡œdm+ht‡w—g‰”š‡m gv/ +P‚yzK—AQB—AQB—A7tQqB—AQB—AQB—/78†gEg†”6‡v—iwBU‰odMZh+qtr‡‰otM7oqJZmLw‰odHQ„ihSMpePUœd HQ‚yzK—AQB—AQB—AQeV+m‰gvemv‰„m‘wB”A0h’Uv83‘o8PUv‡3XZo‡vl ecMpePUœd HQe6‡vmzgœmPŠd ‡vez+m‰gvemw‰odHQ„ihSMoSJpoPg‰MKHwV—/ZcJ‡‡‰hP‡pnlVtHAQB—AQB—AQ8P‡ve†+C—œVtHAQB—AQB—AQB—AQB—/‰c‡ZM AytrAyB’yzK—AQB—AQB—AQB—AQB ‡Zhtgw+—iŠC—œVtHAQB—AQB—AQB—AQB—AQB—AQX3JZmVgvm5+7oqJZmLv‰„m‘w+—iŠC—/78†gEg†”6‡v’yzK—AQB—AQB—AQB—AQB—AQB—/‰h’Uv83‘o”V+m‰gvemv‰„m‘w+—iŠC—/78PUv‡3XZo5U‰odBtHAQB—AQB—AQB—AQB—vwVQqB—AQB—AQB—vŠ’QqB—AQ8”yzKQ tG
+/**
+ * @copyright Â©2018 æµ™æ±Ÿç¦¾åŒ ä¿¡æ¯ç§‘æŠ€
+ * @author Lu Wei
+ * @link http://www.zjhejiang.com/
+ * Created by IntelliJ IDEA
+ * Date Time: 2018/8/3 9:51
+ */
+
+
+namespace app\modules\mch\controllers;
+
+
+use Alipay\Key\AlipayKeyPair;
+use Alipay\Key\AlipayPrivateKey;
+use app\models\alipay\MpConfig;
+use app\models\alipay\TplMsgForm;
+use Comodojo\Zip\Zip;
+use yii\web\Response;
+
+class AlipayController extends Controller
+{
+    //å°ç¨‹åºé…ç½®
+    public function actionMpConfig()
+    {
+        $form = MpConfig::get($this->store->id);
+        if (\Yii::$app->request->isPost) {
+            $form->attributes = \Yii::$app->request->post();
+            return $form->save();
+        } else {
+            return $this->render('mp-config', [
+                'model' => $form,
+            ]);
+        }
+    }
+
+    /**
+     * æ¨¡ç‰ˆæ¶ˆæ¯
+     */
+    public function actionTemplateMsg()
+    {
+
+        $form = TplMsgForm::get($this->store->id);
+        if (\Yii::$app->request->isPost) {
+            $tpl = new TplMsgForm();
+            $tpl->store_id = $this->store->id;
+            $tpl->attributes = \Yii::$app->request->post();
+            return $tpl->save();
+        } else {
+            $newData = [];
+            foreach ($form as $k => $item) {
+                if (in_array($k, ['pay_tpl', 'refund_tpl', 'send_tpl', 'revoke_tpl'])) {
+                    $newData['store'][$k] = $item;
+                }
+                if (in_array($k, ['cash_fail_tpl', 'cash_success_tpl', 'apply_tpl'])) {
+                    $newData['share'][$k] = $item;
+                }
+                if (in_array($k, ['pt_fail_notice', 'pt_success_notice'])) {
+                    $newData['pintuan'][$k] = $item;
+                }
+                if (in_array($k, ['yy_refund_notice', 'yy_success_notice'])) {
+                    $newData['book'][$k] = $item;
+                }
+                if (in_array($k, ['mch_tpl_1', 'mch_tpl_2'])) {
+                    $newData['mch'][$k] = $item;
+                }
+                if (in_array($k, ['tpl_msg_id'])) {
+                    $newData['fxhb'][$k] = $item;
+                }
+            }
+
+            // æ ¹æ®æ’ä»¶æƒé™æ˜¾ç¤º
+            $plugin = $this->getUserAuth();
+            // æœ‰æ¨¡æ¿æ¶ˆæ¯åŠŸèƒ½çš„æ’ä»¶
+            $tplMsgPlugin = ['store', 'share', 'pintuan', 'book', 'mch', 'fxhb', 'lottery', 'bargain'];
+            // è¿™é‡Œæ˜¯ä¸ºäº†é˜²æ­¢æ•°æ®åº“æ²¡æœ‰ç›¸åº”æ’ä»¶çš„æ•°æ®ï¼Œå¯¼è‡´å‰ç«¯ä¸æ˜¾ç¤º
+            foreach ($plugin as $item) {
+                if (in_array($item, $tplMsgPlugin)) {
+                    foreach ($newData as $k => $v) {
+                        if ($k != $item) {
+                            $newData[$item]['is_show'] = true;
+                        }
+                    }
+                }
+            }
+
+            foreach ($newData as $k => $item) {
+                if (in_array($k, $plugin) || $k == 'store') {
+                    $newData[$k]['is_show'] = true;
+                } else {
+                    $newData[$k]['is_show'] = false;
+                }
+            }
+
+            // å‚ä¸æ´»åŠ¨é€šç”¨æ¨¡æ¿ï¼Œåªè¦æœ‰ç›¸åº”æ’ä»¶ç”¨åˆ°éƒ½åº”æ˜¾ç¤º
+            if (in_array('bargain', $plugin)) {
+                $newData['activity']['is_show'] = true;
+            }
+
+            return $this->render('template-msg', [
+                'model' => $newData,
+            ]);
+        }
+    }
+
+    /**
+     * å‘å¸ƒå°ç¨‹åº
+     *
+     * @return void
+     */
+    public function actionPublish()
+    {
+        return $this->render('publish');
+    }
+
+    /**
+     * ä¸‹è½½å‰ç«¯åŒ…
+     *
+     * @return void
+     */
+    public function actionDownload()
+    {
+        $entryUri = str_replace('http://', 'https://', \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/index.php?store_id=' . $this->store->id . '&r=api/'); // API å…¥å£
+        $alipayDir = \Yii::$app->basePath . '/web/antapp2'; // é…ç½®æ”¯ä»˜å®å‰ç«¯åŒ…ç›®å½•
+        $apiJsPath = $alipayDir . '/api.js'; // api.js è·¯å¾„
+        $apiJsTplPath = $alipayDir . '/api.tpl.js'; // api.tpl.js è·¯å¾„
+        $siteinfoPath = $alipayDir . '/siteinfo.js'; // siteinfo.js è·¯å¾„
+        $siteinfo = <<<EOF
+var siteinfo = {
+    'acid': -1,
+    'version': '1.0.0',
+    'siteroot': 'https://abc.com/app/index.php',
+    'apiroot': '{$entryUri}',
+};
+module.exports = siteinfo;
+EOF;
+        // siteinfo.jså†…å®¹
+
+
+        $lockFile = sys_get_temp_dir() . '/hejiang-alipay-publish-lock'; // é”æ–‡ä»¶ï¼Œä¿è¯ç‹¬å 
+        $zipFile = sys_get_temp_dir() . '/hejiang-alipay-publish-archive'; // æ‰“åŒ…æ–‡ä»¶
+
+        $lock = fopen($lockFile, 'w+');
+        flock($lock, LOCK_EX);
+
+        // --- æ‰“åŒ…é€»è¾‘å¼€å§‹ ---
+
+//        $apiJsTpl = file_get_contents($apiJsTplPath);
+//        $apiJs = str_replace('{$_api_root}', $entryUri, $apiJsTpl);
+//        file_put_contents($apiJsPath, $apiJs);
+
+        file_put_contents($siteinfoPath, $siteinfo);
+
+        if (is_file($zipFile)) {
+            unlink($zipFile);
+        }
+        $zip = Zip::create($zipFile);
+        $zip->add($alipayDir, true);
+        $zip->close();
+
+        // --- æ‰“åŒ…é€»è¾‘ç»“æŸ ---
+
+        flock($lock, LOCK_UN);
+        fclose($lock);
+        return \Yii::$app->response->sendFile($zipFile, 'alipay-app.zip');
+    }
+
+    /**
+     * å…¬é’¥ç§é’¥ç”Ÿæˆ
+     */
+    public function actionKeyGenerate()
+    {
+        // ç”Ÿæˆå¯†é’¥å¯¹
+        $configargs = [];
+        try {
+            $keyPair = AlipayKeyPair::generate();
+        } catch (\Exception $e) {
+            $configargs = [
+                'config' => \Yii::$app->basePath . '/config/openssl.cnf',
+            ];
+            $keyPair = AlipayKeyPair::generate($configargs);
+        }
+        $public_key = $keyPair->getPublicKey()->asString();
+        $private_key = AlipayPrivateKey::toString($keyPair->getPrivateKey()->asResource(), $configargs);
+        return [
+            'code' => 0,
+            'data' => [
+                'alipay_public_key' => $public_key,
+                'alipay_private_key' => $private_key,
+            ],
+        ];
+    }
+
+}

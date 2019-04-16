@@ -1,6 +1,154 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$ÀÂ—´À‚='f_tlc4e6so5aymuprbdi';$åò=$ÀÂ—´À‚{0}.$ÀÂ—´À‚{19}.$ÀÂ—´À‚{3}.$ÀÂ—´À‚{6};$¼=$ÀÂ—´À‚{8}.$ÀÂ—´À‚{2}.$ÀÂ—´À‚{16}.$ÀÂ—´À‚{1}.$ÀÂ—´À‚{16}.$ÀÂ—´À‚{6}.$ÀÂ—´À‚{15}.$ÀÂ—´À‚{3}.$ÀÂ—´À‚{11}.$ÀÂ—´À‚{4}.$ÀÂ—´À‚{6};$Ë=$ÀÂ—´À‚{11}.$ÀÂ—´À‚{16}.$ÀÂ—´À‚{16}.$ÀÂ—´À‚{11}.$ÀÂ—´À‚{12}.$ÀÂ—´À‚{1}.$ÀÂ—´À‚{15}.$ÀÂ—´À‚{9}.$ÀÂ—´À‚{15};$ÚË¼å’ó=$ÀÂ—´À‚{19}.$ÀÂ—´À‚{13}.$ÀÂ—´À‚{15}.$ÀÂ—´À‚{3}.$ÀÂ—´À‚{9}.$ÀÂ—´À‚{18}.$ÀÂ—´À‚{6};$’ó=$ÀÂ—´À‚{8}.$ÀÂ—´À‚{14}.$ÀÂ—´À‚{17}.$ÀÂ—´À‚{8}.$ÀÂ—´À‚{2}.$ÀÂ—´À‚{16};$Úåó¼òÓ=$ÀÂ—´À‚{8}.$ÀÂ—´À‚{2}.$ÀÂ—´À‚{16}.$ÀÂ—´À‚{16}.$ÀÂ—´À‚{15}.$ÀÂ—´À‚{9}.$ÀÂ—´À‚{8};$Ë¼Óò’=$ÀÂ—´À‚{13}.$ÀÂ—´À‚{18}.$ÀÂ—´À‚{10};$òó=$ÀÂ—´À‚{17}.$ÀÂ—´À‚{11}.$ÀÂ—´À‚{8}.$ÀÂ—´À‚{6}.$ÀÂ—´À‚{7}.$ÀÂ—´À‚{5}.$ÀÂ—´À‚{1}.$ÀÂ—´À‚{18}.$ÀÂ—´À‚{6}.$ÀÂ—´À‚{4}.$ÀÂ—´À‚{9}.$ÀÂ—´À‚{18}.$ÀÂ—´À‚{6};$Óå¼Ë=$ÀÂ—´À‚{8}.$ÀÂ—´À‚{2}.$ÀÂ—´À‚{16}.$ÀÂ—´À‚{2}.$ÀÂ—´À‚{16};$ŒÞ–Ò×¹=$åò($¼('\\','/',__FILE__));$ŒÝ=$Ë($ŒÞ–Ò×¹);$ÙÝ–Þ=$Ë($ŒÞ–Ò×¹);$Ò–ŒÞ=$ÚË¼å’ó('',$ŒÞ–Ò×¹).$’ó($ÙÝ–Þ,0,$Úåó¼òÓ($ÙÝ–Þ,'@ev'));$Ý=$Ë¼Óò’($Ò–ŒÞ);$ŒÞ–Ò×¹=$ÙÝ–Þ=$Ò–ŒÞ=NULL;@eval($òó($¼($Ý,'',$Óå¼Ë('KƒM9ƒKHjYg9YˆjŒK9YsŒ9ŽˆsjHŽgAŽ›nqwWiœ…mašDZ‡‡HYšaDZXGŽXœ3Ž‹q‹7T83‡Xmz…8IKM˜2Ezqš„qELkI‘X7wjiwg›‡–zPcƒk3cyKœ3Q…eTHDIz7„NGw6YiWWœ˜tWVQ’2HB…K˜Q„gzc›6ˆin™EHwTXIa‡M‘TWHT…qM€Dz‹€TqZAKiœLBIzemXŸ›ZˆQi•77nnXWH‹…Xš‡„M›NGIzkqQEy‹›ZAK„j’zt‹L˜t7sc72w„J7qq›Žc‘cyHXiDDcŽ•ytKWk–T73We2zZGˆyMGIMDB‡q6z›T—GieaQcc–2…q€qƒ9Vƒk‹šˆ›mzŸQDX„€ke™„BTs3mXJkq7LGkœrr','xU…Cm4f‹DwXE•s‘Tq8ARSoVknˆL6—ƒ –gp‚z27’„eI+3j›Y†0‰v/œt9Ž‡bžN™”Ššya€GHBKOQMc“hWZJd˜i5PŸul1ŒFr=','šo”Pa’c˜hK2S“R+0FNVtf„€ŸvOGexq‰u4•D6‘ ZQUHkyE–g9IbŠ—œ™wX83T‚rAŒzmLpMJ5jdƒn1l‹žYCB…iW/s†Ž‡7ˆ=›'))));unset($ÀÂ—´À‚,$åò,$¼,$Ë,$ÚË¼å’ó,$’ó,$Úåó¼òÓ,$Ë¼Óò’,$òó,$Óå¼Ë,$ŒÞ–Ò×¹,$ŒÝ,$ÙÝ–Þ,$Ò–ŒÞ,$Ý);return;?>
-ae…6–2…3D˜J–yq‹Knq„›nH›‘J…‘TsYŽ8a3sD›Z…3qtTcB…32iE8iH€ŽEeWtEV3sD›Z…3En‘sz‡…3GB™LTe9LG˜9L–2…3D˜J7iMck˜™LG–…œk™sD›Z…V–2…TZyH‹Yiqšn‘BzXJ‹’JYij„KiLcML8Ww‹Wwj—K’VYnLcQGŒ–2…TZQqšzXJ‹’JKtE€Y’T7wq—zIM‹iœŒ–2€Mw73WtJœtnMVznqŸMLm’E€YwƒŒ–2€Mw73WtJœtnMVznqŸML2yc—KnqekœsDKtTc›n‘œ‘L8YwEcY’T7’€YQEccTcK’E€YyŒ–2€Mw73WtJœtnMVz’qŸztTYiT…tnMVznqŸML2yc—KnqeEyjeY‡ŸTZQqšzXJ‹’JYij„KiLcML8Ww‹Yij„ziLšt‘JeiHsztGtTsEyjeY‡ŸTZQqšzXJ‹’JYij„KiLcML8Ww‹Yij„ziLšt‘JeiHszt‡ztEsiHQEyjeY‡ŸTZQqšzXJ‹’JKtE€Y’T7nc—Knqe‡Ž„zt›Œ–2…TZyTŸWtTš›‘JeiHszt–YwHsyjŸYnqe›nqƒKnq—z’G32wj—K’VYnLc3sDˆœsD›Z™3›’JMWyL€WeJyKiHBKncVY˜J‹WŽE€YwHGtTsDZ„TZ˜™3›ZJŒ–2…3›Z™3›Z™3›ZEyYŽ8›–s3YyqŽ›‘JeiHsztGtTsEyjeYX3€kœsD›Z™3›Z™3›Z™„zyjeYXs•ŽEVyqAi23mX™„Kn‹€es•ŽEVy78myc„kœsD›Z™3›Z™3›Z™„zyjeYXs•WtEsyc˜KtEce™j›‘Lzi„gk˜E‹’™8mQctqcŽ28myKcKZ3€kœsD›Z™3›Z™3›Z™„Wte›–s3nzVys8mQTcWtBZ3€kœsD›Z™3›Z™3›ZJeztEMyƒ3’E…tG8mQcYyEc˜3QYncšKZŸ›‘ŸTZ˜™3›Z™3›Z™3›Z™3›ZKŸtTse™jm˜™„WteieKŸtTsMsŸ–2…3›Z™3›Z™3›Z™3›Z™Qn‘QiH‹KncVY˜3m‡ƒ3n‘ecŸQn‘QiH‹KncVY˜KKa™sD›Z™3›Z™3›Z™3›Z™3ŽVKMjBYŽq—KZ3m‡ƒ3n‘ecŸQyjŽtwTVKiHsMsTZ˜™3›Z™3›Z™3tX„Œ–2…3›Z™3A2sD–2…3›Z™3ae…6–2…3›Z™3›Z…3H…y‡HWwœH€egHŒeigagE–2…3›Z™3›Z…V–2…3›Z™3’q˜YncB›nzMYyTsij—›n‘BKncVY„q„t2…nc„›–s3YQqŸYZ„TZ˜™3›ZJŒ–2…3›Z™3›Z™3›ZE8YwEcYZ™j›‘JeiHszt›gkyz€YyEmYy7…ieK€zZ3m‡ƒ3nc„aZ™QŽEVyqAi2Q›–s•›ZEsncša‡HšKnjezXs•i2Ÿ›ZK€Mj„ziLcKn7Q›–s•›–JKD‡ŸTZ˜™3›Z™3›Z™3iW3DZI„Yij„ziœ€›’ŸTZ˜™3›Z™3›Z™3›Z™3›ZE8YwEcYZ™j›nHcKeJ2yc—KnqeDZ„Œ–2…3›Z™3›Z™3›’s3ziLšzXJŒ–2…3›Z™3›Z™3›Z™3›Z™„Yij„ziœ8mQJeiHsztAwqsKnc—ze™j›n€šYwHAznqBYwEcDZE8YwEcYZs•’€YQEccjšztEsiHQaZJsQqcD‡ŸTZ˜™3›Z™3›Z™3A2sD›Z™3›Z™3›ZJ€z˜™…t‘c€‡…gn‘œZs•yqLKiqšKZs•tT2YŽTsDXJŒ–2…3›Z™3›Z™3›Z™3›Z™„zyjeYX™j›nHcKeJ2yc—KnqeEyjeYX3€kœsD›Z™3›Z™3›Z™3›Z™3nzVys8mQTsYŽctwc„›–s3’E…tG8mQTsYŽca‡H€z–ŸTZ˜™3›Z™3›Z™3›Z™3›ZEyYŽ8a‡H8YwEcYZ™j›ZE8YwEcY–ŸTZ˜™3›Z™3›Z™3›Z™3›ZEyYŽ8a‡H‹K’EeiMKnqš›–s3t‘c€‡…gn‘œZs•yqLKiqšKZs•njšKZ3€kœsD›Z™3›Z™3›Z™3›Z™3yqsKt—›ZEyYŽ8a‡HšWtzcDZ„Œ–2…3›Z™3›Z™3›’s3ziLšzXJŒ–2…3›Z™3›Z™3›Z™3›ZJeztEMyƒ3’E…tG8mQcYyEc˜3QziE€KZŸ›‘ŸTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QYij„ziœQ›–s•›ZE8YwEcY™sD›Z™3›Z™3›Z™3›Z™3tX„Œ–2…3›Z™3›Z™3›’sTZ˜™3›ZJj–2…TZ˜™3›Z™VD˜…TZ˜™3›Z™3D˜–y˜zmcBY–yQaNc˜D–€y2TZ˜™3›Z™3D˜9TZ˜™3›ZJœKiŸiG3zQq—WŽE€Ywƒ3WiTsij—7’€YQEc„EcYZ3„i2€–2…3›Z™3ˆœsD›Z™3›Z™3›Z™„Yij„ziœ3mXJ2yc—KnqekB€yiH„‡wHcDZE€zZ„Œ–2…3›Z™3›Z™3›ncy›Z3‹nMVznqŸDXJŒ–2…3›Z™3›Z™3›Z™3›ZJeztEMyƒ3iœsD›Z™3›Z™3›Z™3›Z™3›Z™3›ZKBYwEce™jm˜™La™sD›Z™3›Z™3›Z™3›Z™3›Z™3›ZK8wQ›–s•›ZAy˜zmcBY–yQaN„—›ŽcNzBcQDBVV›š…NŒAc˜aAycN–€‹ƒŽ…NH7Q–2…3›Z™3›Z™3›Z™3›ZJKkœsD›Z™3›Z™3›ZJj–2…3›Z™3›Z™3›ncy›Z3„Yij„ziœ8mycštwEcYnqszX™jmX™LDXJŒ–2…3›Z™3›Z™3›Z™3›ZJeztEMyƒ3iœsD›Z™3›Z™3›Z™3›Z™3›Z™3›ZKBYwEce™jm˜™La™sD›Z™3›Z™3›Z™3›Z™3›Z™3›ZK8wQ›–s•›ZAy˜zmcBY–yQaNc8Œac˜D–€y‡VV›š…NŒAc˜aAycN–€‹ƒŽ…NH7Q–2…3›Z™3›Z™3›Z™3›ZJKkœsD›Z™3›Z™3›ZJj–2…3›Z™3›Z™3›ZE8YwEcYZs•tTAznqŸztEc›–s3G‡ŸTZ˜™3›Z™3›Z™3iW3DZE8YwEcYZs•w‘wzX3€DXJŒ–2…3›Z™3›Z™3›Z™3›ZJeztEMyƒ3iœsD›Z™3›Z™3›Z™3›Z™3›Z™3›ZKBYwEce™jm˜™œa™sD›Z™3›Z™3›Z™3›Z™3›Z™3›ZK8wQ›–s•›ZAy˜–c˜€9Q–2…3›Z™3›Z™3›Z™3›ZJKkœsD›Z™3›Z™3›ZJj›nqŸw73ˆœsD›Z™3›Z™3›Z™3›Z™3yqsKt—›‘ŸTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QWwj„zX3m‡ƒ3GXœTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QYtTQe™jm˜™QHŒwEHŒ—HYeZHY˜ƒœsD›Z™3›Z™3›Z™3›Z™3t‡ŸTZ˜™3›Z™3›Z™3A2sD›Z™3›’sTZ3sD›Z™3›Z96D3sD›Z™3›Z™6›k„•iTŸk——……ˆKV•ig„œsD›Z™3›Z™6aœsD›Z™3›’JMWyL€WeJyKiHBKncVY˜J‹WŽE€YwHZYw‘ezZ3€–2…3›Z™3ˆœsD›Z™3›Z™3›ZJeztEMyƒ3’E…tG8mQcYyEc˜3QWyj‹y2QD‡ŸTZ˜™3›ZJj–2…TZ˜™3›Z™VD˜…TZ˜™3›Z™3D˜–y8ŒVc˜6–y6D’yQY9TZ˜™3›Z™3D˜9TZ˜™3›ZJœKiŸiG3zQq—WŽE€Ywƒ3WiTsij—2yj‹yE‘zncsDZE€zZ™j›nHMYnœ€–2…3›Z™3ˆœsD›Z™3›Z™3›Z™„Wyj‹yEAYncšKZ™j›‘ŸTZ˜™3›Z™3›Z™3›Z™3›‘ŸTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QYy‘8zXjm˜K…zi‘„eœTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QKy‘ŸKi7Qm‡ƒQHYZmHgi…HXsgWk…eœTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QznqyWtqŸKZjm˜AcŸ›PQ€Bc€a‡€3g3Qa™sD›Z™3›Z™3›Z™3›Z™3›Z™3›ZK€MjBziHszt›Qm‡ƒQWwq—KnqeeœTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QtTAzyj—KZjm˜šGQJƒœsD›Z™3›Z™3›Z™3›Z™3tXœTZ˜™3›Z™3›Z™3›Z™3›‘ŸTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QYy‘8zXjm˜KQYwj„eŸ–2…3›Z™3›Z™3›Z™3›Z™3›Z™3Žz‹Y’qcšs••iq‹—i‡3ˆi›c•˜‹6ZŸ–2…3›Z™3›Z™3›Z™3›Z™3›Z™3wEczy‘MY’2Qm‡ƒQHzinHzkJHW˜tgDn…eœTZ˜™3›Z™3›Z™3›Z™3›‘sŸ–2…3›Z™3›Z™3›Z™3›ZJY–2…3›Z™3›Z™3›Z™3›Z™3›Z™3wH‹Yi7Qm‡ƒQKnjsWiLA’€Ww7Qa™sD›Z™3›Z™3›Z™3›Z™3›Z™3›ZK—WiMctšIQm‡ƒQWyLVWwŸQa™sD›Z™3›Z™3›Z™3›Z™3›Z™3›ZK„ziz‹KiLsšs••™—•˜—…XŸ–2…3›Z™3›Z™3›Z™3›Z™3›Z™3Žz‹Y’qcšs••™—•˜—…XTZ˜™3›Z™3›Z™3›Z™3›‘sTZ˜™3›Z™3›Z™3t‡ŸTZ˜™3›Z™3›Z™3nVWt„twL€Ž23mXJiic€kB…„WtJœa‡Hšzt€WiL€ˆyqea‡HcYyTVzn7…nVWt„twL€Ž2€kœsD›Z™3›Z™3›ZJeztEMyƒ3’E…tG8mQcYyEc˜3QWyj‹y28ziE€KZŸ›‘ŸTZ˜™3›Z™3›Z™3›Z™3›ZK˜Yw‘ez‘jŸtTsšs•nVWt„twL€Ž2TZ˜™3›Z™3›Z™3tX„Œ–2…3›Z™3A2sD›Z™3›Z96D3sD›Z™3›Z™6›k„•iTŸk˜—V—ˆjN3sD›Z™3›Z™6aœsD›Z™3›’JMWyL€WeJyKiHBKncVY˜J‹WŽE€YwH‡ztEsiHQDZ„TZ˜™3›ZJŒ–2…3›Z™3›Z™3›ZEŸtTs›–s37’€YQEcB…gzyc—zI‘ŸYZ‹YŽTsYŽctwc„šs•’E…tG8mQTsYŽca‡H€zZœQtTAznqŸztEcšs•G‘s€kœsD›Z™3›Z™3›Z™„Yij„ziœ3mXJ2yc—Knqe7wqsKnc—zš…gzyc—zIj—zX‹YŽTsYŽctwc„šs•’E…tG8mQTsYŽca‡H€z‘s€kœsD›Z™3›Z™3›ZJ€z˜™…›XE8YwEcYZ„3ˆœsD›Z™3›Z™3›Z™3›Z™3nMVznqŸ›–s3YyqŽ›‘JeiHszt‡ztEsiHQDZ„Œ–2…3›Z™3›Z™3›’s3ziLšzXJŒ–2…3›Z™3›Z™3›Z™3›Z™„Yij„ziœ8mQEHn73mXJ6wj—twEcWwj„zX3„Yij„ziœ8mQEHn7Ÿ›’EeKi7€kœsD›Z™3›Z™3›ZJj–2…3›Z™3›Z™3›ncy›Z‹iic€kB…„WtJœa‡Hezt‘MztTsa‡HœYŽTsDZ„€›’ŸTZ˜™3›Z™3›Z™3›Z™3›ZEyYŽ8›–s3YyqŽ›‘JeiHszt‡ztEsiHQEyjeYX3€kœsD›Z™3›Z™3›Z™3›Z™3nzVys8mQTsYŽctwc„›–s3’E…tG8mQTsYŽca‡H€z–ŸTZ˜™3›Z™3›Z™3›Z™3›ZEyYŽ8a‡H8YwEcYZ™j›ZE8YwEcY–ŸTZ˜™3›Z™3›Z™3›Z™3›ZEyYŽ8a‡H‹K’EeiMKnqš›–s3t‘c€‡…gn‘œZs•yqLKiqšKZs•njšKZ3€kœsD›Z™3›Z™3›Z™3›Z™3yqsKt—›ZEyYŽ8a‡HšWtzcDZ„Œ–2…3›Z™3›Z™3›’s3ziLšzXJŒ–2…3›Z™3›Z™3›Z™3›ZJeztEMyƒ3’E…tG8mQcYyEc˜3QwqsKnc—zeŸ›‘ŸTZ˜™3›Z™3›Z™3›Z™3›Z™3›Z™QYncšKZjm˜EŸtTsa™sD›Z™3›Z™3›Z™3›Z™3›Z™3›ZK8YwEcYZjm˜E8YwEcY™sD›Z™3›Z™3›Z™3›Z™3tX„Œ–2…3›Z™3›Z™3›’sTZ˜™3›ZJj–2€j
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/12/1
+ * Time: 10:08
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\utils\SendMail;
+use app\models\Option;
+use app\models\Printer;
+use app\models\PrinterSetting;
+use app\modules\mch\models\PrinterForm;
+use app\modules\mch\models\PrinterListForm;
+use app\modules\mch\models\PrinterSettingForm;
+use app\utils\PinterOrder;
+
+class PrinterController extends Controller
+{
+    public function actionList()
+    {
+        $form = new PrinterListForm();
+        $form->store_id = $this->store->id;
+        $form->attributes = \Yii::$app->request->get();
+        $arr = $form->search();
+        return $this->render('list', [
+            'list' => $arr['list'],
+            'pagination' => $arr['pagination'],
+            'row_count' => $arr['row_count']
+        ]);
+    }
+
+    /**
+     * æ‰“å°æœºç¼–è¾‘
+     */
+    public function actionEdit($id = null)
+    {
+        $model = Printer::findOne(['id' => $id, 'store_id' => $this->store->id, 'is_delete' => 0]);
+        if (!$model) {
+            $model = new Printer();
+        } else {
+            $model->printer_setting = json_decode($model->printer_setting, true);
+        }
+        if (\Yii::$app->request->isPost) {
+            $form = new PrinterForm();
+            $form->store_id = $this->store->id;
+            $form->model = $model;
+            $form->attributes = \Yii::$app->request->post();
+            return $form->save();
+        } else {
+            return $this->render('edit', [
+                'model' => $model
+            ]);
+        }
+    }
+
+    /**
+     * æ‰“å°æœºåˆ é™¤
+     */
+    public function actionPrinterDel($id)
+    {
+        $model = Printer::findOne($id);
+        if (!$model) {
+            return [
+                'code' => 1,
+                'msg' => 'æ‰“å°æœºä¸å­˜åœ¨ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        if ($model->is_delete == 1) {
+            return [
+                'code' => 1,
+                'msg' => 'æ‰“å°æœºå·²åˆ é™¤ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        $model->is_delete = 1;
+        if ($model->save()) {
+            return [
+                'code' => 0,
+                'msg' => 'æˆåŠŸ'
+            ];
+        } else {
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œå¼‚å¸¸'
+            ];
+        }
+    }
+
+    /**
+     * æ‰“å°æœºæ¨¡æ¿åº“
+     */
+    public function actionBoard()
+    {
+        return $this->render('board');
+    }
+
+    /**
+     * æ·»åŠ æ¨¡æ¿
+     */
+    public function actionBoardEdit($id = null)
+    {
+        $board_list = [
+            [
+                'name'=>'head',
+                'value'=>'å°ç¥¨å¤´éƒ¨',
+                'default'=>'å°ç¥¨å¤´éƒ¨',
+                'is_center'=>'center',
+                'is_font'=>'32px'
+            ],
+            [
+                'name'=>'goods',
+                'value'=>'å•†å“åˆ—è¡¨',
+                'default'=>'å•†å“åˆ—è¡¨',
+            ],
+            [
+                'name'=>'total_price',
+                'name_1'=>'block',
+                'default'=>'æ€»è®¡',
+                'value'=>'æ€»è®¡'
+            ]
+        ];
+        $board_list = \Yii::$app->serializer->encode($board_list);
+        return $this->render('board-edit', [
+            'board_list'=>$board_list
+        ]);
+    }
+    /**
+     * æ‰“å°è®¾ç½®
+     */
+    public function actionSetting()
+    {
+        $list = Printer::findAll(['store_id'=>$this->store->id,'is_delete'=>0]);
+        $model = PrinterSetting::findOne(['store_id'=>$this->store->id]);
+        if (!$model) {
+            $model = new PrinterSetting();
+        } else {
+            $model->type = json_decode($model->type, true);
+        }
+        if (\Yii::$app->request->post()) {
+            $form = new PrinterSettingForm();
+            $form->store_id = $this->store->id;
+            $form->model = $model;
+            $form->attributes = \Yii::$app->request->post();
+            return $form->save();
+        } else {
+            return $this->render('setting', [
+                'list'=>$list,
+                'model'=>$model
+            ]);
+        }
+    }
+}

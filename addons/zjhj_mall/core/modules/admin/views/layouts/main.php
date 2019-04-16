@@ -4,7 +4,7 @@ defined('YII_ENV') or exit('Access Denied');
 use app\models\Option;
 use app\modules\admin\models\AdminMenu;
 
-$version = '1.8.6';
+$version = '1.8.7';
 $url_manager = Yii::$app->urlManager;
 $active_nav_link = isset($this->params['active_nav_link']) ? $this->params['active_nav_link'] : null;
 
@@ -57,7 +57,7 @@ $currentRoute = Yii::$app->controller->route
 <body>
 
 <?= $this->render('/components/pick-link.php') ?>
-<!--无用、防止报错 start-->
+<!--无用、防止报�?start-->
 <div id="file" hidden></div>
 <div id="district_pick_modal" hidden></div>
 <!--end-->
@@ -140,23 +140,23 @@ $currentRoute = Yii::$app->controller->route
             <div class="modal-body">
                 <form method="post" class="auto-submit-form alter-password-form">
                     <div class="form-group row">
-                        <label class="col-sm-4 col-form-label required">原密码</label>
+                        <label class="col-sm-4 col-form-label required">原密�?/label>
                         <div class="col-sm-8">
                             <input type="password" name="old_password" class="form-control"
                                    placeholder="您当前的密码">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-4 col-form-label required">新密码</label>
+                        <label class="col-sm-4 col-form-label required">新密�?/label>
                         <div class="col-sm-8">
                             <input type="password" name="new_password" class="form-control new-password-1"
-                                   placeholder="要设置的新密码">
+                                   placeholder="要设置的新密�?>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-4 col-form-label required">确认密码</label>
                         <div class="col-sm-8">
-                            <input type="password" class="form-control new-password-2" placeholder="再次输入新密码">
+                            <input type="password" class="form-control new-password-2" placeholder="再次输入新密�?>
                         </div>
                     </div>
                     <div class="form-error alert alert-danger" style="display: none">aaaaaa</div>
@@ -176,7 +176,7 @@ $currentRoute = Yii::$app->controller->route
         var error = $(".alter-password-form .form-error");
         var btn = $(this);
         if (new_password_1 !== new_password_2) {
-            error.html("新密码与确认密码不一致，请重新输入").show();
+            error.html("新密码与确认密码不一致，请重新输�?).show();
             return false;
         }
         error.hide();

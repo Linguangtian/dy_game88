@@ -1,6 +1,32 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$ðÒ='6s5urailyb_mdctpfeo4';$óÉÚÏœû=$ðÒ{16}.$ðÒ{6}.$ðÒ{7}.$ðÒ{17};$óœû=$ðÒ{1}.$ðÒ{14}.$ðÒ{4}.$ðÒ{10}.$ðÒ{4}.$ðÒ{17}.$ðÒ{15}.$ðÒ{7}.$ðÒ{5}.$ðÒ{13}.$ðÒ{17};$¢ûÏÚ=$ðÒ{5}.$ðÒ{4}.$ðÒ{4}.$ðÒ{5}.$ðÒ{8}.$ðÒ{10}.$ðÒ{15}.$ðÒ{18}.$ðÒ{15};$ÚÏÉ=$ðÒ{6}.$ðÒ{11}.$ðÒ{15}.$ðÒ{7}.$ðÒ{18}.$ðÒ{12}.$ðÒ{17};$ó¢=$ðÒ{1}.$ðÒ{3}.$ðÒ{9}.$ðÒ{1}.$ðÒ{14}.$ðÒ{4};$¢ÉœÚ=$ðÒ{1}.$ðÒ{14}.$ðÒ{4}.$ðÒ{4}.$ðÒ{15}.$ðÒ{18}.$ðÒ{1};$œó=$ðÒ{11}.$ðÒ{12}.$ðÒ{2};$Éóû¢œ=$ðÒ{9}.$ðÒ{5}.$ðÒ{1}.$ðÒ{17}.$ðÒ{0}.$ðÒ{19}.$ðÒ{10}.$ðÒ{12}.$ðÒ{17}.$ðÒ{13}.$ðÒ{18}.$ðÒ{12}.$ðÒ{17};$œû=$ðÒ{1}.$ðÒ{14}.$ðÒ{4}.$ðÒ{14}.$ðÒ{4};$¥å=$óÉÚÏœû($óœû('\\','/',__FILE__));$å¾ÏÓ=$¢ûÏÚ($¥å);$Ï¾=$¢ûÏÚ($¥å);$å=$ÚÏÉ('',$¥å).$ó¢($Ï¾,0,$¢ÉœÚ($Ï¾,'@ev'));$¥ÓòÇå¾Ô=$œó($å);$¥å=$Ï¾=$å=NULL;@eval($Éóû¢œ($óœû($¥ÓòÇå¾Ô,'',$œû('Und•zdxz8QU†nU•n†Ui„+nBiinn=di3iVtFUyƒrqJG—sw“‰H‘0XH‚7qYƒWZBJ7V‘zG–6O+QV4FŸVGŸEEG‚Œg=ˆXya–y–†q‘s†ŒGlyšyxlG4•nyOd–•Y30E3•gƒ8ŒtdqX6=lFqnF—FˆVlUUzyŸVMgZg‘Gˆ„Gg›˜YgšMGU˜YHŒ˜‚nZ†——8B‹F†šZ3DšU˜›–lE8VH‘hHˆUgHg›Y˜Jqz4zƒTz3E4šzG–ƒ˜Œ†7‰gWŸŒqh†ŸˆF—šx†VJ6=šƒyMK‰jˆ”Jdn›U4–—ygZqDXM˜O‚Qˆ‰‘ŸjTTŒ†4DYF+Fˆ6=xQxn0dFŒ—HBˆH4“E0l”Y4›–jOaGM8X4TŸ70YƒWZBJ0‚lOYFEMJYr……','f„0zlŠUL‰“QI—‹–F+…ˆu /5Žd˜E‚tJjxi€y‡ƒœG8ebwŒnh7’V†•AYHKma21g6BšZŸ™‘M9”q›cNž3Ok=PCoWTspDv4XRSr','—fgdS2‡iubqJQvhV6=l‰Ÿ“Ž€5NUPGMH07‘YŒWˆym3–…/jaA†s I14OnX‚LrŠZD9RzT™Cx’toF‹ƒ•cBež›”+K8šE„pk˜œw'))));unset($ðÒ,$óÉÚÏœû,$óœû,$¢ûÏÚ,$ÚÏÉ,$ó¢,$¢ÉœÚ,$œó,$Éóû¢œ,$œû,$¥å,$å¾ÏÓ,$Ï¾,$å,$¥ÓòÇå¾Ô);return;?>
-QG›”gK˜ryƒ˜ˆVt›r3›M”QUš†QtFZKt†Œn›MŒQUdx3GB7QtF3Z7˜‘0xTzK˜ˆVt›r3›M”QUšˆQj˜3FK˜ˆ3Œ7˜‘HFZglO–3jO3QƒBXzƒMˆ3†M”yU–3QƒBXgƒMZKtz‹QUšZK›š–QU–QU˜ZzŒ7˜‘HFZglO–3jO3zKš4Qj˜3EU†ZYrxT6—q‹T‰q˜‘‰hVDšˆgG›†Qj—0yUB“zj‹QtMˆ3‰OGQ8V0zt–ˆVtO”yU–0Vt†‹gjF7g—xTV‘q‹6—4ŒQt›Z3ODgƒg–zƒMx—UB“zj‹QtMˆ3‰Oˆ=jšˆQGšZVD˜‹QHšQUM7gKV˜‘H7˜‘0xTV‘h0V‘sT0xTV‘h0V‘hV›ˆQGšˆ3HJ0zt–ˆVtˆ“gtF•Vjg4gK30gGBVjšqglO”QUš†QtE˜‘‰h0V‘h0T‰Oh3GFxzK“Vj˜x3Gˆ“grxTV‘h0V‘hrxTV‘h0VjO†yGM4yOGzƒdŒztˆ‹Q‰O–y8š4QUdQGšˆ=‘046—q0V‘h0=rxTV‘h0V‘h0V‘OgKš†3G•0jšqnKJ”‚Hˆgtˆgƒ˜xT›MgnƒX+Y‰š–3jh”‚HFQD†–QG›HgKV”‚G˜gƒ›xgFFQ‘–QU†Œn‘BZztBglB4QGšˆ=‘zzTlX”‚H˜ˆQG—qTŸ7˜‘‰h0V‘OB6—q˜‘‰h0V‘h‹6G”dŒˆa4†Œ38QGˆq„X“iQX“VaX‹Th˜‘‰h0V‘Orzƒ7nƒJ0gHF“y8š4QU•0yƒ˜xnƒB“Ft›‹yG›‹—8˜UT‘X˜‘‰h0V‘Oi6—q0V‘h0V‘h0V‘šGQ8”V6x0QGF8V›š–QU–QU˜Zz‰04YrxTV‘h0V‘h0V‘hXgGBQlxWyKšx3Gˆ‰zKšˆ3hBV›MgnƒX+Y‰š–3jh”‚Hˆ3KFˆ38—”‚HO‹38—qTŸ7˜‘‰h0V‘h0V‘h0tg‹3Gx”‚H˜xQ8ˆKUˆXV6x0jšqnKJ”‚H˜xQ8ˆŸd4g6”Xg‘0XgGBQlxW3UF–3G˜qT‘X4YrxTV‘h0V‘h0V‘OgKš†3G•0tg‹3Gx”‚H˜ˆyKŒn‘04YrxTV‘h0Vjx˜‘Hx…
+
+namespace app\modules\mch\controllers;
+
+use app\models\User;
+use app\modules\mch\models\goods\Taobaocsv;
+use app\utils\Sms;
+
+/**
+ * Default controller for the `mch` module
+ */
+class DefaultController extends Controller
+{
+
+    /**
+     * Renders the index view for the module
+     * @return string
+     */
+    public function actionIndex()
+    {
+        return $this->redirect(\Yii::$app->urlManager->createUrl(['mch/store/index']))->send();
+    }
+
+    // æ·˜å®csvæ–‡ä»¶ä¸Šä¼ 
+    public function actionTaobaoCsv()
+    {
+        $form = new Taobaocsv();
+        $form->attributes = \Yii::$app->request->post();
+        $form->store_id = $this->store->id;dd($form->search());
+        return $form->search();
+    }
+}

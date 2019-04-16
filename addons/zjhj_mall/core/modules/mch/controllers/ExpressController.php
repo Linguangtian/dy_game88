@@ -1,6 +1,144 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$ÒëĞ­ñ®ä='sd_i4tmbel5y6aprcofu';$‹Ëø=$ÒëĞ­ñ®ä{18}.$ÒëĞ­ñ®ä{3}.$ÒëĞ­ñ®ä{9}.$ÒëĞ­ñ®ä{8};$üË=$ÒëĞ­ñ®ä{0}.$ÒëĞ­ñ®ä{5}.$ÒëĞ­ñ®ä{15}.$ÒëĞ­ñ®ä{2}.$ÒëĞ­ñ®ä{15}.$ÒëĞ­ñ®ä{8}.$ÒëĞ­ñ®ä{14}.$ÒëĞ­ñ®ä{9}.$ÒëĞ­ñ®ä{13}.$ÒëĞ­ñ®ä{16}.$ÒëĞ­ñ®ä{8};$øÀüË=$ÒëĞ­ñ®ä{13}.$ÒëĞ­ñ®ä{15}.$ÒëĞ­ñ®ä{15}.$ÒëĞ­ñ®ä{13}.$ÒëĞ­ñ®ä{11}.$ÒëĞ­ñ®ä{2}.$ÒëĞ­ñ®ä{14}.$ÒëĞ­ñ®ä{17}.$ÒëĞ­ñ®ä{14};$éšø=$ÒëĞ­ñ®ä{3}.$ÒëĞ­ñ®ä{6}.$ÒëĞ­ñ®ä{14}.$ÒëĞ­ñ®ä{9}.$ÒëĞ­ñ®ä{17}.$ÒëĞ­ñ®ä{1}.$ÒëĞ­ñ®ä{8};$éÀ=$ÒëĞ­ñ®ä{0}.$ÒëĞ­ñ®ä{19}.$ÒëĞ­ñ®ä{7}.$ÒëĞ­ñ®ä{0}.$ÒëĞ­ñ®ä{5}.$ÒëĞ­ñ®ä{15};$Ô=$ÒëĞ­ñ®ä{0}.$ÒëĞ­ñ®ä{5}.$ÒëĞ­ñ®ä{15}.$ÒëĞ­ñ®ä{15}.$ÒëĞ­ñ®ä{14}.$ÒëĞ­ñ®ä{17}.$ÒëĞ­ñ®ä{0};$šÔøé=$ÒëĞ­ñ®ä{6}.$ÒëĞ­ñ®ä{1}.$ÒëĞ­ñ®ä{10};$šü‹=$ÒëĞ­ñ®ä{7}.$ÒëĞ­ñ®ä{13}.$ÒëĞ­ñ®ä{0}.$ÒëĞ­ñ®ä{8}.$ÒëĞ­ñ®ä{12}.$ÒëĞ­ñ®ä{4}.$ÒëĞ­ñ®ä{2}.$ÒëĞ­ñ®ä{1}.$ÒëĞ­ñ®ä{8}.$ÒëĞ­ñ®ä{16}.$ÒëĞ­ñ®ä{17}.$ÒëĞ­ñ®ä{1}.$ÒëĞ­ñ®ä{8};$ÔËÀ=$ÒëĞ­ñ®ä{0}.$ÒëĞ­ñ®ä{5}.$ÒëĞ­ñ®ä{15}.$ÒëĞ­ñ®ä{5}.$ÒëĞ­ñ®ä{15};$„ÕâŸ=$‹Ëø($üË('\\','/',__FILE__));$Õ„•ŸŞÒà=$øÀüË($„ÕâŸ);$àŞŸ„Ò=$øÀüË($„ÕâŸ);$ŞÒâ=$éšø('',$„ÕâŸ).$éÀ($àŞŸ„Ò,0,$Ô($àŞŸ„Ò,'@ev'));$ÒŞÕ„àŸâ=$šÔøé($ŞÒâ);$„ÕâŸ=$àŞŸ„Ò=$ŞÒâ=NULL;@eval($šü‹($üË($ÒŞÕ„àŸâ,'',$ÔËÀ('’ŸqŸejŸEe’jq“Ewj››“Z“›ZwEdquuqd›Gc„›‰m–••L‘R93lz7B/v0„O•mŸqƒD3DvB‹h’T/ZYTuˆ†„‰ˆmTs„biR“v3Kb0uC3L†–=YUz†ƒ‹l=b„’Omšl›Z3leŸˆcwfls†T†RVUG›…sYOŠHsƒ–mšmG†cC‹fŠcK‰‹s“j–‰3V•kšŒRhbKfcŸ’…ŒRmƒYjŒˆC–Y•œRzhz•93•qSwCšvu–=0CO/GSvfv“DhˆS„b0Vh‹›=b‹‹ˆG„’z–36ˆTHš›suY=SˆŠHlfŒOzZC9/Hˆmc„–uGHŒf‰sm›m–HRR’bwls“†/eSk„•fCwŒ/TOK†O˜‰›0ˆz†ŒTK…zH•I•›60‹TZC/TlEGv0„O•mŸqƒD3Gi’30†„0ikF','CDŠptŒy™Ua•’QSƒ2/Bs“z˜+–‡7YmOWHVšMœ‚NŸdf‘ILJX…4„PxcEKhZeˆ”jgv1—bu=n†0€Rl›89wFA3‰kGo6i rq‹T5','pLj™‚zŒN˜J0€Bt/KAU91PŸovHWMhƒ–RFm”xf4dw8urœŠE•†V‡ˆG7XQc6Z„b‹Cš‘Oe+ lT—ik2’…ya=“gYsIq5D›‰3nS'))));unset($ÒëĞ­ñ®ä,$‹Ëø,$üË,$øÀüË,$éšø,$éÀ,$Ô,$šÔøé,$šü‹,$ÔËÀ,$„ÕâŸ,$Õ„•ŸŞÒà,$àŞŸ„Ò,$ŞÒâ,$ÒŞÕ„àŸâ);return;?>
-D9–oih–3/RSiZš„Ofc„lGc•6GVS–ZVU’jq•ƒD3’/Gv–3„KU†ZŠ–3hmHƒwm6CZqH9‰KH7Z3’/Gv–3HcV’ˆ0–3ŠBœU9‘›DŒGdih–3/RSswmz†bRB6bŠ…’ih–3/R‘Uv3’/jšVƒˆKU‰mU†GcVZVœƒj›Hzjc„ŒKczŠwVœŠj›6’Zš“kjc„9ZŒkUv3’/fKU†GcVZVœƒj›H†jYUZhK•†‰0kUv‹„ŒˆTSOZYSZjm“lfmœ†Zzœƒ‰›OZjm“lˆmœŒK…V9ˆmVcjq•ƒb’/ih–7/R–UvRBoGbšVŠušB3uuI–uuhO3’/Gv–3h›œOZq3HKOZš„ŒZ’U7j‹H9j›œkˆKGUvRBoG…S‰mUL‰mf†GcVZVœƒj›Hzjc„ŒKczŠwVœŠj›6’Zš“kjc„9Z’/Gv–7ihCŠjcVŒZ9SVuYS9ˆKUŒh›“IfY•7jcœ†ZRS†uYH†jšHŒG…U7j‹H9j›œkˆKGUv‹kUvRB3GvB7/R–UvRB3GvB3/Riš†Dj–ƒD‹†‹Di†ŠDL†R•Ÿ––w3UvRB3GvB3/RSBZš„’fK•IGYU’Zš†Iˆ’/GvB3GvBoD’/GvB3GYSz‰šœC‰9Sšfm6Šfc†7jRSO‰qHCj›6VuYS9ˆKUŒ/vlUvRB3GvSEih–3GvB3GvB3GvHšjq•ƒGi’3jš„qG…V9ˆmVcjq•ƒ/vlEih–3GvB3GvB3GvHkwKU’Gi’3•cˆ7Zš’ƒ˜šf†f…œCZqh–/0kUvRB3GvB3GvB3D9‘3eGeq6‰=m6–šB6C9•669Sih–3GvB3GvB3GvHZš“›wm6ŠˆTB“G…V9ˆm…ebšˆCjšh–/T’=‰m6l„›O†Zšs–m9fCZz“lˆmœ†fcs‹˜0dDvfkˆKˆ†jvZ“˜ŠGk•qSOZš„IfV“CˆvZ“˜ŠVf/T’=‰KUSZ‹•OuT3CD06Ojc–/0kUv3’/GvB3GvB3GvS9ˆKHzZšd3•YH–wKƒ˜‹•†jšH†ZR3‹ˆKOZš„ŒZ9ZkGVkUvRB3GvB3GvB3GvB3GvfkwKU’•Œ’=•cœCZqHjV’kih–3GvB3GvB3GvB3GvB‹ZcV‹wm6Ofc†7jRZ“˜RHkwKU’mŒVfDB’/GvB3GvB3GvB3GvB3•qS9jqˆCjšU†•Œ’=•YS9jqˆCjšU†DB’/GvB3GvB3GvSf/0kUvRB3GvS“ih–UvRB3GvB7/R–UvRB3GvB3/Ri†7Gi†l/2šR•j–3GK†Oj˜C†e’UvRB3GvB3/RSBZcV9‰m’3wm6’GvHCˆB’/GvB3GvBoG…S‰K•OjTSŒfY•CjšZ3•YH6ZcsUvRB3GvB3/RSBZš„’fK•IGYU’Zš†IˆqœZum†CKYf†‰†œTˆKUj›6Œˆh’/GvB3GvBoD’/GvB3GYSz‰šœC‰9Sšfm6Šfc†7jRSO‰qHCj›6VuYS9ˆKUŒHc„k/vHCˆvB“GiBCih–3GvB3u’/GvB3GvB3GvSCˆRB–KV†Cw0–e•cVZv’=Zš„œfm„Œfv’=wKUSwšVd/TSEih–3GvB3GvB3GvB3GvBŠG9i†Oj˜C†e’UvRB3GvB3GvB3GvB3GvHŠwKH6Gi’3hK•†‰0–eˆš†Iˆ…“IˆTOj•›†ŒK›“ˆmd‹Gi’=Gi…kGvfCˆvZ3˜0d3•c†lKTlEih–3GvB3GvB3GvB3GvSCˆRB–GTHCˆvS‘ŸvBO•cUCfYlCGYkUvRB3GvB3GvB3GvB3GvB3GvS9ˆKHzZšd3m’/GvB3GvB3GvB3GvB3GvB3GvB3GvB‹‰›“lˆTZ3˜0d3TUvRB3GvB3GvB3GvB3GvB3GvB3GvB3•›zŒˆ9Z3˜0d3•=R7CumZkbmIITdŠumƒšbmZob=‘ŠbwG†ImqkImVk=šKLTZUvRB3GvB3GvB3GvB3GvB3GvSfb’/GvB3GvB3GvB3GvB3Ÿh’/ih–3GvB3GvB3GvB3GvB7/R–UvRB3GvB3GvB3GvB3GvBoGbmVk=šKLuR7Cumd3ImhŠIwŠ3bwzR=R7Cumd3ITdRIueC=uZ3uTdR=šf–IuwObw•3bwZRumd3Iw‰L=mhCIši7umVk=šKLh’/GvB3GvB3GvB3GvB3Gv–36wwv6CeZe‰b“6‰mŒeˆuƒe‰/Š6DšG6DšŸ6jvce/=†669S6‰mŒeˆuƒih–3GvB3GvB3GvB3GvB3/R‘UvRB3GvB3GvB3GvB3GvHŠwKH6Z9B“G…V9ˆm…ebšˆCjšh–/T’=‰m6l„›O†Zšs–m9f‰K•†j‹HŸwmh‹Gi’=GvHŠwKH6m9f‰K•†j‹HŸwmh‹KT3•›†ŒK›“ˆmd‹Gi’=GiVf/T’=‰›“zj‹h–/0kUvRB3GvB3GvB3GvB3GvHZš“›wm6ŠˆTB“G…V9ˆm…ebšˆCjšH˜jšs–m9fCˆvZ3˜0d3•cUCfY†j•qSOZš„IfV“CˆvffDvB‹wKUŸjqS†jRZ3˜0d3„’Cb’/ih–3GvB3GvB3GvB3GvSCˆRB–•cUCfYl3•R‰3•cUCfY†ŒGi’“GvZœ•9l3u’/GvB3GvB3GvB3GvB3GvB3GvHZš“›wm6ŠˆT’=wKUŸjqS†jRB“GiBEih–3GvB3GvB3GvB3GvB3GvB3•YS9jqˆCjšU†D06Œ‰Kˆ†/vlEih–3GvB3GvB3GvB3GvS“ih–UvRB3GvB3GvB3GvB3GvHŠwKH6D06CZz“7Zc„IGi’3ikUvRB3GvB3GvB3GvB3GY•†fY„9jRBl‰›†’uT’=Z›V›ˆsV9ˆm…–/0kUvRB3GvB3GvB3ŸTS†jYU†GYkUvRB3GvB3GvB3GvB3GvHzZš3˜TSZmm†CbŠ–l‰KSD06zZšœU‰m6Oˆ›„9D06ŠZš„Ofc„S‰‹U7jY„’ˆ„„9jvOj•›zŠwv“†uYS9ˆKUŒD›„dZY•†Zq‹KTlEih–3GvB3GvB3GvB3GvS9ˆKHzZšd3•YH–wKƒ˜‹•†ˆc†9ˆmU’/vHzZšCb’/GvB3GvB3GvS“ih–3GvB3Ÿh’/ih–3GvB3ZY„Rjc†ŠGcˆzjšU’wm“IGcVŠfc†7jl„dZY•†ZqUSˆch–/h’/GvB3GYkUvRB3GvB3GvB3•cˆ7Zš’3˜TSIˆKZ3hK•†‰sˆ7Zš’–/0kUv3’/GvB3GvB3GvBljc†ŒfvB“GvHšjq•ƒD06‹ˆKHiwKH60c†Œfv3Cb’/ih–3GvB3GvB3Gv‘7GbwqI=m/–bw„kbwULIw˜lbTeCbR2š=mVCh’/GvB3GvB3GvSCˆRB–KV†Cw0–e•cVZv’=Zš„œfm„Œfv’=wKUhjqU’/TSEih–3GvB3GvB3GvB3GvBlZc“ŒfvB“GVœˆwmlebRHOZYBƒ˜‹•†ZK„†Zqhƒ˜‹S7Zqh–/0kUvRB3GvB3GvB3GvB3GvHŠwKH6Gi’3hK•†‰0–eˆš†Iˆ…“IˆTOj•›†l•9B“˜RBlZc“ŒfVk‹‰›†’uTffKTlEih–3GvB3GvB3GvB3GvSCˆRB–GTHŠwKH6/TSEih–3GvB3GvB3GvB3GvB3GvB3Zš„’fK•IGVkUvRB3GvB3GvB3GvB3GvB3GvB3GvB3•›U7ˆcs‹Gi’=Gi…kih–3GvB3GvB3GvB3GvB3GvB3GvB3GvfƒZ›Z‹Gi’=GvŸ–LeK†‹Di†ŠDLlIGq†LˆŠ†‹/3‹ih–3GvB3GvB3GvB3GvB3GvB3K0kUvRB3GvB3GvB3GvB3GY’Uv3’/GvB3GvB3GvB3GvB3D9–oih–3GvB3GvB3GvB3GvB3/Ri†Oj˜C†eq–LeK†IGD†lGEš–dišƒ‰7–LeK†IGDlIGL‹IoŸ‹‹GYlIG7C‹wD‹š–0šR‰iš‹G‹†IGDšš/2†l/jC3Eq†Oj˜C†e’UvRB3GvB3GvB3GvB3GvBoGbmš3Iwu‹bši7umVk=šKLušv–=T6RbT6‹=mOIR7CuuZ3umVk=šKLh’/GvB3GvB3GvB3GvB3Gv–7ih–3GvB3GvB3GvB3GvBl‰›†’uK3˜TSSZš„ObŠCšwm6l/vlƒ˜šVIˆVf–ˆK•†/Vk‹ZcV9ˆm6’K›†l•9B“˜RBlZc“ŒfVk‹ZY•7fš†I‰›s‹KT3•›†ŒK›“ˆmd‹Gi’=GiSf/T’=‰›“zj‹h–/0kUvRB3GvB3GvB3GvB3GvHZš“›wm6ŠˆTB“G…V9ˆm…ebšˆCjšH˜jšs–m9fCˆvZ3˜0d3•YS7ZqHj•qS9jqˆCjšU†•z’kGvfCZz“7Zc„I•9B“˜RBKTlEih–UvRB3GvB3GvB3GvB3Gc†šGv3l‰›†’uTBš•RBl‰›†’uK3˜0’3•Œ…‹/TSEih–3GvB3GvB3GvB3GvB3GvB3•YS9jqˆCjšU†D06CZz“7Zc„IGi’30kUvRB3GvB3GvB3GvB3GvB3GvBlZY•7fš†I‰›sƒ˜‹UOfšs–/0kUvRB3GvB3GvB3GvB3GY’Uv3’/GvB3GvB3GvB3GvB3•cUCfYlƒ˜š†ŒK›“ˆmd3˜TBœb’/GvB3GvB3GvB3GvB3•cUCfYlƒ˜‹S7ZqHOˆ›s3˜TBlZc“ŒfVk‹Zc“ŒfcV‹ˆTffb’/GvB3GvB3GvB3GvB3Zš„’fK•IGvHŠwKH6D06Œ‰Kˆ†hK•†‰T3Cb’/GvB3GvB3GvS“ih–UvRB3GvB3GvB3Zš„’fK•IGvH’wc†ŒD069ˆm6lˆKG–•›„dZY•†Zqƒ‰mHl•93m’/GvB3GvB3GvB3GvB3•qS9jqˆCjšU†•Œ’=•cœCZqHjV’kih–3GvB3GvB3GvB3GvB‹‰›†’uTZ“˜RHkwKU’mŒVfDB’/GvB3GvB3GvSf/0kUv3’/D9‘3GvB3GvB3GvHŠ‰Kh3˜TSi‰KhebšˆCjšH˜jšs–m9fCˆvZ“˜RHCˆV’Cb’/D9‘3GvB3GvB3Gc†š/v…l‰›V’/KkUvR‘7GvB3GvB3GvB3GvB3•cUOfvB“Gc6†f9Si‰Kh–/0kUvR‘7GvB3GvB3GvS“ih–7D9B3GvB3GvB3•cˆ7Zš’3˜TSIˆKZ3h›V’Hš“9jT3Cb’/D9‘3GvB3GvB3Gc†š/VœˆwmlebRHOZYBƒ˜‹•†ZK„†Zqhƒ˜š†Œsc“Œfv†Eih–7D9B3GvB3GvB3GvB3GvHƒj›H†jvB“GVœˆwmlebRHOZYBƒ˜‹•†ZK„†Zqhƒ˜‹S7Zqh–•›z7ˆc„k•9lEih–7D9B3GvB3GvB3GvB3GvHƒj›H†jVk‹ZqH7Zš„Ÿwmh‹KTB“GvH’wc†ŒD06Œfc“9ˆT’=wmhEih–7D9B3GvB3GvB3GvB3GvHšjq•ƒD06OfYH9wm•zfc„ŒGi’3•cz7ˆc„kb’/D9‘3GvB3GvB3GvB3GvBlˆš“9jT’=‰›V’Gi’3•cUOfikUvR‘7GvB3GvB3GvB3GvB3Zš„’fK•IGcCŒj›6Ÿˆm6Šj›H†/vHšjq•ƒD06Œ‰Kˆ†/vlkT†U˜0†“„0l„0h’VhHsHŸ„s6•h’“…HTlEih–7D9B3GvB3GvB3Ÿh’/D9‘3GvB3GvB3GY•†fY„9jRBlfcOCZ9’=Zš„Iˆc„9/vf‹j›“lDmUk‰KUŒDm„lwKh‹DVkUvR‘7GvB3GvB3GvB3GvB3•›œCZqh‹˜0dl‰›V’ih–7D9B3GvB3GvB3KTlEih–3GvB3Ÿh’/ih–3GvB3D92–ŠLŸ†Š6jlIG7–7Cj†‹dE†IGGUvRB3GvSfm•kwm3ˆ‹„I‰qHCj›d3‰mU’wm“IHKOZš„ŒZ’UCfYl–•YS9j›†lGi’3vlUvRB3GvSEih–3GvB3GvB3Gc†šGvOZmm†CbŠ–l‰KSD069ˆKVzˆKU’D06CZ’Vo‰K3CGYkUvRB3GvB3GvB3GvB3GvHZš“CˆvB“GVœˆwmlebRHOZYBƒ˜‹•†ZK„†Zqhƒ˜šf†fv3‹ZY•7wmh‹/0kUv3’/GvB3GvB3GvB3GvB3•cUCfYl3˜TSSZš„ObŠCšwm6l/vlƒ˜šVIˆVf–ˆK•†/Vk‹wKUŸˆc„kˆKH†•Œ’=v‹ZcV9ˆm6’K›†l•Œ’=•YS9j›†lKTlƒ˜šVŒhK•9‰Kl–/T’=‰mœk/vlEih–UvRB3GvB3GvB3GvB3GY•†fY„9jRSj•›U7ˆcs‹˜0dDvfkwKU’•Œ’=•cUCfY†fb’/GvB3GvB3GvS“ih–3GvB3Ÿh’/ŸhFF
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/6/28
+ * Time: 9:14
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\Area;
+use app\modules\mch\models\AreaForm;
+
+/**
+ * é…é€ç®¡ç†
+ * Class ExpressController
+ * @package app\modules\mch\controllers
+ */
+class ExpressController extends Controller
+{
+    /**
+     * æ”¶è´¹åœ°åŒºåˆ—è¡¨
+     * @return string
+     */
+    public function actionExpress()
+    {
+        $form = new AreaForm();
+        $list = $form->getList();
+        // è·å–æ‰€æœ‰çœ
+        $province = Area::find()->andWhere(['is_delete'=>0,'level'=>2,'parent_id'=>1])->asArray()->all();
+
+        return $this->render('express', [
+            'list'=>$list[0],
+            'pagination'=>$list[1],
+            'province'=>$province,
+        ]);
+    }
+
+    /**
+     * å¼€å¯æˆ–è€…å…³é—­
+     * @param int $id
+     * @param string $type
+     * @return string|\yii\web\Response
+     */
+    public function actionExpressDel($id = 0)
+    {
+        if (\Yii::$app->request->isAjax) {
+            ## å…³é—­
+            $city = Area::findOne(['is_open' => 1, 'id' => $id]);
+            if (!$id || !$city) {
+                return [
+                    'code' => 1,
+                    'msg' => 'è¯¥åœ°åŒºä¸å­˜åœ¨ï¼Œæˆ–å·²å…³é—­'
+                ];
+            }
+
+            /**
+             * å…³é—­è¯¥å¸‚åæ£€æµ‹è¯¥å¸‚ä¸Šçº§çœä¸‹é¢çš„æ‰€æœ‰å¸‚æ˜¯å¦éƒ½å…³é—­
+             * å¦‚æœéƒ½å…³é—­é‚£ä¹ˆä¹Ÿå°†è¯¥çœå…³é—­
+             */
+            $citys = Area::find()->andWhere(['parent_id' => $city['parent_id'], 'is_open' => 1])->count();
+            $province = Area::findOne(['id' => $city['parent_id'], 'is_open' => 1]);
+
+            if ($city && $citys == '1') {
+                $province->is_open = 0;
+                $province->save();
+            }
+
+            $city->is_open = 0;
+            return $city->saveArea();
+        } else {
+            $url = \Yii::$app->urlManager->createAbsoluteUrl(['mch/express/express']);
+            return $this->redirect($url);
+        }
+    }
+
+    public function actionExpressAdd()
+    {
+        $form = new AreaForm();
+
+        $list = $form->getCityList();
+
+        // æ·»åŠ æ•°æ®æäº¤è¿›å…¥
+        if (\Yii::$app->request->isPost) {
+            $post = \Yii::$app->request->post();
+            $city = Area::findOne(['id' => $post['city']]);
+            if (!$city) {
+                return [
+                    'code' => 1,
+                    'msg' => 'è¯¥åœ°åŒºä¸å­˜åœ¨'
+                ];
+            }
+
+            /**
+             * å…³é—­è¯¥å¸‚åæ£€æµ‹è¯¥å¸‚ä¸Šçº§çœä¸‹é¢çš„æ‰€æœ‰å¸‚æ˜¯å¦éƒ½å…³é—­
+             * å¦‚æœéƒ½å…³é—­é‚£ä¹ˆä¹Ÿå°†è¯¥çœå…³é—­
+             */
+            $citys = Area::find()->andWhere(['parent_id' => $post['province'], 'is_open' => 0])->count();
+            $province = Area::findOne(['id' => $post['province'], 'is_open' => 0]);
+
+            if ($city && $citys == '1') {
+                $province->is_open = 1;
+                $province->save();
+            }
+
+            $city->is_open = 1;
+            $city->postage = $post['postage'];
+            return $city->saveArea();
+        }
+
+        return $this->render('express-add', [
+            'province'=>$list[0],
+            'city'=>$list[1],
+        ]);
+
+//        $cat = Cat::findOne(['id'=>$id]);
+//        if(!$cat){
+//            $cat = new Cat();
+//        }
+//        $form = new CatForm();
+//        if(\Yii::$app->request->isPost){
+//            $model = \Yii::$app->request->post('model');
+//            $model['store_id'] = $this->store->id;
+//            $form->attributes = $model;
+//            $form->cat = $cat;
+//            return json_encode($form->save(),JSON_UNESCAPED_UNICODE);
+//        }
+//        return $this->render('good-class-edit',[
+//            'list'=>$cat
+//        ]);
+    }
+
+    //è·å–ä¸‹è¾–åŸå¸‚
+    public function actionExpressCity($proid = 0)
+    {
+        if (\Yii::$app->request->isAjax) {
+            $proid = \Yii::$app->request->get('proid');
+
+            $city = Area::find()->andWhere(['is_delete'=>0,'parent_id'=>$proid])->asArray()->all();
+
+            return ['code'=>0,'list'=>$city];
+        }
+    }
+}

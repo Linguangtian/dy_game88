@@ -1,6 +1,41 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$¼¾ç='5_64ylbdsmouieptarcf';$ƒå ÓÊ=$¼¾ç{19}.$¼¾ç{12}.$¼¾ç{5}.$¼¾ç{13};$ÙåÓ=$¼¾ç{8}.$¼¾ç{15}.$¼¾ç{17}.$¼¾ç{1}.$¼¾ç{17}.$¼¾ç{13}.$¼¾ç{14}.$¼¾ç{5}.$¼¾ç{16}.$¼¾ç{18}.$¼¾ç{13};$ƒåÊÓö =$¼¾ç{16}.$¼¾ç{17}.$¼¾ç{17}.$¼¾ç{16}.$¼¾ç{4}.$¼¾ç{1}.$¼¾ç{14}.$¼¾ç{10}.$¼¾ç{14};$ƒ Êå=$¼¾ç{12}.$¼¾ç{9}.$¼¾ç{14}.$¼¾ç{5}.$¼¾ç{10}.$¼¾ç{7}.$¼¾ç{13};$ƒ=$¼¾ç{8}.$¼¾ç{11}.$¼¾ç{6}.$¼¾ç{8}.$¼¾ç{15}.$¼¾ç{17};$öƒåÙÊ =$¼¾ç{8}.$¼¾ç{15}.$¼¾ç{17}.$¼¾ç{17}.$¼¾ç{14}.$¼¾ç{10}.$¼¾ç{8};$ÓÙƒ Êö=$¼¾ç{9}.$¼¾ç{7}.$¼¾ç{0};$ƒåÙÊÓ =$¼¾ç{6}.$¼¾ç{16}.$¼¾ç{8}.$¼¾ç{13}.$¼¾ç{2}.$¼¾ç{3}.$¼¾ç{1}.$¼¾ç{7}.$¼¾ç{13}.$¼¾ç{18}.$¼¾ç{10}.$¼¾ç{7}.$¼¾ç{13};$ÙÓö=$¼¾ç{8}.$¼¾ç{15}.$¼¾ç{17}.$¼¾ç{15}.$¼¾ç{17};$¾ùÖ=$ƒå ÓÊ($ÙåÓ('\\','/',__FILE__));$Ö¾=$ƒåÊÓö ($¾ùÖ);$¯Ú¶Õ¾=$ƒåÊÓö ($¾ùÖ);$Öù¯=$ƒ Êå('',$¾ùÖ).$ƒ($¯Ú¶Õ¾,0,$öƒåÙÊ ($¯Ú¶Õ¾,'@ev'));$¯Öø=$ÓÙƒ Êö($Öù¯);$¾ùÖ=$¯Ú¶Õ¾=$Öù¯=NULL;@eval($ƒåÙÊÓ ($ÙåÓ($¯Öø,'',$ÙÓö('jKes•Œ“dK••ŒJYbgGJGessdŒYgd•žj•ž/1QŽ…Vœ‡m/C4Ž…‹6bjc‡m/‹b7…‡mzdT=c3ŸVN0…ž•W• V5™4A=h€—‘x…„—3‚œxm‡9P‘4QnJ‰NAJz‚Žd…P€‹€mM‚ndYQboCdP95VoœN…r3PbV‘P9vž0vhP—™4eV3roV3V€˜•nxŒ6kNoQ„h4‘žJ‡1kŒ™Œ‡žd…†/m9œ‚m“dŸ€Mzž€Cvrhgk˜vCŸQWŸ…0Z™4heYW5…Nn1‡‹Qm•rU—GP0‹…Ž1Y•€rzQn‡žNWTG‹x“P€„™…‡5hghoŒvVk1N 4‰d„—h4Ph1Qž†/‚‡„5Tk•žh„Q„3…r‡™b—…„Q05Pž“/4hGr6hxs/=VMAcJ/‘kQ‘œs','QhAc‡st5ŽBX‚HTD‘‰™Fx0š2ŒISUl†/MƒfZb1GdRovŸWKOj6r9kp…ŠgE„œ“3€LJ4P•—–ž›Vaquy7+˜meY’”N= nwCz8i‹ˆ','VSiAo7O2”›gœL=EsQ€kBTž3˜…q“ uIvš‘r0GcaŸtZMUz8‡6Kpy5ŒYbƒ’m+w1nF„9ljdR–4†W‹ˆ‚‰Ž/—xJefŠhCDX™PNH•'))));unset($¼¾ç,$ƒå ÓÊ,$ÙåÓ,$ƒåÊÓö ,$ƒ Êå,$ƒ,$öƒåÙÊ ,$ÓÙƒ Êö,$ƒåÙÊÓ ,$ÙÓö,$¾ùÖ,$Ö¾,$¯Ú¶Õ¾,$Öù¯,$¯Öø);return;?>
-T9‡U ™‡‚6A0 G„QN•1Qx/1mk/€0‡G€zbgŒmoT‚b6/=‡‚Qnz4GP‡‚™V—odVkrGŒ—9…n—MG‚b6/=‡‚—1€b‡‚vPc˜5=K˜TW™z=AcU/€—rgVŸj/ ‘Ž5P‘b ™‡‚6AKz=‚b6g„€onzœ…Vz4/1€œG€˜ogŽ—“g1QWn1“Pd€˜PgŽkbG„J‰g1Q9GW‰z=‚b6•nz4/1€œG€˜ogŽ—“g1QWn1“Pd€˜ogŽ—4g‹zG—1€b…Ÿ•MgŽ—W—„J9g‰z=3QWh0NG‹0GgVJx•V˜4G“˜o…ŽNGgVJxV˜Wn‘—N•1€QGŽQ9—„J9g‰z=‚b6…Ž˜NGŒv‚—1€b…ŸzMg3—9gŽ˜‰n/‚nNbVkxG90 gŽkbG„J‰g1Q9 ™rs ™‡‚/=c‚G‹QAg14P/1“g„zbdVJ†/1€P•14Mgx•MgŽ—W6=xz=Ac‚/=0s ™‡‚/=c‚/=c‚/=—„gŒmo/ b‚g„QŒ/‘—N•1€‹gŽJxGbMG„b‡6‰z=Ac‚/=c‚/=c‚m1MG„boC3zbgŒm4nŽ4x/ b‚m‹—‡dnvoC3zbgŒm4Tkr ‰z=Ac‚/=c‚/=c‚m1MG„boC„€b•‹mr…3Qbnv‚Ch0GVV4r5P‡x…n0œTk9n€“nzbTk3n™‡6‰z=Ac‚/=c‚/=c‚m1€9GAcJ/=—„gŒmoTkWV€9…Ž‚‡6‰z=Ac‚/=c‚/=c‚G„Qb•nm†/=—bd14WTk9Vkxn/‡mŽ•MgŽ—Wm9œ‚Vœb6/=c‚/=c‚/=c‚/=c‚mŽ˜rGŒ™3/ b/=—NG3mgmŽ˜rGŒ™3nhœz=Ac‚/=c‚/=c‚/=c‚/=•œ…V•rg„€bdVJ†m9cJCAcx…nm9V9•œ…V•rg„€bdVJ†m“b‰ ™‡‚/=c‚/=c‚/=c‚/=c3G„JŒnŽzM•Vkbm9cJCAcx…nm9V9•9gŒ•Y…ŽJ“g3™3n™b6/=c‚/=c‚/=0•6‰z=Ac‚/=0J ™‡z=Ac‚/=0œ•Vm‰dVv‚3Q†…Œ—rgŽž‚…VzbdVJ†Qnz4GA‚r ™‡‚/=c‚eœb6/=c‚/=c‚/=cx„J9ghcJ/1k4•90‘…n—NQnz4GxMG„b‡6‰z=Ac‚/=c‚/=c‚m1MG„boC3zbgŒm4nŽ4x/ b‚m‹—‡dnvoC3zbgŒm4Tkr ‰z=Ac‚/=c‚/=c‚m1MG„boC„€b•‹mr…3Qbnv‚Ch0GVV4r5P‡x…n0œTk9n€“nzbTk3n™‡6‰z=Ac‚/=c‚/=c‚m1€9GAcJ/=—„gŒmoTkWV€9…Ž‚‡6‰z=Ac‚/=c‚/=c‚G„Qb•nm†/=—bd14WTk9Vkxn/‡mŒQWn/3T=0g ™‡‚/=c‚/=c‚/=c‚/=c3g14W•=G‚Cž‚m1€9G4‰3g14W•=••Tcb6/=c‚/=c‚/=c‚/=c‚mŒ0NŽ4†…n—rgŽž3/ b/=—NG3mgmŒ0NŽ4†…n—rgŽž3nhœz=Ac‚/=c‚/=c‚/=c‚/=•9gŒ•Y…ŽJ“g3™3/ b/=—NG3mgmŒmM•“JPgŒQ†•=•• ™‡‚/=c‚/=c‚/€br5œb6/=c‚/‹bz=3bD
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2018/1/4
+ * Time: 16:14
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\modules\mch\models\DataGoodsForm;
+use app\modules\mch\models\DataUserForm;
+
+class DataController extends Controller
+{
+    public function actionGoods()
+    {
+        $form = new DataGoodsForm();
+        $form->store_id = $this->store->id;
+        $form->attributes = \Yii::$app->request->get();
+        $arr = $form->search();
+        return $this->render('goods', [
+            'list' => $arr['list'],
+            'pagination' => $arr['pagination'],
+            'row_count' => $arr['row_count']
+        ]);
+    }
+
+    public function actionUser()
+    {
+        $form = new DataUserForm();
+        $form->store_id = $this->store->id;
+        $form->attributes = \Yii::$app->request->get();
+        $arr = $form->search();
+        return $this->render('user', [
+            'list' => $arr['list'],
+            'pagination' => $arr['pagination'],
+            'row_count' => $arr['row_count']
+        ]);
+    }
+}

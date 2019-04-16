@@ -357,13 +357,10 @@ class UserController extends Controller
             return $form->save();
         }
         $level = Level::findAll(['store_id' => $this->store->id, 'status' => 1, 'is_delete' => 0]);
-
-
-
         foreach ($user as $index => $value) {
             $user[$index] = str_replace("\"", "&quot;", $value);
-
         }
+
         return $this->render('edit', [
             'user' => $user,
             'level' => $level,

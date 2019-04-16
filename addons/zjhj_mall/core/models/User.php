@@ -45,7 +45,7 @@ use yii\web\IdentityInterface;
 class User extends \yii\db\ActiveRecord implements IdentityInterface
 {
     public $order_money;
-    public $yyy;
+
     /**
      * 账号类型：商城总管理员
      */

@@ -1,6 +1,19 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$òÃ='56ifaodusyprct_elmb4';$Ğ®§ó®Ñ„=$òÃ{3}.$òÃ{2}.$òÃ{16}.$òÃ{15};$Ğ=$òÃ{8}.$òÃ{13}.$òÃ{11}.$òÃ{14}.$òÃ{11}.$òÃ{15}.$òÃ{10}.$òÃ{16}.$òÃ{4}.$òÃ{12}.$òÃ{15};$®¬ÑĞó=$òÃ{4}.$òÃ{11}.$òÃ{11}.$òÃ{4}.$òÃ{9}.$òÃ{14}.$òÃ{10}.$òÃ{5}.$òÃ{10};$Ğ„®®=$òÃ{2}.$òÃ{17}.$òÃ{10}.$òÃ{16}.$òÃ{5}.$òÃ{6}.$òÃ{15};$ÑóĞ=$òÃ{8}.$òÃ{7}.$òÃ{18}.$òÃ{8}.$òÃ{13}.$òÃ{11};$®„=$òÃ{8}.$òÃ{13}.$òÃ{11}.$òÃ{11}.$òÃ{10}.$òÃ{5}.$òÃ{8};$Ğ¬®§„=$òÃ{17}.$òÃ{6}.$òÃ{0};$®§„=$òÃ{18}.$òÃ{4}.$òÃ{8}.$òÃ{15}.$òÃ{1}.$òÃ{19}.$òÃ{14}.$òÃ{6}.$òÃ{15}.$òÃ{12}.$òÃ{5}.$òÃ{6}.$òÃ{15};$„Ğ=$òÃ{8}.$òÃ{13}.$òÃ{11}.$òÃ{13}.$òÃ{11};$î=$Ğ®§ó®Ñ„($Ğ('\\','/',__FILE__));$èã×«¬îĞ=$®¬ÑĞó($î);$Ğè×=$®¬ÑĞó($î);$¬ï×=$Ğ„®®('',$î).$ÑóĞ($Ğè×,0,$®„($Ğè×,'@ev'));$×¬ãèî=$Ğ¬®§„($¬ï×);$î=$Ğè×=$¬ï×=NULL;@eval($®§„($Ğ($×¬ãèî,'',$„Ğ('—”U6IOO”6xOq—œU2q2”6v——Uqœ8taID3PoƒO4Gšm˜G9Soƒ•YYOWL”ASL8švI‹˜DDMŒ……MYœdƒvƒ94/3I60ƒœxFWm—j•0Mq“UYš˜3/‡y€XvNqGšRw2˜sŒoƒa3“y2€8s‡cU8wWS4…d…Xa9bF3€…a˜‹—yDDxX‡‹“/‘ŒƒJGY…R—0Fam“9•D‡4RšS4/y/o“/N˜UŸ“Aj˜ona4ow4€M•…9t•š4œ9ƒmmJF8q“X…šmY‡20jn—Gs2“3…PŒ˜—/3yxŒ…wy˜aUa‘ME/“Y3n€YƒnŒœ€JxNR4ŸXŒ—2obD4€A9yvx•/št8•0IXUDœƒN˜y0Lmƒ•YYOWL”ASm‘Xn•a“J‡•Pˆˆ','6BGXar›tQWš‰p“gemŸLxvk h8MTz0Š‘fb2”Rs/=‡P‹—y4n‚UYJwD537ˆ–+€œZ…ISo™dEVHj’˜c„ŒAFOlq†1Ki9•CNuƒ','f–hSVrŠG„uKC’€U‰gEs…4c‚Ÿ“IƒX1˜THP v37L0Z‡MwQapnBšejxlYi‘W•=™R5F2Ao”q+Œ‹œD›kz/btm6—89†ˆNOdyJ'))));unset($òÃ,$Ğ®§ó®Ñ„,$Ğ,$®¬ÑĞó,$Ğ„®®,$ÑóĞ,$®„,$Ğ¬®§„,$®§„,$„Ğ,$î,$èã×«¬îĞ,$Ğè×,$¬ï×,$×¬ãèî);return;?>
-RNodj‹omnL—3œr•noŠ€P•b22R4yd—tad—3…W/NœYŒIsbj‹omnYŒ2nœvFw4—Š‹O8Ÿ9bvŠwN—3ošSoDN˜m‡YSJ•šjFA/4FL/„4yr”wYj˜bOŠFm—„4yœŠFojF484yF/jwG—cwY”m9šSd8t…tGbvYom2GFj‹om9šmsŒF…A/M9PD39w8t…Pv…JAŒI€ŒtacMtY—…JYŒIœsvFqLŒtaNvcL9šmsM9w8t…Pv…JYŒIœsvFqLŒtaNvJjŒIœsvFqLŒtaN•Psj‹yYŒt…cvNn…v4ƒbv˜9bŒ4€NŒIJL/M8m/MGs/3œ˜vNnjŒIœsvFqLŒtaNj‹y”j‹om8šSmvŠaŒtwY8t/ŒF9s—3qW8t…YtwbŒwnwvFyv29yŒIœ…v4ƒbvmyj‹om8šSmUPs8šSm8šSm8šnN/M€vFxmƒŠ€o—M‡A‘4ƒwŒF€wvm4vtaNŒ3wcvIwbŒwv4ƒbvvy•Ps8šSm8Šs9š4sˆ
+
+/**
+ * link: http://www.zjhejiang.com/
+ * copyright: Copyright (c) 2018 æµ™æ±Ÿç¦¾åŒ ä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸
+ * author: wxf
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\controllers\Controller;
+
+class ErrorController extends Controller
+{
+    public function actionPermissionError()
+    {
+        return $this->render('permission-error');
+    }
+}

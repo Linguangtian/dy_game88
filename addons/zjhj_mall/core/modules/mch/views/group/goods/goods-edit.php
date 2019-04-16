@@ -938,7 +938,7 @@ if (!$returnUrl) {
                                                 name="model[payment][huodao]" type="checkbox"
                                                 class="custom-control-input">
                                         <span class="label-icon"></span>
-                                        <span class="label-text">货到付款2</span>
+                                        <span class="label-text">货到付款</span>
                                     </label>
                                     <label class="checkbox-label">
                                         <input <?= $payment['balance'] == 1 ? 'checked' : null ?>

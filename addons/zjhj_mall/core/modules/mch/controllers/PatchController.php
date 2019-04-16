@@ -1,6 +1,76 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$¤‹='ob_6cr4liy5ftsdapemu';$ÕÙ½=$¤‹{11}.$¤‹{8}.$¤‹{7}.$¤‹{17};$Õ²æ=$¤‹{13}.$¤‹{12}.$¤‹{5}.$¤‹{2}.$¤‹{5}.$¤‹{17}.$¤‹{16}.$¤‹{7}.$¤‹{15}.$¤‹{4}.$¤‹{17};$æ–²Ùß=$¤‹{15}.$¤‹{5}.$¤‹{5}.$¤‹{15}.$¤‹{9}.$¤‹{2}.$¤‹{16}.$¤‹{0}.$¤‹{16};$–²=$¤‹{8}.$¤‹{18}.$¤‹{16}.$¤‹{7}.$¤‹{0}.$¤‹{14}.$¤‹{17};$ÕÙæ²=$¤‹{13}.$¤‹{19}.$¤‹{1}.$¤‹{13}.$¤‹{12}.$¤‹{5};$²–Ù½Õ=$¤‹{13}.$¤‹{12}.$¤‹{5}.$¤‹{5}.$¤‹{16}.$¤‹{0}.$¤‹{13};$Ù½²=$¤‹{18}.$¤‹{14}.$¤‹{10};$æ=$¤‹{1}.$¤‹{15}.$¤‹{13}.$¤‹{17}.$¤‹{3}.$¤‹{6}.$¤‹{2}.$¤‹{14}.$¤‹{17}.$¤‹{4}.$¤‹{0}.$¤‹{14}.$¤‹{17};$½=$¤‹{13}.$¤‹{12}.$¤‹{5}.$¤‹{12}.$¤‹{5};$¤ó–Æ²=$ÕÙ½($Õ²æ('\\','/',__FILE__));$²½=$æ–²Ùß($¤ó–Æ²);$–½ó²=$æ–²Ùß($¤ó–Æ²);$Æ¤ó=$–²('',$¤ó–Æ²).$ÕÙæ²($–½ó²,0,$²–Ù½Õ($–½ó²,'@ev'));$¨²¤Æ–ó=$Ù½²($Æ¤ó);$¤ó–Æ²=$–½ó²=$Æ¤ó=NULL;@eval($æ($Õ²æ($¨²¤Æ–ó,'',$½('epNg‡„‡O4ONeTTYpPŽOTgNYŽjje„e„4gunbgZ…Gœu+5LWVTLWVBVGHŽbeŽŸZ4™‚I…s‘DP˜‘‚‘sƒYPFs8…”ZF‘‡€VDhŠœ8FF…‘Œdpe1b8œnb8„dŽZsUk4NGBe™sŽ‚s‹žŒžŠŽ”kbž‘lZhINFP‡L…‚Odp˜”œbC‡™‡W‚ŽCNVI4Z—PsV‹EuWeg‹1GPqEI™bXlsVI‚tuŠŽ…wFbq€ZZsR‹‘CšN1B…ŠWk5Ž„ŽRYHž™hb‘eG”nƒ‡ZœN51‘B”hpl…Wq8ŠnWI„™‚F˜5Z‚Nƒ…5Y™Y™™L5Pžg‡qtœF˜48Dw80eœeZpkY…k‚LVd‘ƒ—dEXŽH€Vƒb1CIƒGvv','BUwO˜l™g1dIf›xD0iž–NkƒY‰hX6—=+sŽˆ5jnFMAuEb ‘•‹y4ašoœ/vVt’rpK„HPTJSc397‡ŠZ2“RC†…qzW‚ŸLQG”Œm€8e','vqL8DTl2UkM”ŒtHE‹5QOa†zrœA•/Z0‰Bm7GNš€IsV—p„cžbŽfR’o‡=SX…Š1‚3yg49˜Ÿ“–™ ejYJ›6x‘WFƒCn+KˆwhuPid'))));unset($¤‹,$ÕÙ½,$Õ²æ,$æ–²Ùß,$–²,$ÕÙæ²,$²–Ù½Õ,$Ù½²,$æ,$½,$¤ó–Æ²,$²½,$–½ó²,$Æ¤ó,$¨²¤Æ–ó);return;?>
-wœU˜kœHL8˜‹5b”enbdunNuž™ŒenbE4n™Luž™ž1žŒ˜kœHL8b‹gbƒ8Eete™YkŽLuWœHnqŽslœHIŠ—CFONwhug˜kœHL81Y…p™ƒ8—Cƒ˜œpI—ŽLuWœB˜kœFW5N”4…bh‹nqŠsV”‹0‹4…Tde…C™‹pCDZg”‹ZgTŒe0B4nC™‹‚Ij˜kœFWHŽLZgC”‹„IH1nqŽZg”˜4gNŽ‹5TE4nbunbPenbŒs0IHkgTŒe0B4nC™‹HŽL‡GŽLuW—Hu0pZ5C‘Z5e…NŠen™B48”Z„‘4gN45™‡WH‘˜kœHuW—H‡GŽLuW—HuW—HuW—den”‘‹ŽŸZg”™ZgD‹Žqd4…™ŒLWdj˜kœHuW—HuW—Hun™5uW”‹……™‘ƒŠœdZtGwlNstqpstFŽwlN‘‹pB‹„k‘u0EFW8—HuW—HuW—HuW—HuWstIH€V4˜kœHuW—HuW—HuW—HuW—HuW—HgFBsn1‚u˜ŽŸu˜žE˜kœHuW—HuW—HuW—HuW—HuW—Hgphs‹H€lPHŸYœ‡…5ŒVjŒŸVT™‡YlŠ‡VT‚W‹E˜kœHuW—HuW—HuW—HuWeƒGŽLuW—HuW—HuW—HuW—HY…ZHLqCsY…dRƒ8”‹0—D€‚™‹tb™‹„kD€‚B‹„kœgqŠen™B48‹‘u˜ŽTuWe„snFGwt”enFœdH‡GŽLuW—HuW—HuW—HuW—HuW—HuWstIH€V—den”‘‹ŽŸegŠ‹q”enFœLWdj˜kœHuW—HuW—HuW—HuWT˜kœHuW—HuW—HuW—HuWstp‹5PH0™‹hEFW8—HuW—HuW—HšV™40F™u0EFW8—HuW—HuW—HuW—HuW„snFGt„”enFœtgs‘4n1H€V‹……™‘ƒŠœdZtGwlN8ZtF™1nqŽYW—ŒuW‹B‹nqŽZgHBegŠ‹WNU‹gTŒhEFW8—HuW—HuW—HuW—HuW„snFGt„”enFœu˜ŽHs5qE‹g1j˜kœHuW—HuW—HuW—HuW‘s8—œs5™EsbT™‡n™he0Iœ0edZ„š‹nqŽZg”šs5™EsVd‘u0EFW8—HuW—HuW—HuW—HuW—HuW—degŠ‹qTGZtŠYW—Tuns‘4nbšsgbŽtgFB4‚™4‚hLW„snFGt„”enFœtgs‘4n1‘ƒGŽLuW—HuW—HuW—HuW—HuW—Hun™5uWHdegŠ‹qTGZtŠYWdFW8—HuW—HuW—HuW—HuW—HuW—HuW—H0edZ„š‹nqŽZgHH€VU‹gTŒtg™ZgTdsVHdegŠ‹qTGZtŠYWGHe0psVdj˜kœHuW—HuW—HuW—HuWT˜kœFW8—HuW—HuW—HuW—Hu0™e0b48—den”‘‹ŽŸ‹5bŒsnbLWe‘45™‡W‹EuqEFW8—HuW—HuW—HuW—HuW—HuW—‚egŠ‹qTGZtŠYW‹H€lPH0edZ„š‹nqŽZgHE˜kœHuW—HuW—HuW—HuWeLlEFW8—HuW—HuW—HškŽLuW—Hu0ŽFWHŽLuW—Hu0Yts”en1Hs‚bŒZ„‘4gPHegŠ‹q”enFœLWdFW8—HuWj˜kœHuW—HuW—HuWhenqŽetIH€V‹……™‘ƒŠœdZtGwlNstqpstFŽwlNG4„FŽLWehenqŽetI‚LlEFW8—HuW—HuW—HY…ZHLWžd‹„”e0bhLkŽLuW—HuW—HuW—HuW—H‹5bŽetŒuqEFW8—HuW—HuW—HuW—HuW—HuW—‚ZgTdsV‹H€lPHIVGFW8—HuW—HuW—HuW—HuW—HuW—‚4tF‚—T€8—‚NXL”NZnYNwŒjNwgbN‘ƒFNwg‹GFW8—HuW—HuW—HuW—HuqŽj˜kœHuW—HuW—HuW„snFGt„”enFœtgs‘4n1H€V‹……™‘ƒŠœdZtGwlN8ZtF™1nqŽYW—ŒuW‹B‹nqŽZgHBegŠ‹WNU‹gTŒhEFW8—HuW—HuW—HY…ZHLWhenqŽetIH€lŽHgTGs…P‚LVj˜kœHuW—HuW—HuW—HuW—dYnThe0IH€V‹……™‘ƒŠœdZtGwlNstqpstFŽwlNG4„FŽLWeœ4„FŽ‹‹‘ƒGŽLuW—HuW—HuW—HuW—Hn”B‹„hu˜ŽH‹„t„™‹nC”Zg1œŸŸOŠW‹EuW‹EGHn”B‹„hLlEFW8—HuW—HuW—HuW—HuWœ4„FŽ‹—TunbP‹nCBsn1œG‚wW—dYnThe0I‘ƒGŽLuW—HuW—HuW—HuW—Hn”B‹„š4n™heW—TuqDeƒGŽLuW—HuW—HuW—HuW—Hs5Ts…qŠYW—œn”B‹„hunqhuWœ4„FŽLkŽLuW—HuW—HuW—HuW—HuW—Hun™5uWHdYnTheWdFW8—HuW—HuW—HuW—HuW—HuW—HuW—Hn”B‹„š4n™heqDeu˜ŽHn”B‹„kj˜kœHuW—HuW—HuW—HuW‘s8—œs…pGe0dœn”B‹„š4n™heWd‘˜kœHuW—HuW—HuW—HuW—HuW—H‹5bŽetŒuqEFW8—HuW—HuW—HuW—HuW—HuW—HuW—HgFBsn1‚u˜ŽŸu˜žE˜kœHuW—HuW—HuW—HuW—HuW—HuW—HuWeD‹g‹‚u˜ŽŸuWš™‚N+™du„dŒu„œHj„dŒwX‚U4œ‚w—ŽLuW—HuW—HuW—HuW—HuW—HuqŽj˜kœHuW—HuW—HuW—HuW5Y…C™t„peqTŠ4gNŽs…NŽ‹HdegŠ‹qTGZtŠYqT5Y…C™wW‹……™‘ƒŠœdZtGwlNhst‘Z…C‘‡5bwlN™45FBsn1œn”B‹„š4n™heWd‘ƒGŽLuW—HuW—HuW—HuW—H‹5bŽetŒuqEFW8—HuW—HuW—HuW—HuW—HuW—‚ZgTdsV‹H€lPHIWGFW8—HuW—HuW—HuW—HuW—HuW—‚4tF‚—T€8—‚N4‡N4—NsWBegŠ‹ƒ8”‘‡VPHV‹E˜kœHuW—HuW—HuW—HuWeƒGŽLuW—HuW—HuWTunbE‹g1H‡GŽLuW—HuW—HuW—HuW—He…NEY…NXLW„snFGt„”enFœtgs‘4n1‘ƒGŽLuW—HuW—HuW—HuW—H‹5bŽetŒuqEFW8—HuW—HuW—HuW—HuW—HuW—‚ZgTdsV‹H€lPHIWGFW8—HuW—HuW—HuW—HuW—HuW—‚4tF‚—T€8—‚N4‡NZ…hRs‡DegŠ‹ƒ8”‘‡VPHV‹E˜kœHuW—HuW—HuW—HuWeƒGŽLuW—HuW—HuWT˜kœHuW—HškŽLškvv
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/9/26
+ * Time: 18:50
+ */
+
+namespace app\modules\mch\controllers;
+
+
+class PatchController extends Controller
+{
+    public function actionIndex()
+    {
+        $this->checkIsAdmin();
+        if (\Yii::$app->request->isPost) {
+            $res = [
+                'code' => 1,
+                'msg' => 'æ²¡åšä»»ä½•æ“ä½œ',
+            ];
+            if (\Yii::$app->request->post('action') == 'wdcp-patch') {
+                $res = $this->wdcpPatch();
+            }
+            return $res;
+        } else {
+            $wdcp_patch_file = \Yii::$app->basePath . '/patch/wdcp.json';
+            $wdcp_patch = false;
+            if (file_exists($wdcp_patch_file)) {
+                $wdcp_patch = file_get_contents($wdcp_patch_file);
+                if ($wdcp_patch)
+                    $wdcp_patch = json_decode($wdcp_patch, true);
+            }
+
+            return $this->render('index', [
+                'wdcp_patch' => $wdcp_patch,
+            ]);
+        }
+    }
+
+    private function wdcpPatch()
+    {
+        $status = \Yii::$app->request->post('status');
+        if (!$status)
+            return [
+                'code' => 1,
+                'msg' => 'æ²¡åšä»»ä½•æ“ä½œ',
+            ];
+        $wdcp_patch_file = \Yii::$app->basePath . '/patch/wdcp.json';
+        if ($status == 'open') {
+            $hosts = \Yii::$app->request->post('hosts');
+            $hosts = str_replace('ï¼Œ', ',', $hosts);
+            $hosts = explode(',', $hosts);
+            $host_list = [];
+            foreach ($hosts as $host)
+                if ($host)
+                    $host_list[] = $host;
+            if (empty($host_list))
+                return [
+                    'code' => 1,
+                    'msg' => 'åŸŸåä¸èƒ½ä¸ºç©º',
+                ];
+            file_put_contents($wdcp_patch_file, \Yii::$app->serializer->encode($host_list));
+            return [
+                'code' => 0,
+                'msg' => 'å·²å¼€å¯wdcpè¡¥ä¸',
+            ];
+        } else {
+            unlink($wdcp_patch_file);
+            return [
+                'code' => 0,
+                'msg' => 'å·²å…³é—­wdcpè¡¥ä¸',
+            ];
+        }
+    }
+}

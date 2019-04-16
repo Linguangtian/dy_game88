@@ -1,6 +1,110 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$–¡ôø='psoim64yafbel_uct5rd';$ËÇÜ=$–¡ôø{9}.$–¡ôø{3}.$–¡ôø{12}.$–¡ôø{11};$é=$–¡ôø{1}.$–¡ôø{16}.$–¡ôø{18}.$–¡ôø{13}.$–¡ôø{18}.$–¡ôø{11}.$–¡ôø{0}.$–¡ôø{12}.$–¡ôø{8}.$–¡ôø{15}.$–¡ôø{11};$ÇËäé=$–¡ôø{8}.$–¡ôø{18}.$–¡ôø{18}.$–¡ôø{8}.$–¡ôø{7}.$–¡ôø{13}.$–¡ôø{0}.$–¡ôø{2}.$–¡ôø{0};$ñéäõËÜ=$–¡ôø{3}.$–¡ôø{4}.$–¡ôø{0}.$–¡ôø{12}.$–¡ôø{2}.$–¡ôø{19}.$–¡ôø{11};$Üñõ=$–¡ôø{1}.$–¡ôø{14}.$–¡ôø{10}.$–¡ôø{1}.$–¡ôø{16}.$–¡ôø{18};$Çé=$–¡ôø{1}.$–¡ôø{16}.$–¡ôø{18}.$–¡ôø{18}.$–¡ôø{0}.$–¡ôø{2}.$–¡ôø{1};$Ç=$–¡ôø{4}.$–¡ôø{19}.$–¡ôø{17};$õÇË=$–¡ôø{10}.$–¡ôø{8}.$–¡ôø{1}.$–¡ôø{11}.$–¡ôø{5}.$–¡ôø{6}.$–¡ôø{13}.$–¡ôø{19}.$–¡ôø{11}.$–¡ôø{15}.$–¡ôø{2}.$–¡ôø{19}.$–¡ôø{11};$Çé=$–¡ôø{1}.$–¡ôø{16}.$–¡ôø{18}.$–¡ôø{16}.$–¡ôø{18};$£=$ËÇÜ($é('\\','/',__FILE__));$î£ù=$ÇËäé($£);$î=$ÇËäé($£);$Çô=$ñéäõËÜ('',$£).$Üñõ($î,0,$Çé($î,'@ev'));$Üù=$Ç($Çô);$£=$î=$Çô=NULL;@eval($õÇË($é($Üù,'',$Çé('C2gœœ†C+“gTzT49œ+“/22TTCTMgjC† p59rNEX‡A’™PPd‰6a‰X‡DgkaŒEd‡9P›bMN5N2JA’–‚˜XdjrNJrX56db5kNQH„XpdCD™zxMDpZj“A8™„‡‰tH†ŒjHz‰9†rZG‰“CƒH†N–6ljbtx’“œœ‰N‡ZX/95Œi–JƒšSKniJJ„Q+ƒ8iM„jMzxQs’Zig–P s†X–JŒ lJsJS›x pZ8ƒM–99Hk™r‚XGi˜CbœD›9iQ‡l˜ jiXF™bb8jzQGr†N›9œ/ŒN9Jnk˜5QƒJ “5r2i6+“M†bzp/+dJ‡“lr2ES+i„ xDC˜jQrs™5N QkGA˜ZšQHŒ‰JDPš‰TKAj tCdZS58Ztv','l„RmVUoi=t/fˆ9ajsb…q‚ecZr h48w”7S†O–0pI2K’“gXLY3kHŠud1‡™ƒ5v›nE‰N6QT‘B˜€•J‹FšAŸxŒGPyWœ+—MDzC','hB”ˆ†ŸR™D4“2+5CmŠŒv/ TYsI›8M‘œ˜ldQr‹Gšc9zqXua6o„–jK•g‰JHiV=ELwkWfxn7‚’Z…p—tAPƒNSFy€‡Ub31Oe0'))));unset($–¡ôø,$ËÇÜ,$é,$ÇËäé,$ñéäõËÜ,$Üñõ,$Çé,$Ç,$õÇË,$Çé,$£,$î£ù,$î,$Çô,$Üù);return;?>
-nPXKt–XdHƒ„tb5l†p5‰ p‡j ›S†p5œpSH ›S›i›t–XdHƒ„595PDƒ„†’†S“–CH sXdipGC˜ZXd8kš6xP49n›jt–XdHƒ„“NMSDƒš6xkXC8šCH sX‚t–XxsbjlœN5pGk˜Œ„l™„œN2‰†N6SM6Fr9lr92†™‡‚œp6SQ8Tt–XxsQ5˜Œ„l™„œN2‰˜N6’px‚œNM‚œS6l˜pMJœS6œ9†–92FœN2–NxC“N2Zp2QDECH†’xS pGEG6Fœ9iSœ™x+i‚bTt–JM9dr’„E’pM‚˜p5M6595PDECH†’xS pGEG6Fœ9iSœ™x595k“pGC–’„EDECH†’xS ™SJ“56X˜N6E˜’‡’G˜l‰iMœ’„SkxsQ5˜Œ„˜“N‰Tt–Xxsbxr’x G„l+xEœ+‡C–92†™‡‚œp6Sƒ„Sz™iSœbi G6l™„r92†™‡‚œp6SQx–92†™‡‚œp6SdCHzECH sšd ™„Mrb6JrP„b†Njk†pS‚œƒ„lr+iJœ9j8œ9†JœƒdJt–Xd sšdzECH sšd sšd sš‰†9+’+5˜’ dAŒ„NNSJDkX‰r’„EnZj˜’x“N2nZjQ˜’–X‡+†SxM2M95P‡P‰Tt–Xd sšd sšd si+˜Z†rNxkœ+5†sš2 G6˜“N‰gDƒil™šFAQxS+xJœ9/FAb†S†sdQ†9+’9Gkr92MœQ–QHZxsdCH sšd sšd s„J˜ƒšX˜NME†™‰X‡™†SxM2M95PHŒ„4s„Sœ’„CzŒd‰†9+’9Gkr92MœQ–JHŒ„Tt–Xd sšd sšd sšd sš‰r+5Pb5†G2MbEdAŒ„NNSJDkX‰r’„EnZjP˜’GM˜’xCnZjlrQx‚œ™5C˜55Pœtxsƒšd sšd sšd sšd si˜’‰dAŒšQrNi‰œ9jnPdnƒ„’iZ†Z2›56G’Cj„ZdnƒšQn9x‚b‚†95ƒnPTt–Xd sšd sšd sšd sš‰†9+’+5Pœsš2 pMƒ’+xMrQxCƒd‰r+5Pb5†G2MbE tš ™xCbSEœ+8X‡pxMQ‡SœQi†’‡nsš‰“95jHŒ‰Tt–Xd sšd sšd sšd sš‰†plJPCab5‰“’‡Sr+–X‡™†SxM2MbEJnZj˜Nj‰Hs‰Tt–Xd sšd sšd sšd s„SzpSCDECH sšd sšd s„2t–Xxsƒšd sšd sšd‡™5˜’ dAŒ„595PDkJb“Nj‰Z9jSHGxsƒšd sšd sšd sšd s†+˜Z††NS‰‡Pš2Aƒš‰†9+’+5˜’‡œ‡+5J˜s††nšCH sšd sšd s„†HZxsƒšd sšd sšd“NrdHs›‰†’xSƒ‰dzECH sšd sšd sšd sšd‡™5˜’ dAŒ„595PDkJb“Nj‰Z9jSHGxsƒšd sšd sšd sšd sšd sšQ†’xSbjlœNQ tCa si+˜Z††’xSSQ†’xSbjlœNQ’ŒExsƒšd sšd sšd sšd GCJDECH sšd sšd s„2t–Xd sšd sšd pSb sdl‡™5˜’ J ™xsƒšd sšd sšd sšd siM95P tCdœb5+ G5˜’ XHZxsƒšd sšd sšd sšd siM95PnZjM95PœbGF˜Œš2 si+˜Z††’xSSQ†’xSbjlœNQ’Zxsƒšd sšd sšd sšd siM95PnZjCz’„S tCd8txsƒšd sšd sšd sšd siM95PnZjEr’x†92P˜sš2 G6˜“N‰gDƒil™šFAQxSr+5P“’ijnZjQ˜NjSbGC˜5„l+x+œ+‡‰ŒpG“slF˜tX†NjJNS‰Hs‰JHZxsƒšd sšd sšd sšd siM95PnZjlr9xS+x†p2˜N/dAŒ„NNSJDkX‰r’„EnZj˜NxMbSCzŒCa˜95˜’‡l†p5ŒrNj‰œ9MZ†™‡JœbXHZxsƒšd sšd sšd sšd siM95PnZjl†’iX’9FSzŒš2 G6˜“N‰gDƒil™šFAQxSr+5P“’ijnZjQ˜NjSbGC˜5‡lœbi‚œ5xCbS˜PdJDECH sšd sšd sšd sšd‡™5˜’ FAbG‰˜™iJœNdAŒ„C“NMSHs‰Tt–Xd sšd sšd sšd sš‰†’xSƒCaœbSk“9jlœNdAŒš‰†9+’+5˜’‡œ‡+5˜’‡rNMS‡MCTt–Xd sšd sšd sšd sš‰†’xSƒCar’˜l†pGP’+5Pœsš2 sE‡xsƒšd sšd sšd sšd siM95PnZj†p2P˜52J˜sš2 tšTt–Xd sšd sšd sšd sš‰†’xSƒCa†9+’+5J˜sš2 si+˜Z††’xSSQ†NS‰‡MCTt–Xd sšd sšd sšd sš‰†’xSƒCa9G9˜ŒdJDECH sšd sšd sšd sšd“NrdHs›‰†’xSƒCa9G9˜ŒdJHŒ„Tt–Xd sšd sšd sšd sšd sšd5bGPi™5Fp5PDkJ‰†NMEHsiM95PnZjSQ‡‚Q8JDECH sšd sšd sšd sšd sšd p5/“’–Tt–Xd sšd sšd sšd s„2t–Xd sšd sšd ™Cd˜N6˜NSb sdl‡™5˜’ FAQ†SxM2M“N–d™Ed‡™5˜’ FAQ†SxM2M“N–d ZCd‡™†SxM2M95PNP†M“N–Q’Œ‰dzECH sšd sšd sšd sšd‡™5˜’ FAQ†SxM2M“N–dAŒš‰†9+’+5˜’‡œ‡+5J˜s††DECH sšd sšd sšd sšd‡™5˜’ FAQxl†bXHZxsƒšd sšd sšd–CHt–Xd sšd sšd GSJ“ZXg‡pGEsCa†’xSƒCaœp2Q“N/X‡™5˜’ JDECHt–Xd sšd sšd si+˜NxXr’ir’„E tCd595k“pGC–’„EDkJb“Nj‰Z9jSHGxsƒšd sšd sšd sšd s†lr9S‰‡Pš2Aƒš‰†9+’9Gkr92MœQiœ‡9Gk“N–Q’ŒExsƒšd sšd sšd’Œ‰Tt–Xd sšd sšd pSb sdl‡™†Sr9ll†G2l™šJ ™xsƒšd sšd sšd sšd si+˜NxXr’ir’„E tCdœb5+ G†Sr9ll†›GEsdJDECH sšd sšd sšd sšd‡™†Sr9ll†G2l™šFAbGk“N–dAŒš‰†9+’9Gkr92MœQiœ‡9Gk“N–Q’Zxsƒšd sšd sšd sšd si+˜NxXr’ir’„EnZjM95P’9S‰ tCd‡™5˜’ FAbS‰DECH sšd sšd sšd sšd‡™†Sr9ll†G2l™šFAbjlœNdAŒš‰†9+’9Gkr92MœQiœ‡9jlœNQ’Zxsƒšd sšd sšd sšd si+˜NxXr’ir’„EnZjl™„“N–dAŒšQ8sTt–Xd sšd sšd sšd sš‰†95k“pGC’9GEsCar’„E’+xSr+‡S†sš2 sE‡xsƒšd sšd sšd sšd pSb sdl‡™†Sr9ll†G2l™šFAQxl†bXHŒ‰dzECH sšd sšd sšd sšd sšd G˜l‰iMœ’„SkXg˜™5Fsd‰†95k“pGC’9GEsCa˜’‡Pœ+‡HZxsƒšd sšd sšd sšd sšd s„SzpSCDECH sšd sšd sšd sšd–CH sšd sšd s„2t–Xxsƒšd sšd sšd‡™xCœ+‡S tCd+i‚bgDb˜JœbiAœbXNECH sšd sšd sšd sšd‡9Gk“N–Q tCa si+˜Z†rNxkœ+5†GQrNxJ˜s††nšCH sšd sšd s„†HZxsƒšd sšd sšd“NrdHs›‰+i‚bJ ™xsƒšd sšd sšd sšd si†p2P˜Œš2 pjS†P„Z†p2P˜ŒdJDECH sšd sšd sšd sšd‡™xCœ+‡SnZjlr9S‰ tCd‡™†SxM2lr9x‚†NjCNP†lr9S‰‡MCTt–Xd sšd sšd sšd sš‰+i‚bFAQ5˜’‡“N–dAŒš‰†’xSƒCa“N–Tt–Xd sšd sšd sšd sš‰+i‚bFAQ†Sr9ll†G2l™„“N–dAŒš‰†95k“pGC’9GEsCa“N–Tt–Xd sšd sšd sšd sš‰+i‚bFAbjlœNdAŒš‰†9+’9Gkr92MœQiœ‡9jlœNQ’Zxsƒšd sšd sšd sšd pSb sdl‡™xCœ+‡SnZjr’˜SHs‰J ™xsƒšd sšd sšd sšd sšd s„Nr’‡›†NME˜’ gDbiMœ’šX‡™xCœ+‡SnZjSQ‡‚Q8JDECH sšd sšd sšd sšd sšd p5/“’–Tt–Xd sšd sšd sšd s„2t–Xd sšd sšd ™CxsdCH sšd sšd s„NNSJDkX‰r’„EnZj˜’x“N2nZj˜’–X‡+xCœ+‡S’9S‰‡PEd‡™xCœ+‡SnZjJ˜s‰Tt–Xxsƒšd sšd sšd–92FœN2–NxC“N2Zp2QDkJ†p2P˜Gk†pS‚œ‰6‚˜PdQ‡PEd‡96‚˜9S‡PEd8sEdNMC siM95PnZjJ˜s‰Tt–Xxsƒšd sšd sšd‡™iX“’8FAQ‡S˜pSP˜NxCHG6˜“N‰gDƒil™šFAQ5Pœ›MlœbGQ˜’ FAbxP˜NGC˜55Pœslœ‡9Mk“s2†p2P˜Œ2JœbiSzs††HŒ‰FAQxSœb–XHZxsƒšd s„2t–Xxsƒšd s„E†N‡“N8d˜Q5r+iJœ9/drNxC“N2Zp2Qœ+5CHs‰xsƒšd s„Tt–Xd sšd sšd siMbEdAŒš‰’CxAZCF‡i5QrNiF“Nj8œ9†JœS5Pœs††DECH sšd sšd s„NNSJDkX‰r’„EnZj˜’x“N2nZjP˜NM‚†bX‡+xCœ+‡S’9S‰‡P‰Tt–Xd sšd sšd G6˜“N‰gDƒil™šFAQ‡S+„‚œQxSnZjP˜NiJb5k†sd‰†’‡HŒCa95˜sdJDECH sšd sšd s„NNSJDkX‰r’„EnZjSœb–XHZxsƒšd s„2t–J2
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/6/19
+ * Time: 16:40
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\common\admin\log\CommonActionLog;
+use app\models\Store;
+use app\models\User;
+use app\models\WechatApp;
+use yii\helpers\VarDumper;
+use Yii;
+
+class PassportController extends \app\controllers\Controller
+{
+    public function actionLogin()
+    {
+        $we7_user = \Yii::$app->session->get('we7_user');
+        $we7_account = \Yii::$app->session->get('we7_account');
+
+        if (empty($we7_user) || empty($we7_account)) {
+            $current_url = \Yii::$app->request->absoluteUrl;
+            $key = 'addons/' . WE7_MODULE_NAME . '/core/web/';
+            $we7_url = mb_substr($current_url, 0, stripos($current_url, $key));
+            $this->redirect($we7_url)->send();
+            exit;
+        }
+
+        $user = User::findOne([
+            'we7_uid' => $we7_user['uid'],
+        ]);
+        if (!$user) {
+            $user = User::findOne([
+                'username' => $we7_user['username'],
+            ]);
+        }
+        if (!$user) {
+            $user = new User();
+            $user->username = $we7_user['username'];
+            $user->type = 0;
+            $user->password = \Yii::$app->security->generatePasswordHash(md5(uniqid()));
+            $user->access_token = \Yii::$app->security->generateRandomString();
+            $user->auth_key = \Yii::$app->security->generateRandomString();
+            $user->addtime = time();
+            $user->nickname = $we7_user['username'];
+            $user->avatar_url = '0';
+            $user->store_id = 0;
+            $user->we7_uid = $we7_user['uid'];
+            $user->save();
+            if (!$user->save()) {
+                VarDumper::dump($user->errors);
+                exit;
+            }
+        } elseif (!$user->we7_uid || $user->we7_uid != $we7_user['uid']) {
+            $user->we7_uid = $we7_user['uid'];
+            $user->save();
+        }
+
+        Yii::$app->user->login($user);
+
+        $wechat_app = WechatApp::findOne([
+            'acid' => $we7_account['acid'],
+        ]);
+        if (!$wechat_app) {
+            $wechat_app = new WechatApp();
+            $wechat_app->acid = $we7_account['acid'];
+            $wechat_app->user_id = $user->id;
+            $wechat_app->name = $we7_account['name'];
+            $wechat_app->app_id = '0';
+            $wechat_app->app_secret = '0';
+            if (!$wechat_app->save()) {
+                VarDumper::dump($wechat_app->errors);
+                exit;
+            }
+        }
+
+        $store = Store::findOne([
+            'acid' => $we7_account['acid'],
+        ]);
+        if (!$store) {
+            $store = new Store();
+            $store->acid = $we7_account['acid'];
+            $store->user_id = $user->id;
+            $store->wechat_app_id = $wechat_app->id;
+            $store->name = $we7_account['name'];
+            if (!$store->save()) {
+                VarDumper::dump($store->errors);
+                exit;
+            }
+        }
+
+        \Yii::$app->session->set('store_id', $store->id);
+
+        CommonActionLog::storeActionLog('', 'login', 0, [], $user->id);
+
+        $this->redirect(\Yii::$app->urlManager->createUrl(['mch/store/index']))->send();
+    }
+
+    public function actionLogout()
+    {
+        $url = $_COOKIE['adminLoginUrl'];
+        \Yii::$app->session->remove('store_id');
+        \Yii::$app->response->redirect($url)->send();
+        \Yii::$app->end();
+    }
+}

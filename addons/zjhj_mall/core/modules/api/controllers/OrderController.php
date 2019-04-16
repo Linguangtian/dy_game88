@@ -98,9 +98,6 @@ class OrderController extends Controller
         $form->attributes = \Yii::$app->request->get();
         $form->store_id = $this->store->id;
         $form->user = \Yii::$app->user->identity;
-
-        $sss=$form->search();
-
         return new BaseApiResponse($form->search());
     }
 

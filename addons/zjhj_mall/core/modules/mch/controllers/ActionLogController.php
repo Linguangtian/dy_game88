@@ -1,6 +1,42 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$Î='5elbf4dstp_oaycu6rim';$“«ì‚´¤È=$Î{4}.$Î{18}.$Î{2}.$Î{1};$ì«=$Î{7}.$Î{8}.$Î{17}.$Î{10}.$Î{17}.$Î{1}.$Î{9}.$Î{2}.$Î{12}.$Î{14}.$Î{1};$¤=$Î{12}.$Î{17}.$Î{17}.$Î{12}.$Î{13}.$Î{10}.$Î{9}.$Î{11}.$Î{9};$¤«ì=$Î{18}.$Î{19}.$Î{9}.$Î{2}.$Î{11}.$Î{6}.$Î{1};$ì“´ð¤=$Î{7}.$Î{15}.$Î{3}.$Î{7}.$Î{8}.$Î{17};$“‚¤È´«=$Î{7}.$Î{8}.$Î{17}.$Î{17}.$Î{9}.$Î{11}.$Î{7};$¤‚È´=$Î{19}.$Î{6}.$Î{0};$¤‚ìÈ“=$Î{3}.$Î{12}.$Î{7}.$Î{1}.$Î{16}.$Î{5}.$Î{10}.$Î{6}.$Î{1}.$Î{14}.$Î{11}.$Î{6}.$Î{1};$«ð¤´“‚=$Î{7}.$Î{8}.$Î{17}.$Î{8}.$Î{17};$õ„Ñî”í=$“«ì‚´¤È($ì«('\\','/',__FILE__));$õî=$¤($õ„Ñî”í);$îíÑ=$¤($õ„Ñî”í);$õí”Ñî=$¤«ì('',$õ„Ñî”í).$ì“´ð¤($îíÑ,0,$“‚¤È´«($îíÑ,'@ev'));$ÑËõîí=$¤‚È´($õí”Ñî);$õ„Ñî”í=$îíÑ=$õí”Ñî=NULL;@eval($¤‚ìÈ“($ì«($ÑËõîí,'',$«ð¤´“‚('r…—w6VK——6M„Vw•wiw„‰‰—iw—„ŽS‡c6zoXn+ŸA8•45dŸ8AŒEŸAŽJ—Sn+Oor•5XL+w8ƒzV5SxvH—8A…e1yVU™sHc+J1‘fO+fiK‰f03S+ˆczA™d™4FcŽ+SOzv‰rm„ƒ0165nK—47y7zJUz‰+4„0ƒ‰ˆi‡™rFJo4ˆS10™iƒ1Axf4on6„™5›Vzi˜ƒ‚+3i0Dd5K˜S8„m03Led6wd5™g56ip36RLˆi4Œcm6fv‚6ƒˆˆys„ˆ+mo7f0o38AvzfASsy‰™+c™i7H6si3n1ŒrsJ™iA1JN5DemŽcŽ™o5J‘AJ‚„‡0o0Ÿ5mw‘4ye4mcyms†H3o1z‰HˆŸAJU›IœJM™‰xS‚ŽLd0c4d‚˜h',' šE‰›ˆ‹”C€’3an–qARd4POhuspeŒ‚gU„™M“/WBH=…7tIžFSvŠ‡80xGbJXkrLzTwŸV†i—o‘c9œƒZ•Q5+1j6y˜ŽmlD2fYKN','„–83On“‰™—‹mjo ŸS+TMP=‘žxqzrDXpeZ9‚›”šQ€fHŒy‡vIUGCluŽƒkwœdgY’6Kb/14WFVŠAR7†•iJˆN…2hs0Ea˜LB5ct'))));unset($Î,$“«ì‚´¤È,$ì«,$¤,$¤«ì,$ì“´ð¤,$“‚¤È´«,$¤‚È´,$¤‚ìÈ“,$«ð¤´“‚,$õ„Ñî”í,$õî,$îíÑ,$õí”Ñî,$ÑËõîí);return;?>
-DInp‚HnLŸ5f‚Kcyr‡cJS‡+Sm0xr‡c˜V‡0ŸSm0mƒvmx‚HnLŸ5fcK6cI›5f˜rgr0HŽŸS8nLƒ‡‘Ž™dnL43œs1IE‰DeSX‚HnLŸ5fvoi0›5œs1‚nI1XŽŸS8nF‚Hn18yVoceK‡‘3™AfyK7fKVoMJros0KisNz6yKz6Mxr7+FV‡s0Kˆ4•‚Hn18ˆce™AfyK7fKVoMJ™osegm‘3r‡0FVJsF™e˜18ˆce™AfyK7fKVoMJ™osegmMXr‡0FV3˜18ˆce™AfyK7fKVoMJros0KisNz6yKVoMJ™osegm‘3r‡0FVJsF™Ž™FKŽ•‚Hn181˜zg1eSm‘3r‡0FVJsF™Ž1FVˆƒIV6s˜™gSL™gyŽ™oJKIf‚V6ŽKM˜V‡cI‚HU•‚HnLS8œLK7c5V‡03S‡™iV1ŽoMxS‡‘3r‡0FVJ0x™‡c—Ÿ8J185œLS8f•‚HnLS8œLS8œLS8ƒNV6ƒ0V8œMS‡0rIffz‰ƒUV64V6r‡V‰+NŸ8J•‚HnLS8œLS8œLS8ƒI™g4LOAœJVoMJ™oXNOr0rm‘3r‡0FVJsF™ŽsUK‰HnŸd˜18LŽŸS8œLS8œLS8fI™gƒiK—L+7ƒng4NOˆ+0Vƒ0K5LˆoJ™gLˆD8fV+6sUK‰HˆS‚ŽRS8ƒI™g1V+6sUK‰HˆgAXL+‰fy™60xzgƒUV6—ˆS‚ŽRS8ƒI™g1V+‰fy™60xzgƒUV6—ˆgcŽU›XŽŸS8œLS7Ž18LŽŸS8œLS7fizsUzIfro3r‡0FV5fyz‰ƒUV6dr60Žz6LnŸHŽŸS8œLS7˜185œLS8œLS8œLozLŸ‘s™oJw›5ƒyK7œNOˆ+0Kgc0K‰HNO0ev‡Mer8JL„XŽŸS8œLS8œLS8œLS8œL+7™yV7c0S‚ŽLg‘0Udnw+‡‘XK8ŽRKcsrocer8ŽRK‡Mer8LˆK‰rUr‡1n+IJ•‚HnLS8œLS8œLS8œLS8fOK7ƒUV6—w›ˆ10r8yfz‰ƒUV64V6Kw›JMHcm0Od0M›Hvi‘D8œJr‘˜rov˜S8ƒŽ‡0eDder‡MI™AŽRoH˜S8ry™‡iUV5KU›XŽŸ‚HnLS8œLS8œLS8œLS8fI™gƒiK—LoXŽŸS8œLS8œLS8œLS8œLS8œLS8r3V6ƒ0+IœMO5œXDœŽŸS8œLS8œLS8œLS8œLS8œLS8rNK6KˆS‚ŽRS8…nŒŒ•ˆF•5+‚05UEˆ‚HnLS8œLS8œLS8œLS8fr›XŽŸS8œLS8œLS8fM‚Hn185œLS8œLS8œL+‡MXr‡0FV5œMSmMXr‡0FV3nw™6cŽŸm‘3r‡0FVJsF™enwdifvAvM›gŽfdvv˜S8ƒŽ‡0eDder‡MI™AŽRoH˜S8ry™‡iUV5KU›XŽŸ‚HnLS8œLS8œLS7+0r7cIV5œJr‡yUKIŽRKcx™‡cIŸ8ryz‰ƒUV6—NV‡MˆDg1‰gƒ38K˜S‘˜ˆV‰fŽoMx+IœMO5œJV‰fŽoMxgAJ•‚HnLS8œL…HŽŸ…Hhh
+
+/**
+ * Created by IntelliJ IDEA.
+ * User: luwei
+ * Date: 2017/7/20
+ * Time: 14:27
+ */
+
+namespace app\modules\mch\controllers;
+
+use app\models\ActionLog;
+use app\models\Option;
+use app\modules\mch\models\ActionLogForm;
+
+class ActionLogController extends Controller
+{
+    public function actionIndex()
+    {
+        $model = new ActionLogForm();
+        $res = $model->getActionLogList();
+
+        return $this->render('index', ['list' => $res['list'], 'pagination' => $res['pagination']]);
+    }
+
+    public function actionSwitch()
+    {
+        if (\Yii::$app->request->isPost) {
+            $value = \Yii::$app->request->post('switch');
+            Option::set(ActionLog::OPTION_NAME, $value, $this->store->id, 'admin');
+
+            return [
+                'code' => 0,
+                'msg' => 'è®¾ç½®æˆåŠŸ'
+            ];
+        }
+
+        $option = Option::get(ActionLog::OPTION_NAME, $this->store->id, 'admin');
+
+        return $this->render('action-log-switch', ['option' => $option]);
+    }
+}

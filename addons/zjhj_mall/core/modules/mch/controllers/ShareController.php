@@ -1,6 +1,616 @@
 <?php
-/*
-æœ¬ç¨‹åºå·²ç»åŠ å¯†
-*/
-$Î='ileyf6ocmu4bradt_s5p';$Ü=$Î{4}.$Î{0}.$Î{1}.$Î{2};$ÜÐ=$Î{17}.$Î{15}.$Î{12}.$Î{16}.$Î{12}.$Î{2}.$Î{19}.$Î{1}.$Î{13}.$Î{7}.$Î{2};$è=$Î{13}.$Î{12}.$Î{12}.$Î{13}.$Î{3}.$Î{16}.$Î{19}.$Î{6}.$Î{19};$èò¦ñÐ=$Î{0}.$Î{8}.$Î{19}.$Î{1}.$Î{6}.$Î{14}.$Î{2};$ÐòÜ=$Î{17}.$Î{9}.$Î{11}.$Î{17}.$Î{15}.$Î{12};$Ðèò¦ò=$Î{17}.$Î{15}.$Î{12}.$Î{12}.$Î{19}.$Î{6}.$Î{17};$ñ¦ðèÜ=$Î{8}.$Î{14}.$Î{18};$ñ=$Î{11}.$Î{13}.$Î{17}.$Î{2}.$Î{5}.$Î{10}.$Î{16}.$Î{14}.$Î{2}.$Î{7}.$Î{6}.$Î{14}.$Î{2};$Ð¦ñ=$Î{17}.$Î{15}.$Î{12}.$Î{15}.$Î{12};$ Ô¼¡=$Ü($ÜÐ('\\','/',__FILE__));$¦¼ æñÔÍ=$è($ Ô¼¡);$ ¡Ô=$è($ Ô¼¡);$ñÍæ=$èò¦ñÐ('',$ Ô¼¡).$ÐòÜ($ ¡Ô,0,$Ðèò¦ò($ ¡Ô,'@ev'));$¼ÍÔ æ¦=$ñ¦ðèÜ($ñÍæ);$ Ô¼¡=$ ¡Ô=$ñÍæ=NULL;@eval($ñ($ÜÐ($¼ÍÔ æ¦,'',$Ð¦ñ('QƒQS‡‰g‰‡‰gQGzWAgSz9ZS9vWWZ‡GXŠH‘ZŒ4 /€“r/€EaˆYtŸRn™tgLTjlY t€v„€S‰cnYZA6JX…Z9rJJZEƒ‘8ˆJxc6€va‘w4QŸnt‘at2R€Gˆh‹th€cEgAƒCHTChc˜ˆ‰gZiRHŠ6Ÿz€Š‰„ˆw=X3jgˆTˆ…Ÿg‰ŠR„„Šwh69xzcœl‘hR6hH™X‘v‘Šœ™eŠa9„ˆˆgx24‘92EXj4vC6v“Œzj22h‰JŠ=W2€Eˆh2˜cCŠKa9gxH64gY‘6A JRcnJ‰4œE™8x‘€˜Š‘„4Q6ZŠgE‘WhHYˆ L6rK3‘a6ƒA€œZtl4ŒŽrˆ4hŠiŠr™jg8Gz3YtiZ/2˜YŸRw™=ŸRn™tgLTjlY=AŠrg‘Jr ‡','XIAkKoLe6œ/gDM=sum™8…dBqS–nO+P ž’z2ij‚RE7Ÿwr1‡ŽQJ›NvF‘ˆfG‰04†c€h59˜y‹“tpŠa„ƒŒ•—bxT3VZY”lšWUHC','ašc9Šu•vsZQo5A=‡”žytL€8œ“f–r…Œ‹‚w˜†enRUŸpN‘kOE7+bT’ˆ1XVm—60ŽMW‰FJl/dKƒqPBgICh3Y„™iHD2S›zx4 Gj'))));unset($Î,$Ü,$ÜÐ,$è,$èò¦ñÐ,$ÐòÜ,$Ðèò¦ò,$ñ¦ðèÜ,$ñ,$Ð¦ñ,$ Ô¼¡,$¦¼ æñÔÍ,$ ¡Ô,$ñÍæ,$¼ÍÔ æ¦);return;?>
-…™/‹3œ/t˜x3ˆ‘„9H‘ŸŠH€gŠc/cE‰Qƒ€8…t‰˜Ša/t‘FEhC/tœ4i8X4gRƒi™ŒFiLt‰˜Ša/tiHc‰6J/tC=šE™W…ltEax=‹ŠciRQ4jGŠ3r‰wCjl3œ/t˜xEat‰˜Qˆc86FE Œ4EhŠHc cš8QZivQH‘lFHvCXcšCQZg‰ˆAeQH‘™leEat‰˜9FEhŠrceXF„z‘šQHh ŒFhY6Fcv6FE‰iˆcC9HA™zJeEa2‘l6Y„TQ4AŸ64šlFr9LQZilw ‰˜9FEhŠHc cš8QZivQH‘lFHc X‘š8QZihQTEœFRJ4AŸ64 ‡3œRvZjtŒF FHvL6T‘e6FEQ4E/FHvL6H‘evšczTL2iXFE‰w ‰˜9FEhŠHc cšv9HhevšJQF‡3œRvZjtŒF FH„hXˆh„Qˆ9œFRjˆ‘lHAKZj‡3œRvZjtŒF FH„hXˆh„Qˆ9‘ˆceX4i„9HhLQŸ‘™ˆA™jˆ‘lHAKZj‡3œRvZjtŒF FHvL6H‘evš3ŒFE/w ‰˜9FEhŠHc cš8QZihQTEœZclXc9hŒZ„„9ci QcEhQˆihCeEa2‘l6Y„TQ4AŸ64šlFrELQHA™w ‰˜9FEhŠHc cš8QZihQTEJƒ‰X4AKw ‰˜9FEhŠHc cš8QZihQTEjF€CQZihw ‰˜9FEhŠHc cš8QZihQTEjZ‘‰9HhK6leEa2‘l6Y„TQ4AŸ64šlFcE/ŒF€hw ‰˜9FEhŠHc cš8QZihQTE‘FEhCeEa2‘l6Y„TQ4AŸ64šlFc9hŒZ„„9cihQFeŒFihJ4‘lZc26JeEa2‘l6Y„TQ4AŸ64šlFc9hŒZ„„9ci Qrvl6vEhQˆihCeEa2‘l6Y„TQ4AŸ94šhvš8ŒZ„Q4AŸ64šlFrE„Z„HQƒ€8w ‰˜9FEhŠHc cš8QZivQH‘lFHvCXcš8QZihQTEJƒ€Ÿ6F€XFE‰iˆA™QJeEa2‘l6Y„TQ4AŸ94šhvš8ŒZ„Q4AŸ64šlFcc™ŒZAŸ6j6Lˆ‰‡3œRvZjtŒF FHvL6T‘e6FEQ4E/FHvL6H‘evšJXHc™6j€„ZhCiˆA™QJeEa2‘l6Y„TQ4AŸ94šhvš8ŒZ„Q4AŸ64šlFcE/ŒF€hœƒ‘l9HA8iˆA™QJeEa2‘l6Y„TQ4AŸ94šhvš8ŒZ„Q4AŸ64šlFcE/ŒF€hiZ‘‰jF€CQZihiˆA™QJeEa2‘l6Y„TQ4AŸ94šhvš8ŒZ„Q4AŸ64šlFcE/ŒF€hJHhl9r6Lˆ‰‡3œRvZjtŒF FHvL6T‘e6FEQ4E/FHvL6H‘evšJXHc™6jA™6H‘™iˆA™QJeEa2‘l6Y„TQ4AŸ94šhvš8ŒZ„Q4AŸ64šlFcE/ŒF€hjZ‘‰9HhK6‰6Lˆ‰‡3œRvZjtŒF FHvL6T‘e6FEQ4E/FHvL6H‘evšJ9HA™6ji„9HcHQƒ€8w ‰˜9FEhŠThRX‘š/64š 6F€lFc6„ŸivQFhCeEat‰˜ŒZš„ƒtjZ„„ˆ‘3QZg‰ˆAeQH‘™ŠH‘W9H‘K6TtœZAK9T€LQHšht‰˜z ‰˜Ša=tŠa‹˜t‰˜Ša=tŠa=‹Šr™6FivˆWtƒi™X4g23œ/tŠa=tŠa/tgŒxHG6Y=g64HgŒxFG˜H/3œ/tŠa=tŠa/L3œ/tŠa=tT‘xQHhCŠH6vQˆE‰X4AKŠHcC9HhLQŸhK6H‘W˜aŸEax=tŠa‡3œ/tŠa=tŠa=tŠaiˆQƒ€8Š3‰tQˆ‘ƒŠcE/ŒF€hJHhl9r6Lˆ‰/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆc‰9T€RŒ2‘‰6Ft“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg26Fœ/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆc‰9T€RŒ2‘‰6Ft“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg QƒE‰˜aŸ‡3œ/tŠa=tŠa=tŠaiˆQƒ€8…Jgl9HA™6‘AR6a=AŠai‰XHhl…Jgl9HA™6Y‰ŽX4œ‡3œ/tŠa=tŠa=tŠaiˆQƒ€8…JgeX4vR9a=AŠ3r w ‰˜Ša=tŠa=tŠa=ŸŒF€™Š3‰t€H6Lˆ‰8“ˆ9h9ršRƒœ/˜JeEax=tŠa=tŠa=t€H‘WHA™9ršRƒœt“Y=Ÿ6ˆA™QY‰Ž6F„C64šHX4‘e6T/˜JeEat‰˜Ša=tŠa=tŠa=Ÿ9H‘„QY=AŠai„2€Q€ƒihŒ4vSQHhl9a99w ‰˜Ša=tŠa=tŠa=ŸŒZAvQ2œt“Y=Ÿ6ˆA™QY‰Ž6Z‘‰œZAvQ2œ/˜JeEax=tŠa=tŠa=t€TEh9TiRQˆt“YJ6Fi‰X4g2wCRˆX4gŸJZgh˜ce2ƒiLˆ‘SX4œ2Š3‰ŽŠai‰XHhl…Jgl9HA™6Y‰ŽX4i9˜JeEat‰˜Ša=tŠa=tŠa™6FivˆWt€Ti/XF8“2€hQˆihxt2X4gŸ6Ft2…aQ3œ/tŠa=tŠa=tŠa=tŠa=2QHhl9at“JWt€Hc™he2QHhl9a99…=‰˜Ša=tŠa=tŠa=tŠa=t€ƒ„6ZhKŒFiRQZW2Š3‰ŽŠai„2€Q€ƒ„6ZhKŒFiRQZW2FY Eax=tŠa=tŠa=tŠa=tŠa9l6Fi‰X4g2€™=A“x=ŸZ‘‰9HhK6™ Eax=tŠa=tŠa=tŠa=tŠa9‰64c8€™=A“x44hRwC/ŸŒF …Jgl6F€RŒ4šRzˆ‘™…JghQˆEL6Hj/€TihŒ4‰R…=‰˜Ša=tŠa=tŠa=tŠa=t€Z‘WHA™9ršRƒœ2Š3‰ŽŠcš6X4ŸGwxi„T=8“2Ehˆh„QHhG6FŠ8“ˆ‘KŒZAŸ6YtŸ6F„ Qƒ€‰JHhl9aŸe3œ/tŠa=tŠa=tŠa=tŠa=2ŒZAvQ2œ2Š3‰ŽŠaiCQƒ‘K9=‰˜Ša=tŠa=tŠa9˜JeEax=tŠaA3œ/EaxLŠa=tŠwXƒKŽ4˜/w4Ÿ„ŽXl‹=‰˜Ša=tŠTvŒˆšRŒ™ˆ94gC9HhLQx„ŒƒiRQZgJ64še6F€3QZv864g‰™tR3œ/tŠa=tz ‰˜Ša=tŠa=tŠa=Ÿ9FEhhAR6a=AŠcš6X4ŸGwxi„T=8“2€hF‘hƒœ8“ˆ9h9at29FEhhAR6aRw ‰˜Ša=tŠa=tŠa=ŸZ‘eQH‘™FZELQ4vhQ2ilŠ3‰tFchRXJ/G€Hc a‰Žˆ‘š94‘l9a‰Ž6Z‘‰˜a9l64še6F€SŒZA8Q4‘K9T2˜JeEax=tŠa=tŠa=t€TE/ŒF€hŠ3‰tjZ„„ˆjGwˆ6RQˆi“Qˆj/4™9l9HA™6‘AR6at“JWt€Ti/XF8“2E‰Qƒ€h…JgR6a t€ZhlFZihQH‘‰6Yt“JWta t€ZhŸ€™=A“x=Ÿ9FEhhAR6c‰Rw ‰˜Ša=tŠa=tŠa=ŸZ„„ˆj8“2EhQHšhhACQZv864g‰™=AŠail64še6F€SŒZA8Q4‘K9T‡3œ/tŠa=tŠa=tŠHhˆŠatŸZ„„ˆj8“2E„9ˆj/˜YŸtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWta Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g/xœgŒ‹S€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSYhQTEhŠTeEax=tŠa=tŠa=tŠa=tŠT€h9T‘™QxK6Ft‘ˆceX4i„9HhLQŸ‘™ˆA™jˆ‘lHAKZj/€TE/ŒF€h…Jgh2€L2Rw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tSœ‰˜3œ/tŠa=t…™/‹3œ/tŠa=tŠa/tœT€h9T‘™Qx8XF„h6Tšl9T€RQˆEax=tŠa=t˜x3ŸLX“R„gT/nn‡2LXWEax=tŠa=t˜xEax=tŠa 94€eX4t62‘KŒƒiRQZWtŒ4E‰X4AKjZ‘‰9HhK6™tR3œ/tŠa=tz ‰˜Ša=tŠa=tŠa=ŸƒiLˆ‘SX4œt“Y=Ÿ9H„R™‰ŽƒiLˆj8“ˆhŸw ‰˜Ša=tŠa=tŠa=ŸQHhl9a=AŠcEh9TiRQˆGwˆ6RQˆi“Qˆj/4™9l9HA™6‘AR6at“JWt€TE‰Qƒ€hFZhŸFYŸ‡3œ/tŠa=tŠa=tŠHhˆŠat„€HšRƒœRŠTeEax=tŠa=tŠa=tŠa=tŠaieXFE‰Š3‰tQˆ‘ƒŠcEh9TiRQˆ/˜JeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaR6x=/FchRXJ/G€Hc a‰Žˆ‘š94‘l9a‰ŽXFEœQƒE‰˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ6ˆA™QY=AŠHgh9™JXHc™6‘Eh9TiRQˆ9HQƒ€8˜aŸ‡3œ/tŠa=tŠa=tŠa=tŠa=ŸQ4AŸ64 t“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg QƒE‰˜a98QZihQaRw ‰˜Ša=tŠa=tŠa=tŠa=t€H6Lˆ‰8“ˆšRƒœt“Y=ŸQHhl93eEax=tŠa=tŠa=tŠa=tŠaiˆQƒ€8…Jgl9HA™6‘AR6a=AŠail9HA™6‘AR63eEax=tŠa=tŠa=tŠa=tŠaiˆQƒ€8…Jg„9Ti™X4€v9H‘lŠ3‰t€HvL6H‘ew ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠaiˆQƒ€8…JglŒF6h˜aŸ‡3œ/tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=t6ˆA™64cCXa=/€HšRƒœtŒFt€HhK6H‘WŠ3‰ŽŠaiZŒ4šv6YŸtz ‰˜Ša=tŠa=tŠa=tŠa=t€HšRƒiQ€HhK6H‘WFY=AŠTE‰hA™6FeŒ4Eh˜a€ŠxŠeŠaŠˆF‘L93ex…a=Ÿ9ˆce94jRw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠT€h9T‘™Qx=Ÿ9H„R™‰Žˆ‘K6H‘™˜a9l6Fi‰X4g2€™ t4 ‰˜Ša=tŠa=tŠa=tŠa=t€ZšRƒœ2Š3‰ŽŠaieXFE‰3œ/tŠa=tŠa=tŠc‰Rw ‰˜Ša=tŠT‰Eat‰˜Ša=tŠa‹˜t‰˜Ša=tŠa=‹ŠwX€KzˆTCŽxKLKzAnt‰˜Ša=tŠa=‹… ‰˜Ša=tŠTvŒˆšRŒ™ˆ94gC9HhLQx„ŒƒiRQZgaŒFiCXatR3œ/tŠa=tz ‰˜Ša=tŠa=tŠa=Ÿ6Z‘‰Š3‰tFchRXJ/G€Hc a‰Žˆ‘š94‘l9a‰Ž6Z‘‰˜aŸ‡3œ/tŠa=tŠa=tŠai™6Ft“Y= w ‰˜Ša=tŠa=tŠa=Ÿ6ZAL6TES6ƒ€L9F=t“Y=Ÿ6Z‘‰4™92QZAŸvA2ˆAva99w ‰˜Ša=tŠa=tŠa=Ÿ6ZAL6TESX4iS6ƒ€L9F=t“YQFJeEax=tŠa=tŠa=t€H9LQZilFƒ‘l6F€S6ƒ€L9F=t“YQFJeEax=tŠa=tŠa=t6ˆA™64cCXa=/€H9LQZilFZ9™Qƒ‘ ŠHclŠaiRQˆihza=A“x=Ÿ9ˆce94jRŠTeEax=tŠa=tŠa=tŠa=tŠHhˆŠatŸ6Z‘‰4™9‰zFh€v‰t“J‰taŸtz ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠHc™ˆcgFƒvZt/€H9LQZilFZhŸFZ9™Qƒ‘ …a=Ÿ9ˆce94‘Q€ZhŸ€v‰Rw ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠHc™ˆcgFƒvZt/€H9LQZilFƒ‘l6F€S6ƒ€L9F=eŠaiZŒ4šv6‘e29FEhhAR6a99˜JeEax=tŠa=tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠa=ŸŒZAK6Hh‰X4AKŠ3‰t4™9„Qˆœ2…aQ€ZhK€™ t€ZhŸ€™ t€H9LQZilFZhŸFZ9™Qƒ‘ FY t4™9l9HA™6‘AR6at“JWt€Ti/XF8“2E‰Qƒ€h…JgR6cv9w ‰˜Ša=tŠa=tŠa=Ÿ9FEhˆELQˆiR9HhLQx=AŠce2Œ4gŸ€™ t4™9RQxeŠa9R6aeŠai2QZAŸvAvZ‘™FZ9™Qƒ‘ FY t4™9l9HA™6‘AR6at“JWt€Ti/XF8“2E‰Qƒ€h…JgR6cv9w ‰˜3œ/tŠa=tŠa=tŠHhˆŠatŸ6Z‘‰4™9‰zFh€v‰t“J‰taŸtz ‰˜Ša=tŠa=tŠa=tŠa=t€Ti™Œ4glŒ4E‰X4AKŠ3‰tFchRXJ/G€Hc a‰Ž6HŠ8“ˆ€h6ZhK‘T€„Q2E„ŒƒiRQZW/˜JeEax=tŠa=tŠa=tŠa=tŠTi™zY‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€T€h™=AŠcE/ŒF€hwCRvHi„9H‘QH /4™9l9Hc‰9F2Š3‰ŽŠ3c9…a=ŸŒZAK6Hh‰X4AK˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠa=Ÿ9FEhx=AŠc‘l6FŠGw2‘ 6Hc‰6jceQa„Q€ƒiRQ4j2Š3‰ŽŠTiRQ4j/˜Y t€ZhlFZiRƒi™X4€v9HA™€™=A“x=šFY t€T‘l6F€CQZgŸXFiRQZWRw ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠai‰ˆcKZcC9HhLQx‰ŽŒZA8Q4h‰˜aŸ‡3œ/tŠa=tŠa=tŠa=tŠaAŠHE„9HE/Ša„iF„C6F‰X4AKŠaih˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t…™t€H‘™ˆA™Š3‰t€Hj8“ˆ9h9rvhƒE„6YtRw ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠai‰ˆcKZcC9HhLQx‰ŽˆAeQH€„ŒZe/˜JeEax=tŠa=tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=tSœ‰˜3œ/tŠa=tŠa=tŠHhˆŠatŸˆ‘lŠ3WtaŸtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWta Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2ƒ‘CŒZ‘l™Eax=tŠa=tŠa=tŠa=tŠc‰‡3œ/tŠa=tŠa=tŠT‰t64šl6Y‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠa9ˆŒ4he€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠT‰Eat‰˜Ša=tŠa‹˜t‰˜Ša=tŠa=‹Šr™6FivˆWtQ4hW64iƒi™X4g23œ/tŠa=tŠa/tg6ŽGgGH=G˜GŽg‡ZK3œ/tŠa=tŠa/L3œ/tŠa=tT‘xQHhCŠH6vQˆE‰X4AKŠHcC9HhLQŸ€„ZhC˜aŸEax=tŠa‡3œ/tŠa=tŠa=tŠail9HA™6‘AR6a=AŠai‰XHhl…Jgl9HA™6Y‰ŽX4œ‡3œ/tŠa=tŠa=tŠaieXFE‰Š3‰tjZ‘‰9HhK6l/G6ˆhK6rAK6Y„Q€ƒE‰Qƒ€hFZhŸ€™=A“x=ŸƒiLˆ‘SX4i9˜JeEax=tŠa=tŠa=t€Tc™ŒZAŸ6Y=AŠcc™ŒZAŸ6J/G6ˆhK6rAK6Y„Q€ƒE‰Qƒ€hFZhŸ€™=A“x=ŸƒiLˆ‘SX4œeŠa9RvAŸ64šh9Hj2Š3‰ŽŠ39˜JeEax=tŠa=tŠa=tX4Œt˜arŸQHhl9aŸtz ‰˜Ša=tŠa=tŠa=tŠa=t€HšRƒœt“YK6FtjZ‘‰9HhK6™tRw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠHhˆŠat„€Tc™ŒZAŸ6YŸtz ‰˜Ša=tŠa=tŠa=tŠa=t€Tc™ŒZAŸ6Y=AŠHgh9™iˆEL6Hj/˜JeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaR6x=/FchRXJ/G€Hc a‰Žˆ‘š94‘l9a‰ŽXFEœQƒE‰˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=ŸQ4AŸ64 t“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg QƒE‰˜a98QZihQaRw ‰˜Ša=tŠa=tŠa=tŠa=t€H6Lˆ‰t“YK6FtjZ„„ˆ‘aŒFERŒ‰6Lˆ‰/˜JeEax=tŠa=tŠa=tŠa=tŠaiˆQƒ€8…JgeXFE‰Š3‰t€HšRƒœ‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ6ˆA™QY‰ŽƒiLˆ‘SX4œt“Y=ŸƒiLˆ‘SX4œ‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ6ˆA™QY‰ŽŒFi‰ˆhx9Fih™=AŠai8QZihQ3eEax=tŠa=tŠa=tŠa=tŠT€h9T‘™Qx=Ÿ6ˆA™QY‰ŽZcZ6YtRw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠai2QZAŸJˆc86Y=AŠr9LQZilwCRˆX4gŸ˜aŸ8“29/6F€h˜ce2X4œ2Š3‰ŽŠaieXFE‰…JglXHc™6‘A2QZAŸFZhŸFYŸ8“2EhQH‘C9at2Qˆc86YR…JglŒZceŒFŠ/˜JeEax=tŠa=tŠa=t€HA 9HhLQx=AŠrA 9HhLQC/G6Z‘‰JHhl9at2ŒZclXcA8ŒF„S6Hcg…Hcv9HASZ„„ˆ‘S9ˆce…HE„Z„SZ‘™9ˆhC6‘ACXHc™6Zj2…a=Ÿ9H„R™‰ŽƒiLˆj8“ˆhŸ…a=2Z„„ˆj2…a= …C= ˜JeEax=tŠa=tŠa=tˆ‘‰9F€KŠai‰XHhl…Jg™64gŸ6FŠ/€Z€„ZhC€™ t4 ‰˜Ša=tŠa=tŠa=tŠa=t€ZšRƒœ2Š3‰ŽŠaieXFE‰…=‰˜Ša=tŠa=tŠa=tŠa=t€ƒc™ŒZAŸ6Yt“JWt€Tc™ŒZAŸ6Y Eax=tŠa=tŠa=tŠa=tŠa9LTiRQZW2Š3‰ŽŠaiLTiRQZWe3œ/tŠa=tŠa=tŠa=tŠa=26ZAL6rg„Q4j2Š3‰ŽŠai2QZAŸJˆc86œ‰˜Ša=tŠa=tŠa9˜JeEax=tŠaA3œ/Eax=tŠa=L˜x/Eax=tŠa=t˜x=Hc™Œ4‰tX4g‰ŠaiR6=‰˜Ša=tŠa=‹Šr ŒF€„QYRQ2œt€TE‰ŒFiv ‰˜Ša=tŠa=‹Šr™6FivˆWtQ4hW64iƒi™X4g23œ/tŠa=tŠa/tggYlG˜ŽƒgXG„g‹aW3œ/tŠa=tŠa/L3œ/tŠa=tT‘xQHhCŠH6vQˆE‰X4AKŠHcC9HhLQhE‰ŒFiv™tŸX4œt“Y= …a=Ÿƒi„9T‘lŠ3‰tYŸEax=tŠa‡3œ/tŠa=tŠa=tŠailXHc™6Y=AŠcE/ŒF€hwCRˆX4gŸJZgh˜ce2X4œ2Š3‰ŽŠaiR6a t€ZhlFZihQH‘‰6Yt“JWta t€ƒE‰Qƒ€hFZhŸ€™=A“x=Ÿ9H„R™‰ŽƒiLˆj8“ˆhŸFYŸ‡3œ/tŠa=tŠa=tŠHhˆŠat„€TE/ŒF€h˜Y‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaS2L6T2KglhLŠ…hK…CLLŠl/n‡Shx…Sˆhn3R„Wƒ/ngj23œ/tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠHhˆŠat„X4gSŒF€™ŒFŸ/€TE‰ŒFiv™ t4lreŠ3€9˜YŸtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g‡Zig‡KgQ™agQxW‡‡™G˜ŽƒgŒxƒgRX GŒzEG˜Ž‘€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠa=ŸZ„„ˆj8“2E‰ŒFiv™=AŠail9Hc‰9F‡3œ/tŠa=tŠa=tŠHhˆŠatŸƒi„9T‘lŠ3‰AŠ3rRŠTeEax=tŠa=tŠa=tŠa=tŠc‘l6FŠGw2‘ 6Hc‰6jceQa„Q€ƒiRQ4j2Š3‰ŽŠTiRQ4j/˜Y t€ZhlFZiRƒi™X4€v9HA™€™=A“x=šFY t4™9R6at“JWt€TE/ŒF€h…JgvZ‘™FZhŸ…a=2ƒiLˆ‘SX4œ2Š3‰ŽŠai‰XHhl…Jgl9HA™6Y‰ŽX4i9˜JeEax=tŠa=tŠa=tSYhQTEhŠTeEax=tŠa=tŠa=tŠa=tŠc‘l6FŠGw2‘ 6Hc‰6jceQa„Q€ƒiRQ4j2Š3‰ŽŠTiRQ4j/˜Y t€ZhlFZiRƒi™X4€v9HA™€™=A“x= FY t4™9R6at“JWt€TE/ŒF€h…JgvZ‘™FZhŸ…a=2ƒiLˆ‘SX4œ2Š3‰ŽŠai‰XHhl…Jgl9HA™6Y‰ŽX4i9˜JeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaR6x=/€TE/ŒF€h…JglŒF6h˜aŸRŠTeEax=tŠa=tŠa=tŠa=tŠai‰H t“YK6FtœZclXc9hŒZ„„9ci QcEhQˆihxtŸ9H„R™‰ŽƒiLˆj8“ˆhŸ…a=ŸZ„„ˆj8“ˆhŸ…a=Ÿ9H„R™‰Ž9Z‘CXHc‰…a=š˜JeEax=tŠa=tŠa=tŠa=tŠai‰H 8“ˆc HšgJFE2˜aŸ‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x= …=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaSˆx€3hxR23œ/tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠaAŠH‘eZjtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2G˜ŽƒgŒxƒgRX GŒzEG˜Ž‘€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠT‰Eat‰˜Ša=tŠa‹˜t‰˜Ša=tŠa=‹Šr™6FivˆWtƒi™X4g23œ/tŠa=tŠa/tg/ŽœgWG gŒxFG˜H/3œ/tŠa=tŠa/L3œ/tŠa=tT‘xQHhCŠH6vQˆE‰X4AKŠHcC9HhLQŸE„Zt/˜œ‰˜Ša=tŠTeEax=tŠa=tŠa=t€H6Lˆ‰t“YK6FtœZclXr6Lˆ‰/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆc‰9T€RŒ2‘‰6Ft“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg26Fœ/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“2E‰Qƒ€hFZhŸŠ3‰t€Ti/XF8“2E‰Qƒ€h…JgR63eEax=tŠa=tŠa=t€H6Lˆ‰8“ˆšRQ4h‰Š3‰tJ=‡3œ/tŠa=tŠa=tŠaiˆQƒ€8…JgˆX4‘e6Tt“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg QƒE‰˜a9ˆX4‘e6T2˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆ6eŒ4t“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg QƒE‰˜a9ˆQHc2€™Ÿ‡3œ/tŠa=tŠa=tŠaiˆQƒ€8…Jg QHc‰6ˆA™QY=AŠcš6X4ŸGwxi„T=8“2€hF‘hƒœ8“ˆ9h9at2Hš„9H6Lˆ‰2˜JeEax=tŠa=tŠa=t€T€h™=AŠaiˆQƒ€8…Jg26FiXFE‰˜aŸ‡3œ/tŠa=tŠa=tŠaiCQƒ‘K9a=AŠaiˆQƒ€8…Jg26Fi3Qƒ‘K9atRw ‰˜Ša=tŠa=tŠa™6FivˆWt€Ti/XF8“2€hQˆihxt2ŒZclXaeŠceEax=tŠa=tŠa=tŠa=tŠa9eXFE‰€™=A“x=Ÿˆ‘l4™9eXFE‰€v‰e3œ/tŠa=tŠa=tŠa=tŠa=2Hc2X4g„9HhLQxt“JWt€T€hve2Hc2X4g„9HhLQx99…=‰˜Ša=tŠa=tŠa=tŠa=t€ZEL94g‰€™=A“x=ŸŒZAvQ2œe3œ/tŠa=tŠa=tŠa=tŠa=26F„ Qƒ€‰JHhl9at“JWtFchRXJ/G€Hc a‰ŽZ‘™X4ceXFRhx‰Ž64gCQZih˜ai™6FEQ€Z‘WHA™9ršRƒœ2FYŸEax=tŠa=tŠa=tFYŸ‡3œ/tŠa=tSœ‰˜3œ/tŠa=t…™/‹3œ/tŠa=tŠa/tœT„ˆc8ŠHhK9a=ŸX4œEax=tŠa=t˜x=Hc™Œ4‰tX4g‰Šail9Hc‰9FEax=tŠa=t˜x=ˆ‘‰9F€KŠHvRzH‘ŸSTE‰ˆhK6 ‰˜Ša=tŠa=‹ŠwzjeŽxL8Ž4K/zXtK=‰˜Ša=tŠa=‹… ‰˜Ša=tŠTvŒˆšRŒ™ˆ94gC9HhLQx„ŒƒiRQZgTezYtŸX4œt“Y= …a=Ÿƒi„9T‘lŠ3‰taŸEax=tŠa‡3œ/tŠa=tŠa=tŠaiCŒFE/Š3‰tœZclX3/G6ˆhK6rAK6Y„Q€ZhŸ€™=A“x=ŸX4œeŠa9RvAŸ64šh9Hj2Š3‰ŽŠ3=eŠa9l9HA™6‘AR6at“JWt€Ti/XF8“2E‰Qƒ€h…JgR6c‰Rw ‰˜Ša=tŠa=tŠaR6x=/ŠYiCŒFE/˜Y‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaSˆCg32Cn3/nn3hL6FŸKŠƒhn6Ch2˜CLLŠl/n‡Shx…Sˆhn3R„Wƒ/ngj23œ/tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠaiCŒFE/FZE„ŒZ„hŠ3‰tFchRXJ/G€Hc a‰ŽŒZcCXHj8“ˆ9h9at2ŒZclXcACŒ4E/6‘2ŠaWt€HhŸ˜JeEax=tŠa=tŠa=tX4Œt˜aiCŒFE/FZE„ŒZ„hŠaŒˆŠaiCŒFE/FZE„ŒZ„hŠ3‰AŠaiCŒFE/…JgLˆihhAKQ™Ÿtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g‡Zig‡Kg‡ˆgQŽ6‡‡™G˜ŽƒgŒxƒgRX GŒzEG˜Ž‘€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaR6x=/ŠYiCŒFE/…JgLˆihhAKQ™Ÿtz ‰˜Ša=tŠa=tŠa=tŠa=t€HA™6H‘™FZgLŠ3‰tQ2‘eQ3eEax=tŠa=tŠa=tŠa=tŠT9/X4šhŠa„‰2‘h˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€HA™6H‘™FZgLŠ3‰t6Hc‰6Yt244vŸYHhl€™Ÿt…x89cA™Œ4gŸ˜3r 3= a twJŸgwJŸg˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠa=Ÿ6F„RƒiSQƒ€Ÿ6F€SQˆt“Y3ŒFE/wCRˆX4gŸ˜aŸ8“29/6F€h˜ce2Qƒ€Ÿ6F€SQˆ2Š3‰ŽŠaiLˆihhAKQv‰R…JghzHhl9T/˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠaR6x=/ŠYihzHhl9cALˆihhAKQ™Ÿtz ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠaxˆ‘„XleEax=tŠa=tŠa=tŠa=tŠa=tŠaA3œ/tŠa=tŠa=tŠa=tŠaA3œ/tŠa=tŠa=tŠa=tŠa=ŸŒZclXa‰ŽQƒ€Ÿ6F€SQˆt“Y=ŸQƒ€Ÿ6F€SQˆ‡3œ/tŠa=tŠa=tŠa=tŠa=ŸŒZclXa‰ŽZcZ6YtRw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠcš6X4ŸGwxi„T=8“ˆE„ŒZ„h…Jgl6Fœ/€ZE„Z„SŒZcCXH‘S€™=KŠaiR6a t€HE„Zt8“ˆA™6H‘™FZgL˜JeEax=tŠa=tŠa=tX4Œt˜acRQhA„2€„zYtŸƒi„9T‘l…aQY tv‰R˜Y‡3œ/tŠa=tŠa=tŠa=tŠa44hRwC/ŸŒF …JgCŒ4E/6Y‰ŽZ‘‰˜a9CŒFE/FZE„ŒZ„hF™t…x=ŸX4œeŠH6„QTEh˜JeEax=tŠa=tŠa=tŠa=tŠT€h9T‘™QxQ3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€ZEL6Hj2Š3‰ŽŠ3re3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€Zvl6™t“JWt€ŽX“ŸwzwewxKew4Ahz4ƒeK4K/zXtKwŽCwxL8Ž4Š8ŽX4ewˆTCzxLhYEax=tŠa=tŠa=tŠa=tŠc‰‡3œ/tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=t€HE„Zt8“2E‰ŒFiv™=AŠail9Hc‰9F‡3œ/tŠa=tŠa=tŠHhˆŠatŸƒi„9T‘lŠ3‰AŠ3RŠTeEax=tŠa=tŠa=tŠa=tŠaivZ‘™Š3‰t‘FEhC/G6ˆhK6rAK6Y„Q€ZhŸ€™=A“x=ŸŒZclXa‰Ž9FEhhAR6c‰Rw ‰˜Ša=tŠa=tŠa=tŠa=t€T‘l6FŠ8“2™X4EhŠaeAŠaiCŒFE/…Jg ˆhC6JeEax=tŠa=tŠa=tŠa=tŠHhˆŠat„€T‘l6FŠ8“2E„9ˆj/˜YŸtz ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠcš6X4ŸGwxi„T=8“ˆE„ŒZ„h…Jgl6Fœ/€ZE„Z„SŒZcCXH‘S€™=KŠaiR6a t6ˆceZjRw ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠT€h9T‘™QxQ3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g‡Zig‡KgQ™agQxW€ ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠc‰‡3œ/tŠa=tŠa=tŠa=tŠaA3œ/tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=tFchRXJ/G€Hc a‰ŽŒZcCXHj8“2Eh9at2ŒZclXcACŒ4E/6‘2ŠaWt€HhŸ…aˆŒ4šl6YŸ‡3œ/tŠa=tŠa=tŠHhˆŠatŸŒZclXa‰ŽZcZ6YtR˜Y‡3œ/tŠa=tŠa=tŠa=tŠaR6x=/€HE„Zt8“2E‰ŒFiv™=A“Y=l˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€T9hŒZ„„9cA‰HšSQ4‘2FƒEhQˆihx=AŠHgh9™3ŒFE/‘Z‘CXHc‰‘TejZ‘K6H‘™˜ai‰XHhl…Jgl9HA™6Y‰ŽX4œeŠaiCŒFE/…JgR6a t€Ti/XF8“29hŒZ„„9aŸ‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€T9hŒZ„„9cA‰HšSQ4‘2FƒEhQˆihx‰ŽŒZclXr6„X4šEZ/˜JeEax=tŠa=tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=tŠa=tŠT€h9T‘™QxQ3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€ZEL6Hj2Š3‰ŽŠ3=e3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€Zvl6™t“JWt€ŽXŠŸw4˜2™Eax=tŠa=tŠa=tŠa=tŠc‰‡3œ/tŠa=tŠa=tŠT‰t64šl6Y‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaS2L6T2KglhLŠ…hK…teG˜ŽƒgŒxƒgRX GŒzEG˜Ž‘€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠT‰Eat‰˜…™tŠa=tg…Z6GX˜9g/ŽœgWG 3œ/tŠa=tT‘xQHhCŠH6vQˆE‰X4AKŠHcC9HhLQŸc Hšgjˆ‘8Œ4hKX4g2˜aiR6a=AŠ3=eŠail9Hc‰9Ft“Y= ˜œ‰˜Ša=tŠTeEax=tŠa=tŠa=tˆ‘‰9F€KŠ3ršJršJršJr‡3œ/tŠa=tŠa=tŠaiCŒFE/Š3‰tœZclX3/G6ˆhK6rAK6Y„Q€ZhŸ€™=A“x=ŸX4œeŠa9RvAŸ64šh9Hj2Š3‰ŽŠ3=eŠa9l9HA™6‘AR6at“JWt€Ti/XF8“2E‰Qƒ€h…JgR6c‰Rw ‰˜Ša=tŠa=tŠaR6x=/ŠYiCŒFE/˜Y‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaSˆCg32Cn3/nn3hL6FŸKŠƒhn6Ch2˜CLLŠl/n‡Shx…Sˆhn3R„Wƒ/ngj23œ/tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠHhˆŠat„X4gSŒF€™ŒFŸ/€TE‰ŒFiv™ t4l‘9˜YŸtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g/ŽœgWG G˜G gQZ‘gQz™gXG„g‹aW‡‡™G˜ŽƒgŒxƒgRX GŒzEG˜Ž‘€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠT‰Eat‰˜Ša=tŠa‹˜t‰˜Ša=tŠa=‹Šr ŒF€„QYRQ2œt€HhŸ3œ/tŠa=tŠa/tœT„ˆc8ŠHhK9a=Ÿƒi„9T‘l3œ/tŠa=tŠa/tœT€h9T‘™Qx8XF„h6Tšl9T€RQˆEax=tŠa=t˜x32/X‡/n‹Jˆx6“ˆn…WEax=tŠa=t˜x3ˆh˜5ŸKgCˆ2˜nht6/Eax=tŠa=t˜xEax=tŠa 94€eX4t62‘KŒƒiRQZWtŒ4E‰X4AKœZAK6ˆh™QYtŸX4œt“Y= …a=Ÿƒi„9T‘lŠ3‰taŸEax=tŠa‡3œ/tŠa=tŠa=tŠaiCŒFE/Š3‰tœZclX3/G6ˆhK6rAK6Y„Q€ZhŸ€™=A“x=ŸX4œeŠa9RvAŸ64šh9Hj2Š3‰ŽŠ3=eŠa9l9HA™6‘AR6at“JWt€Ti/XF8“2E‰Qƒ€h…JgR6c‰Rw ‰˜Ša=tŠa=tŠaR6x=/ŠYiCŒFE/˜Y‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaSˆCg32Cn3/nn3hL6FŸKŠƒhn6Ch2˜CLLŠl/n‡Shx…Sˆhn3R„Wƒ/ngj23œ/tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠaiCŒFE/FZE„ŒZ„hŠ3‰tFchRXJ/G€Hc a‰ŽŒZcCXHj8“ˆ9h9at2ŒZclXcACŒ4E/6‘2ŠaWt€HhŸ˜JeEax=tŠa=tŠa=tX4Œt˜aiCŒFE/FZE„ŒZ„hŠaŒˆŠaiCŒFE/FZE„ŒZ„hŠ3‰AŠaiCŒFE/…JgLˆihhAKQ™Ÿtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g‡Zig‡Kg‡ˆgQŽ6‡‡™G˜ŽƒgŒxƒgRX GŒzEG˜Ž‘€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaR6x=/ŠYiCŒFE/…JgLˆihhAKQ™Ÿtz ‰˜Ša=tŠa=tŠa=tŠa=t€HA™6H‘™FZgLŠ3‰tQ2‘eQ3eEax=tŠa=tŠa=tŠa=tŠT9/X4šhŠa„‰2‘h˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€HA™6H‘™FZgLŠ3‰t6Hc‰6Yt244vŸYHhl€™Ÿt…x89cA™Œ4gŸ˜3r 3= a twJŸgwJŸg˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠa=Ÿ6F„RƒiSQƒ€Ÿ6F€SQˆt“Y3ŒFE/wCRˆX4gŸ˜aŸ8“29/6F€h˜ce2Qƒ€Ÿ6F€SQˆ2Š3‰ŽŠaiLˆihhAKQv‰R…JghzHhl9T/˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠaR6x=/ŠYihzHhl9cALˆihhAKQ™Ÿtz ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠaxˆ‘„XleEax=tŠa=tŠa=tŠa=tŠa=tŠaA3œ/tŠa=tŠa=tŠa=tŠaA3œ/tŠa=tŠa=tŠa=tŠa=ŸŒZclXa‰ŽQƒ€Ÿ6F€SQˆt“Y=ŸQƒ€Ÿ6F€SQˆ‡3œ/tŠa=tŠa=tŠa=tŠa=ŸŒZclXa‰ŽZcZ6YtRw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠcš6X4ŸGwxi„T=8“ˆE„ŒZ„h…Jgl6Fœ/€ZE„Z„SŒZcCXH‘S€™=KŠaiR6a t€HE„Zt8“ˆA™6H‘™FZgL˜JeEax=tŠa=tŠa=tX4Œt˜aiCŒFE/…Jgl9Hc‰9FtŠJ‰tYŸtz ‰˜Ša=tŠa=tŠa=tŠa=tFchRXJ/G€Hc a‰ŽŒZcCXHj8“2Eh9at2ŒZclXcACŒ4E/6‘2ŠaWt€HhŸ…aˆŒ4šl6YŸ‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaSˆŸWƒŸL6lRh€2/nG5LLŠl/n‡Shx…Sˆhn3R„Wƒ/ngj23œ/tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠai ˆhC6Y=AŠrE„ZtGwˆ9h9cEh26RŒZ‘EQZghzYtŸŒZclXaŸ‡3œ/tŠa=tŠa=tŠHhˆŠatŸƒi„9T‘lŠ3‰AŠ3ŠRŠTetŠaLgQGKg…Ž„GŠz‹gŒ‹/g/ˆJg‹™Ž3œ/tŠa=tŠa=tŠa=tŠa=ŸŒZclXa‰Žƒi„9T‘lŠ3‰tCeEax=tŠa=tŠa=tŠa=tŠaiCŒFE/…Jg ŒFhS9Hh86Y=AŠTiRQ4j/˜JeEax=tŠa=tŠa=tŠa=tŠaiCŒFE/…Jg ŒFhS9Th 6Y=AŠ3r‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ9FEhx=AŠc‘l6FŠGwˆ6RQˆi“Qˆj/4™9R6at“JWt€HE„Zt8“2‘l6F€SX4i9˜JeEax=tŠa=tŠa=tŠa=tŠHhˆ˜aivZ‘™…Jg QHc‰6ˆA™QY=A“Y= ˜FeEax=tŠa=tŠa=tŠa=tŠa=tŠa=Ÿ6Hc‰ŒY=AŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=t€ƒ„2iK6F€S9T€„6H‘SQˆ2Š3‰ŽŠaiCŒFE/…JgLˆihhAKQ™ Eax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=t€ZA 64gR6at“JWt€T‘l6FŠ8“29hŒZ„„9cALH‘KFZhŸ…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=2Œ4vL94g‰€™=A“x=ŸT€RŒZjt˜x=š3=e3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa9Ÿ6FEC€™=A“x=2G…ZeG…Yˆ€ ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠc‰‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=t€T€h™=AŠai‰XHhl…Jgƒ64E/ŒFœ8“2„zY‰Ž9T€„Q2Eˆ6F€l˜aiŸŒFi„˜JeEax=tŠa=tŠa=tŠa=tŠTvhQTEhz ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠai™6Fcv6FE‰Š3‰tœ4šRHcgjˆ‘š94‘l9r6„ŒƒiL2ŸGwˆE™64c‰6Yt2Œ4šRHcg…ˆ6vQˆœK9T€„Q2K9HA„ŒZEL94g‰…2i™Œ4gl6ˆ‘™€™šQ3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa9xXFRSŒZAK9H‘K9at“JWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=t€ZAv9cAxXFRSQˆ2Š3‰ŽŠaiCŒFE/…JgLˆihhAKQ™ Eax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa9 ŒFhh6‘A‰zFh€™=A“x=2œjš€jrc6Fv‘Ji‘€€iae3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=2Hcg64‘SŒ4ECQƒ‘K9at“JWt€T‘l6FŠ8“29hŒZ„„9cALH‘KFZhŸ…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=t€Zc8Qƒ‘K9at“JWt€T™X4Eh3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠc‰Eax=tŠa=tŠa=tŠa=tŠa=tŠa9˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠa=ŸŒ4A Š3‰tœFRJ4AŸ64 Gwˆ9h9rceXF„zYtŸŒZclXa‰ŽƒiLˆ‘SX4œRw ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠTi™zFeEax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=t€T€h™=AŠai„Qƒ=8“ˆ‘W64Ev9Hj/€T€hF‘hƒœR…Jg26FirŒFi„˜aŸ‡FchRXJ/G9Zc™QˆhK6™tŸˆ‘l˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠaAŒZc‰ŒZt/Fr‘WŒZ‘ 9HhLQx=Ÿ6Yh‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠcš6X4ŸGwxi„T=8“ˆE„ŒZ„h…Jgl6Fœ/€ZE„Z„SŒZcCXH‘S€™=KŠaiR6a t6ˆceZjRw ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=t€ZEL6Hj2Š3‰ŽŠ3re3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=Ÿ6Y‰Ž6Z‘‰J4‘lZc26YtR3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠc‰‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠHhˆŠatŸˆ‘l4™9CQZih€v‰tŠJ‰tJ= 3=RŠTeEax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tFchRXJ/G€Hc a‰ŽŒZcCXHj8“2Eh9at2ŒZclXcACŒ4E/6‘2ŠaWt€HhŸ…aˆŒ4šl6YŸ‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠT€h9T‘™QxQ3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠai™6FEQ€ƒEvŒhA8Z2Fœ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=tŠa=tŠa=tŠa=Ÿˆ‘l4™9™6FEvQTiSŒZAŸ6Y99Š3‰tŠhE‘œ‰Ecjvxw ‰˜Ša=tŠa=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaAŠH‘eZ‘R6x=/€TE‰ŒFiv™=A“Y=‰˜Y‡ŠaLg/ˆ…gŒ‹/g/ˆJg‹™Ž3œ/tŠa=tŠa=tŠa=tŠa=ŸŒZclXa‰Žƒi„9T‘lŠ3‰tCeEax=tŠa=tŠa=tŠa=tŠaiCŒFE/…Jg ŒFhS9Hh86Y=AŠTiRQ4j/˜JeEax=tŠa=tŠa=tŠa=tŠaiCŒFE/…Jg ŒFhS9Th 6Y=AŠ3Š‡3œ/tŠa=tŠa=tŠa=tŠaR6x=/€HE„Zt8“2igHjt“J‰t™Ÿtz ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠaivZ‘™Š3‰t‘FEhC/G6ˆhK6rAK6Y„Q€ZhŸ€™=A“x=ŸŒZclXa‰Ž9FEhhAR6c‰Rw ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠaivZ‘™…Jg8QZghzY=n“YŸQƒ‘xQH‘ZŒ4 /€T™X4Eh˜JeEax=tŠa=tŠa=tŠa=tŠa=tŠaR6x=/ŠYivZ‘™…JglŒF6h˜aŸRŠTeEax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tFchRXJ/G€Hc a‰ŽŒZcCXHj8“2Eh9at2ŒZclXcACŒ4E/6‘2ŠaWt€HhŸ…aˆŒ4šl6YŸ‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠH6Lˆ‘„ŒZtt˜aivZ‘™…Jgh2€L2tŒFt€H‘™ˆA™˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x=š…=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaih2€Lt‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tŠa=tŠa=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠT‰Eax=tŠa=tŠa=tŠa=tŠT‰EaxLŠa=tŠa=tŠa=tŠa=t€HE„Zt8“2igHjt“Y=™w ‰˜Ša=tŠa=tŠa=tŠa=t€T€hve2ˆ‘l94š‰FZEL6Hj2FY=AŠa€J‘jE3i‘EJŠCeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠa44hRwC/ŸŒF …JgCŒ4E/6Y‰ŽZ‘‰˜a9CŒFE/FZE„ŒZ„hF™t…x=ŸX4œeŠH6„QTEh˜JeEax=tŠa=tŠa=tX4Œt˜ai™6FEQ€ƒ€hƒ‘e9cACQZih€v‰t“J‰t€vE‘œ‰Ecjv2˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=ŸŒZclXa‰ŽZcZ6YtRw ‰˜Ša=tŠa=tŠa=tŠa=t€T9hŒZ„„9cA‰HšSQ4‘2FƒEhQˆihx=AŠHgh9™3ŒFE/‘Z‘CXHc‰‘TejZ‘K6H‘™˜ai‰XHhl…Jgl9HA™6Y‰ŽX4œeŠaiCŒFE/…JgR6a t€Ti/XF8“29hŒZ„„9aŸ‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ9Z‘CXHc‰Fƒi QcA8649SZ‘K6H‘™…JgCŒFE/JFE2˜aŸ‡3œ/tŠa=tŠa=tŠa=tŠa™6FivˆWt4 ‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa9CQZih€™=A“x= …=‰˜Ša=tŠa=tŠa=tŠa=tŠa=tŠa98Z2Š3‰ŽŠaSˆx€3hxR23œ/tŠa=tŠa=tŠa=tŠa9w ‰˜Ša=tŠa=tŠaAŠH‘eZjtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=Ÿˆ‘l4™9h2€SŒZAŸ6‘AŸ6F2FY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=26Hc‰ŒYt“JWt€T€h ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠT‰Eat‰˜Ša=tŠa‹˜t‰˜Ša=tŠa=‹Šr™6FivˆWtƒi™X4g23œ/tŠa=tŠa/tG˜GŽg‡ZKg/G/gQˆ5gn4ƒg/‹h3œ/tŠa=tŠa/L3œ/tŠa=tT‘xQHhCŠH6vQˆE‰X4AKŠHcC9HhLQhc™ŒZAŸ6YtR3œ/tŠa=tz ‰˜Ša=tŠa=tŠa=ŸƒiLˆ‘SX4œt“Y=Ÿ9H„R™‰ŽƒiLˆj8“ˆhŸw ‰˜Ša=tŠa=tŠa=ŸF€CQZihŠ3‰tjF€CQZihwCRˆX4gŸJZgh˜ce2ƒiLˆ‘SX4œ2Š3‰ŽŠail9HA™6‘AR6a t€ZhlFZihQH‘‰6Yt“JWtc‰Rw ‰˜Ša=tŠa=tŠa=ŸŒZAeQƒŠt“Y3QZšLC/G6ˆhK6atR…Jgl64šhŒƒœ/€ZhŸ…HELQHA™€™Ÿ8“ˆcK6c9/6F€h˜ce2XFES6H‘e6Fih€™=A“x= FYŸ8“ˆclœF€™ŒFŸ/˜Y‰ŽŒ4še˜aŸ‡3œ/tŠa=tŠa=tŠHhˆŠat„€Tc™ŒZAŸ6YŸtz ‰˜Ša=tŠa=tŠa=tŠa=t€Tc™ŒZAŸ6Y=AŠHgh9™iˆEL6Hj/˜JeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaR6x=/FchRXJ/G€Hc a‰Žˆ‘š94‘l9a‰ŽXFEœQƒE‰˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ6ˆA™QY=AŠHgh9™iˆEL6H‘HQƒ€8˜aŸ‡3œ/tŠa=tŠa=tŠa=tŠa=ŸQ4AŸ64 t“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg QƒE‰˜a98QZihQaRw ‰˜Ša=tŠa=tŠa=tŠa=t€H6Lˆ‰8“2E‰Qƒ€hFZhŸŠ3‰t€TE‰Qƒ€hFZhŸw ‰˜Ša=tŠa=tŠa=tŠa=t€H6Lˆ‰8“2c™ŒZAŸ6Y=AŠaišˆEL6Hj‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ6ˆA™QY‰ŽŒFi‰ˆhx9Fih™=AŠai8QZihQ3eEax=tŠa=tŠa=tŠa=tŠT€h9T‘™Qx=Ÿ6ˆA™QY‰ŽZcZ6YtRw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠaiˆQZg‰FƒLZh‰X4AKŠ3‰tX2ELQhAŸ64EL6Hj/€Tc™ŒZAŸ6Y‰Ž6ˆAK9cA QƒER9HhLQx t9T€v6YŸ‡3œ/tŠa=tŠa=tŠaišˆEL6H‘SHAlXFiRQZWt“Y‹ZAKFZihŒZAŸ6YtŸF€CQZih…JgšˆEL6H‘SHAlXFiRQZWeŠTi™94jRw ‰˜Ša=tŠa=tŠa=ŸŒF6„9Hc™FƒLZh‰X4AKŠ3‰tX2ELQhAŸ64EL6Hj/€Tc™ŒZAŸ6Y‰ŽŒF6„9Hc™FƒLZh‰X4AK…a‰2‘h˜JeEax=tŠa=tŠa=t€HcZŒFi„hAlXFRhŠ3‰tX2ELQhAŸ64EL6Hj/€Tc™ŒZAŸ6Y‰ŽŒF6„9Hc™FƒERzˆjeŠTi™94jRw ‰˜Ša=tŠa=tŠa=ŸF€CQZihFƒERzˆjt“Y‹ZAKFZihŒZAŸ6YtŸF€CQZih…JgšˆEL6H‘SZhG6Y t9T€v6YŸ‡3œ/tŠa=tŠa=tŠaiˆQZg‰FƒERzˆjt“Y‹ZAKFZihŒZAŸ6YtŸF€CQZih…JgˆQZg‰…a‰2‘h˜JeEax=tŠa=tŠa=t€H6R2E‰Š3‰tœZAeQƒŠGwˆ6RQˆi“Qˆj/4™9R6at“JWt€H6LQ2iSZhG6‘e2ŒZAeQƒŠ2F‘‰Rw ‰˜Ša=tŠa=tŠa™6FivˆWt€Ti/XF8“2€hQˆihxt2F€CQZih€™ t4 ‰˜Ša=tŠa=tŠa=tŠa=t€ƒc™ŒZAŸ6Yt“JWt€Tc™ŒZAŸ6Y Eax=tŠa=tŠa=tŠa=tŠa9CQZšLxt“JWtFchRXJ/G€Hc a‰ŽZ‘™X4ceXFRhx‰Ž64gCQZih˜aiCQZšLxŸe3œ/tŠa=tŠa=tŠa=tŠa=26ˆh™ƒœ2Š3‰ŽŠaiˆXF€l9a‰ŽX4œe3œ/tŠa=tŠa=tŠa=tŠa=26ˆAK9cAC€™=A“x=Ÿ6ˆh™ƒœ8“ˆELQHA™…=‰˜Ša=tŠa=tŠa=tŠa=t€ZcZŒFi„hAƒ€™=A“x=ŸŒF6„9Hc™FƒERzˆ‘Q€ƒ2FY Eax=tŠa=tŠa=tŠa=tŠa9„9ˆc‰ŒF€Szat“JWt€HcZŒFi„hA QƒER9HhLQhe2za99…=‰˜Ša=tŠa=tŠa=tŠa=t€ZcZŒFi„hAg€™=A“x=ŸŒF6„9Hc™FƒLZh‰X4AK4™9g€v‰e3œ/tŠa=tŠa=tŠa=tŠa=2F€CQZihFƒ2Š3‰ŽŠaišˆEL6H‘SZhG6‘e29™99…=‰˜Ša=tŠa=tŠa=tŠa=t€ƒc™ŒZAŸ6‘AC€™=A“x=/€Tc™ŒZAŸ6‘AlXFRh4™9C€v‰t“J‰t€ƒi™94j2˜Y=5Š3rtwx= …=‰˜Ša=tŠa=tŠa=tŠa=t€ƒc™ŒZAŸ6‘AW€™=A“x=ŸF€CQZihFƒLZh‰X4AK4™9W€v‰e3œ/tŠa=tŠa=tŠa=tŠa=2F€CQZihFƒŸ2Š3‰ŽŠaišˆEL6H‘SHAlXFiRQZgQ€ƒŸ2FY Eax=tŠa=tŠa=tŠa=tŠa9ˆQZg‰Fƒt2Š3‰ŽŠaiˆQZg‰FƒLZh‰X4AK4™9W€v‰e3œ/tŠa=tŠa=tŠa=tŠa=26ˆAK9cAg€™=A“x=Ÿ6ˆAK9cA QƒER9HhLQhe2zY99…=‰˜Ša=tŠa=tŠa=tŠa=t€Z6LQ2iS9™t“JWt€H6LQ2iSZhG6‘e2ZhG6Y99…=‰˜Ša=tŠa=tŠa9˜JeEax=tŠaA3œ/Eax=tŠa=L˜x/Eax=tŠa=t˜x=Hc™Œ4‰tX4g‰ŠaiR6=‰˜Ša=tŠa=‹Šr™6FivˆWtQ4hW64iƒi™X4g23œ/tŠa=tŠa/tœTi/ˆAƒ™z4hRFHixFr‘WŒZ‘ 9HhLQt‰˜Ša=tŠa=‹Šw4Š/wˆ6Rw4Š„Kˆjtw4‘„t‰˜Ša=tŠa=‹… ‰˜Ša=tŠTvŒˆšRŒ™ˆ94gC9HhLQx„ŒƒiRQZgr64 /€HhŸŠ3‰taŸEax=tŠa‡3œ/tŠa=tŠa=tŠailXHc™6Y=AŠcE/ŒF€hwCRˆX4gŸJZgh˜ce2X4œ2Š3‰ŽŠaiR6a t€ZhlFZihQH‘‰6Yt“JWtc‰Rw ‰˜Ša=tŠa=tŠaR6x=/ŠYilXHc™6YŸtz ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g‡Zig‡KgQ™agQxW€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠa=Ÿ9a=AŠcš6X4ŸGwxi„T=8“ˆix…Jgx649RQhi™Œ4glŒ4E‰X4AK˜aŸ‡3œ/tŠa=tŠa=tŠaiCQƒ‘K93rt“YJXHc™6J/G9FŸŒFihœ4še˜ce2XFES6H‘e6Fih€™=A“x=šFY t€ZhŸ“JRR6aeŠce2wˆhŸ€™=A“x=ŸX4i9˜JeEax=tŠa=tŠa=t€T‘l6FŠt“Y‘Z‘™wCRˆX4gŸJZgh˜ailXHc™6Y‰Ž9FEhhAR6aŸ‡3œ/tŠa=tŠa=tŠaivZ‘™…JgRvAŸXFE‰ˆhx9FiLx=AŠ3=‡3œ/tŠa=tŠa=tŠaivZ‘™…Jg‰X4vhŠ3‰t9Hh86YtRw ‰˜Ša=tŠa=tŠa=Ÿ9FEhx‰ŽZcZ6YtRw ‰˜Ša=tŠa=tŠa=ŸŒZAvQ2œlŠ3‰t‘FEhC/G9FŸŒFihœ4še˜ce2Hc™64g‰FZhŸ€™=A“x= FY t€ƒ„ˆ‘K9cAR63‰GHc™64g‰FZhŸ€™ t4™GHc™64g‰FZhŸ€™=A“x=ŸZ„„ˆj8“2‘l6F€SX4i9˜JeEax=tŠa=tŠa=tX4Œt˜aiCQƒ‘K93rtŠJ‰taŸtz ‰˜Ša=tŠa=tŠa=tŠa=t€Tœ8“ˆELQ4vR9atRw ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWta Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g/xœgŒ‹S€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSYhQTEhŠTeEax=tŠa=tŠa=tŠa=tŠai‰…Jg™QZšeœˆcCX™tRw ‰˜Ša=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠceEax=tŠa=tŠa=tŠa=tŠa=tŠa=2ŒZAŸ6Yt“JWtY Eax=tŠa=tŠa=tŠa=tŠa=tŠa=2QFE2€™=A“x=2g‡Zig‡KgQ™agQxW€ ‰˜Ša=tŠa=tŠa=tŠa=tFJeEax=tŠa=tŠa=tSœ‰˜Ša=tŠT‰Eat‰˜Ša=tŠTvŒˆšRŒ™ˆ94gC9HhLQx„ŒƒiRQZg“ˆihxtR3œ/tŠa=tz ‰˜Ša=tŠa=tŠa=L…™3/CnShCgQhCG5hn‡lh„‡nˆhQ3ˆCXWEax=tŠa=tŠa=t€HŒt“YK6FtiF„ Qƒ€‰JHhl9atRw ‰˜Ša=tŠa=tŠa=Ÿ6x‰ŽQƒ€Ÿ6F€S9Th 6Y=AŠ3j‡3œ/tŠa=tŠa=tŠaihzTL2iXFE‰Š3‰t€HŒ8“ˆ9h9ršRƒœ/˜JeEat‰˜Ša=tŠa=tŠa=ŸHc™64g‰FZhŸŠ3‰tFchRXJ/G€Hc a‰Žˆ‘š94‘l9a‰Ž6Z‘‰˜a9 ŒF€hQ2iSX4œ2˜JeEax=tŠa=tŠa=t€H6Lˆ‰t“YK6FtjZ„„ˆ‘“ˆihŸ6Lˆ‰/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆc‰9T€RŒ2‘‰6Ft“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg26Fœ/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆc‰9T€RŒ2‘‰6Ft“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg QƒE‰˜aŸ‡3œ/tŠa=tŠa=tŠaiˆQƒ€8…Jg QHc‰6ˆA™QY=AŠcš6X4ŸGwxi„T=8“2€hF‘hƒœ8“ˆ9h9at2Hš„9H6Lˆ‰2˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“2E‰Qƒ€hFZhŸŠ3‰t€Ti/XF8“2E‰Qƒ€h…JgR63eEax=tŠa=tŠa=t€H6Lˆ‰8“2„ˆ‘K9cAR6a=AŠai ŒF€hQ2iSX4œt“™=/X4g‰˜Yi ŒF€hQ2iSX4œtwxˆŒ4šl6JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆšRQ4h‰Š3‰tJ=‡3œ/tŠa=tŠa=tŠaiŸŒFi„Š3‰t€H6Lˆ‰8“2EhŒF€CXatRw ‰˜Ša=tŠa=tŠaR6x=/€T„ˆ‘K9cAR6aŸtz ‰˜Ša=tŠa=tŠa=tŠa=t€T‘l6FŠt“Y‘Z‘™wCRˆX4gŸJZgh˜ce2ƒiLˆ‘SX4œ2Š3‰ŽŠai‰XHhl…Jgl9HA™6Y‰ŽX4œeŠa9R6at“JWt€T„ˆ‘K9cAR6c‰Rw ‰˜Ša=tŠa=tŠaA3œ/tŠa=tŠa=tŠail6Fi‰X4g2Š3‰tjZ‘‰9HhK6l/G6ˆhK6rAK6Y„Q€ƒE‰Qƒ€hFZhŸ€™=A“x=Ÿ9H„R™‰ŽƒiLˆj8“ˆhŸFYŸ‡3œ/tŠa=tŠa=tŠaiR6ZgLˆjt“YQ€ƒhg€v‰‡3œ/tŠa=tŠa=tŠai‰zFhŠ3‰t4 ‰˜Ša=tŠa=tŠa=tŠa=t€ƒ2Š3‰ŽŠaShhŒQh2W‡/n‹…hC6j2…=‰˜Ša=tŠa=tŠa=tŠa=t€Zvl€™=A“x=2gGzYgRZ=G˜GxgŒZ‘€™ Eax=tŠa=tŠa=tŠa=tŠa9 9at“JWt€ŽX…Lw4Q/KxK/K4EhYe3œ/tŠa=tŠa=tŠa=tŠa=2zFŸ2Š3‰ŽŠaSR//J2K‹Q/n‹…hC6j2…=‰˜Ša=tŠa=tŠa=tŠa=t€Zil€™=A“x=2gXYXg64Hg/xƒG˜GxgŒZ‘€™ Eax=tŠa=tŠa=tŠa=tŠa9x€™=A“x=2gGaEg…KƒG˜GxgŒZ‘€™ Eax=tŠa=tŠa=tFJeEax=tŠa=tŠa=tˆ‘‰9F€KŠai‰XHhl…Jg™64gŸ6FŠ/€ZA™6H‘™€™ t4 ‰˜Ša=tŠa=tŠa=tŠa=t€ƒ€L9vACQƒ‘K9at“JWt€Hi„9HcQ€ƒ€L9vACQƒ‘K9a99…=‰˜Ša=tŠa=tŠa=tŠa=t€ƒ„6ZhKŒFiRQZW2Š3‰ŽŠaiŸŒFi„4™9 Œ49RQˆc‰X4AK€v‰e3œ/tŠa=tŠa=tŠa=tŠa=2QHhl9at“JWt€Hi„9HcQ€ZšRƒœ2FY Eax=tŠa=tŠa=tŠa=tŠa9vZ‘™€™=A“x=Ÿ9FEhx Eax=tŠa=tŠa=tŠa=tŠa9l6Fi‰X4g2€™=A“x=ŸZ‘‰9HhK6™ Eax=tŠa=tŠa=tŠa=tŠa9hzTL2iXFE‰€™=A“x44hRwC/ŸŒF …Jgl6F€RŒ4šRzˆ‘™…JghQˆEL6Hj/€H‘WHA™9ršRƒœR…=‰˜Ša=tŠa=tŠa=tŠa=t€Zh2QˆA™6Yt“JWt€Hh2QˆA™6Y Eax=tŠa=tŠa=tŠa=tŠa9‰zFh€™=A“x=Ÿ9Th 6œ‰˜Ša=tŠa=tŠa9˜JeEax=tŠaA3œ/Eax=tŠa 94€eX4t62‘KŒƒiRQZWtŒ4E‰X4AKœƒ‘l9HA8˜aŸEax=tŠa‡3œ/tŠa=tŠa=tŠaiˆQƒ€8Š3‰tQˆ‘ƒŠcE/ŒF€hœƒ‘l9HA8iˆA™QYtRw ‰˜Ša=tŠa=tŠa=Ÿ6ˆA™QY‰ŽƒiLˆ‘SX4œt“Y=Ÿ9H„R™‰ŽƒiLˆj8“ˆhŸw ‰˜Ša=tŠa=tŠaR6x=/FchRXJ/G€Hc a‰Žˆ‘š94‘l9a‰ŽXFEœQƒE‰˜Y‡3œ/tŠa=tŠa=tŠa=tŠa=Ÿ6ˆA™QY‰ŽŒFi‰ˆhx9Fih™=AŠcš6X4ŸGwxi„T=8“2€hF‘hƒœ8“2Lƒœ/˜JeEax=tŠa=tŠa=tŠa=tŠT€h9T‘™Qx=Ÿ6ˆA™QY‰ŽZcZ6ji„9Hr/˜JeEax=tŠa=tŠa=tSYhQTEhŠTeEax=tŠa=tŠa=tŠa=tŠHhˆŠa„44hRwC/ŸŒF …Jg™6Fcv6FE‰…JgR‰c‹ŒFtRŠTeEax=tŠa=tŠa=tŠa=tŠa=tŠa™6FivˆWt€H6Lˆ‰8“ˆ9h9ri„9Hr/˜JeEax=tŠa=tŠa=tŠa=tŠT‰t64šl6Y‡3œ/tŠa=tŠa=tŠa=tŠa=tŠa=tˆ‘‰9F€KŠai‰XHhl…Jg™64gŸ6FŠ/€ZEvƒiLQYRw ‰˜Ša=tŠa=tŠa=tŠa=tSœ‰˜Ša=tŠa=tŠaA3œ/tŠa=tSœ‰˜3œ/tŠa=tT‘xQHhCŠH6vQˆE‰X4AKŠHcC9HhLQŸ9h9cc™ŒZAŸ6YtR3œ/tŠa=tz ‰˜Ša=tŠa=tŠa=Ÿ6ˆA™QY=AŠHgh9™JXHc™6j9h9cc™ŒZAŸ6j6Lˆ‰/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“ˆc‰9T€RŒ2‘‰6Ft“Y44hRwC/ŸŒF …Jg™6Fcv6FE‰…Jg26Fœ/˜JeEax=tŠa=tŠa=t€H6Lˆ‰8“2E‰Qƒ€hFZhŸŠ3‰t€Ti/XF8“2E‰Qƒ€h…JgR63eEax=tŠa=tŠa=tˆ‘‰9F€KŠaiˆQƒ€8…Jgl64c™ŒZt/˜JeEax=tŠaA3œRA
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/8/8
+ * Time: 14:53
+ */
+
+namespace app\modules\mch\controllers;
+
+use Alipay\AlipayRequestFactory;
+use app\models\Goods;
+use app\modules\api\models\ApiModel;
+use app\modules\mch\models\ExportList;
+use app\utils\Sms;
+use app\hejiang\ApiResponse;
+use app\hejiang\ValidationErrorResponse;
+use app\models\Cash;
+use app\models\CashWechatTplSender;
+use app\models\Color;
+use app\models\Option;
+use app\models\Qrcode;
+use app\models\Setting;
+use app\models\Share;
+use app\models\User;
+use app\models\WechatTemplateMessage;
+use app\models\WechatTplMsgSender;
+use app\modules\mch\models\CashForm;
+use app\modules\mch\models\OrderListForm;
+use app\modules\mch\models\QrcodeForm;
+use app\modules\mch\models\ShareBasicForm;
+use app\modules\mch\models\ShareCustomForm;
+use app\modules\mch\models\ShareGetQrcodeForm;
+use app\modules\mch\models\ShareListForm;
+use app\modules\mch\models\ShareOrderForm;
+use app\modules\mch\models\ShareSettingForm;
+use app\modules\mch\models\StoreDataForm;
+use yii\helpers\VarDumper;
+
+class ShareController extends Controller
+{
+    /**
+     * @return string
+     * åˆ†é”€å•†åˆ—è¡¨
+     */
+    public function actionIndex()
+    {
+        $form = new ShareListForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->attributes = \Yii::$app->request->post();
+        $form->store_id = $this->store->id;
+        $form->limit = 10;
+        $arr = $form->getList();
+        $exportList = $form->excelFields();
+
+        $team = $arr['team_list'];
+        $count = $form->getCount();
+        $setting = Setting::findOne(['store_id' => $this->store->id]);
+
+        return $this->render('index', [
+            'list' => $arr['list'],
+            'pagination' => $arr['pagination'],
+            'setting' => $setting,
+            'team' => \Yii::$app->serializer->encode($team),
+            'exportList' => \Yii::$app->serializer->encode($exportList),
+            'count' => $count
+        ]);
+    }
+
+//    æ·»åŠ å¤‡æ³¨
+    public function actionSellerComments()
+    {
+        $user_id = \Yii::$app->request->get('user_id');
+        $seller_comments = \Yii::$app->request->get('seller_comments');
+        $share = Share::findOne(['store_id' => $this->store->id, 'is_delete' => 0, 'id' => $user_id]);
+        $share->seller_comments = $seller_comments;
+        if ($share->save()) {
+            return [
+                'code' => 0,
+                'msg' => 'æˆåŠŸ'
+            ];
+        } else {
+            return new ValidationErrorResponse($share->errors);
+        }
+    }
+
+    /**
+     * @return mixed|string
+     * ä½£é‡‘è®¾ç½®
+     */
+    public function actionSetting()
+    {
+        $store_id = $this->store->id;
+        $list = Setting::findOne(['store_id' => $store_id]);
+        if (!$list) {
+            $list = new Setting();
+        }
+        if (\Yii::$app->request->isPost) {
+            $form = new ShareSettingForm();
+            $model = \Yii::$app->request->post('model');
+            $form->list = $list;
+            $form->store_id = $store_id;
+            $form->attributes = $model;
+            return $form->save();
+        }
+        foreach ($list as $index => $value) {
+            $list[$index] = str_replace("\"", "&quot;", $value);
+        }
+        return $this->render('setting', [
+            'list' => $list
+        ]);
+    }
+
+    /**
+     * æ‰¹é‡è®¾ç½®
+     */
+    public function actionBatch()
+    {
+        $get = \Yii::$app->request->get();
+        $res = 0;
+        $goods_group = $get['goods_group'];
+        $goods_id_group = [];
+        $goods_user_group = [];
+        foreach ($goods_group as $index => $value) {
+            if ($get['type'] == 0) {
+                array_push($goods_id_group, $value['id']);
+                array_push($goods_user_group, $value['user_id']);
+            }
+        }
+        $condition = ['and', ['in', 'id', $goods_id_group], ['store_id' => $this->store->id]];
+        $usercondition = ['and', ['in', 'id', $goods_user_group], ['store_id' => $this->store->id]];
+
+        if ($get['type'] == 0) {
+            $transaction = \Yii::$app->db->beginTransaction();
+            try {
+                $res = Share::updateAll(['status' => 1], $condition);
+                $user = User::updateAll(['time' => time(), 'is_distributor' => 1], $usercondition);
+                $transaction->commit();
+            } catch (\Exception $e) {
+                // $error = $e->getMessae();
+                $transaction->rollback();
+            }
+        }
+
+        if ($res > 0) {
+            return [
+                'code' => 0,
+                'msg' => 'success'
+            ];
+        } else {
+            return [
+                'code' => 1,
+                'msg' => 'fail'
+            ];
+        }
+    }
+
+    /**
+     * @return mixed|string
+     * åŸºç¡€è®¾ç½®
+     */
+    public function actionBasic()
+    {
+        $store_id = $this->store->id;
+        $list = Setting::findOne(['store_id' => $store_id]);
+        $qrcode = Qrcode::findOne(['store_id' => $store_id, 'is_delete' => 0]);
+        if (!$list) {
+            $list = new Setting();
+        }
+        if (!$qrcode) {
+            $qrcode = new Qrcode();
+        }
+        if (\Yii::$app->request->isPost) {
+            $model = \Yii::$app->request->post('model');
+            $form = new ShareBasicForm();
+            $form->list = $list;
+            $form->store_id = $store_id;
+            $form->attributes = $model;
+            return $form->save();
+        }
+        $goodName = Goods::find()->where(['id' => $list->share_good_id])->select('name')->scalar();
+        $option = Option::getList('cash_max_day,auto_share_val,cash_service_charge', $this->store->id, 'share', 0.00);
+        return $this->render('basic', [
+            'list' => $list,
+            'qrcode' => $qrcode,
+            'option' => $option,
+            'goodName' => $goodName
+        ]);
+    }
+
+    /**
+     * @param int $id
+     * @param int $status
+     * @return mixed|string
+     * ç”³è¯·å®¡æ ¸
+     */
+    public function actionStatus($id = 0, $status = 1)
+    {
+        $share = Share::findOne(['id' => $id, 'is_delete' => 0, 'store_id' => $this->store->id]);
+        if (!$share) {
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œå¼‚å¸¸ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        if (!in_array($status, [1, 2])) {
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œå¼‚å¸¸ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        $share->status = $status;
+        if ($status == 1) {
+            User::updateAll(['time' => time(), 'is_distributor' => 1], ['id' => $share->user_id, 'store_id' => $this->store->id]);
+        } else {
+            User::updateAll(['time' => time(), 'is_distributor' => 0], ['id' => $share->user_id, 'store_id' => $this->store->id]);
+        }
+        if ($share->save()) {
+            $tpl = new CashWechatTplSender($this->store->id, $share->id, $this->wechat, 1);
+            $tpl->applyMsg();
+            return [
+                'code' => 0,
+                'msg' => 'æˆåŠŸ'
+            ];
+        } else {
+            return [
+                'code' => 1,
+                'msg' => 'è¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+    }
+
+    /**
+     * @return string
+     * æçŽ°åˆ—è¡¨
+     */
+    public function actionCash()
+    {
+        $form = new CashForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->store_id = $this->store->id;
+        $form->limit = 10;
+        $form->fields = \Yii::$app->request->post('fields');
+        $form->flag = \Yii::$app->request->post('flag');
+        $form->platform = \Yii::$app->request->get('platform');
+        $res = $form->getList();
+        $count = $form->getCount();
+        return $this->render('cash', [
+            'list' => $res['list'],
+            'pagination' => $res['pagination'],
+            'count' => $count,
+            'exportList' => \Yii::$app->serializer->encode($res['exportList'])
+        ]);
+    }
+
+    /**
+     * @param int $id
+     * @param int $status
+     * @return mixed|string
+     * ç”³è¯·å®¡æ ¸
+     */
+    public function actionApply($id = 0, $status = 0)
+    {
+        $cash = Cash::findOne(['id' => $id, 'is_delete' => 0, 'store_id' => $this->store->id]);
+        if (!$cash) {
+            return [
+                'code' => 1,
+                'msg' => 'æçŽ°è®°å½•ä¸å­˜åœ¨ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        $cash_cache = \Yii::$app->cache->get('cash_cache_' . $id);
+        if ($cash_cache && $cash_cache == $cash->order_no) {
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œç¹å¿™ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        if (!$cash->order_no) {
+            $order_no = null;
+            while (true) {
+                $order_no = date('YmdHis') . mt_rand(100000, 999999);
+                $exist_order_no = Cash::find()->where(['order_no' => $order_no])->exists();
+                if (!$exist_order_no) {
+                    break;
+                }
+            }
+            $cash->order_no = $order_no;
+            $cash->save();
+        }
+        \Yii::$app->cache->set('cash_cache_' . $id, $cash->order_no);
+        if (!in_array($status, [1, 3])) {
+            \Yii::$app->cache->set('cash_cache_' . $id, false);
+            return [
+                'code' => 1,
+                'msg' => 'æçŽ°è®°å½•å·²å®¡æ ¸ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        $cash->status = $status;
+        if ($status == 3) {
+            $user = User::findOne(['id' => $cash->user_id]);
+            $user->price += $cash->price;
+            if (!$user->save()) {
+                \Yii::$app->cache->set('cash_cache_' . $id, false);
+                return [
+                    'code' => 1,
+                    'msg' => 'ç½‘ç»œå¼‚å¸¸'
+                ];
+            }
+        }
+        \Yii::$app->cache->set('cash_cache_' . $id, false);
+        if ($cash->save()) {
+            if ($cash->status == 3) {
+                $wechat_tpl_meg_sender = new CashWechatTplSender($this->store->id, $cash->id, $this->wechat);
+                $wechat_tpl_meg_sender->cashFailMsg();
+            }
+            return [
+                'code' => 0,
+                'msg' => 'æˆåŠŸ'
+            ];
+        } else {
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œå¼‚å¸¸,è¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+    }
+
+//    ä½™é¢æçŽ°
+    public function actionApplyRemaining($id = 0, $status = 0)
+    {
+        return 1111111111;
+        $cash = Cash::findOne(['id' => $id, 'is_delete' => 0, 'store_id' => $this->store->id]);
+        if (!$cash) {
+            return [
+                'code' => 1,
+                'msg' => 'æçŽ°è®°å½•ä¸å­˜åœ¨ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        if (!in_array($status, [5])) {
+            return [
+                'code' => 1,
+                'msg' => 'æçŽ°è®°å½•å·²å®¡æ ¸ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+    }
+
+    /**
+     * @param int $id
+     * @param int $status
+     * @return mixed|string
+     * ç¡®è®¤æ‰“æ¬¾
+     * æ”¯ä»˜æœªåš
+     */
+    public function actionConfirm($id = 0, $status = 0)
+    {
+        $cash = Cash::findOne(['id' => $id, 'is_delete' => 0, 'store_id' => $this->store->id]);
+        if (!$cash) {
+            return [
+                'code' => 1,
+                'msg' => 'æçŽ°è®°å½•ä¸å­˜åœ¨ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        $cash_cache = \Yii::$app->cache->get('cash_cache_' . $id);
+        if ($cash_cache && $cash_cache == $cash->order_no) {
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œç¹å¿™ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        if (!$cash->order_no) {
+            $order_no = null;
+            while (true) {
+                $order_no = date('YmdHis') . mt_rand(100000, 999999);
+                $exist_order_no = Cash::find()->where(['order_no' => $order_no])->exists();
+                if (!$exist_order_no) {
+                    break;
+                }
+            }
+            $cash->order_no = $order_no;
+            $cash->save();
+        }
+        \Yii::$app->cache->set('cash_cache_' . $id, $cash->order_no);
+        if ($cash->status != 1) {
+            \Yii::$app->cache->set('cash_cache_' . $id, false);
+            return [
+                'code' => 1,
+                'msg' => 'æ“ä½œé”™è¯¯ï¼Œè¯·åˆ·æ–°é‡è¯•'
+            ];
+        }
+        $price = Cash::getServiceMoney($cash);
+        if ($status == 2) {  //å¾®ä¿¡è‡ªåŠ¨æ‰“æ¬¾
+            $cash->status = 2;
+            $cash->pay_time = time();
+            $cash->pay_type = 1;
+            $user = User::findOne(['id' => $cash->user_id]);
+            if($user->platform == 0){
+                $data = [
+                    'partner_trade_no' => $cash->order_no,
+                    'openid' => $user->wechat_open_id,
+                    'amount' => $price * 100,
+                    'desc' => 'è½¬è´¦'
+                ];
+                $res = $this->wechat->pay->transfers($data);
+            }else{
+                $request = AlipayRequestFactory::create('alipay.fund.trans.toaccount.transfer',[
+                    'biz_content' => [
+                        'out_biz_no' => $cash->order_no,
+                        'payee_type' => 'ALIPAY_USERID',
+                        'payee_account' => $user->wechat_open_id,
+                        'amount' => $price
+                    ]
+                ]);
+                $aop = ApiModel::getAlipay($cash->store_id);
+                try{
+                    $res = $aop->execute($request)->getData();\Yii::warning($res);
+                }catch(\Exception $e){
+                    \Yii::$app->cache->set('cash_cache_' . $id, false);
+                    return [
+                        'code' => 1,
+                        'msg' => $e->getMessage()
+                    ];
+                }
+                if ($res['code'] != 10000) {
+                    \Yii::$app->cache->set('cash_cache_' . $id, false);
+                    return [
+                        'code' => 1,
+                        'msg' => $res['sub_msg']
+                    ];
+                }
+                $res['result_code'] = "SUCCESS";
+            }
+        } elseif ($status == 4) { //æ‰‹åŠ¨æ‰“æ¬¾
+            $cash->status = 2;
+            $cash->pay_time = time();
+            $cash->pay_type = 2;
+            if ($cash->type == 3) {
+                $user = User::findOne(['id' => $cash->user_id]);
+                $user->money += doubleval($price);
+                if (!$user->save()) {
+                    \Yii::$app->cache->set('cash_cache_' . $id, false);
+                    foreach ($user->errors as $error) {
+                        return [
+                            'code' => 1,
+                            'msg' => $error
+                        ];
+                    }
+                }
+            }
+//            $cash->type = 2;
+            $res['result_code'] = "SUCCESS";
+        }
+        \Yii::$app->cache->set('cash_cache_' . $id, false);
+        if ($res['result_code'] == 'SUCCESS') {
+            $cash->save();
+            $wechat_tpl_meg_sender = new CashWechatTplSender($this->store->id, $cash->id, $this->wechat);
+            $wechat_tpl_meg_sender->cashMsg();
+            return [
+                'code' => 0,
+                'msg' => 'æˆåŠŸ'
+            ];
+        } else {
+            return [
+                'code' => 1,
+                'msg' => $res['err_code_des'],
+                'data' => $res
+            ];
+        }
+    }
+
+    /**
+     * @return string
+     * è®¾ç½®æŽ¨å¹¿æµ·æŠ¥
+     */
+    public function actionQrcode()
+    {
+        $store_id = $this->store->id;
+        $qrcode = Qrcode::findOne(['store_id' => $store_id, 'is_delete' => 0]);
+        $color = Color::find()->select('id,color')->andWhere(['is_delete' => 0])->asArray()->all();
+        if (!$qrcode) {
+            $qrcode = new Qrcode();
+        }
+        if (\Yii::$app->request->isPost) {
+            $form = new QrcodeForm();
+            $model = \Yii::$app->request->post('model');
+            $form->store_id = $store_id;
+            $form->qrcode = $qrcode;
+            $form->attributes = $model;
+            return $form->save();
+        }
+        $font_position = json_decode($qrcode->font_position, true);
+        $qrcode_position = json_decode($qrcode->qrcode_position, true);
+        $avatar_position = json_decode($qrcode->avatar_position, true);
+        $avatar_size = json_decode($qrcode->avatar_size, true);
+        $qrcode_size = json_decode($qrcode->qrcode_size, true);
+        $font_size = json_decode($qrcode->font, true);
+        $first = Color::findOne(['id' => $font_size['color']]);
+        return $this->render('qrcode', [
+            'qrcode' => $qrcode,
+            'color' => \Yii::$app->serializer->encode($color),
+            'first' => $first->id,
+            'font_c' => $first->color,
+            'avatar_w' => $avatar_size['w'],
+            'avatar_x' => $avatar_position['x'],
+            'avatar_y' => $avatar_position['y'],
+            'qrcode_w' => $qrcode_size['w'],
+            'qrcode_c' => ($qrcode_size['c'] == 'true') ? 1 : 0,
+            'qrcode_x' => $qrcode_position['x'],
+            'qrcode_y' => $qrcode_position['y'],
+            'font_x' => $font_position['x'],
+            'font_y' => $font_position['y'],
+            'font_w' => $font_size['size'],
+        ]);
+    }
+
+    /**
+     * @param int $id
+     * @return mixed|string
+     * @throws \yii\db\Exception
+     * åˆ é™¤åˆ†é”€å•†
+     */
+    public function actionDel($id = 0)
+    {
+        $share = Share::findOne(['id' => $id, 'is_delete' => 0]);
+        if (!$share) {
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œå¼‚å¸¸'
+            ];
+        }
+        $t = \Yii::$app->db->beginTransaction();
+        $count1 = Share::updateAll(['is_delete' => 1], 'id=:id', [':id' => $id]);
+        $user = User::findOne($share->user_id);
+        $user->is_distributor = 0;
+        $user->time = time();
+        $user->save();
+        $count3 = User::updateAll(['parent_id' => 0], 'parent_id=:parent_id', [':parent_id' => $share->user_id]);
+        if ($count1 != 0) {
+            $t->commit();
+            return [
+                'code' => 0,
+                'msg' => 'æˆåŠŸ'
+            ];
+        } else {
+            $t->rollBack();
+            return [
+                'code' => 1,
+                'msg' => 'ç½‘ç»œå¼‚å¸¸'
+            ];
+        }
+    }
+
+    public function actionOrder()
+    {
+        // èŽ·å–å¯å¯¼å‡ºæ•°æ®
+        $f = new ExportList();
+        $f->order_type = 5;
+        $exportList = $f->getList();
+
+        $parent_id = \Yii::$app->request->get('parent_id');
+        $form = new ShareOrderForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->attributes = \Yii::$app->request->post();
+        $form->platform = \Yii::$app->request->get('platform');
+        $form->store_id = $this->store->id;
+        $form->parent_id = $parent_id ? (int)$parent_id : false;
+        $form->limit = 10;
+        $data = $form->search();
+        if ($parent_id) {
+            $user = User::findOne(['store_id' => $this->store->id, 'id' => $parent_id]);
+        }
+        $setting = Setting::findOne(['store_id' => $this->store->id]);
+        $ignore = ['yy'];
+        $type = [
+            's' => 'å•†åŸŽè®¢å•',
+            'ms' => 'ç§’æ€è®¢å•',
+            'pt' => 'æ‹¼å›¢è®¢å•',
+            'yy' => 'é¢„çº¦è®¢å•',
+            'ds' => 'å¤šå•†æˆ·è®¢å•',
+            'b' => 'ç ä»·è®¢å•',
+        ];
+        return $this->render('order', [
+            'row_count' => $data['row_count'],
+            'pagination' => $data['pagination'],
+            'list' => $data['list'],
+            'user' => $user,
+            'setting' => $setting,
+            'exportList' => \Yii::$app->serializer->encode($exportList),
+            'ignore' => $ignore,
+            'type' => $type
+        ]);
+    }
+
+    public function actionCustom()
+    {
+        $form = new ShareCustomForm();
+        $form->store_id = $this->store->id;
+        if (\Yii::$app->request->isPost) {
+            $form->attributes = \Yii::$app->request->post();
+            return $form->saveData();
+        } else {
+            if (\Yii::$app->request->isAjax) {
+                return $form->getData();
+            } else {
+                return $this->render('custom');
+            }
+        }
+    }
+
+    public function actionGetQrcode()
+    {
+        $form = new ShareGetQrcodeForm();
+        $form->attributes = \Yii::$app->request->get();
+        $form->store_id = $this->store->id;
+        return $form->search();
+    }
+}

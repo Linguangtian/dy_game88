@@ -31,8 +31,10 @@ class ApplyForm extends ApiModel
         $setting = Option::get('mch_setting', $this->store_id, 'mch', []);
         $entryRules = trim(isset($setting['entry_rules']) ? $setting['entry_rules'] : '');
         $bond_detail = trim(isset($setting['bond_detail']) ? $setting['bond_detail'] : '');
-        $bond_open = trim(isset($setting['ond_open']) ? $setting['bond_open'] : '');
+		 $bond_open = trim(isset($setting['bond_open']) ? $setting['bond_open'] : '');
 
+		
+		
         $mch_common_cat_list = $this->getMchCommonCatList();
         $mch = Mch::findOne([
             'store_id' => $this->store_id,
@@ -98,7 +100,7 @@ class ApplyForm extends ApiModel
                 'mch_common_cat_list' => $mch_common_cat_list,
                 'entry_rules' => $entryRules,
                 'bond_detail' => $bond_detail,
-                'bond_open' => $bond_open,
+				'bond_open' => $bond_open,
                 'agree_entry_rules' => true,
             ],
         ];

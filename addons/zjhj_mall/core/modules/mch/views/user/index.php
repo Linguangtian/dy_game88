@@ -5,7 +5,7 @@ defined('YII_ENV') or exit('Access Denied');
  * Created by IntelliJ IDEA.
  * User: luwei
  * Date: 2017/6/19
- * Time: 16:52class="nav-icon iconfont icon-jiegou"
+ * Time: 16:52
  */
 
 use \app\models\User;
@@ -144,7 +144,7 @@ $urlPlatform = Yii::$app->controller->route;
                         <div style="min-width: 18rem;">
                             <?= $u['nickname']; ?>
                             <button class="btn btn-info btn-sm show">显示OpenID</button>
-                            <button class="btn btn-info btn-sm show toggle">隐藏OpenID</button>
+                            <button class="btn btn-info btn-sm show toggle">隐藏OpenID</button>                      
                         </div>
                         <div class='openid'><?= $u['wechat_open_id'] ?></div>
                     </td>
