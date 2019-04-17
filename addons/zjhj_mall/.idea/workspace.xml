@@ -18,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/MchSettingForm.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
-              <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+              <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -181,12 +181,12 @@
       <workItem from="1555312032178" duration="11182000" />
       <workItem from="1555384925655" duration="7993000" />
       <workItem from="1555405285890" duration="6705000" />
-      <workItem from="1555468727248" duration="896000" />
+      <workItem from="1555468727248" duration="951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89346000" />
+    <option name="totallyTimeSpent" value="89401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="157" y="117" width="1759" height="853" extended-state="0" />
@@ -334,7 +334,7 @@
     <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/MchSettingForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="101" column="36" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
+          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
         </state>
       </provider>
     </entry>
