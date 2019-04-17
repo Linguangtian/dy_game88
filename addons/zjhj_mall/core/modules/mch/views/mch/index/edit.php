@@ -207,21 +207,6 @@ $url_manager = Yii::$app->urlManager;
                     <div>升序，数字越小排的越靠前</div>
                 </div>
             </div>
-
-            <div class="form-group row">
-                <div class="form-group-label col-sm-2 text-right">
-                    <label class="col-form-label required">是否缴纳入驻保证金</label>
-                </div>
-                <div class="col-sm-6">
-                    <?php if ($model->real_shop == 1) : ?>
-                    <input disabled   class="form-control" name="transfer_rate"  value="已缴纳">
-                    <?php elseif ($model->real_shop == 0) : ?>
-                    <input  disabled class="form-control" name="transfer_rate"  value="未缴纳">
-                    <?php endif; ?>
-                </div>
-            </div>
-
-            
             <?php if ($model->review_status == 0) : ?>
                 <div class="form-group row">
                     <div class="form-group-label col-sm-2 text-right">
@@ -248,8 +233,6 @@ $url_manager = Yii::$app->urlManager;
                         <textarea class="form-control" name="review_result"><?= $model->review_result ?></textarea>
                     </div>
                 </div>
-
-
             <?php else : ?>
                 <div class="form-group row">
                     <div class="form-group-label col-sm-2 text-right">

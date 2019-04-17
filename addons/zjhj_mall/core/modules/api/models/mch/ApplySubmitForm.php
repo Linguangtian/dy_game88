@@ -28,7 +28,6 @@ class ApplySubmitForm extends ApiModel
     public $mch_common_cat_id;
     public $service_tel;
     public $wechat_name;
-    public $real_shop;
 
     public $form_id;
 
@@ -55,7 +54,6 @@ class ApplySubmitForm extends ApiModel
             'district_id' => '所在地区',
             'mch_common_cat_id' => '所售类目',
             'wechat_name' => '微信号',
-            'real_shop' => '认证店',
         ];
     }
 
@@ -97,7 +95,6 @@ class ApplySubmitForm extends ApiModel
         $mch->is_lock = 0;
         $mch->review_status = 0;
         $mch->review_result = '';
-       
         $mch->logo = \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/shop-logo.png';
         $mch->header_bg = \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/shop-header-bg.jpg';
         if ($mch->save()) {
@@ -107,7 +104,7 @@ class ApplySubmitForm extends ApiModel
             ]);
             return [
                 'code' => 0,
-                'msg' => '申请提交成功，缴费后系统将尽快审核您提交的内容'
+                'msg' => '申请提交成功，系统将尽快审核您提交的内容'
             ];
         }
         return $this->getErrorResponse($mch);

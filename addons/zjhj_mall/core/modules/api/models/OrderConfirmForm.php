@@ -37,9 +37,7 @@ class OrderConfirmForm extends ApiModel
     public function save()
     {
 		
-		$this->bond_free($this->order_id);exit;
-		
-		
+			
         if (!$this->validate()) {
             return $this->errorResponse;
         }
@@ -96,23 +94,29 @@ class OrderConfirmForm extends ApiModel
 	
 	
 	  private function bond_free($id){
-		
-        $order = OrderDetail::findOne($id);
+			
+        $order = OrderDetail::findOne(['order_id'=>$id]);
+	
 		$setting = Option::get('mch_setting', $this->store->id, 'mch', []);		
 		$bond_stable = trim(isset($setting['bond_stable']) ? $setting['bond_stable'] : '');
 		$bond_install = trim(isset($setting['bond_install']) ? $setting['bond_install'] : '');
 		$bond_service = trim(isset($setting['bond_service']) ? $setting['bond_service'] : '');
 		$bond_original = trim(isset($setting['bond_original']) ? $setting['bond_original'] : '');
 		$bond_security = trim(isset($setting['bond_security']) ? $setting['bond_security'] : '');
+	
+	
+	
+		
 		if($order['goods_id']==$bond_stable){
 				mch::updateAll(['bond_stable' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
 		}elseif($order['goods_id']==$bond_install){	
 				mch::updateAll(['bond_install' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}elseif($order['bond_service']==$bond_service){
+		}elseif($order['goods_id']==$bond_service){
+			
 				mch::updateAll(['bond_service' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}elseif($order['bond_original']==$bond_original){
+		}elseif($order['goods_id']==$bond_original){
 				mch::updateAll(['bond_original' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}elseif($order['bond_security']==$bond_security){
+		}elseif($order['goods_id']==$bond_security){
 				mch::updateAll(['bond_security' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
 		}
 		  

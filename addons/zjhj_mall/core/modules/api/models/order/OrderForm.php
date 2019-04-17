@@ -409,7 +409,6 @@ class OrderForm extends ApiModel
                 break;
             }
         }
-		
         foreach ($pay_type_list as $index => $value) {
             if ($index == 'wechat' && $value == 1) {
                 $new_list[] = [
@@ -437,7 +436,6 @@ class OrderForm extends ApiModel
                 }
             }
         }
-		
         return $new_list;
     }
 

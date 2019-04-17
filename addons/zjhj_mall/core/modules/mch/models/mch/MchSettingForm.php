@@ -95,11 +95,11 @@ class MchSettingForm extends MchModel
             'bond_open' => $this->bond_open,
             'bond_free' => $this->bond_free,
             'bond_good_id' => $this->bond_good_id,
-            'bond_install' => $this->bond_install,
-            'bond_stable' => $this->bond_stable,
-            'bond_service' => $this->bond_service,
-            'bond_original' => $this->bond_original,
-            'bond_security' => $this->bond_security,
+            'bond_install' => trim($this->bond_install),
+            'bond_stable' => trim($this->bond_stable),
+            'bond_service' => trim($this->bond_service),
+            'bond_original' => trim($this->bond_original),
+            'bond_security' => trim($this->bond_security),
         ];
         $res = Option::set('mch_setting', $data, $this->store_id, 'mch');
         if ($res) {

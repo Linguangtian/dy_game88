@@ -30,11 +30,7 @@ class ApplyForm extends ApiModel
     {
         $setting = Option::get('mch_setting', $this->store_id, 'mch', []);
         $entryRules = trim(isset($setting['entry_rules']) ? $setting['entry_rules'] : '');
-        $bond_detail = trim(isset($setting['bond_detail']) ? $setting['bond_detail'] : '');
-		 $bond_open = trim(isset($setting['bond_open']) ? $setting['bond_open'] : '');
 
-		
-		
         $mch_common_cat_list = $this->getMchCommonCatList();
         $mch = Mch::findOne([
             'store_id' => $this->store_id,
@@ -93,14 +89,11 @@ class ApplyForm extends ApiModel
                     'review_status' => $mch->review_status,
                     'review_status_text' => self::$review_status_text[$mch->review_status],
                     'review_result' => $mch->review_result,
-                    'real_shop' => $mch->real_shop,
                     'review_time' => date('m-d H:i', $mch->review_time),
                 ],
                 'edit_district' => $edit_district,
                 'mch_common_cat_list' => $mch_common_cat_list,
                 'entry_rules' => $entryRules,
-                'bond_detail' => $bond_detail,
-				'bond_open' => $bond_open,
                 'agree_entry_rules' => true,
             ],
         ];

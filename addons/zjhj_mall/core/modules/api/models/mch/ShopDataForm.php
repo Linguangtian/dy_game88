@@ -107,12 +107,12 @@ class ShopDataForm extends ApiModel
             'cs_icon' => 1,
         ];
 		
-		$safe_img=$mch->bond_safe==1?'safe_active.png':'safe.png';
-        $sell_img=$mch->bond_sell==1?'sell_active.png':'sell.png';
+		$safe_img=$mch->bond_security==1?'safe_active.png':'safe.png';
+        $sell_img=$mch->bond_service==1?'sell_active.png':'sell.png';
         $stable_img=$mch->bond_stable==1?'stable_active.png':'stable.png';
         $original_img=$mch->bond_original==1?'original_active.png':'original.png';
 
-		
+	
         $data = Option::get('mch_setting', $this->store_id, 'mch', $default);
         $shop = [
             'id' => $mch->id,
@@ -130,7 +130,7 @@ class ShopDataForm extends ApiModel
             'main_content' => $mch->main_content,
             'summary' => $mch->summary,
             'cs_icon' => $data['cs_icon'] == 1 ? true : false,
-			 'safe' => \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/'.$safe_img,
+			'safe' => \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/'.$safe_img,
             'sell' => \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/'.$sell_img,
             'stable' => \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/'.$stable_img,
             'original' => \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/'.$original_img,

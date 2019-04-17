@@ -17,14 +17,6 @@ use app\modules\api\models\mch\ApplySubmitForm;
 use app\modules\api\models\mch\ShopCatForm;
 use app\modules\api\models\mch\ShopListForm;
 use app\modules\api\models\mch\ShopDataForm;
-use app\models\Order;
-use app\models\OrderDetail;
-use app\models\mch;
-use app\models\Option;
-use app\models\goods;
-
-
-
 
 class IndexController extends Controller
 {
@@ -42,16 +34,10 @@ class IndexController extends Controller
 
     public function actionApply()
     {
-		
-			
         $form = new ApplyForm();
         $form->store_id = $this->store->id;
         $form->user_id = \Yii::$app->user->id;
-		$res=$form->search();
-		
-
-		
-        return new BaseApiResponse($res);
+        return new BaseApiResponse($form->search());
     }
 
     public function actionApplySubmit()
@@ -60,10 +46,7 @@ class IndexController extends Controller
         $form->attributes = \Yii::$app->request->post();
         $form->store_id = $this->store->id;
         $form->user_id = \Yii::$app->user->id;
-		
-		$res=$form->save();
-		
-        return new BaseApiResponse($res);
+        return new BaseApiResponse($form->save());
     }
 
     public function actionShop()
@@ -72,12 +55,7 @@ class IndexController extends Controller
         $form->store_id = $this->store->id;
         $form->attributes = \Yii::$app->request->get();
 		$res=$form->search();
-		$res['data']['bond']['safe']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/safe.png';
-		$res['data']['bond']['sell']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/sell.png';
-		$res['data']['bond']['stable']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/stable.png';
-		$res['data']['bond']['original']=\Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/original.png';
-		
-		
+	
         return new BaseApiResponse($res);
     }
 
