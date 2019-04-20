@@ -15,6 +15,7 @@ use Hejiang\Sms\Messages\VerificationCodeMessage;
 use Hejiang\Sms\Senders\AlidayuSender;
 use Hejiang\Sms\Senders\AliyunSender;
 use app\models\user;
+use app\models\Mch;
 
 class Sms
 {
@@ -186,8 +187,8 @@ class Sms
     {
 
 
-        $user=User::findone(['id'=>$user_id]);
 
+        $mch=Mch::findone(['store_id' =>$store_id,'id'=>$user_id]);
         $sms_setting = SmsSetting::findOne(['is_delete' => 0, 'store_id' => $store_id]);
         if ($sms_setting->status == 0) {
             return [
@@ -202,7 +203,7 @@ class Sms
         $a = str_replace("，", ",", $sms_setting->mobile);
         $g = explode(",", $a);
         $tpl = json_decode($sms_setting->tpl_apply, true);
-        $content_sms[$tpl['msg']] =substr($user['nickname'], -8); ;
+        $content_sms[$tpl['msg']] =substr($mch['realname'], -8); ;
 
         if (!is_array($tpl) || !$tpl['tpl']) {
             return [

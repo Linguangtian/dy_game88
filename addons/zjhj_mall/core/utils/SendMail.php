@@ -174,7 +174,7 @@ class SendMail
         $receive_mail = explode(",", $receive);
         $res = true;
 
-        $mch=Mch::findone(['id'=>$this->user_id]);
+        $mch=Mch::findone(['store_id' =>$this->store_id,'id'=>$this->user_id]);
 
         foreach ($receive_mail as $mail) {
             try {
@@ -185,7 +185,7 @@ class SendMail
                 $compose = $mailer->compose('shopApply', [
                     'store_name' => $store->name,
                     'user_name' =>  $mch['realname'],
-                    'user_tel' =>  $mch['nickname'],
+                    'user_tel' =>  $mch['tel'],
                 ]);
                 $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
                 $compose->setTo($mail); //要发送给那个人的邮箱
@@ -215,8 +215,8 @@ class SendMail
         $receive_mail = explode(",", $receive);
         $res = true;
 
-        $user=User::findone(['id'=>$this->user_id]);
 
+        $order = Order::findOne(['id' => $this->order_id]);
         foreach ($receive_mail as $mail) {
             try {
                 $mailer = \Yii::$app->mailer;
@@ -225,7 +225,7 @@ class SendMail
                 $mailer->transport->setPassword($mail_setting->send_pwd);
                 $compose = $mailer->compose('orderConfirm', [
                     'store_name' => $store->name,
-                    'user_name' =>  $user['nickname'],
+                    'order' =>  $order,
                 ]);
                 $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
                 $compose->setTo($mail); //要发送给那个人的邮箱
