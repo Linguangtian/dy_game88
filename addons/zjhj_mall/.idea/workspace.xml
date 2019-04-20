@@ -143,7 +143,7 @@
       <find>您有一条新的退款订单</find>
       <find>TemplateMessage</find>
       <find>setMail</find>
-      <find>new SendMail</find>
+      <find />
       <find>OrderConfirmForm</find>
       <find>OrderPreviewFrom</find>
       <find>OrderMessage</find>
@@ -216,8 +216,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="83" />
-    <option name="y" value="40" />
+    <option name="x" value="699" />
+    <option name="y" value="51" />
     <option name="width" value="1761" />
     <option name="height" value="983" />
   </component>

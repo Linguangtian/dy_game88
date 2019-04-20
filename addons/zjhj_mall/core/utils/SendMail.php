@@ -184,7 +184,7 @@ class SendMail
                 $mailer->transport->setPassword($mail_setting->send_pwd);
                 $compose = $mailer->compose('shopApply', [
                     'store_name' => $store->name,
-                    'user_name' =>  $mch['nickname'],
+                    'user_name' =>  $mch['realname'],
                     'user_tel' =>  $mch['nickname'],
                 ]);
                 $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
