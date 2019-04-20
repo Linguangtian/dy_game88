@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orderConfirm.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="orderConfirm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/mail/orderConfirm.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="97" selection-start-column="97" selection-end-column="97" />
+              <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -35,26 +35,17 @@
       <file leaf-file-name="setMail1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/mail/setMail1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="100">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setMailRefund.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/mail/setMailRefund.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendMail.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SendMail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/utils/SendMail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="225" column="57" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="57" />
+            <state relative-caret-position="236">
+              <caret line="227" column="26" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
               <folding>
                 <element signature="e#119#140#0#PHP" expanded="true" />
               </folding>
@@ -62,10 +53,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="setMailRefund.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/mail/setMailRefund.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Sms.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/utils/Sms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2625">
+            <state relative-caret-position="1575">
               <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
               <folding>
                 <element signature="e#117#142#0#PHP" expanded="true" />
@@ -83,23 +83,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="OrderConfirmForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="66" column="76" lean-forward="true" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+              <folding>
+                <element signature="e#128#154#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="OrderPreviewFrom.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/modules/api/models/book/OrderPreviewFrom.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
               <caret line="15" column="24" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderWarn.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/models/OrderWarn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
-              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-              <folding>
-                <element signature="e#119#151#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bond_safe</find>
-      <find>bond_service</find>
       <find>bond_sale</find>
       <find>security</find>
       <find>bond_security</find>
@@ -148,8 +146,10 @@
       <find>Mch::</find>
       <find>orderConfirm</find>
       <find>$this-&gt;order_id</find>
-      <find>Mch</find>
+      <find>SendMailConfirm</find>
       <find>getOrderGoodsList</find>
+      <find>Mch</find>
+      <find>setMailR</find>
     </findStrings>
     <dirStrings>
       <dir>D:\game88\addons\zjhj_mall</dir>
@@ -181,7 +181,6 @@
         <option value="$PROJECT_DIR$/core/modules/mch/models/SmsForm.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/views/store/sms.php" />
         <option value="$PROJECT_DIR$/core/mail/setMail1.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php" />
         <option value="$PROJECT_DIR$/core/models/OrderWarn.php" />
         <option value="$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php" />
         <option value="$PROJECT_DIR$/core/mail/shopApply.php" />
@@ -189,6 +188,8 @@
         <option value="$PROJECT_DIR$/core/utils/Sms.php" />
         <option value="$PROJECT_DIR$/core/utils/SendMail.php" />
         <option value="$PROJECT_DIR$/core/mail/orderConfirm.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php" />
+        <option value="$PROJECT_DIR$/core/mail/setMailRefund.php" />
       </list>
     </option>
   </component>
@@ -219,10 +220,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="699" />
-    <option name="y" value="36" />
+    <option name="x" value="184" />
+    <option name="y" value="79" />
     <option name="width" value="1761" />
-    <option name="height" value="975" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -241,12 +242,6 @@
               <item name="zjhj_mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="zjhj_mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mail" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="zjhj_mall" type="b2602c69:ProjectViewProjectNode" />
@@ -302,15 +297,15 @@
       <workItem from="1555468727248" duration="1466000" />
       <workItem from="1555470267174" duration="4216000" />
       <workItem from="1555569588839" duration="28348000" />
-      <workItem from="1555725680435" duration="4636000" />
+      <workItem from="1555725680435" duration="7734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127116000" />
+    <option name="totallyTimeSpent" value="130214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="21" width="1761" height="975" extended-state="0" />
+    <frame x="129" y="199" width="1761" height="991" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
@@ -528,16 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-          <folding>
-            <element signature="e#128#154#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1925">
@@ -595,29 +580,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/book/OrderController.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/utils/Sms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="66" column="76" lean-forward="true" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
           <folding>
-            <element signature="e#117#142#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/utils/SendMail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="225" column="57" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="57" />
-          <folding>
-            <element signature="e#119#140#0#PHP" expanded="true" />
+            <element signature="e#128#154#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -629,24 +597,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/mail/setMail1.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/book/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="-202">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/mail/setMailRefund.php">
+    <entry file="file://$PROJECT_DIR$/core/mail/setMail1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/utils/Sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+          <folding>
+            <element signature="e#117#142#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/mail/orderConfirm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="97" selection-start-column="97" selection-end-column="97" />
+          <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/mail/setMailRefund.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/utils/SendMail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="227" column="26" selection-start-line="227" selection-start-column="26" selection-end-line="227" selection-end-column="26" />
+          <folding>
+            <element signature="e#119#140#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

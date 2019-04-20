@@ -79,7 +79,7 @@ class OrderConfirmForm extends ApiModel
             $this->share_money($this->order_id);
             $this->bond_free($this->order_id);
 
-            $mail = new SendMail($this->store_id,0,0,$this->user_id);
+            $mail = new SendMail($this->store_id,$this->order_id,0,$this->user_id);
             $mail->SendMailConfirm();
 
             //发送短信通知

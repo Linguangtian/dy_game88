@@ -174,7 +174,7 @@ class SendMail
         $receive_mail = explode(",", $receive);
         $res = true;
 
-        $mch=Mch::findone(['store_id' =>$this->store_id,'id'=>$this->user_id]);
+        $mch=Mch::findone(['store_id' =>$this->store_id,'user_id'=>$this->user_id]);
 
         foreach ($receive_mail as $mail) {
             try {
@@ -259,6 +259,7 @@ class SendMail
         $receive = str_replace("，", ",", $mail_setting->receive_mail);
         $receive_mail = explode(",", $receive);
         $res = true;
+        $order = Order::findOne(['id' => $this->order_id]);
         foreach ($receive_mail as $mail) {
             try {
                 $mailer = \Yii::$app->mailer;
@@ -267,6 +268,7 @@ class SendMail
                 $mailer->transport->setPassword($mail_setting->send_pwd);
                 $compose = $mailer->compose('setMailRefund', [
                     'store_name' => $store->name,
+                    'order' => $order,
                 ]);
                 $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
                 $compose->setTo($mail); //要发送给那个人的邮箱

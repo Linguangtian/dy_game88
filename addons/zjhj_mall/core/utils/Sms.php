@@ -188,7 +188,7 @@ class Sms
 
 
 
-        $mch=Mch::findone(['store_id' =>$store_id,'id'=>$user_id]);
+        $mch=Mch::findone(['store_id' =>$store_id,'user_id'=>$user_id]);
         $sms_setting = SmsSetting::findOne(['is_delete' => 0, 'store_id' => $store_id]);
         if ($sms_setting->status == 0) {
             return [
