@@ -13,12 +13,104 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MchSettingForm.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/MchSettingForm.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="setMail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/mail/setMail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+            <state relative-caret-position="75">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setMail1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/mail/setMail1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setMailRefund.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/mail/setMailRefund.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopApply.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/mail/shopApply.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#style#0;n#a#0;n#b#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/utils/SendMail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="187" column="39" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
+              <folding>
+                <element signature="e#119#140#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/book/OrderController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderPreviewFrom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/book/OrderPreviewFrom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderWarn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/models/OrderWarn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2075">
+              <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+              <folding>
+                <element signature="e#119#151#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sms.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/utils/Sms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="184" column="39" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplySubmitForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="e#132#151#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -27,26 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search</find>
-      <find>app-&gt;db</find>
-      <find>is_price</find>
-      <find>确认收货</find>
-      <find>is_pri</find>
-      <find>佣金发放</find>
-      <find>自动确认收货</find>
-      <find>佣金</find>
-      <find>get</find>
-      <find>MchPlugin</find>
-      <find>share_setting-&gt;level</find>
-      <find>$share_setting</find>
-      <find>newsubmit</find>
-      <find>getPayTypeList</find>
-      <find>oderdetail</find>
-      <find>Order::</find>
-      <find>PondDetail</find>
-      <find>PtOrder</find>
-      <find>mch::updateAll</find>
-      <find>安装认证</find>
       <find>setting</find>
       <find>stable_ac</find>
       <find>bond_ser</find>
@@ -57,6 +129,26 @@
       <find>bond_sale</find>
       <find>security</find>
       <find>bond_security</find>
+      <find>尊敬的</find>
+      <find>user</find>
+      <find>发送手机验证码</find>
+      <find>refund</find>
+      <find>msg</find>
+      <find>$this-&gt;code</find>
+      <find>code</find>
+      <find>SmsForm</find>
+      <find>发送通知邮箱</find>
+      <find>OrderNotify</find>
+      <find>send_refund</find>
+      <find>您有一条新的退款订单</find>
+      <find>TemplateMessage</find>
+      <find>setMail</find>
+      <find>new SendMail</find>
+      <find>OrderConfirmForm</find>
+      <find>OrderPreviewFrom</find>
+      <find>OrderMessage</find>
+      <find>sendSmsApply</find>
+      <find>shopApp</find>
     </findStrings>
     <dirStrings>
       <dir>D:\game88\addons\zjhj_mall</dir>
@@ -68,7 +160,6 @@
         <option value="$PROJECT_DIR$/core/modules/mch/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/core/modules/api/models/OrderListForm.php" />
         <option value="$PROJECT_DIR$/core/controllers/PayNotifyController.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/views/mch/index/edit.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/controllers/mch/IndexController.php" />
         <option value="$PROJECT_DIR$/core/modules/api/models/mch/ApplyForm.php" />
@@ -81,8 +172,20 @@
         <option value="$PROJECT_DIR$/core/modules/api/models/order/OrderForm.php" />
         <option value="$PROJECT_DIR$/core/modules/api/controllers/mch/IndexController.php" />
         <option value="$PROJECT_DIR$/core/modules/api/models/mch/ShopDataForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/models/mch/MchSettingForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/controllers/TopicController.php" />
+        <option value="$PROJECT_DIR$/core/models/Test.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/controllers/TestController.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/controllers/StoreController.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/models/SmsForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/views/store/sms.php" />
+        <option value="$PROJECT_DIR$/core/utils/Sms.php" />
+        <option value="$PROJECT_DIR$/core/mail/setMail1.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php" />
+        <option value="$PROJECT_DIR$/core/models/OrderWarn.php" />
+        <option value="$PROJECT_DIR$/core/mail/setMail.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php" />
+        <option value="$PROJECT_DIR$/core/utils/SendMail.php" />
       </list>
     </option>
   </component>
@@ -113,16 +216,17 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="157" />
-    <option name="y" value="117" />
-    <option name="width" value="1759" />
-    <option name="height" value="853" />
+    <option name="x" value="83" />
+    <option name="y" value="40" />
+    <option name="width" value="1761" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,16 +239,27 @@
               <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="zjhj_mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mail" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="zjhj_mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="utils" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../web_DJS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -181,15 +296,18 @@
       <workItem from="1555312032178" duration="11182000" />
       <workItem from="1555384925655" duration="7993000" />
       <workItem from="1555405285890" duration="6705000" />
-      <workItem from="1555468727248" duration="951000" />
+      <workItem from="1555468727248" duration="1466000" />
+      <workItem from="1555470267174" duration="4216000" />
+      <workItem from="1555569588839" duration="28348000" />
+      <workItem from="1555725680435" duration="1160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89401000" />
+    <option name="totallyTimeSpent" value="123640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="157" y="117" width="1759" height="853" extended-state="0" />
+    <frame x="83" y="40" width="1761" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
@@ -198,7 +316,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32985657" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.19482048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.20164609" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
@@ -216,19 +334,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.13207547" />
       <window_info id="Structure" order="1" sideWeight="0.50060904" side_tool="true" weight="0.14734043" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32985657" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.34533897" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32985657" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -257,49 +375,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/UserController.php" />
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/caching/DbCache.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/permission/Menu.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/user/controllers/Controller.php" />
-    <entry file="file://$PROJECT_DIR$/core/web/pay-notify.php" />
-    <entry file="file://$PROJECT_DIR$/core/helpers.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderPayDataForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/vendor/wi1dcard/alipay-sdk/aop/AopClient.php" />
-    <entry file="file://$PROJECT_DIR$/core/vendor/wi1dcard/alipay-sdk/aop/Request/AbstractAlipayRequest.php" />
-    <entry file="file://$PROJECT_DIR$/core/controllers/RePayNotifyController.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6000">
-          <caret line="254" column="14" selection-start-line="254" selection-start-column="8" selection-end-line="254" selection-end-column="14" />
+        <state relative-caret-position="1325">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#132#151#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/mch/GoodsController.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderListForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/models/OrderWarn.php" />
-    <entry file="file://$PROJECT_DIR$/core/models/SystemInstallForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/db/cubrid/QueryBuilder.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/SettingSubmitForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/controllers/PayNotifyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="524" column="23" selection-start-line="524" selection-start-column="23" selection-end-line="524" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/mch/index/edit.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/Model.php" />
-    <entry file="file://$PROJECT_DIR$/core/models/MchCommonCat.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/CouponController.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/GoodsController.php" />
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/db/ActiveRecord.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/ApplyForm.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/mch/ShopDataForm.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa17628.29375/OrderConfirmForm.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa19236.30807/OrderConfirmForm.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa18848.22961/OrderConfirmForm.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/BaseObject.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/TopicTypeController.php" />
     <entry file="file://$PROJECT_DIR$/core/utils/PrinterPtOrder.php" />
     <entry file="file://$PROJECT_DIR$/core/utils/PinterOrder.php" />
@@ -313,7 +404,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/mch/OrderController.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/OrderController.php" />
     <entry file="file://$PROJECT_DIR$/core/behaviors/PintuanBehavior.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3675">
@@ -323,18 +413,236 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/models/Order.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/api/models/order/OrderSubmitPreviewForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/mch/IndexController.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/api/models/order/OrderForm.php" />
     <entry file="file://$PROJECT_DIR$/core/models/OrderDetail.php" />
     <entry file="file://$PROJECT_DIR$/core/models/Mch.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/mch/IndexController.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/mch/views/mch/index/setting.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/ShopDataForm.php" />
-    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php" />
     <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/MchSettingForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="101" column="35" selection-start-line="101" selection-start-column="35" selection-end-line="101" selection-end-column="35" />
+        <state relative-caret-position="2150">
+          <caret line="97" column="56" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/Test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/TopicFavorite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" column="5" selection-start-line="29" selection-start-column="3" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/Topic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="50" column="5" selection-start-line="42" selection-start-column="3" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/TopicController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="35" column="35" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/MyshopForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/SmsSetting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/mail/MailerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/mch/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="61" column="32" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/SmsForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="62" column="45" lean-forward="true" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/StoreController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="945" column="24" lean-forward="true" selection-start-line="945" selection-start-column="24" selection-end-line="945" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/store/sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderPayDataForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="283" column="50" lean-forward="true" selection-start-line="283" selection-start-column="50" selection-end-line="283" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/BaseObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2425">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/wi1dcard/yii2-hejiang-sms/lib/Messages/TemplateMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#128#154#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="127" column="36" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="36" />
+          <folding>
+            <element signature="e#133#161#0#PHP" expanded="true" />
+            <element signature="e#1080#1276#0#PHP" />
+            <element signature="e#1129#1269#0#PHP" />
+            <element signature="e#1162#1268#0#PHP" />
+            <element signature="e#1187#1257#1#PHP" />
+            <element signature="e#1299#1594#0#PHP" />
+            <element signature="e#1611#2107#0#PHP" />
+            <element signature="e#1741#1879#0#PHP" />
+            <element signature="e#1822#1879#0#PHP" />
+            <element signature="e#2132#2498#0#PHP" />
+            <element signature="e#2517#2917#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/book/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/book/OrderPreviewFrom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/OrderWarn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2075">
+          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
+          <folding>
+            <element signature="e#119#151#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#132#151#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/utils/Sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="184" column="39" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/mail/setMail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/mail/setMailRefund.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/mail/setMail1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/mail/shopApply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#a#0;n#b#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/utils/SendMail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="187" column="39" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
+          <folding>
+            <element signature="e#119#140#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

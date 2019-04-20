@@ -94,6 +94,7 @@ class OrderController extends Controller
     //订单支付数据
     public function actionPayData()
     {
+
         $form = new OrderPayDataForm();
         $form->attributes = \Yii::$app->request->get();
         $form->store_id = $this->store->id;

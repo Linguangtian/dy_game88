@@ -131,7 +131,7 @@ $this->params['active_nav_group'] = 1;
                 </div>
             </div>
 
-            <div>订单退款提醒</div>
+            <div  style="color: red;">订单退款提醒</div>
             <div class="text-muted fs-sm">例如：模板内容:您有一条新的退款订单，请登录商城后台查看。 </div>
             <div class="form-group row">
                 <div class="form-group-label col-sm-2 text-right">
@@ -165,7 +165,111 @@ $this->params['active_nav_group'] = 1;
                 </div>
             </div>
 
-            <div>发送手机验证码</div>
+
+
+            <!-- ======================================================== -->
+
+            <div  style="color: red;">订单收货提醒</div>
+            <div class="text-muted fs-sm">例如：模板内容:订单收货通知,有用户或许，已完成订单收货，请悉知</div>
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板名称</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="complete[name]"
+                           value="<?= $complete['name'] ?>">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板ID</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="complete[tpl]"
+                           value="<?= $complete['tpl'] ?>">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板变量</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="complete[msg]"
+                           value="<?= $complete['msg'] ?>">
+                    <div class="text-muted fs-sm">例如：模板内容:订单收货通知,有用户${user_name}，已完成订单收货。，<b class="text-danger">则只需填写user_name</b></div>
+                </div>
+            </div>
+
+
+
+            <!-- ======================================================== -->
+
+
+
+            <!-- ======================================================== -->
+
+            <div style="color: red;">预约订单提醒</div>
+            <div class="text-muted fs-sm">例如：模板内容:预约订单,用户或许，发起了预约订单，请及时处理</div>
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板名称</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="reservation[name]"
+                           value="<?= $reservation['name'] ?>">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板ID</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="reservation[tpl]"
+                           value="<?= $reservation['tpl'] ?>">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板变量</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="reservation[msg]"
+                           value="<?= $reservation['msg'] ?>">
+                    <div class="text-muted fs-sm">例如：模板内容:预约订单,用户${user_name}，发起了预约订单，请及时处理。，<b class="text-danger">则只需填写user_name</b></div>
+                </div>
+            </div>
+
+
+
+            <!-- ======================================================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div  style="color: red;">发送手机验证码</div>
             <div class="text-muted fs-sm">例如：模板内容:您的验证码为89757，请勿告知他人。</div>
             <div class="form-group row">
                 <div class="form-group-label col-sm-2 text-right">
@@ -197,6 +301,51 @@ $this->params['active_nav_group'] = 1;
                     <div class="text-muted fs-sm">例如：模板内容: 您的验证码为${code}，请勿告知他人。，<b class="text-danger">则只需填写code</b></div>
                 </div>
             </div>
+
+
+
+            <div  style="color: red;">发送商家入驻提示</div>
+            <div class="text-muted fs-sm">例如：模板内容:商户入驻提醒,有商户或许申请入驻，请及时进入商城处理</div>
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板名称</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="apply[name]"
+                           value="<?= $apply['name'] ?>">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板ID</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="apply[tpl]"
+                           value="<?= $apply['tpl'] ?>">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="form-group-label col-sm-2 text-right">
+                    <label class="col-form-label">模板变量</label>
+                </div>
+                <div class="col-sm-6">
+                    <input autocomplete="off" class="form-control" type="text" name="apply[msg]"
+                           value="<?= $apply['msg'] ?>">
+                    <div class="text-muted fs-sm">例如：模板内容: 商户入驻提醒,有商户${user_name}申请入驻，请及时进入商城处理。，<b class="text-danger">则只需填写user_name</b></div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
 
             <div class="form-group row">
                 <div class="form-group-label col-sm-2 text-right">

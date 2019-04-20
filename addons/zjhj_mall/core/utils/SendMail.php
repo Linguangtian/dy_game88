@@ -20,6 +20,8 @@ use app\models\PtOrderDetail;
 use app\models\Store;
 use app\models\YyGoods;
 use app\models\YyOrder;
+use app\models\Mch;
+use app\models\User;
 
 class SendMail
 {
@@ -34,10 +36,11 @@ class SendMail
      * @param int $type 订单类型 0--商城订单 1--秒杀订单 2--拼团订单 3--预约订单
      *
      */
-    public function __construct($store_id, $order_id, $type = 0)
+    public function __construct($store_id, $order_id, $type = 0,$user_id=0)
     {
         $this->store_id = $store_id;
         $this->order_id = $order_id;
+        $this->user_id = $user_id;
         $this->type = $type;
     }
 
@@ -64,7 +67,9 @@ class SendMail
         $receive = str_replace("，", ",", $mail_setting->receive_mail);
         $receive_mail = explode(",", $receive);
         $res = true;
-        foreach ($receive_mail as $mail) {
+        $user=User::findone(['id'=>$order['user_id']]);
+
+          foreach ($receive_mail as $mail) {
             try {
                 $mailer = \Yii::$app->mailer;
                 $mailer->transport = $mailer->transport->newInstance('smtp.qq.com', 465, 'ssl');
@@ -74,7 +79,8 @@ class SendMail
                     'store_name' => $store->name,
                     'goods_list'=>$goods_list,
                     'order'=>$order,
-                    'type'=>$this->type
+                    'type'=>$this->type,
+                    'user_name'=>$user['nickname']
                 ]);
                 $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
                 $compose->setTo($mail); //要发送给那个人的邮箱
@@ -152,6 +158,92 @@ class SendMail
             ])->select('g.*')->asArray()->one();
         return $order_detail_list;
     }
+
+
+    /*
+     * 申请入驻
+     * */
+
+    public function SendMailApply(){
+        $mail_setting = MailSetting::findOne(['store_id' => $this->store_id, 'is_delete' => 0, 'status' => 1]);
+        if (!$mail_setting) {
+            return false;
+        }
+        $store = Store::findOne($this->store_id);
+        $receive = str_replace("，", ",", $mail_setting->receive_mail);
+        $receive_mail = explode(",", $receive);
+        $res = true;
+
+        $mch=Mch::findone(['id'=>$this->user_id]);
+
+        foreach ($receive_mail as $mail) {
+            try {
+                $mailer = \Yii::$app->mailer;
+                $mailer->transport = $mailer->transport->newInstance('smtp.qq.com', 465, 'ssl');
+                $mailer->transport->setUsername($mail_setting->send_mail);
+                $mailer->transport->setPassword($mail_setting->send_pwd);
+                $compose = $mailer->compose('shopApply', [
+                    'store_name' => $store->name,
+                    'user_name' =>  $mch['nickname'],
+                    'user_tel' =>  $mch['nickname'],
+                ]);
+                $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
+                $compose->setTo($mail); //要发送给那个人的邮箱
+                $compose->setSubject($mail_setting->send_name); //邮件主题
+                $res = $compose->send();
+            } catch (\Exception $e) {
+                \Yii::warning('邮件发送失败：' . $e->getMessage());
+                return false;
+            }
+        }
+        return $res;
+
+
+
+    }
+ /*
+     *
+     * */
+
+    public function SendMailConfirm(){
+        $mail_setting = MailSetting::findOne(['store_id' => $this->store_id, 'is_delete' => 0, 'status' => 1]);
+        if (!$mail_setting) {
+            return false;
+        }
+        $store = Store::findOne($this->store_id);
+        $receive = str_replace("，", ",", $mail_setting->receive_mail);
+        $receive_mail = explode(",", $receive);
+        $res = true;
+
+        $user=User::findone(['id'=>$this->user_id]);
+
+        foreach ($receive_mail as $mail) {
+            try {
+                $mailer = \Yii::$app->mailer;
+                $mailer->transport = $mailer->transport->newInstance('smtp.qq.com', 465, 'ssl');
+                $mailer->transport->setUsername($mail_setting->send_mail);
+                $mailer->transport->setPassword($mail_setting->send_pwd);
+                $compose = $mailer->compose('orderConfirm', [
+                    'store_name' => $store->name,
+                    'user_name' =>  $user['nickname'],
+                ]);
+                $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
+                $compose->setTo($mail); //要发送给那个人的邮箱
+                $compose->setSubject($mail_setting->send_name); //邮件主题
+                $res = $compose->send();
+            } catch (\Exception $e) {
+                \Yii::warning('邮件发送失败：' . $e->getMessage());
+                return false;
+            }
+        }
+        return $res;
+
+
+
+    }
+
+
+
 
     /**
      * @return bool

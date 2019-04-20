@@ -4,9 +4,12 @@
     <list default="true" id="7bf23a21-23aa-46de-ac96-ac388736d9a3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/mch/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/mch/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/mch/ShopDataForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/mch/ShopDataForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/TopicTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/TopicTypeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/statistic/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/statistic/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/40/4027253d9dce6409f49660d152a995fd.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/40/4027253d9dce6409f49660d152a995fd.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/model/wxapp.mod.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/model/wxapp.mod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/source/wxapp/version.ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/source/wxapp/version.ctrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/default/wxapp/version-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/default/wxapp/version-home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +18,94 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="wxapp.mod.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/model/wxapp.mod.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="405" column="29" lean-forward="true" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdo.func.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/function/pdo.func.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="53" column="32" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.ctrl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/source/wxapp/version.ctrl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#6#169#0#PHP" />
+                <element signature="e#489#562#0#PHP" />
+                <element signature="e#564#683#0#PHP" />
+                <element signature="e#979#1422#0#PHP" />
+                <element signature="e#1232#1366#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version-home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/themes/default/wxapp/version-home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="39" column="41" lean-forward="true" selection-end-line="99" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version-home.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="15" column="65" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/statistic/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="317" column="18" lean-forward="true" selection-start-line="317" selection-start-column="18" selection-end-line="317" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>访问人数</find>
+      <find>home</find>
+      <find>&gt;访问次数</find>
+      <find>新用户数</find>
+      <find>daily_visittrend</find>
+      <find>wxapp_general_analysis</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/source/wxapp/version.ctrl.php" />
+        <option value="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/statistic/index.php" />
+        <option value="$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php" />
+        <option value="$PROJECT_DIR$/web/themes/default/wxapp/version-home.html" />
+        <option value="$PROJECT_DIR$/framework/model/wxapp.mod.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -37,10 +126,11 @@
       <path value="$PROJECT_DIR$/addons/zjhj_mall/core/vendor/bower/yii2-pjax/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="99" />
-    <option name="width" value="1485" />
-    <option name="height" value="827" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-324" />
+    <option name="y" value="204" />
+    <option name="width" value="1759" />
+    <option name="height" value="862" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -48,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -59,17 +148,49 @@
             <path>
               <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
               <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wxapp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addons/zjhj_mall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -97,25 +218,28 @@
       <updated>1554865713347</updated>
       <workItem from="1554865717598" duration="3000" />
       <workItem from="1555311893826" duration="135000" />
+      <workItem from="1555479452222" duration="2137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138000" />
+    <option name="totallyTimeSpent" value="2275000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="0" width="1485" height="827" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.17894737" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985657" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.50060904" side_tool="true" weight="0.14734043" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.13752665" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
+      <window_info id="Structure" order="1" sideWeight="0.50060904" side_tool="true" weight="0.14734043" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.34533897" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -124,7 +248,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +255,56 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/source/wxapp/version.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#6#169#0#PHP" />
+            <element signature="e#489#562#0#PHP" />
+            <element signature="e#564#683#0#PHP" />
+            <element signature="e#979#1422#0#PHP" />
+            <element signature="e#1232#1366#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/statistic/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="317" column="18" lean-forward="true" selection-start-line="317" selection-start-column="18" selection-end-line="317" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/themes/default/wxapp/version-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="39" column="41" lean-forward="true" selection-end-line="99" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/function/pdo.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/wxapp.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="405" column="29" lean-forward="true" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

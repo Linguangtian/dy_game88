@@ -133,7 +133,6 @@ class PayNotifyController extends Controller
 
     private function wechatPayNotify($res)
     {
-        //如何是商家申请订单
         if ($res['result_code'] != 'SUCCESS' && $res['return_code'] != 'SUCCESS') {
             return;
         }
@@ -192,19 +191,11 @@ class PayNotifyController extends Controller
             echo "订单已支付";
             return;
         }
-
-
-
-
-
         $order->is_pay = 1;
         $order->pay_time = time();
         $order->pay_type = 1;
         $order->is_cancel = 0;
         $order->is_delete = 0;
-
-
-
         if ($order->save()) {
             //支付完成之后，相关的操作
             $form = new OrderWarn();

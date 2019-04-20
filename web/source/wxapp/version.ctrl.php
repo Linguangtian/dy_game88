@@ -27,9 +27,11 @@ if ($do == 'home') {
 	if ($version_info['design_method'] == WXAPP_TEMPLATE) {
 		$version_site_info = wxapp_site_info($version_info['multiid']);
 	}
+
 	$role = permission_account_user_role($_W['uid'], $wxapp_info['uniacid']);
 
 	$notices = welcome_notices_get();
+
 	template('wxapp/version-home');
 }
 

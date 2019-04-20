@@ -14,6 +14,7 @@ use Hejiang\Sms\Messages\TemplateMessage;
 use Hejiang\Sms\Messages\VerificationCodeMessage;
 use Hejiang\Sms\Senders\AlidayuSender;
 use Hejiang\Sms\Senders\AliyunSender;
+use app\models\user;
 
 class Sms
 {
@@ -147,9 +148,11 @@ class Sms
                         'tplParams' => [],
                         'phoneNumber' => $mobile
                     ];
+
                     $message = new TemplateMessage($messageParams);
                     $res = $message->send();
                 } catch (\Exception $r_e) {
+
                     return [
                         'code' => 1,
                         'msg' => $e->getMessage().$r_e->getMessage()
@@ -168,6 +171,186 @@ class Sms
             'code' => 0,
             'msg' => '成功'
         ];
+    }
+
+
+    /**
+     * 发送商家入驻短信通知
+     *
+     * 短信通知
+     * @param string $store_id 商铺ID
+     * @param string $content 内容，字符串
+     * @return array
+     */
+    public static function sendSmsApply($store_id, $user_id,$content = null)
+    {
+
+
+        $user=User::findone(['id'=>$user_id]);
+
+        $sms_setting = SmsSetting::findOne(['is_delete' => 0, 'store_id' => $store_id]);
+        if ($sms_setting->status == 0) {
+            return [
+                'code' => 1,
+                'msg' => '短信通知服务未开启'
+            ];
+        }
+
+        $res = null;
+        $resp = null;
+
+        $a = str_replace("，", ",", $sms_setting->mobile);
+        $g = explode(",", $a);
+        $tpl = json_decode($sms_setting->tpl_apply, true);
+        $content_sms[$tpl['msg']] =substr($user['nickname'], -8); ;
+
+        if (!is_array($tpl) || !$tpl['tpl']) {
+            return [
+                'code' => 1,
+                'msg' => '未设置退款短信'
+            ];
+        }
+        foreach ($g as $mobile) {
+            try {
+                $sender = new AliyunSender($sms_setting->AccessKeyId, $sms_setting->AccessKeySecret);
+                $messageParams = [
+                    'sender' => $sender,
+                    'sign' => $sms_setting->sign,//YD独角兽平台
+                    'tplId' => $tpl['tpl'],//SMS_161593301
+                    'tplParams' => $content_sms,
+                    'phoneNumber' => $mobile//18597609706
+                ];
+
+
+                $message = new TemplateMessage($messageParams);
+
+             $res = $message->send();
+            } catch (\Exception $e) {
+//                \Yii::warning("阿里云短信调用失败：" . $e->getMessage());
+                try {
+                    $sender = new AlidayuSender($sms_setting->AccessKeyId, $sms_setting->AccessKeySecret);
+                    $messageParams = [
+                        'sender' => $sender,
+                        'sign' => $sms_setting->sign,
+                        'tplId' => $tpl['tpl'],
+                        'tplParams' => [],
+                        'phoneNumber' => $mobile
+                    ];
+                    $message = new TemplateMessage($messageParams);
+
+
+                    $res = $message->send();
+                } catch (\Exception $r_e) {
+
+                    return [
+                        'code' => 1,
+                        'msg' => $e->getMessage().$r_e->getMessage()
+                    ];
+                }
+            }
+        }
+        $smsRecord = new SmsRecord();
+        $smsRecord->mobile = $sms_setting->mobile;
+        $smsRecord->tpl = $tpl['tpl'];
+        $smsRecord->content = '';
+        $smsRecord->ip = \Yii::$app->request->userIP;
+        $smsRecord->addtime = time();
+        $smsRecord->save();
+        return [
+            'code' => 0,
+            'msg' => '成功'
+        ];
+
+
+    }
+
+
+
+    /**
+     * 发送用户确认收获
+     *
+     * 短信通知
+     *
+     */
+    public static function sendSms($store_id, $user_id,$type=null,$content = null)
+    {
+
+
+        $user=User::findone(['id'=>$user_id]);
+
+        $sms_setting = SmsSetting::findOne(['is_delete' => 0, 'store_id' => $store_id]);
+        if ($sms_setting->status == 0||!$type) {
+            return [
+                'code' => 1,
+                'msg' => '短信通知服务未开启'
+            ];
+        }
+
+        $res = null;
+        $resp = null;
+
+        $a = str_replace("，", ",", $sms_setting->mobile);
+        $g = explode(",", $a);
+        $tpl = json_decode($sms_setting->$type, true);
+        $content_sms[$tpl['msg']] =substr($user['nickname'], -8);
+
+        if (!is_array($tpl) || !$tpl['tpl']) {
+            return [
+                'code' => 1,
+                'msg' => '未设置退款短信'
+            ];
+        }
+        foreach ($g as $mobile) {
+            try {
+                $sender = new AliyunSender($sms_setting->AccessKeyId, $sms_setting->AccessKeySecret);
+                $messageParams = [
+                    'sender' => $sender,
+                    'sign' => $sms_setting->sign,//YD独角兽平台
+                    'tplId' => $tpl['tpl'],//SMS_161593301
+                    'tplParams' => $content_sms,
+                    'phoneNumber' => $mobile//18597609706
+                ];
+
+
+                $message = new TemplateMessage($messageParams);
+
+                $res = $message->send();
+            } catch (\Exception $e) {
+                try {
+                    $sender = new AlidayuSender($sms_setting->AccessKeyId, $sms_setting->AccessKeySecret);
+                    $messageParams = [
+                        'sender' => $sender,
+                        'sign' => $sms_setting->sign,
+                        'tplId' => $tpl['tpl'],
+                        'tplParams' => [],
+                        'phoneNumber' => $mobile
+                    ];
+                    $message = new TemplateMessage($messageParams);
+
+
+                    $res = $message->send();
+                } catch (\Exception $r_e) {
+
+                    return [
+                        'code' => 1,
+                        'msg' => $e->getMessage().$r_e->getMessage()
+                    ];
+                }
+            }
+        }
+        $smsRecord = new SmsRecord();
+        $smsRecord->mobile = $sms_setting->mobile;
+        $smsRecord->tpl = $tpl['tpl'];
+        $smsRecord->content = '';
+        $smsRecord->ip = \Yii::$app->request->userIP;
+        $smsRecord->addtime = time();
+        $smsRecord->save();
+        return [
+            'code' => 0,
+            'msg' => '成功'
+        ];
+
+
     }
 
 

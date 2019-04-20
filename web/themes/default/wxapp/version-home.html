@@ -89,7 +89,7 @@
 			</li>
 		</ul>
 	</div>
-	
+
 </div>
 <script>
 	angular.module('wxApp').value('config', {

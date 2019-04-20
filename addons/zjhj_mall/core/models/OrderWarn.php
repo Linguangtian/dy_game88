@@ -90,7 +90,12 @@ class OrderWarn extends Model
             //短信发送
             if ($is_sms == 1) {
                 \Yii::warning('is_sms:' . $is_sms);
-                Sms::send($order->store_id, $order->order_no);
+                if($this->order_type==3){
+                    Sms::sendSms($this->store_id,$this->user_id,'tpl_reservation');
+                }else{
+                    Sms::send($order->store_id, $order->order_no);
+
+                }
             }
             //邮件发送
             if ($is_mail == 1) {

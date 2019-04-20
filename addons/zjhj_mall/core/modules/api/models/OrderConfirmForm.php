@@ -19,13 +19,16 @@ use app\models\UserShareMoney;
 use app\models\Setting;
 use app\models\Option;
 use app\models\Mch;
+use app\utils\SendMail;
+use app\utils\Sms;
+
 
 class OrderConfirmForm extends ApiModel
 {
     public $store_id;
     public $user_id;
     public $order_id;
-	public $share_setting;
+    public $share_setting;
 
     public function rules()
     {
@@ -36,8 +39,6 @@ class OrderConfirmForm extends ApiModel
 
     public function save()
     {
-		
-			
         if (!$this->validate()) {
             return $this->errorResponse;
         }
@@ -60,24 +61,31 @@ class OrderConfirmForm extends ApiModel
             $order->is_pay = 1;
             $order->pay_time = time();
         }
-/*
-        $user = User::findOne(['id' => $order->user_id, 'store_id' => $this->store_id]);
-        $order_money = Order::find()->where(['store_id' => $this->store_id, 'user_id' => $user->id, 'is_delete' => 0])
-            ->andWhere(['is_pay' => 1, 'is_confirm' => 1])->select([
-                'sum(pay_price)'
-            ])->scalar();
-        $next_level = Level::find()->where(['store_id' => $this->store_id, 'is_delete' => 0,'status'=>1])
-            ->andWhere(['<', 'money', $order_money])->orderBy(['level' => SORT_DESC])->asArray()->one();
-        if ($user->level < $next_level['level']) {
-            $user->level = $next_level['level'];
-            $user->save();
-        }
-*/
+        /*
+                $user = User::findOne(['id' => $order->user_id, 'store_id' => $this->store_id]);
+                $order_money = Order::find()->where(['store_id' => $this->store_id, 'user_id' => $user->id, 'is_delete' => 0])
+                    ->andWhere(['is_pay' => 1, 'is_confirm' => 1])->select([
+                        'sum(pay_price)'
+                    ])->scalar();
+                $next_level = Level::find()->where(['store_id' => $this->store_id, 'is_delete' => 0,'status'=>1])
+                    ->andWhere(['<', 'money', $order_money])->orderBy(['level' => SORT_DESC])->asArray()->one();
+                if ($user->level < $next_level['level']) {
+                    $user->level = $next_level['level'];
+                    $user->save();
+                }
+        */
 
         if ($order->save()) {
-			$this->share_money($this->order_id);
-			$this->bond_free($this->order_id);
-			
+            $this->share_money($this->order_id);
+            $this->bond_free($this->order_id);
+
+            $mail = new SendMail($this->store_id,0,0,$this->user_id);
+            $mail->SendMailConfirm();
+
+            //发送短信通知
+            Sms::sendSms($this->store_id,$this->user_id,'tpl_complete');
+
+
             $printer_order = new PinterOrder($this->store_id, $order->id, 'confirm', 0);
             $res = $printer_order->print_order();
             return [
@@ -91,42 +99,42 @@ class OrderConfirmForm extends ApiModel
             ];
         }
     }
-	
-	
-	  private function bond_free($id){
-			
+
+
+    private function bond_free($id){
+
         $order = OrderDetail::findOne(['order_id'=>$id]);
-	
-		$setting = Option::get('mch_setting', $this->store->id, 'mch', []);		
-		$bond_stable = trim(isset($setting['bond_stable']) ? $setting['bond_stable'] : '');
-		$bond_install = trim(isset($setting['bond_install']) ? $setting['bond_install'] : '');
-		$bond_service = trim(isset($setting['bond_service']) ? $setting['bond_service'] : '');
-		$bond_original = trim(isset($setting['bond_original']) ? $setting['bond_original'] : '');
-		$bond_security = trim(isset($setting['bond_security']) ? $setting['bond_security'] : '');
-	
-	
-	
-		
-		if($order['goods_id']==$bond_stable){
-				mch::updateAll(['bond_stable' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}elseif($order['goods_id']==$bond_install){	
-				mch::updateAll(['bond_install' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}elseif($order['goods_id']==$bond_service){
-			
-				mch::updateAll(['bond_service' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}elseif($order['goods_id']==$bond_original){
-				mch::updateAll(['bond_original' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}elseif($order['goods_id']==$bond_security){
-				mch::updateAll(['bond_security' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
-		}
-		  
-		  
-	  }
-	
-	
-	  private function share_money($id)
+
+        $setting = Option::get('mch_setting', $this->store->id, 'mch', []);
+        $bond_stable = trim(isset($setting['bond_stable']) ? $setting['bond_stable'] : '');
+        $bond_install = trim(isset($setting['bond_install']) ? $setting['bond_install'] : '');
+        $bond_service = trim(isset($setting['bond_service']) ? $setting['bond_service'] : '');
+        $bond_original = trim(isset($setting['bond_original']) ? $setting['bond_original'] : '');
+        $bond_security = trim(isset($setting['bond_security']) ? $setting['bond_security'] : '');
+
+
+
+
+        if($order['goods_id']==$bond_stable){
+            mch::updateAll(['bond_stable' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
+        }elseif($order['goods_id']==$bond_install){
+            mch::updateAll(['bond_install' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
+        }elseif($order['goods_id']==$bond_service){
+
+            mch::updateAll(['bond_service' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
+        }elseif($order['goods_id']==$bond_original){
+            mch::updateAll(['bond_original' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
+        }elseif($order['goods_id']==$bond_security){
+            mch::updateAll(['bond_security' =>1], ['store_id'=> $this->store_id,'user_id'=>$this->user_id]);
+        }
+
+
+    }
+
+
+    private function share_money($id)
     {
-		$this->share_setting = Setting::findOne(['store_id' => $this->store_id]);
+        $this->share_setting = Setting::findOne(['store_id' => $this->store_id]);
         $order = Order::findOne($id);
         if ($order->mch_id > 0) {
             $mchPlugin = MchPlugin::findOne(['mch_id' => $order->mch_id, 'store_id' => $this->store_id]);
@@ -215,5 +223,5 @@ class OrderConfirmForm extends ApiModel
         $order->save();
         return;
     }
-	
+
 }

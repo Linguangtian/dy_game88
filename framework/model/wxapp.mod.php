@@ -394,6 +394,7 @@ function wxapp_update_daily_visittrend() {
 	global $_W;
 	$yesterday = date('Ymd', strtotime('-1 days'));
 	$trend = pdo_get('wxapp_general_analysis', array('uniacid' => $_W['uniacid'], 'type' => WXAPP_STATISTICS_DAILYVISITTREND, 'ref_date' => $yesterday));
+
 	if (!empty($trend)) {
 		return true;
 	}
@@ -414,6 +415,8 @@ function wxapp_update_daily_visittrend() {
 			'visit_depth' => $wxapp_stat['visit_depth'],
 			'ref_date' => $wxapp_stat['ref_date'],
 		);
+
+
 		pdo_insert('wxapp_general_analysis', $update_stat);
 	}
 

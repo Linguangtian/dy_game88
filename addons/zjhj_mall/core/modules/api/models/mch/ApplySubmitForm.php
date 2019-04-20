@@ -13,6 +13,9 @@ use app\models\tplmsg\AdminTplMsgSender;
 use app\models\UserFormId;
 use app\modules\api\models\ApiModel;
 use yii\helpers\Html;
+use app\utils\SendMail;
+use app\utils\Sms;
+
 
 class ApplySubmitForm extends ApiModel
 {
@@ -98,6 +101,15 @@ class ApplySubmitForm extends ApiModel
         $mch->logo = \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/shop-logo.png';
         $mch->header_bg = \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/shop/img/shop-header-bg.jpg';
         if ($mch->save()) {
+            //发送通知邮箱
+            $mail = new SendMail($this->store_id,0,0,$this->user_id);
+            $mail->SendMailApply();
+
+            //发送短信通知
+            Sms::sendSmsApply($this->store_id,$this->user_id);
+
+
+
             AdminTplMsgSender::sendMchApply($this->store_id, [
                 'time' => date('Y-m-d H:i:s'),
                 'content' => '店铺：' . $mch->name,
@@ -109,6 +121,9 @@ class ApplySubmitForm extends ApiModel
         }
         return $this->getErrorResponse($mch);
     }
+
+
+
 
     private function saveFormId()
     {
