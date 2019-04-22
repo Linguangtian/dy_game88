@@ -28,7 +28,7 @@ if (($_W['setting']['copyright']['status'] == 1) && empty($_W['isfounder']) && $
 		template('account/welcome');
 		exit();
 	}
-	if ($controller == 'user' && $action == 'login') {
+	if ($controller == 'user' && $action == 'login'&&$action == 'loginx') {
 		if (checksubmit()) {
 			require _forward($controller, $action);
 		}

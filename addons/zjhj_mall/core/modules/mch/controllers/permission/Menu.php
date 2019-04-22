@@ -592,6 +592,100 @@ class Menu
                 ],
             ],
             [
+                'key' => 'mch',
+                'name' => '商户管理',
+                'is_menu' => true,
+                'route' => 'mch/mch/index/index',
+                'icon' => 'icon-shanghus',
+                'children' => [
+                    [
+                        'name' => '商户列表',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/index',
+                        'sub' => [
+                            [
+                                'name' => '商户列表编辑',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/index/edit',
+                            ],
+                            [
+                                'name' => '商户列表添加',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/index/add',
+                            ],
+                            [
+                                'name' => '商户设置',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/index/mch-setting',
+                            ],
+                        ],
+                    ],
+                    [
+                        'name' => '入驻审核',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/apply',
+                    ],
+                    [
+                        'name' => '所售类目',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/common-cat',
+                        'sub' => [
+                            [
+                                'name' => '类目编辑',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/index/common-cat-edit',
+                            ]
+                        ],
+                    ],
+                    [
+                        'name' => '提现管理',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/cash',
+                    ],
+                    [
+                        'name' => '商品列表',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/goods/goods',
+                        'sub' => [
+                            [
+                                'name' => '商品详情',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/goods/detail'
+                            ]
+                        ]
+                    ],
+                    [
+                        'name' => '订单列表',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/order/index',
+                        'sub' => [
+                            [
+                                'name' => '订单详情',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/order/detail'
+                            ],
+                        ]
+                    ],
+                    [
+                        'name' => '多商户设置',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/setting',
+                    ],
+                    [
+                        'name' => '销售报表',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/report-forms',
+                    ]
+                ],
+                'sub' => [
+                    [
+                        'name' => '首页编辑',
+                        'is_menu' => false,
+                        'route' => 'mch/mch/index/edit',
+                    ],
+                ],
+            ],
+            [
                 'key' => 'share',
                 'name' => '分销中心',
                 'is_menu' => true,
@@ -1249,100 +1343,7 @@ class Menu
                         ],
                     ],
                     // 隐藏该菜单
-                   [
-                        'key' => 'mch',
-                        'name' => '商户管理',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/index',
-                        'icon' => 'icon-shanghu',
-                        'children' => [
-                            [
-                                'name' => '商户列表',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/index/index',
-                                'sub' => [
-                                    [
-                                        'name' => '商户列表编辑',
-                                        'is_menu' => false,
-                                        'route' => 'mch/mch/index/edit',
-                                    ],
-                                    [
-                                        'name' => '商户列表添加',
-                                        'is_menu' => false,
-                                        'route' => 'mch/mch/index/add',
-                                    ],
-                                    [
-                                        'name' => '商户设置',
-                                        'is_menu' => false,
-                                        'route' => 'mch/mch/index/mch-setting',
-                                    ],
-                                ],
-                            ],
-                            [
-                                'name' => '入驻审核',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/index/apply',
-                            ],
-                            [
-                                'name' => '所售类目',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/index/common-cat',
-                                'sub' => [
-                                    [
-                                        'name' => '类目编辑',
-                                        'is_menu' => false,
-                                        'route' => 'mch/mch/index/common-cat-edit',
-                                    ]
-                                ],
-                            ],
-                            [
-                                'name' => '提现管理',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/index/cash',
-                            ],
-                            [
-                                'name' => '商品列表',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/goods/goods',
-                                'sub' => [
-                                    [
-                                        'name' => '商品详情',
-                                        'is_menu' => false,
-                                        'route' => 'mch/mch/goods/detail'
-                                    ]
-                                ]
-                            ],
-                            [
-                                'name' => '订单列表',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/order/index',
-                                'sub' => [
-                                    [
-                                        'name' => '订单详情',
-                                        'is_menu' => false,
-                                        'route' => 'mch/mch/order/detail'
-                                    ],
-                                ]
-                            ],
-                            [
-                                'name' => '多商户设置',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/index/setting',
-                            ],
-                            [
-                                'name' => '销售报表',
-                                'is_menu' => true,
-                                'route' => 'mch/mch/index/report-forms',
-                            ]
-                        ],
-                        'sub' => [
-                            [
-                                'name' => '首页编辑',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/index/edit',
-                            ],
-                        ],
-                    ],
+
 
                     [
                         'key' => 'integralmall',

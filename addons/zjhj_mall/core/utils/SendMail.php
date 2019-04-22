@@ -22,6 +22,7 @@ use app\models\YyGoods;
 use app\models\YyOrder;
 use app\models\Mch;
 use app\models\User;
+use yii\db\Query;
 
 class SendMail
 {
@@ -201,6 +202,48 @@ class SendMail
 
 
     }
+        /*
+         *
+         * 发送商城昨日店铺统计
+         * */
+    public function SendMailVisi($data=0){
+
+        $mail_setting = MailSetting::findOne(['store_id' => $this->store_id, 'is_delete' => 0, 'status' => 1]);
+        if (!$mail_setting) {
+            return false;
+        }
+        $store = Store::findOne($this->store_id);
+        $receive = str_replace("，", ",", $mail_setting->receive_mail);
+        $receive_mail = explode(",", $receive);
+        $res = true;
+
+
+
+        foreach ($receive_mail as $mail) {
+            try {
+                $mailer = \Yii::$app->mailer;
+                $mailer->transport = $mailer->transport->newInstance('smtp.qq.com', 465, 'ssl');
+                $mailer->transport->setUsername($mail_setting->send_mail);
+                $mailer->transport->setPassword($mail_setting->send_pwd);
+                $compose = $mailer->compose('shopApply', [
+                    'store_name' => $store->name,
+
+                ]);
+                $compose->setFrom($mail_setting->send_mail); //要发送给那个人的邮箱
+                $compose->setTo($mail); //要发送给那个人的邮箱
+                $compose->setSubject($mail_setting->send_name); //邮件主题
+                $res = $compose->send();
+            } catch (\Exception $e) {
+                \Yii::warning('邮件发送失败：' . $e->getMessage());
+                return false;
+            }
+        }
+        return $res;
+
+
+
+    }
+
  /*
      *
      * */

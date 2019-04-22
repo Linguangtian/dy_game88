@@ -391,13 +391,15 @@ function wxapp_payment_param() {
 }
 
 function wxapp_update_daily_visittrend() {
-	global $_W;
+
+
+    global $_W;
 	$yesterday = date('Ymd', strtotime('-1 days'));
 	$trend = pdo_get('wxapp_general_analysis', array('uniacid' => $_W['uniacid'], 'type' => WXAPP_STATISTICS_DAILYVISITTREND, 'ref_date' => $yesterday));
 
-	if (!empty($trend)) {
+	/*if (!empty($trend)) {
 		return true;
-	}
+	}*/
 	$account_api = WeAccount::create();
 	$wxapp_stat = $account_api->getDailyVisitTrend();
 	if (is_error($wxapp_stat) || empty($wxapp_stat)) {

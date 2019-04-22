@@ -148,5 +148,5 @@
 		});
 		angular.bootstrap($('.js-system-welcome'), ['systemApp']);
 	});
-</script>	
+</script>
 <?php (!empty($this) && $this instanceof WeModuleSite || 0) ? (include $this->template('common/footer', TEMPLATE_INCLUDEPATH)) : (include template('common/footer', TEMPLATE_INCLUDEPATH));?>

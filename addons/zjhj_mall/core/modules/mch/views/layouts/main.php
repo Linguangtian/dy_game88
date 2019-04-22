@@ -85,6 +85,8 @@ $this->beginPage();
         .icon-settingss{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-settingss.png) ;} .active .icon-settingss{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-settingss-ac.png); }
         .icon-xitonggongjus{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-xitonggongjus.png) ;} .active .icon-xitonggongjus{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-xitonggongjus-ac.png); }
         .icon-tongjis{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-tongjis.png) ;} .active .icon-tongjis{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-tongjis-ac.png); }
+        .icon-shanghus{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-tongjis.png) ;} .active .icon-shanghus{background: url(/addons/zjhj_mall/core/web/uploads/icon/icon-tongjis-ac.png); }
+
         .det_bg{ border-radius:0 !important; background:rgba(92,154,207,0) !important; }
     </style>
 </head>
@@ -455,7 +457,7 @@ function getCurrentMenu($menu_list, $route, $return = [], $level = 0)
 <script>
     $(document).ready(function(){
         $(".sidebar-1").niceScroll();
-    }) 
+    })
 
 </script>
 
