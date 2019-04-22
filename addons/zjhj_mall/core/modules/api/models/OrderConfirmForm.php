@@ -76,7 +76,7 @@ class OrderConfirmForm extends ApiModel
         */
 
         if ($order->save()) {
-            $this->share_money($this->order_id);
+           // $this->share_money($this->order_id);
             $this->bond_free($this->order_id);
 
             $mail = new SendMail($this->store_id,$this->order_id,0,$this->user_id);

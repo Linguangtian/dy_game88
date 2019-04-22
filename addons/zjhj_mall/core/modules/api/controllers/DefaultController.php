@@ -38,7 +38,7 @@ use app\modules\api\models\VideoForm;
 use app\modules\api\models\ShopForm;
 use app\modules\api\models\WxForm;
 use app\modules\api\models\TopicTypeForm;
-
+use app\utils\SendMail;
 class DefaultController extends Controller
 {
     public function behaviors()
@@ -417,7 +417,15 @@ class DefaultController extends Controller
         return new ApiResponse(0, 'success', $res);
 
     }
+	
+	
+	 public function actionSenddaily() {
+        $mail = new SendMail($this->store_id);
+        $mail->SendMailVisi();
+        return $true;
 
-
-
+    }
+	
+	
+	
 }
