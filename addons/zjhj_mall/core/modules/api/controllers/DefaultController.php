@@ -420,9 +420,11 @@ class DefaultController extends Controller
 	
 	
 	 public function actionSenddaily() {
+
         $mail = new SendMail($this->store_id);
+
         $mail->SendMailVisi();
-        return $true;
+
 
     }
 	
