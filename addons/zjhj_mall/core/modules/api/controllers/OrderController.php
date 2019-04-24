@@ -53,20 +53,20 @@ class OrderController extends Controller
 
     //订单提交
     public function actionSubmit()
-    {
-        $form = new OrderSubmitForm();
-        $model = \Yii::$app->request->post();
-        if ($model['offline'] == 0) {
-            $form->scenario = "EXPRESS";
-        } else {
-            $form->scenario = "OFFLINE";
-        }
-        $form->attributes = $model;
-        $form->store_id = $this->store->id;
-        $form->user_id = \Yii::$app->user->id;
-        $form->version = hj_core_version();
-        return new BaseApiResponse($form->save());
+{
+    $form = new OrderSubmitForm();
+    $model = \Yii::$app->request->post();
+    if ($model['offline'] == 0) {
+        $form->scenario = "EXPRESS";
+    } else {
+        $form->scenario = "OFFLINE";
     }
+    $form->attributes = $model;
+    $form->store_id = $this->store->id;
+    $form->user_id = \Yii::$app->user->id;
+    $form->version = hj_core_version();
+    return new BaseApiResponse($form->save());
+}
 
     //新-订单提交前的预览页面
     public function actionNewSubmitPreview()

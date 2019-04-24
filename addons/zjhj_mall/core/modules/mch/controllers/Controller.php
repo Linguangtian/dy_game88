@@ -187,7 +187,7 @@ class Controller extends \app\controllers\Controller
     {
         $cacheKey = $this->getMenuCacheKey();
         if ($res = Yii::$app->getCache()->get($cacheKey)) {
-            return $res;
+      //      return $res;
         }
 
         $m = new MchMenu();

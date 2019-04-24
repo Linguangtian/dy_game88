@@ -596,7 +596,7 @@ class Menu
                 'name' => '商户管理',
                 'is_menu' => true,
                 'route' => 'mch/mch/index/index',
-                'icon' => 'icon-shanghus',
+                 'icon' => 'icon-shanghus',
                 'children' => [
                     [
                         'name' => '商户列表',
@@ -620,6 +620,19 @@ class Menu
                             ],
                         ],
                     ],
+                    [
+                        'name' => '店铺账户',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/merchants-account',
+                        'sub' => [
+                            [
+                                'name' => '资金明细',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/index/mch-account-log',
+                            ],
+                        ],
+                    ],
+
                     [
                         'name' => '入驻审核',
                         'is_menu' => true,

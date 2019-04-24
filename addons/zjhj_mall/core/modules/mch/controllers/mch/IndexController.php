@@ -12,6 +12,7 @@ namespace app\modules\mch\controllers\mch;
 use app\hejiang\ApiCode;
 use app\models\DistrictArr;
 use app\models\Mch;
+use app\models\MchAccountLog;
 use app\models\MchCommonCat;
 use app\models\User;
 use app\modules\mch\controllers\Controller;
@@ -24,6 +25,7 @@ use app\modules\mch\models\mch\MchListForm;
 use app\modules\mch\models\mch\MchSettingForm;
 use app\modules\mch\models\mch\OneMchSettingForm;
 use app\modules\mch\models\mch\ReportFormsForm;
+use app\modules\mch\models\mch\MchAccountLogForm;
 
 class IndexController extends Controller
 {
@@ -129,6 +131,7 @@ class IndexController extends Controller
 
     public function actionCash()
     {
+
         $get = \Yii::$app->request->get();
         if (!isset($get['status']) || $get['status'] === null || $get['status'] === '') {
             $get['status'] = -1;
@@ -269,4 +272,50 @@ class IndexController extends Controller
             'exportList' => \Yii::$app->serializer->encode($excelFields)
         ]);
     }
+
+
+    /**
+     * 店铺账户列表
+     */
+    public function actionMerchantsAccount()
+    {
+
+        $form = new MchListForm();
+        $form->attributes = \Yii::$app->request->get();
+
+        $form->platform = \Yii::$app->request->get('platform');
+        $form->review_status = 1;
+        $form->store_id = $this->store->id;
+        $res = $form->search();
+
+        return $this->render('merchants-account', [
+            'adminUrl' => $res['data']['adminUrl'],
+            'list' => $res['data']['list'],
+            'pagination' => $res['data']['pagination'],
+            'get' => \Yii::$app->request->get(),
+        ]);
+    }
+
+
+    /*
+    * 店铺资金明细
+     * */
+    public function actionMchAccountLog()
+    {
+
+        $form = new MchAccountLogForm();
+        $form->mch_id = \Yii::$app->request->get('mch_id');
+        $form->attributes = \Yii::$app->request->get();
+        $form->store_id = $this->store->id;
+        $res = $form->search();
+
+        return $this->render('mch-account-log', [
+            'adminUrl' => $res['data']['adminUrl'],
+            'list' => $res['data']['list'],
+            'pagination' => $res['data']['pagination'],
+            'get' => \Yii::$app->request->get(),
+
+        ]);
+    }
+
 }

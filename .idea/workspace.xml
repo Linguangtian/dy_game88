@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bf23a21-23aa-46de-ac96-ac388736d9a3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DefaultController.php" afterDir="false" />
-    </list>
+    <list default="true" id="7bf23a21-23aa-46de-ac96-ac388736d9a3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,376 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="account.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/class/account.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="1786" column="59" lean-forward="true" selection-start-line="1786" selection-start-column="59" selection-end-line="1786" selection-end-column="59" />
-              <folding>
-                <element signature="n#WeAccount#0;n#!!top" />
-                <element signature="n#create#0;n#WeAccount#0;n#!!top" />
-                <element signature="e#487#762#0#PHP" />
-                <element signature="e#584#762#0#PHP" />
-                <element signature="e#766#855#0#PHP" />
-                <element signature="e#861#1014#0#PHP" />
-                <element signature="e#962#1014#0#PHP" />
-                <element signature="n#createByType#0;n#WeAccount#0;n#!!top" />
-                <element signature="n#createByUniacid#0;n#WeAccount#0;n#!!top" />
-                <element signature="e#1365#1423#0#PHP" />
-                <element signature="e#1496#1585#0#PHP" />
-                <element signature="e#1591#1744#0#PHP" />
-                <element signature="e#1692#1744#0#PHP" />
-                <element signature="n#token#0;n#WeAccount#0;n#!!top" />
-                <element signature="n#includes#0;n#WeAccount#0;n#!!top" />
-                <element signature="e#1978#2103#0#PHP" />
-                <element signature="e#2107#2232#0#PHP" />
-                <element signature="e#2236#2355#0#PHP" />
-                <element signature="e#2359#2483#0#PHP" />
-                <element signature="e#2487#2617#0#PHP" />
-                <element signature="n#queryAvailableMessages#0;n#WeAccount#0;n#!!top" />
-                <element signature="n#queryAvailablePackets#0;n#WeAccount#0;n#!!top" />
-                <element signature="n#parse#0;n#WeAccount#0;n#!!top" />
-                <element signature="e#3446#5638#0#PHP" />
-                <element signature="e#3792#4107#0#PHP" />
-                <element signature="e#3824#3919#0#PHP" />
-                <element signature="e#3925#3994#0#PHP" />
-                <element signature="e#4019#4101#0#PHP" />
-                <element signature="e#4114#5633#0#PHP" />
-                <element signature="e#4147#4201#0#PHP" />
-                <element signature="e#4207#4634#0#PHP" />
-                <element signature="e#4226#4298#0#PHP" />
-                <element signature="e#4305#4621#0#PHP" />
-                <element signature="e#4422#4611#0#PHP" />
-                <element signature="e#4640#4711#0#PHP" />
-                <element signature="e#4717#4884#0#PHP" />
-                <element signature="e#4946#5403#0#PHP" />
-                <element signature="e#5101#5390#0#PHP" />
-                <element signature="e#5159#5382#0#PHP" />
-                <element signature="e#5232#5280#0#PHP" />
-                <element signature="e#5556#5627#0#PHP" />
-                <element signature="n#response#0;n#WeAccount#0;n#!!top" />
-                <element signature="e#5708#5752#0#PHP" />
-                <element signature="e#5756#5806#0#PHP" />
-                <element signature="e#5810#5888#0#PHP" />
-                <element signature="e#5892#5961#0#PHP" />
-                <element signature="e#5965#6072#0#PHP" />
-                <element signature="e#6032#6072#0#PHP" />
-                <element signature="n#errorCode#0;n#WeAccount#0;n#!!top" />
-                <element signature="e#6177#9687#0#PHP" />
-                <element signature="e#9718#9896#0#PHP" />
-                <element signature="e#9900#9984#0#PHP" />
-                <element signature="e#9953#9984#0#PHP" />
-                <element signature="n#WeUtility#0;n#!!top" />
-                <element signature="n#defineConst#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#10082#10355#0#PHP" />
-                <element signature="e#10146#10235#0#PHP" />
-                <element signature="e#10240#10350#0#PHP" />
-                <element signature="n#createModule#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#10490#10815#0#PHP" />
-                <element signature="e#10578#10669#0#PHP" />
-                <element signature="e#10674#10791#0#PHP" />
-                <element signature="e#10819#11334#0#PHP" />
-                <element signature="e#11181#11273#0#PHP" />
-                <element signature="e#11338#11463#0#PHP" />
-                <element signature="e#11652#11797#0#PHP" />
-                <element signature="e#11701#11797#0#PHP" />
-                <element signature="n#createModuleProcessor#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#11940#12287#0#PHP" />
-                <element signature="e#12031#12125#0#PHP" />
-                <element signature="e#12130#12263#0#PHP" />
-                <element signature="e#12291#12425#0#PHP" />
-                <element signature="e#12614#12777#0#PHP" />
-                <element signature="e#12672#12777#0#PHP" />
-                <element signature="n#createModuleReceiver#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#12918#13262#0#PHP" />
-                <element signature="e#13008#13101#0#PHP" />
-                <element signature="e#13106#13238#0#PHP" />
-                <element signature="e#13266#13399#0#PHP" />
-                <element signature="e#13588#13749#0#PHP" />
-                <element signature="e#13645#13749#0#PHP" />
-                <element signature="n#createModuleSite#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#13882#14214#0#PHP" />
-                <element signature="e#13968#14057#0#PHP" />
-                <element signature="e#14062#14190#0#PHP" />
-                <element signature="e#14218#14731#0#PHP" />
-                <element signature="e#14578#14670#0#PHP" />
-                <element signature="e#14735#15035#0#PHP" />
-                <element signature="e#14815#15030#0#PHP" />
-                <element signature="e#14923#15030#0#PHP" />
-                <element signature="e#15198#15304#0#PHP" />
-                <element signature="e#15374#15581#0#PHP" />
-                <element signature="e#15477#15581#0#PHP" />
-                <element signature="n#createModuleHook#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#15746#15833#0#PHP" />
-                <element signature="e#15837#16025#0#PHP" />
-                <element signature="e#15873#16001#0#PHP" />
-                <element signature="e#16029#16158#0#PHP" />
-                <element signature="e#16427#16594#0#PHP" />
-                <element signature="e#16490#16594#0#PHP" />
-                <element signature="n#createModuleCron#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#16727#17107#0#PHP" />
-                <element signature="e#16813#16902#0#PHP" />
-                <element signature="e#16907#17083#0#PHP" />
-                <element signature="e#17111#17289#0#PHP" />
-                <element signature="e#17478#17676#0#PHP" />
-                <element signature="e#17531#17676#0#PHP" />
-                <element signature="n#createModuleWxapp#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#17812#18147#0#PHP" />
-                <element signature="e#17899#17989#0#PHP" />
-                <element signature="e#17994#18123#0#PHP" />
-                <element signature="e#18151#18280#0#PHP" />
-                <element signature="e#18509#18667#0#PHP" />
-                <element signature="e#18563#18667#0#PHP" />
-                <element signature="n#createModulePhoneapp#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#18808#19152#0#PHP" />
-                <element signature="e#18898#18991#0#PHP" />
-                <element signature="e#18996#19128#0#PHP" />
-                <element signature="e#19156#19285#0#PHP" />
-                <element signature="e#19514#19675#0#PHP" />
-                <element signature="e#19571#19675#0#PHP" />
-                <element signature="n#createModuleWebapp#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#19812#20150#0#PHP" />
-                <element signature="e#19900#19991#0#PHP" />
-                <element signature="e#19996#20126#0#PHP" />
-                <element signature="e#20154#20285#0#PHP" />
-                <element signature="e#20514#20671#0#PHP" />
-                <element signature="e#20569#20671#0#PHP" />
-                <element signature="n#createModuleSystemWelcome#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#20822#21181#0#PHP" />
-                <element signature="e#20917#21015#0#PHP" />
-                <element signature="e#21020#21157#0#PHP" />
-                <element signature="e#21185#21323#0#PHP" />
-                <element signature="e#21552#21723#0#PHP" />
-                <element signature="e#21614#21723#0#PHP" />
-                <element signature="n#logging#0;n#WeUtility#0;n#!!top" />
-                <element signature="e#21989#22105#0#PHP" />
-                <element signature="e#22109#22269#0#PHP" />
-                <element signature="e#22166#22264#0#PHP" />
-                <element signature="e#22273#22428#0#PHP" />
-                <element signature="e#22328#22423#0#PHP" />
-                <element signature="e#22432#22590#0#PHP" />
-                <element signature="e#22489#22585#0#PHP" />
-                <element signature="n#saveSettings#0;n#WeBase#0;n#!!top" />
-                <element signature="e#23091#23550#0#PHP" />
-                <element signature="e#23362#23550#0#PHP" />
-                <element signature="n#createMobileUrl#0;n#WeBase#0;n#!!top" />
-                <element signature="n#createWebUrl#0;n#WeBase#0;n#!!top" />
-                <element signature="n#template#0;n#WeBase#0;n#!!top" />
-                <element signature="e#24105#25590#0#PHP" />
-                <element signature="e#24303#24405#0#PHP" />
-                <element signature="e#24410#24497#0#PHP" />
-                <element signature="e#24502#24606#0#PHP" />
-                <element signature="e#24611#24705#0#PHP" />
-                <element signature="e#24711#25590#0#PHP" />
-                <element signature="e#24892#24994#0#PHP" />
-                <element signature="e#24999#25093#0#PHP" />
-                <element signature="e#25098#25192#0#PHP" />
-                <element signature="e#25197#25301#0#PHP" />
-                <element signature="e#25306#25585#0#PHP" />
-                <element signature="e#25335#25579#0#PHP" />
-                <element signature="e#25500#25579#0#PHP" />
-                <element signature="e#25596#25688#0#PHP" />
-                <element signature="e#25824#25960#0#PHP" />
-                <element signature="e#26125#26312#0#PHP" />
-                <element signature="e#26317#26555#0#PHP" />
-                <element signature="e#26394#26474#0#PHP" />
-                <element signature="e#26475#26555#0#PHP" />
-                <element signature="e#26561#26623#0#PHP" />
-                <element signature="e#26629#27137#0#PHP" />
-                <element signature="e#27060#27132#0#PHP" />
-                <element signature="e#27141#27312#0#PHP" />
-                <element signature="e#27283#27312#0#PHP" />
-                <element signature="n#fileUpload#0;n#WeBase#0;n#!!top" />
-                <element signature="n#getFunctionFile#0;n#WeBase#0;n#!!top" />
-                <element signature="e#27571#27843#0#PHP" />
-                <element signature="e#27781#27843#0#PHP" />
-                <element signature="e#27979#28072#0#PHP" />
-                <element signature="n#__call#0;n#WeBase#0;n#!!top" />
-                <element signature="e#28183#28241#0#PHP" />
-                <element signature="n#WeModule#0;n#!!top" />
-                <element signature="n#fieldsFormDisplay#0;n#WeModule#0;n#!!top" />
-                <element signature="n#fieldsFormValidate#0;n#WeModule#0;n#!!top" />
-                <element signature="n#fieldsFormSubmit#0;n#WeModule#0;n#!!top" />
-                <element signature="n#ruleDeleted#0;n#WeModule#0;n#!!top" />
-                <element signature="n#settingsDisplay#0;n#WeModule#0;n#!!top" />
-                <element signature="n#WeModuleProcessor#0;n#!!top" />
-                <element signature="n#__construct#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#28908#29009#0#PHP" />
-                <element signature="n#beginContext#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#29074#29118#0#PHP" />
-                <element signature="n#refreshContext#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#29502#29548#0#PHP" />
-                <element signature="n#endContext#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="n#respSuccess#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="n#respText#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#30115#30181#0#PHP" />
-                <element signature="e#30185#30441#0#PHP" />
-                <element signature="e#30293#30436#0#PHP" />
-                <element signature="e#30322#30430#0#PHP" />
-                <element signature="e#30798#30995#0#PHP" />
-                <element signature="e#30831#30990#0#PHP" />
-                <element signature="n#respImage#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#31066#31128#0#PHP" />
-                <element signature="n#respVoice#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#31405#31467#0#PHP" />
-                <element signature="n#respVideo#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#31752#31816#0#PHP" />
-                <element signature="n#respMusic#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#32226#32290#0#PHP" />
-                <element signature="e#32538#32671#0#PHP" />
-                <element signature="e#32676#32868#0#PHP" />
-                <element signature="e#32787#32868#0#PHP" />
-                <element signature="e#32872#32956#0#PHP" />
-                <element signature="n#respNews#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#33033#33117#0#PHP" />
-                <element signature="e#33162#33222#0#PHP" />
-                <element signature="e#33471#33813#0#PHP" />
-                <element signature="e#33567#33807#0#PHP" />
-                <element signature="n#respCustom#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#34092#34224#0#PHP" />
-                <element signature="n#buildSiteUrl#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#34326#34477#0#PHP" />
-                <element signature="e#34637#34722#0#PHP" />
-                <element signature="e#34726#34938#0#PHP" />
-                <element signature="e#34942#35047#0#PHP" />
-                <element signature="e#35068#35739#0#PHP" />
-                <element signature="e#35446#35544#0#PHP" />
-                <element signature="n#extend_W#0;n#WeModuleProcessor#0;n#!!top" />
-                <element signature="e#36023#36124#0#PHP" />
-                <element signature="e#36128#36187#0#PHP" />
-                <element signature="e#36193#36693#0#PHP" />
-                <element signature="e#36252#36341#0#PHP" />
-                <element signature="e#36346#36688#0#PHP" />
-                <element signature="n#WeModuleReceiver#0;n#!!top" />
-                <element signature="n#WeModuleSite#0;n#!!top" />
-                <element signature="n#__call#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#37096#37655#0#PHP" />
-                <element signature="e#37189#37270#0#PHP" />
-                <element signature="e#37275#37362#0#PHP" />
-                <element signature="e#37405#37650#0#PHP" />
-                <element signature="e#37467#37650#0#PHP" />
-                <element signature="e#37580#37644#0#PHP" />
-                <element signature="n#__get#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#37768#37917#0#PHP" />
-                <element signature="e#37797#37912#0#PHP" />
-                <element signature="e#37859#37912#0#PHP" />
-                <element signature="n#pay#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#38098#38162#0#PHP" />
-                <element signature="e#38212#38553#0#PHP" />
-                <element signature="e#38472#38548#0#PHP" />
-                <element signature="e#38683#39052#0#PHP" />
-                <element signature="e#38713#39009#0#PHP" />
-                <element signature="e#39056#39137#0#PHP" />
-                <element signature="e#39221#39312#0#PHP" />
-                <element signature="e#39397#40064#0#PHP" />
-                <element signature="e#39485#40021#0#PHP" />
-                <element signature="e#39512#40015#0#PHP" />
-                <element signature="e#39554#39947#0#PHP" />
-                <element signature="e#39721#39947#0#PHP" />
-                <element signature="e#39846#39939#0#PHP" />
-                <element signature="e#40068#40145#0#PHP" />
-                <element signature="e#40149#40269#0#PHP" />
-                <element signature="e#40273#40515#0#PHP" />
-                <element signature="n#refund#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#40758#40813#0#PHP" />
-                <element signature="n#payResult#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#40907#41223#0#PHP" />
-                <element signature="e#40942#41218#0#PHP" />
-                <element signature="e#41088#41218#0#PHP" />
-                <element signature="n#payResultQuery#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#41529#41816#0#PHP" />
-                <element signature="n#share#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#42067#42200#0#PHP" />
-                <element signature="n#click#0;n#WeModuleSite#0;n#!!top" />
-                <element signature="e#42465#42542#0#PHP" />
-                <element signature="n#WeModuleCron#0;n#!!top" />
-                <element signature="n#__call#0;n#WeModuleCron#0;n#!!top" />
-                <element signature="e#42652#42820#0#PHP" />
-                <element signature="e#42745#42820#0#PHP" />
-                <element signature="e#42901#42959#0#PHP" />
-                <element signature="n#addCronLog#0;n#WeModuleCron#0;n#!!top" />
-                <element signature="e#43139#43185#0#PHP" />
-                <element signature="e#43197#43385#0#PHP" />
-                <element signature="n#WeModuleWxapp#0;n#!!top" />
-                <element signature="n#__call#0;n#WeModuleWxapp#0;n#!!top" />
-                <element signature="e#43829#44651#0#PHP" />
-                <element signature="e#43901#44018#0#PHP" />
-                <element signature="e#43927#44017#1#PHP" />
-                <element signature="e#44024#44646#0#PHP" />
-                <element signature="e#44075#44243#0#PHP" />
-                <element signature="e#44108#44242#1#PHP" />
-                <element signature="e#44299#44454#0#PHP" />
-                <element signature="e#44332#44453#1#PHP" />
-                <element signature="e#44499#44640#0#PHP" />
-                <element signature="e#44580#44640#0#PHP" />
-                <element signature="e#44655#44713#0#PHP" />
-                <element signature="n#result#0;n#WeModuleWxapp#0;n#!!top" />
-                <element signature="e#44801#44896#0#PHP" />
-                <element signature="e#44813#44895#1#PHP" />
-                <element signature="n#checkSign#0;n#WeModuleWxapp#0;n#!!top" />
-                <element signature="e#44957#45309#0#PHP" />
-                <element signature="e#45007#45145#0#PHP" />
-                <element signature="e#45052#45139#0#PHP" />
-                <element signature="e#45280#45309#0#PHP" />
-                <element signature="n#pay#0;n#WeModuleWxapp#0;n#!!top" />
-                <element signature="e#45467#45575#0#PHP" />
-                <element signature="e#45916#46483#0#PHP" />
-                <element signature="e#45952#46399#0#PHP" />
-                <element signature="e#46487#46586#0#PHP" />
-                <element signature="e#46590#46793#0#PHP" />
-                <element signature="e#46647#46750#0#PHP" />
-                <element signature="e#46673#46715#0#PHP" />
-                <element signature="e#46849#47027#0#PHP" />
-                <element signature="e#47111#47294#0#PHP" />
-                <element signature="n#WeModuleHook#0;n#!!top" />
-                <element signature="n#WeModuleWebapp#0;n#!!top" />
-                <element signature="n#__call#0;n#WeModuleWebapp#0;n#!!top" />
-                <element signature="e#47669#47727#0#PHP" />
-                <element signature="n#WeModulePhoneapp#0;n#!!top" />
-                <element signature="n#__call#0;n#WeModulePhoneapp#0;n#!!top" />
-                <element signature="e#48100#48910#0#PHP" />
-                <element signature="e#48172#48289#0#PHP" />
-                <element signature="e#48198#48288#1#PHP" />
-                <element signature="e#48295#48905#0#PHP" />
-                <element signature="e#48346#48514#0#PHP" />
-                <element signature="e#48379#48513#1#PHP" />
-                <element signature="e#48570#48725#0#PHP" />
-                <element signature="e#48603#48724#1#PHP" />
-                <element signature="e#48770#48899#0#PHP" />
-                <element signature="e#48845#48899#0#PHP" />
-                <element signature="e#48914#48973#0#PHP" />
-                <element signature="n#result#0;n#WeModulePhoneapp#0;n#!!top" />
-                <element signature="e#49061#49156#0#PHP" />
-                <element signature="e#49073#49155#1#PHP" />
-                <element signature="n#WeModuleSystemWelcome#0;n#!!top" />
-                <element signature="n#WeModuleMobile#0;n#!!top" />
-                <element signature="n#__call#0;n#WeModuleMobile#0;n#!!top" />
-                <element signature="e#49498#49556#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="432" column="1" lean-forward="true" selection-start-line="432" selection-start-column="1" selection-end-line="432" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendMail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/utils/SendMail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -460,10 +88,11 @@
       <server host="www.game88.com" id="ffe481e7-4602-46de-ac8b-1f4ac76413b9" name="game88" />
     </servers>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="21" />
-    <option name="width" value="1400" />
-    <option name="height" value="996" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-89" />
+    <option name="y" value="178" />
+    <option name="width" value="1823" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -502,35 +131,7 @@
               <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
@@ -588,16 +189,15 @@
       <workItem from="1555311893826" duration="135000" />
       <workItem from="1555479452222" duration="2137000" />
       <workItem from="1555746630633" duration="9921000" />
-      <workItem from="1555898854592" duration="15528000" />
+      <workItem from="1555898854592" duration="16080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27724000" />
+    <option name="totallyTimeSpent" value="28276000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="0" width="1400" height="996" extended-state="1" />
-    <editor active="true" />
+    <frame x="-89" y="178" width="1823" height="1100" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
@@ -605,13 +205,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985657" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.2455224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.18661372" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
       <window_info id="Structure" order="1" sideWeight="0.50060904" side_tool="true" weight="0.14734043" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" visible="true" weight="0.2761905" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.2457627" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1104,6 +704,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/addons/utils/SendMail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_run.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1879">
+          <caret line="432" column="1" lean-forward="true" selection-start-line="432" selection-start-column="1" selection-end-line="432" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/framework/class/account.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1449,27 +1070,6 @@
             <element signature="n#__call#0;n#WeModuleMobile#0;n#!!top" />
             <element signature="e#49498#49556#0#PHP" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/utils/SendMail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto_run.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="432" column="1" lean-forward="true" selection-start-line="432" selection-start-column="1" selection-end-line="432" selection-end-column="1" />
         </state>
       </provider>
     </entry>
