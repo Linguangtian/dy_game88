@@ -117,11 +117,13 @@ class ShareQrcodeForm extends ApiModel
 
         $goods_qrcode_dst = \Yii::$app->basePath . '/web/statics/images/goods-qrcode-dst.jpg';
         $font_path = \Yii::$app->basePath . '/web/statics/font/st-heiti-light.ttc';
+        $service_yes=\Yii::$app->basePath . '/web/statics/images/goods-qrcode-yes.jpg';
+
 
         $editor = Grafika::createEditor(GrafikaHelper::getSupportEditorLib());
         $editor->open($goods_qrcode, $goods_qrcode_dst);
         $editor->open($goods_pic, $goods_pic_path);
-
+        $editor->open($service_yes, $service_yes);
         //获取小程序码图片
         if(\Yii::$app->fromAlipayApp()){
             $scene = "gid={$goods->id}&uid={$this->user_id}";
@@ -144,7 +146,7 @@ class ShareQrcodeForm extends ApiModel
         //商品名称处理换行
         $name = $this->autowrap($name_size, 0, $font_path, $goods->name, $name_width, 2);
         //加商品名称
-        $editor->text($goods_qrcode, $name, $name_size, 40, 750, new Color('#333333'), $font_path, 0);
+        $editor->text($goods_qrcode, $name, $name_size, 40, 785, new Color('#333333'), $font_path, 0);
 
         //裁剪商品图片
         //$editor->crop($goods_pic, 670, 670, 'smart');
@@ -166,8 +168,22 @@ class ShareQrcodeForm extends ApiModel
         }else{
             $goods->price = min($price);
         }
+
+
+        $editor->resizeFit($service_yes, 50, 50);
+        $x=30;
+        $good_service=explode(",",$goods['service']);
+        foreach ($good_service as $key=>$item){
+            if($key>3)  break;
+            $editor->blend($goods_qrcode, $service_yes, 'normal', 1.0, 'top-left', $x,930 );
+            $editor->text($goods_qrcode, $item, 23, $x+53, 943, new Color('#333333'), $font_path, 0);
+            $x+=180;
+
+        }
+
+
         //加商品价格
-        $editor->text($goods_qrcode, '￥' . $goods->price, 45, 30, 910, new Color('#ff4544'), $font_path, 0);
+        // $editor->text($goods_qrcode, '￥' . $goods->price, 45, 30, 910, new Color('#ff4544'), $font_path, 0);
 
         //加商城名称
         $editor->text($goods_qrcode, $store->name, 20, 40, 1170, new Color('#888888'), $font_path, 0);
@@ -219,7 +235,7 @@ class ShareQrcodeForm extends ApiModel
                 $price[] = (float)$attr_data_item['miaosha_price'];
             }else{
                 if($attr_data_item['price']>0){
-                   $price[] = (float)$attr_data_item['price'];
+                    $price[] = (float)$attr_data_item['price'];
                 }else{
                     $price[] = (float)$goods->original_price;
                 }

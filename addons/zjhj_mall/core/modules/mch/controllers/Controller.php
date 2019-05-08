@@ -207,7 +207,6 @@ class Controller extends \app\controllers\Controller
         $m->is_admin = $this->is_admin;
         $res = $m->getList();
         Yii::$app->getCache()->set($cacheKey, $res, 3600);
-
         return $res;
     }
 
