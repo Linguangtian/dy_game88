@@ -54,15 +54,15 @@ class OrderListForm extends MchModel
         if (!$this->validate()) {
             return $this->errorResponse;
         }
-        $query = Order::find()->alias('o')->where([
-            'o.store_id' => $this->store_id
-        ])->andWhere(['>', 'o.mch_id', 0])
+        $query = Order::find()->alias('o')->where(['o.store_id' => $this->store_id])
+            ->andWhere(['>', 'o.mch_id', 0])
             ->leftJoin(['u' => User::tableName()], 'u.id=o.user_id')
             ->leftJoin(['m' => Mch::tableName()], 'm.id=o.mch_id')
             ->leftJoin(['od' => OrderDetail::tableName()], 'od.order_id=o.id')
             ->leftJoin(['g' => Goods::tableName()], 'g.id=od.goods_id');
 
         switch ($this->status) {
+
             case 0:
                 $query->andWhere(['o.is_pay' => 0]);
                 break;
@@ -119,13 +119,17 @@ class OrderListForm extends MchModel
         $query = $commonOrderSearch->keyword($query, $this->keyword_1, $this->keyword);
 
         $query1 = clone $query;
+
         if ($this->flag == "EXPORT") {
             $list_ex = $query1->select('o.*')->orderBy('o.addtime DESC')->all();
+
             $export = new ExportList();
             $export->is_offline = 0;
             $export->order_type = 0;
             $export->fields = $this->fields;
+
             $export->dataTransform($list_ex);
+
         }
         $count = $query->count();
         $pagination = new Pagination(['totalCount' => $count, 'pageSize' => $this->limit, 'page' => $this->page - 1]);

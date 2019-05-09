@@ -290,6 +290,13 @@ class Order extends \yii\db\ActiveRecord
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 
+
+    public function getMch()
+    {
+        return $this->hasOne(mch::className(), ['id' => 'mch_id']);
+    }
+
+
     public function getRefund()
     {
         return $this->hasMany(OrderRefund::className(), ['order_id' => 'id']);

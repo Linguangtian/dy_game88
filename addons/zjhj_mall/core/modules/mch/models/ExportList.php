@@ -46,6 +46,14 @@ class ExportList
                 'selected' => 0,
                 'type' => [0, 1],
             ],
+
+            [
+                'key' => 'mch_name',
+                'value' => '店铺名称',
+                'hidden' => false,
+                'selected' => 0,
+                'type' => [0, 1],
+            ],
             [
                 'key' => 'good_name',
                 'value' => '商品名',
@@ -366,6 +374,7 @@ class ExportList
      */
     public function dataTransform($data)
     {
+
         $newFields = [];
         $pay_type_list = ['线上支付', '线上支付', '货到付款', '余额支付'];
         foreach ($this->fields as &$item) {
@@ -386,8 +395,12 @@ class ExportList
         $newList = [];
         foreach ($data as $datum) {
             $newItem = [];
+
+
+
             $newItem['order_no'] = $datum->order_no;
             $newItem['nickname'] = $datum->user->nickname;
+            $newItem['mch_name'] = $datum->mch->name;
             $newItem['platform'] = $datum->user->platform ? '支付宝' : '微信';
             $newItem['total_price'] = $datum->total_price;
             $newItem['pay_price'] = $datum->pay_price;
@@ -682,13 +695,13 @@ class ExportList
 					$newItem['is_pay']=$newItem['is_pay']."|"."已收货";
 				}
 				else $newItem['is_pay']=$newItem['is_pay']."|"."未收货";
-				
+
 				if($datum['is_send']==1)
 				{
 					$newItem['is_pay']=$newItem['is_pay']."|"."已发货";
 				}
 				else $newItem['is_pay']=$newItem['is_pay']."|"."未发货";
-				
+
 
                 $newList[] = $newItem;
             }
