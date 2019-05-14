@@ -162,7 +162,7 @@ class PostageRules extends \yii\db\ActiveRecord
     public static function getExpressPriceMore($store_id, $city_id, $goodsList, $province_id)
     {
         $newGoodsList = [];
-		$myWeight=0; 
+		$myWeight=0;
         foreach ($goodsList as $row) {
             if (isset($newGoodsList[$row['freight']])) {
                 $newGoodsList[$row['freight']]['num'] += $row['num'];
@@ -236,8 +236,8 @@ class PostageRules extends \yii\db\ActiveRecord
             if ($key == $maxFristPriceIndex) {
                 if ($value['type'] == '1') {
                     // 按重计费
-                    //$totalWeight = $value['weight'];
-					$totalWeight=$myWeight;
+                    $totalWeight = $value['weight'];
+					//$totalWeight=$myWeight;
                     $totalWeight -= $value['matching']->frist;
                     $price += $value['matching']->frist_price;
                     if ($value['matching']->second) {
@@ -260,8 +260,8 @@ class PostageRules extends \yii\db\ActiveRecord
             } else {
                 if ($value['type'] == '1') {
                     // 按重计费
-                    //$totalWeight = $value['weight'];
-					$totalWeight=$myWeight;
+                   $totalWeight = $value['weight'];
+					//$totalWeight=$myWeight;
                     if ($value['matching']->second) {
                         $leave = ceil($totalWeight / $value['matching']->second) > 0 ? ceil($totalWeight / $value['matching']->second) : 0;
                     } else {
