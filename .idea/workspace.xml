@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="7bf23a21-23aa-46de-ac96-ac388736d9a3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/junsion_winaward/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/junsion_winaward/manifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/junsion_winaward/site_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/junsion_winaward/site_data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/models/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/15/15008574624c1b775dc6686a4de5a677.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/15/15008574624c1b775dc6686a4de5a677.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/98/9881a82d73871194e4f79b0e98482a23.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/98/9881a82d73871194e4f79b0e98482a23.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/d7/d73098bde0af1419d417cff3177f7cf6.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/d7/d73098bde0af1419d417cff3177f7cf6.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/vendor/luweiss/wechat/runtime/cache/f1/5b30336337313234346632303331363838333833656664376137363563633265345d5b315d.doctrinecache.data" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/vendor/luweiss/wechat/runtime/cache/f1/5b30336337313234346632303331363838333833656664376137363563633265345d5b315d.doctrinecache.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tpl/web/default/account/manage-display-wxapp.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tpl/web/default/system/updatecache.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tpl/web/default/user/login.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/source/user/login.ctrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/source/user/login.ctrl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,38 +27,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="welcome.ctrl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/source/home/welcome.ctrl.php">
+      <file leaf-file-name="center.inc.php.old" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php.old">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="5325">
+              <caret line="213" column="30" selection-start-line="213" selection-start-column="30" selection-end-line="213" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/permission/Menu.php">
+      <file leaf-file-name="notify.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/notify.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="25">
+              <caret line="1" column="3069" selection-start-line="1" selection-start-column="3069" selection-end-line="1" selection-end-column="3069" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminMenu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/admin/models/AdminMenu.php">
+      <file leaf-file-name="center.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2050">
-              <caret line="86" column="35" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/HandleController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="25">
+              <caret line="1" column="734" selection-start-line="1" selection-start-column="734" selection-end-line="1" selection-end-column="734" />
             </state>
           </provider>
         </entry>
@@ -54,14 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>访问人数</find>
-      <find>home</find>
-      <find>&gt;访问次数</find>
-      <find>新用户数</find>
-      <find>daily_visittrend</find>
-      <find>header</find>
-      <find>wxapp_update_daily_visittrend</find>
-      <find>wxapp_general_analysis</find>
       <find>'login'</find>
       <find>OrderBehavior</find>
       <find>getAccessToken</find>
@@ -74,7 +70,29 @@
       <find>share</find>
       <find>getMenu</find>
       <find>MenuCacheKey</find>
+      <find>open.weixin.qq.com</find>
+      <find>icon-activitys.png</find>
+      <find>save</find>
+      <find>OrderRevokeForm</find>
+      <find>refund</find>
+      <find>Refund</find>
+      <find>font-style</find>
+      <find>$password</find>
+      <find>米哆全民软文推广</find>
+      <find>panel panel-menu</find>
+      <find>panel-heading</find>
+      <find>业务菜单</find>
+      <find>软文管理</find>
+      <find>请先设置我的品牌库</find>
+      <find>notify_url</find>
+      <find>TODO</find>
+      <find>Notify</find>
+      <find>WxPay.Config</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\git\dy_game88\addons\amd_qmrwtg</dir>
+      <dir>E:\git\dy_game88</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,6 +123,20 @@
         <option value="$PROJECT_DIR$/addons/utils/SendMail.php" />
         <option value="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DefaultController.php" />
         <option value="$PROJECT_DIR$/web/source/home/welcome.ctrl.php" />
+        <option value="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php" />
+        <option value="$PROJECT_DIR$/data/config.php" />
+        <option value="$PROJECT_DIR$/web/source/user/login.ctrl.php" />
+        <option value="$PROJECT_DIR$/addons/junsion_winaward/site_data.php" />
+        <option value="$PROJECT_DIR$/addons/junsion_winaward/site.php" />
+        <option value="$PROJECT_DIR$/addons/junsion_winaward/manifest.xml" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/site.php" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/module.php" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/reply.inc.php" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/serialize.inc.php" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/manifest.xml" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/index_menu.inc.php" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/template/article.html" />
+        <option value="$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php.old" />
       </list>
     </option>
   </component>
@@ -127,17 +159,17 @@
       <path value="$PROJECT_DIR$/addons/zjhj_mall/core/vendor/bower/yii2-pjax/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" />
+  <component name="PhpDebugGeneral" xdebug_debug_can_accept_external_connections="false" xdebug_debug_port="9001" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="www.game88.com" id="ffe481e7-4602-46de-ac8b-1f4ac76413b9" name="game88" />
     </servers>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-374" />
-    <option name="y" value="307" />
-    <option name="width" value="1823" />
-    <option name="height" value="1083" />
+    <option name="x" value="9" />
+    <option name="y" value="191" />
+    <option name="width" value="1593" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,31 +194,28 @@
               <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
               <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="amd_qmrwtg" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
               <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="amd_qmrwtg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
               <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="amd_qmrwtg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
               <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mch" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="junsion_winaward" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -196,10 +225,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/yidingbaoma" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,19 +262,24 @@
       <workItem from="1555898854592" duration="16080000" />
       <workItem from="1557048907323" duration="2276000" />
       <workItem from="1557450927965" duration="12000" />
+      <workItem from="1557882777819" duration="9406000" />
+      <workItem from="1558315046228" duration="5000" />
+      <workItem from="1558315079111" duration="337000" />
+      <workItem from="1558488459499" duration="2151000" />
+      <workItem from="1558491161758" duration="3892000" />
+      <workItem from="1558509073827" duration="6192000" />
+      <workItem from="1558574424489" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30564000" />
+    <option name="totallyTimeSpent" value="52573000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-374" y="307" width="1823" height="1083" extended-state="0" />
-    <editor active="true" />
+    <frame x="9" y="191" width="1593" height="1018" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.19115144" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.23222439" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -254,8 +288,9 @@
       <window_info id="Structure" order="1" sideWeight="0.50060904" side_tool="true" weight="0.14734043" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.2457627" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.30888888" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -267,19 +302,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.21321961" />
       <window_info id="Structure" order="1" sideWeight="0.50060904" side_tool="true" weight="0.14734043" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985657" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985657" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.34533897" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -296,22 +331,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/web/source/user/login.ctrl.php</url>
-          <line>9</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/web/source/user/login.ctrl.php</url>
-          <line>14</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/web/source/user/login.ctrl.php</url>
-          <line>55</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/web/source/user/login.ctrl.php</url>
-          <line>87</line>
+          <line>88</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -320,344 +340,330 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/index.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/index.php</url>
+          <line>113</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/source/entry/site.ctrl.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php</url>
+          <line>201</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/OrderRevokeForm.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php</url>
+          <line>216</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/OrderRevokeForm.php</url>
+          <line>136</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/addons/zjhj_mall/core/utils/Refund.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/web/source/user/login.ctrl.php</url>
-          <line>39</line>
-          <option name="timeStamp" value="12" />
+          <line>38</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="49" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/framework/function/pdo.func.php">
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php.old">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="5325">
+          <caret line="213" column="30" selection-start-line="213" selection-start-column="30" selection-end-line="213" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/account/welcome.ctrl.php">
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="25">
+          <caret line="1" column="734" selection-start-line="1" selection-start-column="734" selection-end-line="1" selection-end-column="734" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/account/display.ctrl.php">
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/notify.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="25">
+          <caret line="1" column="3069" selection-start-line="1" selection-start-column="3069" selection-end-line="1" selection-end-column="3069" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/models/OrderWarn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#169#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/user/loginx.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12250">
-          <caret line="496" selection-start-line="496" selection-end-line="496" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/daily_visittrend.php" />
-    <entry file="file://$PROJECT_DIR$/framework/model/wxapp.mod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10125">
-          <caret line="405" column="29" lean-forward="true" selection-start-line="405" selection-start-column="29" selection-end-line="405" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/function/pdo.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/wxapp/version.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/default/wxapp/version-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="41" lean-forward="true" selection-end-line="99" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/statistic/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7925">
-          <caret line="317" column="18" lean-forward="true" selection-start-line="317" selection-start-column="18" selection-end-line="317" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/tpl/web/default/wxapp/version-home.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/themes/default/wxapp/version-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/statistic/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="331" column="25" lean-forward="true" selection-start-line="331" selection-start-column="25" selection-end-line="331" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/TestController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/TopicController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/wxapp/daily_visittrend.ctrl.php" />
-    <entry file="file://$PROJECT_DIR$/daily_visittrend.php" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/wxapp/version.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/account/welcome.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/account/display.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/function/pdo.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#169#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/user/loginx.ctrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/user/controllers/mch/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/user/models/mch/CashSubmitForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="889">
-          <caret line="525" lean-forward="true" selection-start-line="525" selection-end-line="525" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/daily_visittrend.php" />
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/class/wxapp.account.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="281" column="41" lean-forward="true" selection-start-line="281" selection-start-column="41" selection-end-line="281" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/ShareController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        <state relative-caret-position="400">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/OrderController.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="1625">
+          <caret line="65" column="98" selection-start-line="65" selection-start-column="98" selection-end-line="65" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DailyvisitController.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/vendor/yiisoft/yii2/base/BaseObject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        <state relative-caret-position="287">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/model/wxapp.mod.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/vendor/yiisoft/yii2/BaseYii.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="396" selection-start-line="396" selection-end-line="397" selection-end-column="153" />
+        <state relative-caret-position="282">
+          <caret line="296" selection-start-line="296" selection-end-line="296" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/models/OrderWarn.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="277" selection-start-line="277" selection-end-line="277" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/utils/SendMail.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1226">
-          <caret line="243" column="5" selection-start-line="243" selection-start-column="5" selection-end-line="243" selection-end-column="5" />
+        <state relative-caret-position="2275">
+          <caret line="216" selection-start-line="216" selection-end-line="216" />
+          <folding>
+            <element signature="e#134#188#0#PHP" expanded="true" />
+            <element signature="e#1877#1989#0#PHP" />
+            <element signature="e#1998#2113#0#PHP" />
+            <element signature="e#2122#2234#0#PHP" />
+            <element signature="e#2251#2692#0#PHP" />
+            <element signature="e#2274#2691#0#PHP" />
+            <element signature="e#2717#3408#0#PHP" />
+            <element signature="e#3425#4021#0#PHP" />
+            <element signature="e#4038#4360#0#PHP" />
+            <element signature="e#4366#5387#0#PHP" />
+            <element signature="e#5406#6415#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/DailyvisiController.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/vendor/luweiss/wechat/src/Pay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="3675">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/utils/SendMail.php" />
-    <entry file="file://$PROJECT_DIR$/auto_run.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/utils/Refund.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="78" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="78" />
+        <state relative-caret-position="525">
+          <caret line="39" column="35" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/OrderRevokeForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1879">
-          <caret line="432" column="1" lean-forward="true" selection-start-line="432" selection-start-column="1" selection-end-line="432" selection-end-column="1" />
+        <state relative-caret-position="2475">
+          <caret line="115" column="29" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
+          <folding>
+            <element signature="e#128#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/source/entry/site.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/class/account.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="1786" column="59" lean-forward="true" selection-start-line="1786" selection-start-column="59" selection-end-line="1786" selection-end-column="59" />
+        <state relative-caret-position="841">
+          <caret line="2532" column="30" selection-start-line="2532" selection-start-column="30" selection-end-line="2532" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/source/home/welcome.ctrl.php">
+    <entry file="file://$PROJECT_DIR$/framework/library/phpexcel/PHPExcel/Writer/HTML.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="841">
+          <caret line="933" column="17" selection-start-line="933" selection-start-column="17" selection-end-line="933" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/permission/Menu.php">
+    <entry file="file://$PROJECT_DIR$/framework/class/oauth2/oauth2client.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="415">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/admin/models/AdminMenu.php">
+    <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2050">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="35" />
+        <state relative-caret-position="2125">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#6#169#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/HandleController.php">
+    <entry file="file://$PROJECT_DIR$/framework/class/oauth2/system.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="1000">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/junsion_winaward/manifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" lean-forward="true" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/reply.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="31" selection-end-line="1" selection-end-column="1364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/serialize.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="1" column="1859" selection-end-line="1" selection-end-column="11099" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/junsion_winaward/site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="1" column="1736" selection-end-line="8" selection-end-column="9292" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/junsion_winaward/site_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="1" column="1972" selection-end-line="1" selection-end-column="236865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/index_menu.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="1" column="2237" selection-end-line="4" selection-end-column="18327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/manifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="336" column="66" selection-start-line="336" selection-start-column="66" selection-end-line="336" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/article.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/template/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/ziyuan/webpubarticle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="103" column="44" lean-forward="true" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/common/common.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="779" lean-forward="true" selection-start-line="779" selection-end-line="779" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="734" selection-start-line="1" selection-start-column="734" selection-end-line="1" selection-end-column="734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php.old">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5325">
+          <caret line="213" column="30" selection-start-line="213" selection-start-column="30" selection-end-line="213" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/notify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="3069" selection-start-line="1" selection-start-column="3069" selection-end-line="1" selection-end-column="3069" />
         </state>
       </provider>
     </entry>

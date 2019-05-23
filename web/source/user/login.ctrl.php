@@ -54,6 +54,7 @@ function _login($forward = '') {
 		itoast($member['message'], url('user/login'), '');
 	}
 	$record = user_single($member);
+
 	if (!empty($record)) {
 		if ($record['status'] == USER_STATUS_CHECK || $record['status'] == USER_STATUS_BAN) {
 			itoast('您的账号正在审核或是已经被系统禁止，请联系网站管理员解决?', url('user/login'), '');
