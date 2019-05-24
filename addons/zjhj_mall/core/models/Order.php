@@ -303,7 +303,7 @@ class Order extends \yii\db\ActiveRecord
     }
 
     public function beforeSave($insert)
-    {发送商家入驻提示
+    {
         $this->content = \yii\helpers\Html::encode($this->content);
         return parent::beforeSave($insert);
     }

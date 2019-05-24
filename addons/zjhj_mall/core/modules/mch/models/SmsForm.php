@@ -26,15 +26,12 @@ class SmsForm extends MchModel
     public $mobile;
     public $refund;
     public $code;
-    public $apply;
-    public $complete;
-    public $reservation;
 
     public function rules()
     {
         return [
             [['AccessKeyId','AccessKeySecret','name','sign','tpl','status','mobile'],'required','on'=>'SUCCESS'],
-            [['AccessKeyId','AccessKeySecret','name','sign','tpl','status','mobile','msg','refund','code','apply','complete','reservation'],'trim'],
+            [['AccessKeyId','AccessKeySecret','name','sign','tpl','status','mobile','msg','refund','code'],'trim'],
             [['msg',],'string'],
             [['status'],'in','range'=>[0,1]],
         ];
@@ -55,8 +52,6 @@ class SmsForm extends MchModel
     }
     public function save()
     {
-
-
         if ($this->validate()) {
             if ($this->sms->isNewRecord) {
                 $this->sms->is_delete = 0;
@@ -72,23 +67,6 @@ class SmsForm extends MchModel
                 $this->code[$k] = trim($v);
             }
             $this->sms->tpl_code = \Yii::$app->serializer->encode($this->code);
-
-
-            foreach ($this->apply as $k => $v) {
-                $this->apply[$k] = trim($v);
-            }
-            $this->sms->tpl_apply = \Yii::$app->serializer->encode($this->apply);
-
-            foreach ($this->complete as $k => $v) {
-                $this->complete[$k] = trim($v);
-            }
-            $this->sms->tpl_complete = \Yii::$app->serializer->encode($this->complete);
-
-
-            foreach ($this->reservation as $k => $v) {
-                $this->reservation[$k] = trim($v);
-            }
-            $this->sms->tpl_reservation = \Yii::$app->serializer->encode($this->reservation);
 
             if ($this->sms->save()) {
                 return [

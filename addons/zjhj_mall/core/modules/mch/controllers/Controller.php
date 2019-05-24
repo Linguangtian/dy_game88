@@ -128,11 +128,6 @@ class Controller extends \app\controllers\Controller
                     $this->we7_user_auth = $all_permission;
                 } else {
                     $we7_default_all_permission = Option::get('we7_default_all_permission');
-					 if(!$we7_default_all_permission){
-                        $sql='select role from ims_uni_account_users where uid='.$_SESSION['we7_user']['uid']. ' and uniacid='.$_SESSION['we7_account']['uniacid'];
-                        $role=Yii::$app->db->createCommand($sql)->queryScalar();
-                        if($role=='owner'||$role=='vice_founder')$we7_default_all_permission=1;
-                       }
                     $this->we7_user_auth = $we7_default_all_permission ? $all_permission : [];
                 }
             } else {
@@ -187,7 +182,7 @@ class Controller extends \app\controllers\Controller
     {
         $cacheKey = $this->getMenuCacheKey();
         if ($res = Yii::$app->getCache()->get($cacheKey)) {
-      //      return $res;
+            return $res;
         }
 
         $m = new MchMenu();
@@ -207,6 +202,7 @@ class Controller extends \app\controllers\Controller
         $m->is_admin = $this->is_admin;
         $res = $m->getList();
         Yii::$app->getCache()->set($cacheKey, $res, 3600);
+
         return $res;
     }
 

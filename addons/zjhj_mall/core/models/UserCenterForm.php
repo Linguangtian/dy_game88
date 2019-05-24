@@ -156,6 +156,18 @@ class UserCenterForm extends Model
                     'url' => '/pages/pt/order/order',
                     'tel' => '',
                 ],
+
+                [
+                    'sign' => 'xiaofeigu',
+                    'id' => 'xiaofeigu',
+                    'name' => '消费股',
+                    'icon' => \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/statics/images/user-center/icon-user-pt.png',
+                    'open_type' => 'navigator',
+                    'url' => '/pages/xiaofeigu/order',
+                    'tel' => '',
+                ],
+
+
                 [
                     'sign' => 'book',
                     'id' => 'yuyue',
@@ -360,7 +372,7 @@ class UserCenterForm extends Model
         $store = \Yii::$app->controller->store;
         $we7Uid = $this->getCurrentWe7Uid();
         $userAuth = StorePermission::getOpenPermissionList($store, $we7Uid);
-
+        $userAuth[]='xiaofeigu';
         $newData = [];
         foreach ($data['menus'] as $k => $item) {
             if (isset($item['sign']) == false || in_array($item['sign'], $userAuth) == true) {

@@ -9,7 +9,6 @@
 namespace app\modules\mch\models\mch;
 
 use app\models\Mch;
-use app\models\MchCash;
 use app\models\User;
 use app\modules\mch\models\MchModel;
 use yii\data\Pagination;
@@ -38,16 +37,6 @@ class MchListForm extends MchModel
         if (!$this->validate()) {
             return $this->errorResponse;
         }
-
-
-      /*  $query = Mch::find()->alias('m')->leftJoin(['u' => User::tableName()], 'm.user_id=u.id')
-            ->leftJoin(['mc' => mchcash::find()->where(['store_id'=>$this->store_id,'status'=>1])->select('mch_id,sum(money)')->groupBy(['mch_id'])->asArray()->all()], 'mc.mch_id=m.id')
-            ->where([
-                'm.is_delete' => 0,
-                'm.store_id' => $this->store_id,
-            ]);*/
-
-
         $query = Mch::find()->alias('m')->leftJoin(['u' => User::tableName()], 'm.user_id=u.id')
             ->where([
                 'm.is_delete' => 0,

@@ -18,7 +18,7 @@ class Menu
                 'name' => '系统管理',
                 'is_menu' => true,
                 'route' => '',
-                'icon' => 'icon-setup1',
+                'icon' => 'icon-setup',
                 'children' => [
                     [
                         'name' => '商城设置',
@@ -152,7 +152,7 @@ class Menu
                 'name' => '小程序管理',
                 'is_menu' => true,
                 'route' => '',
-                'icon' => 'icon-xiaochengxus',
+                'icon' => 'icon-xiaochengxu3',
                 'children' => [
                     [
                         'name' => '微信小程序',
@@ -326,7 +326,7 @@ class Menu
                 'name' => '商品管理',
                 'is_menu' => true,
                 'route' => 'mch/goods/goods',
-                'icon' => 'icon-services',
+                'icon' => 'icon-service',
                 'children' => [
                     [
                         'name' => '商品管理',
@@ -383,7 +383,7 @@ class Menu
                 'name' => '订单管理',
                 'is_menu' => true,
                 'route' => 'mch/order/index',
-                'icon' => 'icon-activitys',
+                'icon' => 'icon-activity',
                 'children' => [
                     [
                         'name' => '订单列表',
@@ -483,7 +483,7 @@ class Menu
                 'name' => '用户管理',
                 'is_menu' => true,
                 'route' => 'mch/user/index',
-                'icon' => 'icon-peoples',
+                'icon' => 'icon-people',
                 'children' => [
                     [
                         'name' => '用户列表',
@@ -592,118 +592,11 @@ class Menu
                 ],
             ],
             [
-                'key' => 'mch',
-                'name' => '商户管理',
-                'is_menu' => true,
-                'route' => 'mch/mch/index/index',
-                 'icon' => 'icon-shanghus',
-                'children' => [
-                    [
-                        'name' => '商户列表',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/index',
-                        'sub' => [
-                            [
-                                'name' => '商户列表编辑',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/index/edit',
-                            ],
-                            [
-                                'name' => '商户列表添加',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/index/add',
-                            ],
-                            [
-                                'name' => '商户设置',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/index/mch-setting',
-                            ],
-                        ],
-                    ],
-                    [
-                        'name' => '店铺账户',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/merchants-account',
-                        'sub' => [
-                            [
-                                'name' => '资金明细',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/index/mch-account-log',
-                            ],
-                        ],
-                    ],
-
-                    [
-                        'name' => '入驻审核',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/apply',
-                    ],
-                    [
-                        'name' => '所售类目',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/common-cat',
-                        'sub' => [
-                            [
-                                'name' => '类目编辑',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/index/common-cat-edit',
-                            ]
-                        ],
-                    ],
-                    [
-                        'name' => '提现管理',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/cash',
-                    ],
-                    [
-                        'name' => '商品列表',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/goods/goods',
-                        'sub' => [
-                            [
-                                'name' => '商品详情',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/goods/detail'
-                            ]
-                        ]
-                    ],
-                    [
-                        'name' => '订单列表',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/order/index',
-                        'sub' => [
-                            [
-                                'name' => '订单详情',
-                                'is_menu' => false,
-                                'route' => 'mch/mch/order/detail'
-                            ],
-                        ]
-                    ],
-                    [
-                        'name' => '多商户设置',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/setting',
-                    ],
-                    [
-                        'name' => '销售报表',
-                        'is_menu' => true,
-                        'route' => 'mch/mch/index/report-forms',
-                    ]
-                ],
-                'sub' => [
-                    [
-                        'name' => '首页编辑',
-                        'is_menu' => false,
-                        'route' => 'mch/mch/index/edit',
-                    ],
-                ],
-            ],
-            [
                 'key' => 'share',
                 'name' => '分销中心',
                 'is_menu' => true,
                 'route' => 'mch/share/index',
-                'icon' => 'icon-jiegous',
+                'icon' => 'icon-jiegou',
                 'children' => [
                     [
                         'name' => '分销商',
@@ -793,7 +686,7 @@ class Menu
                 'name' => '内容管理',
                 'is_menu' => true,
                 'route' => 'mch/article/index',
-                'icon' => 'icon-barrages',
+                'icon' => 'icon-barrage',
                 'children' => [
                     [
                         'name' => '文章',
@@ -910,7 +803,7 @@ class Menu
                 'name' => '营销管理',
                 'is_menu' => true,
                 'route' => 'mch/coupon/index',
-                'icon' => 'icon-couponss',
+                'icon' => 'icon-coupons',
                 'children' => [
                     [
                         'key' => 'coupon',
@@ -1010,7 +903,7 @@ class Menu
                 'name' => '应用专区',
                 'is_menu' => true,
                 'route' => 'mch/miaosha/index',
-                'icon' => 'icon-pintu-ms',
+                'icon' => 'icon-pintu-m',
                 'children' => [
                     [
                         'key' => 'miaosha',
@@ -1224,18 +1117,18 @@ class Menu
                                 ],
                             ],
                             // 隐藏该菜单
-                            [
-                                'name' => '机器人管理',
-                                'is_menu' => true,
-                               'route' => 'mch/group/robot/index',
-                                'sub' => [
-                                   [
-                                        'name' => '机器人编辑',
-                                       'is_menu' => false,
-                                        'route' => 'mch/group/robot/edit'
-                                   ],
-                                ]
-                            ],
+//                            [
+//                                'name' => '机器人管理',
+//                                'is_menu' => true,
+//                                'route' => 'mch/group/robot/index',
+//                                'sub' => [
+//                                    [
+//                                        'name' => '机器人编辑',
+//                                        'is_menu' => false,
+//                                        'route' => 'mch/group/robot/edit'
+//                                    ],
+//                                ]
+//                            ],
                             [
                                 'name' => '轮播图',
                                 'is_menu' => true,
@@ -1355,8 +1248,100 @@ class Menu
                             ],
                         ],
                     ],
-                    // 隐藏该菜单
-
+                    [
+                        'key' => 'mch',
+                        'name' => '商户管理',
+                        'is_menu' => true,
+                        'route' => 'mch/mch/index/index',
+                        'icon' => 'icon-shanghu',
+                        'children' => [
+                            [
+                                'name' => '商户列表',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/index/index',
+                                'sub' => [
+                                    [
+                                        'name' => '商户列表编辑',
+                                        'is_menu' => false,
+                                        'route' => 'mch/mch/index/edit',
+                                    ],
+                                    [
+                                        'name' => '商户列表添加',
+                                        'is_menu' => false,
+                                        'route' => 'mch/mch/index/add',
+                                    ],
+                                    [
+                                        'name' => '商户设置',
+                                        'is_menu' => false,
+                                        'route' => 'mch/mch/index/mch-setting',
+                                    ],
+                                ],
+                            ],
+                            [
+                                'name' => '入驻审核',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/index/apply',
+                            ],
+                            [
+                                'name' => '所售类目',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/index/common-cat',
+                                'sub' => [
+                                    [
+                                        'name' => '类目编辑',
+                                        'is_menu' => false,
+                                        'route' => 'mch/mch/index/common-cat-edit',
+                                    ]
+                                ],
+                            ],
+                            [
+                                'name' => '提现管理',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/index/cash',
+                            ],
+                            [
+                                'name' => '商品列表',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/goods/goods',
+                                'sub' => [
+                                    [
+                                        'name' => '商品详情',
+                                        'is_menu' => false,
+                                        'route' => 'mch/mch/goods/detail'
+                                    ]
+                                ]
+                            ],
+                            [
+                                'name' => '订单列表',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/order/index',
+                                'sub' => [
+                                    [
+                                        'name' => '订单详情',
+                                        'is_menu' => false,
+                                        'route' => 'mch/mch/order/detail'
+                                    ],
+                                ]
+                            ],
+                            [
+                                'name' => '多商户设置',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/index/setting',
+                            ],
+                            [
+                                'name' => '销售报表',
+                                'is_menu' => true,
+                                'route' => 'mch/mch/index/report-forms',
+                            ]
+                        ],
+                        'sub' => [
+                            [
+                                'name' => '首页编辑',
+                                'is_menu' => false,
+                                'route' => 'mch/mch/index/edit',
+                            ],
+                        ],
+                    ],
 
                     [
                         'key' => 'integralmall',
@@ -1638,7 +1623,7 @@ class Menu
             [
                 'name' => '教程管理',
                 'is_menu' => true,
-                'icon' => 'icon-iconxuexis',
+                'icon' => 'icon-iconxuexi',
                 'route' => 'mch/handle/index',
                 'children' => [
                     [
@@ -1658,7 +1643,7 @@ class Menu
                 'key' => 'permission',
                 'name' => '操作员管理',
                 'is_menu' => true,
-                'icon' => 'icon-settingss',
+                'icon' => 'icon-settings',
                 'route' => '',
                 'children' => [
                     [
@@ -1741,7 +1726,7 @@ class Menu
             [
                 'name' => '系统工具',
                 'is_menu' => true,
-                'icon' => 'icon-xitonggongjus',
+                'icon' => 'icon-xitonggongju',
                 'route' => '',
                 'children' => [
                     [
@@ -1794,7 +1779,7 @@ class Menu
             [
                 'name' => '数据统计',
                 'is_menu' => true,
-                'icon' => 'icon-tongjis',
+                'icon' => 'icon-tongji',
                 'route' => 'mch/statistic/index'
             ],
         ];

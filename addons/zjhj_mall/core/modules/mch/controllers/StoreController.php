@@ -91,7 +91,7 @@ class StoreController extends Controller
     }
     /**
      * 插件统计
-     *
+     * 
      */
     public function actionStats()
     {
@@ -103,7 +103,7 @@ class StoreController extends Controller
             $form->name = \Yii::$app->request->get('name');
             $store_data = $form->search();
             return $store_data;
-        } else {
+         } else {
             return $this->render('index', [
                 'store' => $this->store,
             ]);
@@ -112,9 +112,9 @@ class StoreController extends Controller
 
 
     /**
-     *  小程序数据分析
+     *  小程序数据分析 
      */
-
+    
     public function actionAnalytics()
     {
         if (\Yii::$app->request->isPost) {
@@ -138,7 +138,7 @@ class StoreController extends Controller
                 'data'=> $data,
             ];
         }
-
+    
         $timestamp = time();
         //day
         $day = [
@@ -174,37 +174,37 @@ class StoreController extends Controller
 
 
         $data = [
-            'dailyretaininfo' => $this->checkAnalysis(0,$day),
-            'lastdailyretaininfo' => $this->checkAnalysis(0,$lastday),
-            'weeklyretaininfo' => $this->checkAnalysis(1,$week),
-            'lastweeklyretaininfo' => $this->checkAnalysis(1,$lastweek),
-            'monthlyretaininfo' => $this->checkAnalysis(2,$month),
-            'lastmonthlyretaininfo' => $this->checkAnalysis(2,$lastmonth),
-            'dailyvisittrend' => $this->checkAnalysis(3,$day),
-            'lastdailyvisittrend' => $this->checkAnalysis(3,$lastday),
-            'weeklyvisittrend' => $this->checkAnalysis(4,$week),
-            'lastweeklyvisittrend' => $this->checkAnalysis(4,$lastweek),
-            'monthlyvisittrend' => $this->checkAnalysis(5,$month),
-            'lastmonthlyvisittrend' => $this->checkAnalysis(5,$lastmonth),
+                'dailyretaininfo' => $this->checkAnalysis(0,$day),
+                'lastdailyretaininfo' => $this->checkAnalysis(0,$lastday),
+                'weeklyretaininfo' => $this->checkAnalysis(1,$week),
+                'lastweeklyretaininfo' => $this->checkAnalysis(1,$lastweek),
+                'monthlyretaininfo' => $this->checkAnalysis(2,$month),
+                'lastmonthlyretaininfo' => $this->checkAnalysis(2,$lastmonth),
+                'dailyvisittrend' => $this->checkAnalysis(3,$day),
+                'lastdailyvisittrend' => $this->checkAnalysis(3,$lastday),
+                'weeklyvisittrend' => $this->checkAnalysis(4,$week),
+                'lastweeklyvisittrend' => $this->checkAnalysis(4,$lastweek),
+                'monthlyvisittrend' => $this->checkAnalysis(5,$month),
+                'lastmonthlyvisittrend' => $this->checkAnalysis(5,$lastmonth),
 
-            // 'userportraitone'=>$this->checkAnalysis(6,$day),
-            // 'userportraitseven'=>$this->checkAnalysis(6,$sevenDay),
-            // 'userportraitthirty'=>$this->checkAnalysis(6,$thirtyDay),
-            // 'visitdistribution'=>$this->checkAnalysis(7,$day),
+                // 'userportraitone'=>$this->checkAnalysis(6,$day),
+                // 'userportraitseven'=>$this->checkAnalysis(6,$sevenDay),
+                // 'userportraitthirty'=>$this->checkAnalysis(6,$thirtyDay),
+                // 'visitdistribution'=>$this->checkAnalysis(7,$day),
 
-            'dailysummarytrend'=>$this->checkAnalysis(8,$day),
-            'lastsummarytrend'=>$this->checkAnalysis(8,$lastday),
+                'dailysummarytrend'=>$this->checkAnalysis(8,$day),
+                'lastsummarytrend'=>$this->checkAnalysis(8,$lastday),
 
-            // 'thirdretaininfo' => $this->checkAnalysis(0,$thirdDay),
-            // 'thirdvisittrend' => $this->checkAnalysis(3,$thirdDay),
-            // 'fourthretaininfo' => $this->checkAnalysis(0,$fourthDay),
-            // 'fourthvisittrend' => $this->checkAnalysis(3,$fourthDay),
-            // 'fifthretaininfo' => $this->checkAnalysis(0,$fifthDay),
-            // 'fifthvisittrend' => $this->checkAnalysis(3,$fifthDay),
-            // 'sixthretaininfo' => $this->checkAnalysis(0,$sixthDay),
-            // 'sixthvisittrend' => $this->checkAnalysis(3,$sixthDay),
-            // 'seventhretaininfo' => $this->checkAnalysis(0,$seventhDay),
-            // 'seventhvisittrend' => $this->checkAnalysis(3,$seventhDay),
+                // 'thirdretaininfo' => $this->checkAnalysis(0,$thirdDay),
+                // 'thirdvisittrend' => $this->checkAnalysis(3,$thirdDay),
+                // 'fourthretaininfo' => $this->checkAnalysis(0,$fourthDay),
+                // 'fourthvisittrend' => $this->checkAnalysis(3,$fourthDay),
+                // 'fifthretaininfo' => $this->checkAnalysis(0,$fifthDay),
+                // 'fifthvisittrend' => $this->checkAnalysis(3,$fifthDay),
+                // 'sixthretaininfo' => $this->checkAnalysis(0,$sixthDay),
+                // 'sixthvisittrend' => $this->checkAnalysis(3,$sixthDay),
+                // 'seventhretaininfo' => $this->checkAnalysis(0,$seventhDay),
+                // 'seventhvisittrend' => $this->checkAnalysis(3,$seventhDay),               
         ];
         return [
             'code'=> 0,
@@ -268,16 +268,16 @@ class StoreController extends Controller
         ];
 
         $data = [
-            'thirdretaininfo' => $this->checkAnalysis(0,$thirdDay),
-            'thirdvisittrend' => $this->checkAnalysis(3,$thirdDay),
-            'fourthretaininfo' => $this->checkAnalysis(0,$fourthDay),
-            'fourthvisittrend' => $this->checkAnalysis(3,$fourthDay),
-            'fifthretaininfo' => $this->checkAnalysis(0,$fifthDay),
-            'fifthvisittrend' => $this->checkAnalysis(3,$fifthDay),
-            'sixthretaininfo' => $this->checkAnalysis(0,$sixthDay),
-            'sixthvisittrend' => $this->checkAnalysis(3,$sixthDay),
-            'seventhretaininfo' => $this->checkAnalysis(0,$seventhDay),
-            'seventhvisittrend' => $this->checkAnalysis(3,$seventhDay),
+                'thirdretaininfo' => $this->checkAnalysis(0,$thirdDay),
+                'thirdvisittrend' => $this->checkAnalysis(3,$thirdDay),
+                'fourthretaininfo' => $this->checkAnalysis(0,$fourthDay),
+                'fourthvisittrend' => $this->checkAnalysis(3,$fourthDay),
+                'fifthretaininfo' => $this->checkAnalysis(0,$fifthDay),
+                'fifthvisittrend' => $this->checkAnalysis(3,$fifthDay),
+                'sixthretaininfo' => $this->checkAnalysis(0,$sixthDay),
+                'sixthvisittrend' => $this->checkAnalysis(3,$sixthDay),
+                'seventhretaininfo' => $this->checkAnalysis(0,$seventhDay),
+                'seventhvisittrend' => $this->checkAnalysis(3,$seventhDay),               
         ];
         return [
             'code'=> 0,
@@ -875,7 +875,7 @@ class StoreController extends Controller
         ]);
         if(!empty($form)){
             if($post['status']!==null){
-                $form->is_hide = $post['status'];
+                $form->is_hide = $post['status']; 
             }
             if($form->save()){
                 return [
@@ -886,7 +886,7 @@ class StoreController extends Controller
                 return (new Model())->getErrorResponse($form);
             }
         }
-
+  
     }
 
     /**
@@ -915,7 +915,6 @@ class StoreController extends Controller
      */
     public function actionSms()
     {
-
         $form = new SmsForm();
         $list = SmsSetting::findOne(['store_id' => $this->store->id, 'is_delete' => 0]);
         if (!$list) {
@@ -939,18 +938,6 @@ class StoreController extends Controller
         if ($list->tpl_code) {
             $code = json_decode($list->tpl_code, true);
         }
-        $apply=[];
-        if ($list->tpl_apply) {
-            $apply = json_decode($list->tpl_apply, true);
-        }
-        $reservation=[];
-        if ($list->tpl_reservation) {
-            $reservation = json_decode($list->tpl_reservation, true);
-        }
-        $complete=[];
-        if ($list->tpl_complete) {
-            $complete = json_decode($list->tpl_complete, true);
-        }
         foreach ($list as $index => $value) {
             if (in_array($index, ['tpl_refund', 'tpl_code'])) {
                 continue;
@@ -963,23 +950,10 @@ class StoreController extends Controller
         foreach ($code as $index => $value) {
             $code[$index] = str_replace("\"", "&quot;", $value);
         }
-
-        foreach ($apply as $index => $value) {
-            $apply[$index] = str_replace("\"", "&quot;", $value);
-        }
-        foreach ($reservation as $index => $value) {
-            $reservation[$index] = str_replace("\"", "&quot;", $value);
-        }
-        foreach ($complete as $index => $value) {
-            $complete[$index] = str_replace("\"", "&quot;", $value);
-        }
         return $this->render('sms', [
             'sms' => $list,
             'refund' => $refund,
             'code' => $code,
-            'apply' => $apply,
-            'complete' => $complete,
-            'reservation' => $reservation,
         ]);
     }
 

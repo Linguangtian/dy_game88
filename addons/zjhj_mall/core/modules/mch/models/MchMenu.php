@@ -43,11 +43,7 @@ class MchMenu
         $list = $permissionsMenu->getPermissionMenu();
 
         $menuList = array_merge($menuList, $this->getMenuList($list, $permissions));
-
-        /*去除其他管理员账号无权限营销工具*/
-     //   $menuList = $this->resetList($menuList);
-
-
+        $menuList = $this->resetList($menuList);
         $menuList = $this->deleteEmptyList($menuList);
 
         return $menuList;
