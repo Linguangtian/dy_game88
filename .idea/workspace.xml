@@ -2,27 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf23a21-23aa-46de-ac96-ac388736d9a3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/OrderController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/OrderConfirmForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/OrderConfirmForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/ShareQrcodeForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/ShareQrcodeForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/book/OrderClerkForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/book/OrderClerkForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/group/OrderConfirmForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/group/OrderConfirmForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/integralmall/OrderSubmitPreviewForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/integralmall/OrderSubmitPreviewForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/miaosha/OrderConfirmForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/miaosha/OrderConfirmForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/models/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/models/UserCenterForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/models/UserCenterForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/StoreController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/permission/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/permission/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/StoreSettingForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/StoreSettingForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/user/integral/IndexRechargeForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/user/integral/IndexRechargeForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/store/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/store/setting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/user/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/patch/wdcp.json" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/patch/wdcp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/63/6335d5673bce47a082bb405dae31a10a.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/63/6335d5673bce47a082bb405dae31a10a.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/f1/5b30336337313234346632303331363838333833656664376137363563633265345d5b315d.doctrinecache.data" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/f1/5b30336337313234346632303331363838333833656664376137363563633265345d5b315d.doctrinecache.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/model/user.mod.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/model/user.mod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/ExportList.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/ExportList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/MchMenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/MchMenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/OrderListForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/OrderListForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/SmsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/SmsForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/mch/MchListForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/mch/MchListForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/mch/MchSettingForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/mch/MchSettingForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/mch/OrderListForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/mch/OrderListForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/40/4027253d9dce6409f49660d152a995fd.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/40/4027253d9dce6409f49660d152a995fd.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/98/9881a82d73871194e4f79b0e98482a23.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/98/9881a82d73871194e4f79b0e98482a23.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/da/da72ebd6ebd8283d282ca2ce9aa4f75d.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/da/da72ebd6ebd8283d282ca2ce9aa4f75d.bin" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +53,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="425">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -264,15 +260,15 @@
       <workItem from="1558574424489" duration="26000" />
       <workItem from="1558596947595" duration="1638000" />
       <workItem from="1559208027374" duration="263000" />
-      <workItem from="1560145638468" duration="68000" />
+      <workItem from="1560145638468" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54542000" />
+    <option name="totallyTimeSpent" value="54783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="311" width="1593" height="1018" extended-state="0" />
+    <frame x="93" y="96" width="1593" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499391" weight="0.24200913" />
@@ -363,7 +359,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/OrderController.php</url>
-          <line>216</line>
+          <line>217</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -733,8 +729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="425">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>

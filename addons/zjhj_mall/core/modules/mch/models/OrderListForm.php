@@ -68,11 +68,12 @@ class OrderListForm extends MchModel
             return $this->errorResponse;
         }
         $query = Order::find()->alias('o')->where([
-            'o.store_id' =>3,
+            'o.store_id' => $this->store_id,
             'o.mch_id' => 0
         ])->leftJoin(['u' => User::tableName()], 'u.id = o.user_id')
             ->leftJoin(['od' => OrderDetail::tableName()], 'od.order_id=o.id')
             ->leftJoin(['g' => Goods::tableName()], 'g.id=od.goods_id')->groupBy('o.id');
+
         switch ($this->status) {
             case 0:
                 $query->andWhere(['o.is_pay' => 0]);

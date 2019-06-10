@@ -212,6 +212,7 @@ class OrderController extends Controller
                 'msg' => '订单不存在，请刷新页面后重试',
             ];
         }
+
         if ($status == 1) { //同意
             $form = new OrderRevokeForm();
             $form->order_id = $order->id;
@@ -219,6 +220,7 @@ class OrderController extends Controller
             $form->user_id = $order->user_id;
             $form->store_id = $order->store_id;
             $res = $form->save();
+
             if ($res['code'] == 0) {
                 return [
                     'code' => 0,
