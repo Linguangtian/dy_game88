@@ -48,6 +48,7 @@ class ShareQrcodeForm extends ApiModel
             return $this->errorResponse;
         }
         $this->user_id = $this->user ? $this->user->id : ($this->user_id ? $this->user_id : 0);
+
         if ($this->type == 0) {
             return $this->goods_qrcode();
         } elseif ($this->type == 1) {
@@ -1016,11 +1017,15 @@ class ShareQrcodeForm extends ApiModel
 
         $goods_pic_url = $goods->qrcode_pic ? $goods->qrcode_pic : $goods->cover_pic;
 
+      //  $goods_pic_url = str_replace('http://', 'https://', $goods_pic_url);
+
         $goods_pic_save_path = \Yii::$app->basePath . '/web/temp/';
         $version = hj_core_version();
         $goods_pic_save_name = md5("v={$version}&goods_id={$goods->id}&goods_name={$goods->title}&store_name={$store->name}&user_id={$this->user_id}&goods_pic_url={$goods_pic_url}&type=0") . '.jpg';
 
         $pic_url = str_replace('http://', 'https://', \Yii::$app->request->hostInfo . \Yii::$app->request->baseUrl . '/temp/' . $goods_pic_save_name);
+
+
         if (file_exists($goods_pic_save_path . $goods_pic_save_name)) {
             return [
                 'code' => 0,
@@ -1288,6 +1293,7 @@ class ShareQrcodeForm extends ApiModel
     //获取网络图片到临时目录
     private function saveTempImage($url)
     {
+
         $wdcp_patch = false;
         $wdcp_patch_file = \Yii::$app->basePath . '/patch/wdcp.json';
         if (file_exists($wdcp_patch_file)) {

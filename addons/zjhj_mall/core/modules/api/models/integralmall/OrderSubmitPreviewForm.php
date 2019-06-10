@@ -27,6 +27,7 @@ use app\models\Mch;
 use app\utils\Sms;
 use app\models\Register;
 use Alipay\AlipayRequestFactory;
+use app\utils\AddXiaofeiguLog;
 
 class OrderSubmitPreviewForm extends ApiModel
 {
@@ -759,6 +760,22 @@ class OrderSubmitPreviewForm extends ApiModel
         $order->is_confirm = 1;
         $order->confirm_time = time();
         if ($order->save()) {
+
+            $setting =   Store::findOne($this->store_id);
+            if($setting->open_xiaofeigu==1&&$setting->xiaofeigu_proportion>0) {
+                $AddXiaofeiguLog = new AddXiaofeiguLog($this->store_id, $this->user_id);
+                $arr = array();
+                $arr['change_type'] = 6;
+                $arr['shore_desc'] = '积分商城订单[' . $order->order_no . ']';
+                $arr['change_desc'] = '积分商城订单[' . $order->order_no .']确认收货';
+                $arr['type'] = 1;
+                $arr['order_id'] = $this->order_id;
+                $arr['proportion'] = $setting->xiaofeigu_proportion;
+                $arr['amount'] = sprintf("%.2f",substr(sprintf("%.6f",$order->pay_price/$setting->xiaofeigu_proportion),0,-4));
+                $AddXiaofeiguLog->AddLog($arr);
+            }
+
+
             return [
                 'code' => 0,
                 'msg' => '已确认收货'

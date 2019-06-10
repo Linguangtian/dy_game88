@@ -9,6 +9,7 @@
 namespace app\modules\api\models;
 
 use app\utils\PinterOrder;
+use app\utils\AddXiaofeiguLog;
 use app\models\Level;
 use app\models\Order;
 use app\models\OrderDetail;
@@ -21,6 +22,7 @@ use app\models\Option;
 use app\models\Mch;
 use app\utils\SendMail;
 use app\utils\Sms;
+use app\models\Store;
 
 
 class OrderConfirmForm extends ApiModel
@@ -39,9 +41,13 @@ class OrderConfirmForm extends ApiModel
 
     public function save()
     {
+
+
+
         if (!$this->validate()) {
             return $this->errorResponse;
         }
+
         $order = Order::findOne([
             'store_id' => $this->store_id,
             'user_id' => $this->user_id,
@@ -49,6 +55,11 @@ class OrderConfirmForm extends ApiModel
             'is_send' => 1,
             'is_delete' => 0,
         ]);
+
+
+
+
+
         if (!$order) {
             return [
                 'code' => 1,
@@ -75,15 +86,28 @@ class OrderConfirmForm extends ApiModel
                 }
         */
 
+
+
+
+
+
+
         if ($order->save()) {
-           // $this->share_money($this->order_id);
-            $this->bond_free($this->order_id);
+            //增加消费股日志
+            $setting =   Store::findOne($this->store_id);
+            if($setting->open_xiaofeigu==1&&$setting->xiaofeigu_proportion>0) {
+                $AddXiaofeiguLog = new AddXiaofeiguLog($this->store_id, $this->user_id);
+                $arr = array();
+                $arr['change_type'] = 1;
+                $arr['shore_desc'] = '订单[' . $order->order_no . ']';
+                $arr['change_desc'] = '订单[' . $order->order_no . ']确认收货';
+                $arr['type'] = 1;
+                $arr['order_id'] = $this->order_id;
+                $arr['proportion'] = $setting->xiaofeigu_proportion;
+                $arr['amount'] = sprintf("%.2f",substr(sprintf("%.6f",$order->pay_price/$setting->xiaofeigu_proportion),0,-4));
+                $AddXiaofeiguLog->AddLog($arr);
 
-            $mail = new SendMail($this->store_id,$this->order_id,0,$this->user_id);
-            $mail->SendMailConfirm();
-
-            //发送短信通知
-            Sms::sendSms($this->store_id,$this->user_id,'tpl_complete');
+            }
 
 
             $printer_order = new PinterOrder($this->store_id, $order->id, 'confirm', 0);

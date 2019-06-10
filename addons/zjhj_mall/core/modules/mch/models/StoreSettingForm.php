@@ -76,6 +76,8 @@ class StoreSettingForm extends MchModel
     public $logo;
     public $quick_map;
     public $is_official_account;
+    public $xiaofeigu_proportion;
+    public $open_xiaofeigu;
 
     public function rules()
     {
@@ -83,10 +85,10 @@ class StoreSettingForm extends MchModel
             [['name', 'app_id', 'app_secret', 'mch_id', 'key', 'order_send_tpl', 'contact_tel', 'copyright', 'copyright_pic_url', 'copyright_url', 'kdniao_mch_id', 'kdniao_api_key', 'address', 'cert_pem', 'key_pem', 'dial_pic', 'web_service', 'web_service_url', 'payment', 'wxapp', 'quick_navigation', 'good_negotiable', 'quick_map'], 'trim'],
             [['name', 'cat_goods_cols', 'integral',], 'required'],
             [['order_send_tpl', 'contact_tel', 'kdniao_mch_id', 'kdniao_api_key', 'address', 'service', 'integration', 'notice', 'web_service', 'web_service_url', 'logo'], 'string'],
-            [['show_customer_service', 'cat_style', 'cut_thread', 'purchase_frame', 'is_recommend', 'cat_goods_cols', 'is_offline', 'is_coupon', 'cat_goods_count', 'send_type', 'nav_count', 'dial', 'is_comment', 'is_sales', 'phone_auth', 'buy_member'], 'integer', 'max'=>99999999],
+            [['open_xiaofeigu','show_customer_service', 'cat_style', 'cut_thread', 'purchase_frame', 'is_recommend', 'cat_goods_cols', 'is_offline', 'is_coupon', 'cat_goods_count', 'send_type', 'nav_count', 'dial', 'is_comment', 'is_sales', 'phone_auth', 'buy_member'], 'integer', 'max'=>99999999],
             ['cat_goods_count', 'default', 'value' => 6],
             [['cat_goods_count', 'recommend_count', 'is_share_price', 'is_member_price', 'is_official_account'], 'integer', 'min' => 0, 'max' => 100],
-            [['cert_pem', 'key_pem'], 'default', 'value' => '0'],
+            [['cert_pem', 'key_pem','xiaofeigu_proportion'], 'default', 'value' => '0'],
             [['postage'], 'number', 'min' => -1],
             [['over_day'], 'number', 'min' => 0],
             [['delivery_time', 'after_sale_time', 'over_day',], 'integer', 'min' => 0,'max'=>200000000],
@@ -188,6 +190,8 @@ class StoreSettingForm extends MchModel
         $store->buy_member = $this->buy_member;
         $store->logo = $this->logo;
         $store->is_official_account = $this->is_official_account;
+        $store->xiaofeigu_proportion = $this->xiaofeigu_proportion;
+        $store->open_xiaofeigu = $this->open_xiaofeigu;
         $store->save();
 
 //        Option::set('service', $this->service, $this->store_id, 'admin');

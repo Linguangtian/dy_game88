@@ -15,7 +15,8 @@ use app\models\User;
 use app\models\UserShareMoney;
 use app\models\YyOrder;
 use app\modules\api\models\ApiModel;
-
+use app\utils\AddXiaofeiguLog;
+use app\models\Store;
 /**
  * Class OrderClerkForm
  * @package app\modules\api\models\book
@@ -60,6 +61,23 @@ class OrderClerkForm extends ApiModel
         $order->use_time = time();
 
         if ($order->save()) {
+
+            $setting =   Store::findOne($this->store_id);
+            if($setting->open_xiaofeigu==1&&$setting->xiaofeigu_proportion>0) {
+                $AddXiaofeiguLog = new AddXiaofeiguLog($this->store_id, $this->user_id);
+                $arr = array();
+                $arr['change_type'] = 5;
+                $arr['shore_desc'] = '预约订单[' . $order->order_no . ']';
+                $arr['change_desc'] = '预约订单[' . $order->order_no .']确认收货';
+                $arr['type'] = 1;
+                $arr['order_id'] = $this->order_id;
+                $arr['proportion'] = $setting->xiaofeigu_proportion;
+                $arr['amount'] = sprintf("%.2f",substr(sprintf("%.6f",$order->pay_price/$setting->xiaofeigu_proportion),0,-4));
+                $AddXiaofeiguLog->AddLog($arr);
+            }
+
+
+
             $this->share_money_1($order->id, 1);
             return [
                 'code' => 0,

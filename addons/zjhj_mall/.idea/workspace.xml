@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/core/modules/mch/controllers/UserController.php" line="583" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/core/modules/mch/models/user/xiaofeigu/indexXiaofeigulogForm.php" line="107" mnemonic="2" />
+    <bookmark url="file://$PROJECT_DIR$/core/modules/mch/views/user/index.php" line="216" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5a4050-adc5-4876-ade5-cf72e85d953a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,304 +19,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserCenterForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/models/UserCenterForm.php">
+      <file leaf-file-name="OrderConfirmForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/OrderController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="84" column="65" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderSubmitForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/api/models/order/OrderSubmitForm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1125">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="637">
+              <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
               <folding>
-                <element signature="e#212#240#0#PHP" expanded="true" />
+                <element signature="e#128#154#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderListForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/mch/models/OrderListForm.php">
+      <file leaf-file-name="AddXiaofeiguLog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/utils/AddXiaofeiguLog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="69" column="22" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding>
-                <element signature="e#128#180#0#PHP" expanded="true" />
+                <element signature="e#28#56#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Order.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/models/Order.php">
+      <file leaf-file-name="XiaofeiguLog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/models/XiaofeiguLog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="305" column="5" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+            <state relative-caret-position="573">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderSubmitPreviewForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/integralmall/OrderSubmitPreviewForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18725">
+              <caret line="773" column="88" selection-start-line="773" selection-start-column="88" selection-end-line="773" selection-end-column="88" />
               <folding>
-                <element signature="e#30#78#0#PHP" expanded="true" />
+                <element signature="e#132#152#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseYii.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/BaseYii.php">
+      <file leaf-file-name="OrderConfirmForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/miaosha/OrderConfirmForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7200">
-              <caret line="296" selection-start-line="296" selection-end-line="296" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StorePermission.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/models/StorePermission.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/StoreController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4225">
-              <caret line="1522" selection-start-line="1522" selection-end-line="1522" />
+            <state relative-caret-position="1925">
+              <caret line="90" column="88" selection-start-line="90" selection-start-column="88" selection-end-line="90" selection-end-column="88" />
               <folding>
-                <element signature="e#2300#2849#0#PHP" />
-                <element signature="e#2344#2843#0#PHP" />
-                <element signature="e#2673#2843#0#PHP" />
-                <element signature="e#2699#2832#0#PHP" />
-                <element signature="e#2722#2831#0#PHP" />
-                <element signature="e#2854#2884#0#PHP" />
-                <element signature="e#32893#33105#0#PHP" />
-                <element signature="e#32872#33106#0#PHP" />
-                <element signature="e#30784#33113#0#PHP" />
-                <element signature="e#33130#34399#0#PHP" />
-                <element signature="e#33177#34393#0#PHP" />
-                <element signature="e#33311#33904#0#PHP" />
-                <element signature="e#33665#33754#0#PHP" />
-                <element signature="e#33770#33904#0#PHP" />
-                <element signature="e#33800#33889#0#PHP" />
-                <element signature="e#33915#34393#0#PHP" />
-                <element signature="e#34083#34382#0#PHP" />
-                <element signature="e#34110#34381#0#PHP" />
-                <element signature="e#34419#34676#0#PHP" />
-                <element signature="e#34600#34669#0#PHP" />
-                <element signature="e#34628#34668#0#PHP" />
-                <element signature="e#34698#35368#0#PHP" />
-                <element signature="e#34769#34899#0#PHP" />
-                <element signature="e#34788#34898#1#PHP" />
-                <element signature="e#34909#34971#0#PHP" />
-                <element signature="e#34980#35362#0#PHP" />
-                <element signature="e#35241#35362#0#PHP" />
-                <element signature="e#35267#35351#0#PHP" />
-                <element signature="e#35300#35350#0#PHP" />
-                <element signature="e#35390#35777#0#PHP" />
-                <element signature="e#35463#35593#0#PHP" />
-                <element signature="e#35482#35592#1#PHP" />
-                <element signature="e#35603#35689#0#PHP" />
-                <element signature="e#35705#35770#0#PHP" />
-                <element signature="e#35794#36642#0#PHP" />
-                <element signature="e#35879#35972#0#PHP" />
-                <element signature="e#35901#35971#1#PHP" />
-                <element signature="e#35982#36047#0#PHP" />
-                <element signature="e#36056#36636#0#PHP" />
-                <element signature="e#36334#36636#0#PHP" />
-                <element signature="e#36550#36625#0#PHP" />
-                <element signature="e#36574#36624#0#PHP" />
-                <element signature="e#36648#36739#0#PHP" />
-                <element signature="e#36745#36792#0#PHP" />
-                <element signature="e#36797#38066#0#PHP" />
-                <element signature="e#37163#37224#0#PHP" />
-                <element signature="e#37233#37580#0#PHP" />
-                <element signature="e#37589#37705#0#PHP" />
-                <element signature="e#37714#37830#0#PHP" />
-                <element signature="e#37847#38059#0#PHP" />
-                <element signature="e#37872#38058#0#PHP" />
-                <element signature="e#38072#38117#0#PHP" />
-                <element signature="e#38122#39959#0#PHP" />
-                <element signature="e#38278#38337#0#PHP" />
-                <element signature="e#38563#38624#0#PHP" />
-                <element signature="e#38633#39722#0#PHP" />
-                <element signature="e#38960#39027#0#PHP" />
-                <element signature="e#39362#39431#0#PHP" />
-                <element signature="e#39444#39671#0#PHP" />
-                <element signature="e#39564#39671#0#PHP" />
-                <element signature="e#39739#39952#0#PHP" />
-                <element signature="e#39769#39951#0#PHP" />
-                <element signature="e#39965#40069#0#PHP" />
-                <element signature="e#40074#40606#0#PHP" />
-                <element signature="e#40198#40319#0#PHP" />
-                <element signature="e#40231#40308#0#PHP" />
-                <element signature="e#40358#40599#0#PHP" />
-                <element signature="e#40398#40473#0#PHP" />
-                <element signature="e#40485#40599#0#PHP" />
-                <element signature="e#40511#40588#0#PHP" />
-                <element signature="e#40612#41747#0#PHP" />
-                <element signature="e#40772#40879#0#PHP" />
-                <element signature="e#40890#40977#0#PHP" />
-                <element signature="e#40986#41096#0#PHP" />
-                <element signature="e#41114#41169#0#PHP" />
-                <element signature="e#41114#41186#0#PHP" />
-                <element signature="e#41114#41220#0#PHP" />
-                <element signature="e#41237#41327#0#PHP" />
-                <element signature="e#41336#41557#0#PHP" />
-                <element signature="e#41382#41546#0#PHP" />
-                <element signature="e#41475#41531#1#PHP" />
-                <element signature="e#41566#41741#0#PHP" />
-                <element signature="e#41647#41730#0#PHP" />
-                <element signature="e#41681#41729#0#PHP" />
-                <element signature="e#41753#42027#0#PHP" />
-                <element signature="e#41917#42020#0#PHP" />
-                <element signature="e#41940#42019#0#PHP" />
-                <element signature="e#42033#42685#0#PHP" />
-                <element signature="e#42139#42197#0#PHP" />
-                <element signature="e#42240#42469#0#PHP" />
-                <element signature="e#42478#42592#0#PHP" />
-                <element signature="e#42608#42678#0#PHP" />
-                <element signature="e#42636#42677#0#PHP" />
-                <element signature="e#42691#43312#0#PHP" />
-                <element signature="e#42814#42940#0#PHP" />
-                <element signature="e#42848#42929#0#PHP" />
-                <element signature="e#42980#43306#0#PHP" />
-                <element signature="e#43021#43096#0#PHP" />
-                <element signature="e#43108#43306#0#PHP" />
-                <element signature="e#43127#43296#0#PHP" />
-                <element signature="e#43188#43281#0#PHP" />
-                <element signature="e#43318#44403#0#PHP" />
-                <element signature="e#43437#43576#0#PHP" />
-                <element signature="e#43671#43749#0#PHP" />
-                <element signature="e#43903#44215#0#PHP" />
-                <element signature="e#43980#44147#0#PHP" />
-                <element signature="e#44030#44133#0#PHP" />
-                <element signature="e#44232#44396#0#PHP" />
-                <element signature="e#44254#44395#0#PHP" />
-                <element signature="e#44409#45231#0#PHP" />
-                <element signature="e#44561#44682#0#PHP" />
-                <element signature="e#44594#44671#0#PHP" />
-                <element signature="e#44813#44945#0#PHP" />
-                <element signature="e#44850#44934#0#PHP" />
-                <element signature="e#44984#45225#0#PHP" />
-                <element signature="e#45024#45099#0#PHP" />
-                <element signature="e#45111#45225#0#PHP" />
-                <element signature="e#45137#45214#0#PHP" />
-                <element signature="e#45237#46011#0#PHP" />
-                <element signature="e#45390#45445#0#PHP" />
-                <element signature="e#45454#45710#0#PHP" />
-                <element signature="e#45719#45920#0#PHP" />
-                <element signature="e#45769#45845#0#PHP" />
-                <element signature="e#45936#46004#0#PHP" />
-                <element signature="e#45963#46003#0#PHP" />
-                <element signature="e#46030#47356#0#PHP" />
-                <element signature="e#46196#46328#0#PHP" />
-                <element signature="e#46229#46317#0#PHP" />
-                <element signature="e#46337#47019#0#PHP" />
-                <element signature="e#46367#46535#0#PHP" />
-                <element signature="e#46420#46520#0#PHP" />
-                <element signature="e#46673#46775#0#PHP" />
-                <element signature="e#46786#47019#0#PHP" />
-                <element signature="e#46805#46974#0#PHP" />
-                <element signature="e#46858#46959#0#PHP" />
-                <element signature="e#47028#47350#0#PHP" />
-                <element signature="e#47068#47143#0#PHP" />
-                <element signature="e#47155#47350#0#PHP" />
-                <element signature="e#47174#47340#0#PHP" />
-                <element signature="e#47233#47325#0#PHP" />
-                <element signature="e#47373#49081#0#PHP" />
-                <element signature="e#47476#47670#0#PHP" />
-                <element signature="e#47536#47660#0#PHP" />
-                <element signature="e#47679#47908#0#PHP" />
-                <element signature="e#47917#48947#0#PHP" />
-                <element signature="e#48049#48271#0#PHP" />
-                <element signature="e#48110#48270#0#PHP" />
-                <element signature="e#48348#48508#0#PHP" />
-                <element signature="e#48523#48714#0#PHP" />
-                <element signature="e#48735#48936#0#PHP" />
-                <element signature="e#48792#48921#1#PHP" />
-                <element signature="e#48956#49075#0#PHP" />
-                <element signature="e#49103#49384#0#PHP" />
-                <element signature="e#49293#49377#0#PHP" />
-                <element signature="e#49401#50235#0#PHP" />
-                <element signature="e#49534#49596#0#PHP" />
-                <element signature="e#49605#50229#0#PHP" />
-                <element signature="e#49737#49823#0#PHP" />
-                <element signature="e#49988#50229#0#PHP" />
-                <element signature="e#50007#50127#0#PHP" />
-                <element signature="e#50147#50218#0#PHP" />
-                <element signature="e#50169#50217#0#PHP" />
-                <element signature="e#51386#52123#0#PHP" />
-                <element signature="e#51572#51828#0#PHP" />
-                <element signature="e#51844#52116#0#PHP" />
-                <element signature="e#51866#52115#0#PHP" />
-                <element signature="e#52143#52234#0#PHP" />
-                <element signature="e#52251#52642#0#PHP" />
-                <element signature="e#52508#52635#0#PHP" />
-                <element signature="e#52539#52634#0#PHP" />
-                <element signature="e#52661#53115#0#PHP" />
-                <element signature="e#52883#53006#0#PHP" />
-                <element signature="e#52920#53005#1#PHP" />
-                <element signature="e#53030#53108#0#PHP" />
-                <element signature="e#53065#53107#0#PHP" />
-                <element signature="e#53121#53661#0#PHP" />
-                <element signature="e#53209#53351#0#PHP" />
-                <element signature="e#53240#53350#1#PHP" />
-                <element signature="e#53361#53488#0#PHP" />
-                <element signature="e#53528#53655#0#PHP" />
-                <element signature="e#53569#53644#0#PHP" />
-                <element signature="e#53667#55051#0#PHP" />
-                <element signature="e#53746#53863#0#PHP" />
-                <element signature="e#53777#53862#1#PHP" />
-                <element signature="e#54028#54297#0#PHP" />
-                <element signature="e#54071#54287#0#PHP" />
-                <element signature="e#54121#54202#0#PHP" />
-                <element signature="e#54306#54380#0#PHP" />
-                <element signature="e#54389#54463#0#PHP" />
-                <element signature="e#54472#55045#0#PHP" />
-                <element signature="e#54765#55045#0#PHP" />
-                <element signature="e#54897#55034#0#PHP" />
-                <element signature="e#54937#55033#0#PHP" />
-                <element signature="e#55072#55829#0#PHP" />
-                <element signature="e#55163#55823#0#PHP" />
-                <element signature="e#55384#55823#0#PHP" />
-                <element signature="e#55494#55812#0#PHP" />
-                <element signature="e#55528#55811#0#PHP" />
-                <element signature="e#55835#55892#0#PHP" />
-                <element signature="e#55897#56133#0#PHP" />
-                <element signature="e#56139#56168#0#PHP" />
-                <element signature="e#56173#56484#0#PHP" />
-                <element signature="e#56490#56520#0#PHP" />
-                <element signature="e#56525#56773#0#PHP" />
-                <element signature="e#56779#56834#0#PHP" />
-                <element signature="e#56839#57070#0#PHP" />
-                <element signature="e#57076#57139#0#PHP" />
-                <element signature="e#57144#57387#0#PHP" />
-                <element signature="e#57393#57745#0#PHP" />
-                <element signature="e#57470#57643#0#PHP" />
+                <element signature="e#136#162#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/Application.php">
+      <file leaf-file-name="OrderConfirmForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/group/OrderConfirmForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9625">
-              <caret line="389" selection-start-line="389" selection-end-line="389" />
+            <state relative-caret-position="1525">
+              <caret line="73" column="88" selection-start-line="73" selection-start-column="88" selection-end-line="73" selection-end-column="88" />
+              <folding>
+                <element signature="e#134#160#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderClerkForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/api/models/book/OrderClerkForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1550">
+              <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+              <folding>
+                <element signature="e#135#156#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setting.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/modules/mch/views/store/setting.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8450">
+              <caret line="338" column="63" selection-start-line="338" selection-start-column="63" selection-end-line="338" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -320,86 +113,63 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>request</find>
-      <find>leftJoin</find>
-      <find>cash</find>
-      <find>无</find>
-      <find>reportforms</find>
-      <find>pagination</find>
-      <find>mc</find>
-      <find>qrcode</find>
-      <find>ShareQrcodeForm</find>
-      <find>goods_qrcode</find>
-      <find>$flag</find>
-      <find>fields</find>
-      <find>words</find>
-      <find>select</find>
-      <find>下单用户</find>
-      <find>OrderListForm</find>
-      <find>good_name</find>
-      <find>is_show</find>
-      <find>CJSON</find>
-      <find>name</find>
-      <find>integral</find>
-      <find>getUser</find>
-      <find>User</find>
-      <find>nickname</find>
-      <find>发送商家入驻提示</find>
-      <find>我的拼团</find>
-      <find>UserCen</find>
-      <find>getDefaultData</find>
-      <find>user</find>
-      <find>search</find>
+      <find>Store</find>
+      <find>Store::</find>
+      <find>Store::find</find>
+      <find>Setting</find>
+      <find>confirm</find>
+      <find>YyOrder</find>
+      <find>Bargain</find>
+      <find>砍价商品</find>
+      <find>show_customer_service</find>
+      <find>消费股操作</find>
+      <find>无关联订单</find>
+      <find>amount</find>
+      <find>alias('xfg')</find>
+      <find>XiaofeiguLog::</find>
+      <find>-&gt;select</find>
+      <find>pay_type</find>
+      <find>充值消费股</find>
+      <find>XiaofeiguLog</find>
+      <find>Xiaofeigulog</find>
+      <find>class Pagination</find>
+      <find>Pagination</find>
+      <find>IndexXiaofeigulogForm</find>
+      <find>xiao</find>
+      <find>消费股</find>
+      <find>AddXiaofeiguLog</find>
+      <find>topic</find>
+      <find>xiaofeigu_proportion</find>
+      <find>$setting-&gt;xiaofeigu_proportion</find>
+      <find>消费1元人民币可得？消费股</find>
+      <find>fprintf</find>
     </findStrings>
     <dirStrings>
       <dir>D:\game88\addons\zjhj_mall</dir>
+      <dir>E:\git\dy_game88\addons\zjhj_mall\core\modules\api</dir>
+      <dir>E:\git\dy_game88\addons\zjhj_mall\core\modules\api\controllers\bargain</dir>
+      <dir>E:\git\dy_game88\addons\zjhj_mall\</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/modules/api/models/OrderListForm.php" />
-        <option value="$PROJECT_DIR$/core/controllers/PayNotifyController.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/views/mch/index/edit.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/mch/ApplyForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/views/mch/index/setting.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/controllers/mch/ShopDataForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/controllers/TopicTypeController.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/TeamForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/order/OrderSubmitPreviewForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/order/OrderForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/controllers/mch/IndexController.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/mch/ShopDataForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/models/mch/MchSettingForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/controllers/TopicController.php" />
-        <option value="$PROJECT_DIR$/core/models/Test.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/controllers/TestController.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/models/SmsForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/views/store/sms.php" />
-        <option value="$PROJECT_DIR$/core/mail/setMail1.php" />
-        <option value="$PROJECT_DIR$/core/models/OrderWarn.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/mch/ApplySubmitForm.php" />
         <option value="$PROJECT_DIR$/core/mail/shopApply.php" />
         <option value="$PROJECT_DIR$/core/mail/setMail.php" />
         <option value="$PROJECT_DIR$/core/utils/Sms.php" />
         <option value="$PROJECT_DIR$/core/mail/orderConfirm.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php" />
         <option value="$PROJECT_DIR$/core/mail/setMailRefund.php" />
         <option value="$PROJECT_DIR$/core/utils/SendMail.php" />
         <option value="$PROJECT_DIR$/core/utils/PinterOrder.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/controllers/OrderController.php" />
         <option value="$PROJECT_DIR$/core/models/MchAccountLog.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/models/mch/GoodsDetailForm.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/views/mch/index/cash.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/controllers/permission/Menu.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/views/mch/index/mch-account-log.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/controllers/mch/IndexController.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/views/mch/index/merchants-account.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/models/mch/MchAccountLogForm.php" />
-        <option value="$PROJECT_DIR$/core/modules/mch/controllers/Controller.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/models/MchMenu.php" />
-        <option value="$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/models/mch/MchListForm.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/views/mch/order/index.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/models/mch/OrderListForm.php" />
@@ -409,6 +179,32 @@
         <option value="$PROJECT_DIR$/core/models/UserCenterForm.php" />
         <option value="$PROJECT_DIR$/core/modules/mch/models/OrderListForm.php" />
         <option value="$PROJECT_DIR$/core/models/Order.php" />
+        <option value="$PROJECT_DIR$/core/models/IntegralLog.php" />
+        <option value="$PROJECT_DIR$/core/models/xiaofeiguLog.php" />
+        <option value="$PROJECT_DIR$/core/modules/admin/models/Permissions.php" />
+        <option value="$PROJECT_DIR$/core/modules/admin/models/AdminMenu.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/controllers/permission/Menu.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/views/user/integral-rechange-list.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/models/user/integral/IndexRechargeForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/miaosha/OrderConfirmForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/controllers/MiaoshaController.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/group/OrderConfirmForm.php" />
+        <option value="$PROJECT_DIR$/core/utils/AddXiaofeiguLog.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/views/user/xiaofeigu-log.php" />
+        <option value="$PROJECT_DIR$/core/models/XiaofeiguLog.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/models/user/xiaofeigu/indexXiaofeigulogForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/views/user/index.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/book/OrderClerkForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/controllers/OrderController.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/XiaofeiguListForm.php" />
+        <option value="$PROJECT_DIR$/core/patch/wdcp.json" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/models/StoreSettingForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/api/models/integralmall/OrderSubmitPreviewForm.php" />
+        <option value="$PROJECT_DIR$/core/modules/mch/views/store/setting.php" />
       </list>
     </option>
   </component>
@@ -444,18 +240,17 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="618" />
-    <option name="y" value="450" />
-    <option name="width" value="1550" />
-    <option name="height" value="1092" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-468" />
+    <option name="y" value="36" />
+    <option name="width" value="1900" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -474,15 +269,22 @@
               <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="zjhj_mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zjhj_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="utils" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../web_DJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -537,29 +339,35 @@
       <workItem from="1558315217438" duration="329000" />
       <workItem from="1558315736694" duration="20000" />
       <workItem from="1558598282060" duration="3146000" />
-      <workItem from="1558661289934" duration="3247000" />
+      <workItem from="1558661289934" duration="32840000" />
+      <workItem from="1558920053624" duration="48407000" />
+      <workItem from="1559119340755" duration="713000" />
+      <workItem from="1559120350012" duration="5145000" />
+      <workItem from="1559178449908" duration="900000" />
+      <workItem from="1559196041383" duration="44000" />
+      <workItem from="1559530346286" duration="859000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186541000" />
+    <option name="totallyTimeSpent" value="272202000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-468" y="36" width="1900" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987805" visible="true" weight="0.25906184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84692734" visible="true" weight="0.1923913" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32985657" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.5012195" side_tool="true" weight="0.20164609" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32985657" />
+      <window_info id="Structure" order="1" sideWeight="0.15307263" side_tool="true" visible="true" weight="0.1923913" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.3488372" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.37886873" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -572,7 +380,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987805" visible="true" weight="0.18594356" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987805" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" sideWeight="0.5012195" side_tool="true" weight="0.20164609" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -585,7 +393,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.34533897" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.37886873" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -628,585 +436,399 @@
           <line>55</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php</url>
+          <line>96</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php</url>
+          <line>1017</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php</url>
+          <line>1038</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/models/Cash.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/store/setting.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1375">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="8450">
+          <caret line="338" column="63" selection-start-line="338" selection-start-column="63" selection-end-line="338" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/MchAddForm.php">
+    <entry file="file://$PROJECT_DIR$/core/models/XiaofeiguLog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="825">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/mch/index/cash.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/ApiModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="125">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/mch/index/index.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/MiaoshaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="70" column="28" lean-forward="true" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/permission/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="613" column="63" selection-start-line="613" selection-start-column="63" selection-end-line="613" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/mch/index/merchants-account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2650">
-          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/ReportFormsForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="82" column="71" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/MchAccountLogForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/mch/index/mch-account-log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/MchMenu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="193" column="45" selection-start-line="193" selection-start-column="45" selection-end-line="193" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="207" column="24" selection-start-line="207" selection-start-column="24" selection-end-line="207" selection-end-column="24" />
+        <state relative-caret-position="259">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/web/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="277" column="48" selection-start-line="277" selection-start-column="42" selection-end-line="277" selection-end-column="48" />
+        <state relative-caret-position="290">
+          <caret line="458" column="20" selection-start-line="458" selection-start-column="20" selection-end-line="458" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/group/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1401" column="34" lean-forward="true" selection-start-line="1401" selection-start-column="34" selection-end-line="1401" selection-end-column="34" />
+        <state relative-caret-position="500">
+          <caret line="151" column="56" lean-forward="true" selection-start-line="151" selection-start-column="56" selection-end-line="151" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/mch/IndexController.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/bargain/OrderController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="282" column="31" selection-start-line="282" selection-start-column="20" selection-end-line="282" selection-end-column="31" />
+        <state relative-caret-position="432">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/MchListForm.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/bargain/BargainSubmitForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="273">
+          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/OrderController.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/group/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="122">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/mch/order/index.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/user/xiaofeigu-log.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="218" column="57" lean-forward="true" selection-start-line="218" selection-start-column="57" selection-end-line="218" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/extensions/Export.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="120" column="27" selection-start-line="120" selection-start-column="27" selection-end-line="120" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/common/admin/order/CommonOrderSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/MyActiveQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/db/Query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="472" selection-start-line="472" selection-end-line="472" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/db/QueryTrait.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/db/ActiveQuery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3250">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/mch/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8725">
-          <caret line="349" column="9" selection-start-line="349" selection-start-column="9" selection-end-line="349" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/BaseObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/OrderForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/ExportList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9675">
-          <caret line="402" column="48" selection-start-line="402" selection-start-column="48" selection-end-line="402" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/mch/OrderListForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/store/sms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="324" column="56" lean-forward="true" selection-start-line="324" selection-start-column="56" selection-end-line="324" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/PickLinkForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="294" column="27" lean-forward="true" selection-start-line="294" selection-start-column="27" selection-end-line="294" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/Mch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="142" column="58" selection-start-line="142" selection-start-column="52" selection-end-line="142" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/web/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/ErrorHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/web/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/log/Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="178" selection-start-line="178" selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/curl/curl/src/Curl/Curl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="503" selection-start-line="503" selection-end-line="503" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="527" selection-start-line="527" selection-end-line="527" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/StoreController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4225">
-          <caret line="1522" selection-start-line="1522" selection-end-line="1522" />
-          <folding>
-            <element signature="e#2300#2849#0#PHP" />
-            <element signature="e#2344#2843#0#PHP" />
-            <element signature="e#2673#2843#0#PHP" />
-            <element signature="e#2699#2832#0#PHP" />
-            <element signature="e#2722#2831#0#PHP" />
-            <element signature="e#2854#2884#0#PHP" />
-            <element signature="e#32893#33105#0#PHP" />
-            <element signature="e#32872#33106#0#PHP" />
-            <element signature="e#30784#33113#0#PHP" />
-            <element signature="e#33130#34399#0#PHP" />
-            <element signature="e#33177#34393#0#PHP" />
-            <element signature="e#33311#33904#0#PHP" />
-            <element signature="e#33665#33754#0#PHP" />
-            <element signature="e#33770#33904#0#PHP" />
-            <element signature="e#33800#33889#0#PHP" />
-            <element signature="e#33915#34393#0#PHP" />
-            <element signature="e#34083#34382#0#PHP" />
-            <element signature="e#34110#34381#0#PHP" />
-            <element signature="e#34419#34676#0#PHP" />
-            <element signature="e#34600#34669#0#PHP" />
-            <element signature="e#34628#34668#0#PHP" />
-            <element signature="e#34698#35368#0#PHP" />
-            <element signature="e#34769#34899#0#PHP" />
-            <element signature="e#34788#34898#1#PHP" />
-            <element signature="e#34909#34971#0#PHP" />
-            <element signature="e#34980#35362#0#PHP" />
-            <element signature="e#35241#35362#0#PHP" />
-            <element signature="e#35267#35351#0#PHP" />
-            <element signature="e#35300#35350#0#PHP" />
-            <element signature="e#35390#35777#0#PHP" />
-            <element signature="e#35463#35593#0#PHP" />
-            <element signature="e#35482#35592#1#PHP" />
-            <element signature="e#35603#35689#0#PHP" />
-            <element signature="e#35705#35770#0#PHP" />
-            <element signature="e#35794#36642#0#PHP" />
-            <element signature="e#35879#35972#0#PHP" />
-            <element signature="e#35901#35971#1#PHP" />
-            <element signature="e#35982#36047#0#PHP" />
-            <element signature="e#36056#36636#0#PHP" />
-            <element signature="e#36334#36636#0#PHP" />
-            <element signature="e#36550#36625#0#PHP" />
-            <element signature="e#36574#36624#0#PHP" />
-            <element signature="e#36648#36739#0#PHP" />
-            <element signature="e#36745#36792#0#PHP" />
-            <element signature="e#36797#38066#0#PHP" />
-            <element signature="e#37163#37224#0#PHP" />
-            <element signature="e#37233#37580#0#PHP" />
-            <element signature="e#37589#37705#0#PHP" />
-            <element signature="e#37714#37830#0#PHP" />
-            <element signature="e#37847#38059#0#PHP" />
-            <element signature="e#37872#38058#0#PHP" />
-            <element signature="e#38072#38117#0#PHP" />
-            <element signature="e#38122#39959#0#PHP" />
-            <element signature="e#38278#38337#0#PHP" />
-            <element signature="e#38563#38624#0#PHP" />
-            <element signature="e#38633#39722#0#PHP" />
-            <element signature="e#38960#39027#0#PHP" />
-            <element signature="e#39362#39431#0#PHP" />
-            <element signature="e#39444#39671#0#PHP" />
-            <element signature="e#39564#39671#0#PHP" />
-            <element signature="e#39739#39952#0#PHP" />
-            <element signature="e#39769#39951#0#PHP" />
-            <element signature="e#39965#40069#0#PHP" />
-            <element signature="e#40074#40606#0#PHP" />
-            <element signature="e#40198#40319#0#PHP" />
-            <element signature="e#40231#40308#0#PHP" />
-            <element signature="e#40358#40599#0#PHP" />
-            <element signature="e#40398#40473#0#PHP" />
-            <element signature="e#40485#40599#0#PHP" />
-            <element signature="e#40511#40588#0#PHP" />
-            <element signature="e#40612#41747#0#PHP" />
-            <element signature="e#40772#40879#0#PHP" />
-            <element signature="e#40890#40977#0#PHP" />
-            <element signature="e#40986#41096#0#PHP" />
-            <element signature="e#41114#41169#0#PHP" />
-            <element signature="e#41114#41186#0#PHP" />
-            <element signature="e#41114#41220#0#PHP" />
-            <element signature="e#41237#41327#0#PHP" />
-            <element signature="e#41336#41557#0#PHP" />
-            <element signature="e#41382#41546#0#PHP" />
-            <element signature="e#41475#41531#1#PHP" />
-            <element signature="e#41566#41741#0#PHP" />
-            <element signature="e#41647#41730#0#PHP" />
-            <element signature="e#41681#41729#0#PHP" />
-            <element signature="e#41753#42027#0#PHP" />
-            <element signature="e#41917#42020#0#PHP" />
-            <element signature="e#41940#42019#0#PHP" />
-            <element signature="e#42033#42685#0#PHP" />
-            <element signature="e#42139#42197#0#PHP" />
-            <element signature="e#42240#42469#0#PHP" />
-            <element signature="e#42478#42592#0#PHP" />
-            <element signature="e#42608#42678#0#PHP" />
-            <element signature="e#42636#42677#0#PHP" />
-            <element signature="e#42691#43312#0#PHP" />
-            <element signature="e#42814#42940#0#PHP" />
-            <element signature="e#42848#42929#0#PHP" />
-            <element signature="e#42980#43306#0#PHP" />
-            <element signature="e#43021#43096#0#PHP" />
-            <element signature="e#43108#43306#0#PHP" />
-            <element signature="e#43127#43296#0#PHP" />
-            <element signature="e#43188#43281#0#PHP" />
-            <element signature="e#43318#44403#0#PHP" />
-            <element signature="e#43437#43576#0#PHP" />
-            <element signature="e#43671#43749#0#PHP" />
-            <element signature="e#43903#44215#0#PHP" />
-            <element signature="e#43980#44147#0#PHP" />
-            <element signature="e#44030#44133#0#PHP" />
-            <element signature="e#44232#44396#0#PHP" />
-            <element signature="e#44254#44395#0#PHP" />
-            <element signature="e#44409#45231#0#PHP" />
-            <element signature="e#44561#44682#0#PHP" />
-            <element signature="e#44594#44671#0#PHP" />
-            <element signature="e#44813#44945#0#PHP" />
-            <element signature="e#44850#44934#0#PHP" />
-            <element signature="e#44984#45225#0#PHP" />
-            <element signature="e#45024#45099#0#PHP" />
-            <element signature="e#45111#45225#0#PHP" />
-            <element signature="e#45137#45214#0#PHP" />
-            <element signature="e#45237#46011#0#PHP" />
-            <element signature="e#45390#45445#0#PHP" />
-            <element signature="e#45454#45710#0#PHP" />
-            <element signature="e#45719#45920#0#PHP" />
-            <element signature="e#45769#45845#0#PHP" />
-            <element signature="e#45936#46004#0#PHP" />
-            <element signature="e#45963#46003#0#PHP" />
-            <element signature="e#46030#47356#0#PHP" />
-            <element signature="e#46196#46328#0#PHP" />
-            <element signature="e#46229#46317#0#PHP" />
-            <element signature="e#46337#47019#0#PHP" />
-            <element signature="e#46367#46535#0#PHP" />
-            <element signature="e#46420#46520#0#PHP" />
-            <element signature="e#46673#46775#0#PHP" />
-            <element signature="e#46786#47019#0#PHP" />
-            <element signature="e#46805#46974#0#PHP" />
-            <element signature="e#46858#46959#0#PHP" />
-            <element signature="e#47028#47350#0#PHP" />
-            <element signature="e#47068#47143#0#PHP" />
-            <element signature="e#47155#47350#0#PHP" />
-            <element signature="e#47174#47340#0#PHP" />
-            <element signature="e#47233#47325#0#PHP" />
-            <element signature="e#47373#49081#0#PHP" />
-            <element signature="e#47476#47670#0#PHP" />
-            <element signature="e#47536#47660#0#PHP" />
-            <element signature="e#47679#47908#0#PHP" />
-            <element signature="e#47917#48947#0#PHP" />
-            <element signature="e#48049#48271#0#PHP" />
-            <element signature="e#48110#48270#0#PHP" />
-            <element signature="e#48348#48508#0#PHP" />
-            <element signature="e#48523#48714#0#PHP" />
-            <element signature="e#48735#48936#0#PHP" />
-            <element signature="e#48792#48921#1#PHP" />
-            <element signature="e#48956#49075#0#PHP" />
-            <element signature="e#49103#49384#0#PHP" />
-            <element signature="e#49293#49377#0#PHP" />
-            <element signature="e#49401#50235#0#PHP" />
-            <element signature="e#49534#49596#0#PHP" />
-            <element signature="e#49605#50229#0#PHP" />
-            <element signature="e#49737#49823#0#PHP" />
-            <element signature="e#49988#50229#0#PHP" />
-            <element signature="e#50007#50127#0#PHP" />
-            <element signature="e#50147#50218#0#PHP" />
-            <element signature="e#50169#50217#0#PHP" />
-            <element signature="e#51386#52123#0#PHP" />
-            <element signature="e#51572#51828#0#PHP" />
-            <element signature="e#51844#52116#0#PHP" />
-            <element signature="e#51866#52115#0#PHP" />
-            <element signature="e#52143#52234#0#PHP" />
-            <element signature="e#52251#52642#0#PHP" />
-            <element signature="e#52508#52635#0#PHP" />
-            <element signature="e#52539#52634#0#PHP" />
-            <element signature="e#52661#53115#0#PHP" />
-            <element signature="e#52883#53006#0#PHP" />
-            <element signature="e#52920#53005#1#PHP" />
-            <element signature="e#53030#53108#0#PHP" />
-            <element signature="e#53065#53107#0#PHP" />
-            <element signature="e#53121#53661#0#PHP" />
-            <element signature="e#53209#53351#0#PHP" />
-            <element signature="e#53240#53350#1#PHP" />
-            <element signature="e#53361#53488#0#PHP" />
-            <element signature="e#53528#53655#0#PHP" />
-            <element signature="e#53569#53644#0#PHP" />
-            <element signature="e#53667#55051#0#PHP" />
-            <element signature="e#53746#53863#0#PHP" />
-            <element signature="e#53777#53862#1#PHP" />
-            <element signature="e#54028#54297#0#PHP" />
-            <element signature="e#54071#54287#0#PHP" />
-            <element signature="e#54121#54202#0#PHP" />
-            <element signature="e#54306#54380#0#PHP" />
-            <element signature="e#54389#54463#0#PHP" />
-            <element signature="e#54472#55045#0#PHP" />
-            <element signature="e#54765#55045#0#PHP" />
-            <element signature="e#54897#55034#0#PHP" />
-            <element signature="e#54937#55033#0#PHP" />
-            <element signature="e#55072#55829#0#PHP" />
-            <element signature="e#55163#55823#0#PHP" />
-            <element signature="e#55384#55823#0#PHP" />
-            <element signature="e#55494#55812#0#PHP" />
-            <element signature="e#55528#55811#0#PHP" />
-            <element signature="e#55835#55892#0#PHP" />
-            <element signature="e#55897#56133#0#PHP" />
-            <element signature="e#56139#56168#0#PHP" />
-            <element signature="e#56173#56484#0#PHP" />
-            <element signature="e#56490#56520#0#PHP" />
-            <element signature="e#56525#56773#0#PHP" />
-            <element signature="e#56779#56834#0#PHP" />
-            <element signature="e#56839#57070#0#PHP" />
-            <element signature="e#57076#57139#0#PHP" />
-            <element signature="e#57144#57387#0#PHP" />
-            <element signature="e#57393#57745#0#PHP" />
-            <element signature="e#57470#57643#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/BaseYii.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7200">
-          <caret line="296" selection-start-line="296" selection-end-line="296" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/StorePermission.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9625">
-          <caret line="389" selection-start-line="389" selection-end-line="389" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/UserCenterForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="160" column="34" selection-start-line="160" selection-start-column="34" selection-end-line="160" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="84" column="65" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="65" />
+        <state relative-caret-position="598">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/modules/api/models/order/OrderSubmitForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="84" column="51" lean-forward="true" selection-start-line="84" selection-start-column="51" selection-end-line="84" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/db/ActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/UserListForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3634">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/recharge/UserRechargeForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/UserCardListForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/BaseObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="822">
+          <caret line="101" column="20" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/data/Pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2925">
+          <caret line="125" column="7" lean-forward="true" selection-start-line="125" selection-start-column="7" selection-end-line="125" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/user/xiaofeigu/indexXiaofeigulogForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="133" column="41" lean-forward="true" selection-start-line="133" selection-start-column="41" selection-end-line="133" selection-end-column="41" />
           <folding>
-            <element signature="e#212#240#0#PHP" expanded="true" />
+            <element signature="e#161#189#0#PHP" expanded="true" />
+            <element signature="e#895#2397#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/OrderListForm.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="69" column="22" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="22" />
+        <state relative-caret-position="227">
+          <caret line="582" column="7" lean-forward="true" selection-start-line="582" selection-start-column="7" selection-end-line="582" selection-end-column="7" />
           <folding>
-            <element signature="e#128#180#0#PHP" expanded="true" />
+            <element signature="e#133#160#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/models/Order.php">
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/user/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="305" column="5" selection-start-line="305" selection-start-column="5" selection-end-line="305" selection-end-column="5" />
+        <state relative-caret-position="625">
+          <caret line="250" column="46" lean-forward="true" selection-start-line="250" selection-start-column="46" selection-end-line="250" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="124" column="20" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/hejiang/responses/BaseApiResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/hejiang/BaseApiResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/integralmall/IntegralmallController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="166" column="60" lean-forward="true" selection-start-line="166" selection-start-column="60" selection-end-line="166" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/XiaofeiguListForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="62" column="14" lean-forward="true" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/book/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="253" column="57" lean-forward="true" selection-start-line="253" selection-start-column="57" selection-end-line="253" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/UserCenterForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/base/ErrorHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7125">
+          <caret line="320" column="46" selection-start-line="320" selection-start-column="46" selection-end-line="320" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/ShareQrcodeForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31975">
+          <caret line="1299" column="55" selection-start-line="1299" selection-start-column="38" selection-end-line="1299" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/patch/wdcp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/XiaofeiguController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="131" column="43" lean-forward="true" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
           <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
+            <element signature="e#133#161#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/models/StoreSettingForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="96" column="10" selection-start-line="83" selection-start-column="8" selection-end-line="96" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/behaviors/OrderBehavior.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="111" column="35" lean-forward="true" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/mch/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/controllers/mch/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/ApplyForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1827" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/mch/OrderListForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/integralmall/OrderSubmitPreviewForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18725">
+          <caret line="773" column="88" selection-start-line="773" selection-start-column="88" selection-end-line="773" selection-end-column="88" />
+          <folding>
+            <element signature="e#132#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/miaosha/OrderConfirmForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="90" column="88" selection-start-line="90" selection-start-column="88" selection-end-line="90" selection-end-column="88" />
+          <folding>
+            <element signature="e#136#162#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/group/OrderConfirmForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="73" column="88" selection-start-line="73" selection-start-column="88" selection-end-line="73" selection-end-column="88" />
+          <folding>
+            <element signature="e#134#160#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/book/OrderClerkForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="75" column="47" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
+          <folding>
+            <element signature="e#135#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/mch/views/store/setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8450">
+          <caret line="338" column="63" selection-start-line="338" selection-start-column="63" selection-end-line="338" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="639" column="20" selection-start-line="639" selection-start-column="20" selection-end-line="639" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models/XiaofeiguLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/utils/AddXiaofeiguLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="e#28#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/modules/api/models/OrderConfirmForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="114" column="1" lean-forward="true" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+          <folding>
+            <element signature="e#128#154#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

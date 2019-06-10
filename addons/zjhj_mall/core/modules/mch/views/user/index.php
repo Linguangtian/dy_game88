@@ -128,6 +128,7 @@ $urlPlatform = Yii::$app->controller->route;
                 <th>订单数</th>
                 <th>优惠券数量</th>
                 <th>卡券数量</th>
+                <th>当前消费股</th>
                 <th>当前积分</th>
                 <th>当前余额</th>
                 <th>操作</th>
@@ -177,6 +178,13 @@ $urlPlatform = Yii::$app->controller->route;
                         <a class="btn btn-sm btn-link"
                            href="<?= $urlManager->createUrl(['mch/user/card', 'user_id' => $u['id']]) ?>"><?= $u['card_count'] ?></a>
                     </td>
+
+                    <td>
+                        <a class="btn btn-sm btn-link"
+                           href="<?= $urlManager->createUrl(['mch/user/rechange-log', 'user_id' => $u['id']]) ?>"><?= $u['xiaofeigu_amount'] ?></a>
+                    </td>
+
+
                     <td>
                         <a class="btn btn-sm btn-link"
                            href="<?= $urlManager->createUrl(['mch/user/rechange-log', 'user_id' => $u['id']]) ?>"><?= $u['integral'] ?></a>
@@ -193,11 +201,22 @@ $urlPlatform = Yii::$app->controller->route;
                            href="javascript:;"
                            data-integral="<?= $u['integral'] ?>"
                            data-id="<?= $u['id'] ?>">充值积分</a>
+
                         <a class="btn btn-sm btn-success rechargeMoney"
                            data-toggle="modal" data-target="#balanceAddModal"
                            href="javascript:;"
                            data-money="<?= $u['money'] ?>"
                            data-id="<?= $u['id'] ?>">充值余额</a>
+
+                        <a class="btn btn-sm btn-success rechargexiaofeigu"
+                           data-toggle="modal" data-target="#xiaofeiguAddModal"
+                           href="javascript:;"
+                           data-money="<?= $u['xiaofeigu_amount'] ?>"
+                           data-id="<?= $u['id'] ?>">充值消费股</a>
+
+                        <a class="btn btn-sm btn-primary"
+                           href="<?= $urlManager->createUrl(['mch/user/xiaofeigulog-list', 'userid' => $u['id']]) ?>">消费股记录</a>
+
                     </td>
                     <!--
                 <td>
@@ -236,6 +255,70 @@ $urlPlatform = Yii::$app->controller->route;
             <div class="text-muted">共<?= $row_count ?>条数据</div>
         </div>
     </div>
+
+
+
+
+    <!-- 充值消费股 -->
+    <div class="modal fade" id="xiaofeiguAddModal"  data-backdrop="static">
+        <div class="modal-dialog" role="document" id="xiaofei">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">充值消费股</h5>
+                    <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <div class="form-group-label col-3 text-right">
+                            <label class="col-form-label">操作</label>
+                        </div>
+                        <div class="input-group short-row col-9">
+                            <label class="custom-control custom-radio">
+                                <input value="1" checked name="changeType" type="radio" class="custom-control-input">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">充值</span>
+                            </label>
+                            <label class="custom-control custom-radio">
+                                <input value="2" name="changeType" type="radio" class="custom-control-input">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">扣除</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="form-group-label col-3 text-right">
+                            <label class="col-form-label">金额</label>
+                        </div>
+                        <div class="col-9">
+                            <input class="form-control " min="0" name="amount" type="number" placeholder="请填写充值余额" value="0"
+                                  />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="form-group-label col-3 text-right">
+                            <label class="col-form-label">说明</label>
+                        </div>
+                        <div class="col-9">
+                            <input class="form-control" name="xiaofeifu_explain">
+                        </div>
+                    </div>
+                    <div class="form-error text-danger mt-3 money-error" style="display: none"></div>
+                    <div class="form-success text-success mt-3" style="display: none"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary close-modal" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary save-xiaofeigu">提交</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 充值消费股 -->
+
+
+
     <!-- 充值积分 -->
     <div class="modal fade" id="attrAddModal" data-backdrop="static">
         <div class="modal-dialog modal-sm" role="document">
@@ -458,6 +541,33 @@ $urlPlatform = Yii::$app->controller->route;
         }
     });
 
+
+    var xiaofei=new Vue({
+        el: '#xiaofei',
+        data: {
+            user_id: -1,
+            changeType: 1,
+            amount: 0
+        }
+
+    });
+
+    $(document).on('change', "input[name='changeType']", function () {
+        xiaofei.changeType = $(this).val();
+    });
+
+    $(document).on('change', "input[name='amount']", function () {
+        xiaofei.amount = $(this).val();
+    });
+
+    $(document).on('click', '.rechargexiaofeigu', function () {
+        xiaofei.type = 1;
+        xiaofei.user_id = $(this).data('id');
+    });
+
+
+
+
     $(document).on('click', '.rechargeMoney', function () {
         app.type = 1;
         app.user_id = $(this).data('id');
@@ -473,6 +583,10 @@ $urlPlatform = Yii::$app->controller->route;
         app.price = 0;
         app.rechargeType = 1;
         app.type = -1;
+        xiaofei.user_id= -1;
+        xiaofei.changeType= 1;
+        xiaofei.amount= 0;
+
     });
 
     $(document).on('click', '.save-balance', function () {
@@ -512,5 +626,50 @@ $urlPlatform = Yii::$app->controller->route;
             }
         });
     });
+
+    /*提交修改消费股*/
+
+    $(document).on('click', '.save-xiaofeigu', function () {
+        var btn = $(this);
+        btn.btnLoading(btn.text());
+        var error = $('.money-error');
+        $.ajax({
+            url: "<?=$urlManager->createUrl(['mch/user/rechange-xiaofeigu'])?>",
+            type: "post",
+            dataType: 'json',
+            data: {
+                    user_id: xiaofei.user_id,
+                    changeType: xiaofei.changeType,
+                    amount: xiaofei.amount,
+                    explain: $("input[name='xiaofeifu_explain']").val(),
+                    _csrf: _csrf,
+
+            },
+            success: function (res) {
+                if (res.code == 0) {
+                    $("#balanceAddModal").modal('hide');
+                    $.myAlert({
+                        content: res.msg,
+                        confirm: function (res) {
+                            window.location.reload();
+                        }
+                    });
+                } else {
+                    error.css('display', 'block');
+                    error.text(res.msg);
+                    btn.btnReset();
+                }
+            }
+        });
+    });
+
+
+
+
+
+
+
+
+
 
 </script>

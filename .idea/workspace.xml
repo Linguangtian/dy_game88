@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bf23a21-23aa-46de-ac96-ac388736d9a3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/models/UserCenterForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/models/UserCenterForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/15/15008574624c1b775dc6686a4de5a677.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/15/15008574624c1b775dc6686a4de5a677.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/controllers/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/OrderConfirmForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/OrderConfirmForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/ShareQrcodeForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/ShareQrcodeForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/book/OrderClerkForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/book/OrderClerkForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/group/OrderConfirmForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/group/OrderConfirmForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/integralmall/OrderSubmitPreviewForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/integralmall/OrderSubmitPreviewForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/miaosha/OrderConfirmForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/api/models/miaosha/OrderConfirmForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/permission/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/controllers/permission/Menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/StoreSettingForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/StoreSettingForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/user/integral/IndexRechargeForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/models/user/integral/IndexRechargeForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/store/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/store/setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/modules/mch/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/patch/wdcp.json" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/patch/wdcp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/63/6335d5673bce47a082bb405dae31a10a.bin" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/63/6335d5673bce47a082bb405dae31a10a.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/f1/5b30336337313234346632303331363838333833656664376137363563633265345d5b315d.doctrinecache.data" beforeDir="false" afterPath="$PROJECT_DIR$/addons/zjhj_mall/core/runtime/cache/f1/5b30336337313234346632303331363838333833656664376137363563633265345d5b315d.doctrinecache.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/model/user.mod.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/model/user.mod.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +36,7 @@
       <file leaf-file-name="login.ctrl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="1300">
               <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
               <folding>
                 <element signature="e#6#169#0#PHP" />
@@ -30,16 +45,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.mod.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.mod.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="340" column="10" selection-start-line="340" selection-start-column="10" selection-end-line="340" selection-end-column="10" />
+            <state relative-caret-position="308">
+              <caret line="343" column="30" selection-start-line="343" selection-start-column="30" selection-end-line="343" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -48,11 +63,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>OrderBehavior</find>
       <find>getAccessToken</find>
       <find>WeAccount</find>
       <find>create</find>
@@ -82,6 +105,7 @@
       <find>Notify</find>
       <find>WxPay.Config</find>
       <find>!=</find>
+      <find>list-group collapse in</find>
     </findStrings>
     <dirStrings>
       <dir>E:\git\dy_game88\addons\amd_qmrwtg</dir>
@@ -130,8 +154,9 @@
         <option value="$PROJECT_DIR$/addons/amd_qmrwtg/inc/web/index_menu.inc.php" />
         <option value="$PROJECT_DIR$/addons/amd_qmrwtg/template/article.html" />
         <option value="$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php.old" />
-        <option value="$PROJECT_DIR$/data/config.php" />
         <option value="$PROJECT_DIR$/framework/model/user.mod.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/data/config.php" />
       </list>
     </option>
   </component>
@@ -161,8 +186,8 @@
     </servers>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="280" />
-    <option name="y" value="118" />
+    <option name="x" value="93" />
+    <option name="y" value="96" />
     <option name="width" value="1593" />
     <option name="height" value="1018" />
   </component>
@@ -183,38 +208,6 @@
             <path>
               <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
               <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="amd_qmrwtg" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="amd_qmrwtg" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="amd_qmrwtg" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="mobile" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="addons" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="junsion_winaward" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="dy_game88" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dy_game88" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="data" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -225,7 +218,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addons/zjhj_mall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
@@ -270,20 +263,22 @@
       <workItem from="1558509073827" duration="6192000" />
       <workItem from="1558574424489" duration="26000" />
       <workItem from="1558596947595" duration="1638000" />
+      <workItem from="1559208027374" duration="263000" />
+      <workItem from="1560145638468" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54211000" />
+    <option name="totallyTimeSpent" value="54542000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="280" y="118" width="1593" height="1018" extended-state="0" />
+    <frame x="84" y="311" width="1593" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.23548597" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499391" weight="0.24200913" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50424004" side_tool="true" visible="true" weight="0.29466358" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50424004" side_tool="true" weight="0.29466358" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985657" />
@@ -294,30 +289,30 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49575993" weight="0.3085847" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.21321961" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499391" visible="true" weight="0.24200913" />
       <window_info id="Structure" order="1" sideWeight="0.50060904" side_tool="true" weight="0.14734043" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985657" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985657" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49893618" weight="0.11162791" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32985657" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50373137" side_tool="true" weight="0.23666666" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.34533897" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49575993" weight="0.3085847" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32985657" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50424004" side_tool="true" visible="true" weight="0.29466358" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -396,6 +391,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#169#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8575">
+          <caret line="343" column="30" selection-start-line="343" selection-start-column="30" selection-end-line="343" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#169#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8350">
+          <caret line="340" column="10" selection-start-line="340" selection-start-column="10" selection-end-line="340" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php.old">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5325">
@@ -643,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addons/amd_qmrwtg/inc/mobile/center.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -673,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/source/user/login.ctrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="1300">
           <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
           <folding>
             <element signature="e#6#169#0#PHP" />
@@ -681,17 +717,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="343" column="30" selection-start-line="343" selection-start-column="30" selection-end-line="343" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/model/user.mod.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="340" column="10" selection-start-line="340" selection-start-column="10" selection-end-line="340" selection-end-column="10" />
         </state>
       </provider>
     </entry>

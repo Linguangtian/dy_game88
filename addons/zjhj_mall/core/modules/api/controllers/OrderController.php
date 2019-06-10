@@ -34,7 +34,7 @@ class OrderController extends Controller
 {
     public function behaviors()
     {
-        return array_merge(parent::behaviors(), [
+       return array_merge(parent::behaviors(), [
             'login' => [
                 'class' => LoginBehavior::className(),
             ],
@@ -124,6 +124,7 @@ class OrderController extends Controller
     //订单确认收货
     public function actionConfirm()
     {
+
         $form = new OrderConfirmForm();
         $form->attributes = \Yii::$app->request->get();
         $form->store_id = $this->store->id;

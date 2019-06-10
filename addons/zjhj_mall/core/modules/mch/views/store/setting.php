@@ -294,7 +294,7 @@ $this->params['active_nav_group'] = 1;
                                 value="1"
                                 name="payment[huodao]" type="checkbox" class="custom-control-input">
                             <span class="label-icon"></span>
-                            <span class="label-text">货到付款4</span>
+                            <span class="label-text">货到付款</span>
                         </label>
                         <label class="checkbox-label">
                             <input <?= $option['payment']['balance'] == 1 ? 'checked' : null ?>
@@ -322,6 +322,53 @@ $this->params['active_nav_group'] = 1;
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+                <div class="form-group row">
+                    <div class="form-group-label col-sm-2 text-right">
+                        <label class="col-form-label">消费股比例</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <input type="number" step="1" class="form-control short-row" name="xiaofeigu_proportion"
+                                   value="<?= $store->xiaofeigu_proportion ?: 0 ?>">
+                            <span class="input-group-addon">消费1元人民币可得？消费股</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="form-group row">
+                    <div class="form-group-label col-sm-2 text-right">
+                        <label class="col-form-label">开启赠送消费股</label>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="radio-label">
+                            <input id="radio1" <?= $store->open_xiaofeigu == 1 ? 'checked' : null ?>
+                                   value="1"
+                                   name="open_xiaofeigu" type="radio" class="custom-control-input">
+                            <span class="label-icon"></span>
+                            <span class="label-text">开启</span>
+                        </label>
+                        <label class="radio-label">
+                            <input id="radio2" <?= $store->open_xiaofeigu == 0 ? 'checked' : null ?>
+                                   value="0"
+                                   name="open_xiaofeigu" type="radio" class="custom-control-input">
+                            <span class="label-icon"></span>
+                            <span class="label-text">关闭</span>
+                        </label>
+                    </div>
+                </div>
+
+
+
+
+
 
                 <div class="form-group row">
                     <div class="form-group-label col-sm-2 text-right">

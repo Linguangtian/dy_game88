@@ -515,6 +515,12 @@ class Menu
                                 'is_menu' => false,
                                 'route' => 'mch/user/rechange-log',
                             ],
+                            [
+                                'name' => '消费股记录',
+                                'is_menu' => false,
+                                'route' => 'mch/user/xiaofeigu-log',
+                            ],
+
                         ],
                         'action' => [
                             [
@@ -588,6 +594,11 @@ class Menu
                         'name' => '积分充值记录',
                         'is_menu' => true,
                         'route' => 'mch/user/integral-rechange-list',
+                    ],
+                    [
+                        'name' => '消费股记录',
+                        'is_menu' => true,
+                        'route' => 'mch/user/xiaofeigulog-list',
                     ],
                 ],
             ],

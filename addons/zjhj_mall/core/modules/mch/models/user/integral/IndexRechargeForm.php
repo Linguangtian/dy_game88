@@ -31,6 +31,7 @@ class IndexRechargeForm extends MchModel
 
     public function getIntegralRechargeList()
     {
+
         $query = IntegralLog::find()
             ->andWhere(['store_id' => $this->getCurrentStoreId(), 'type' => $this->type])
             ->with('user');

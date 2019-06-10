@@ -10,6 +10,7 @@
 namespace app\modules\mch\controllers;
 
 use app\models\IntegralLog;
+use app\models\XiaofeiguLog;
 use app\models\Level;
 use app\models\LevelOrder;
 use app\models\Order;
@@ -23,6 +24,7 @@ use app\modules\mch\models\LevelForm;
 use app\modules\mch\models\LevelListForm;
 use app\modules\mch\models\recharge\UserRechargeForm;
 use app\modules\mch\models\user\integral\IndexRechargeForm;
+use app\modules\mch\models\user\xiaofeigu\IndexXiaofeigulogForm;
 use app\modules\mch\models\UserCardListForm;
 use app\modules\mch\models\UserCouponForm;
 use app\modules\mch\models\UserExportList;
@@ -40,6 +42,7 @@ class UserController extends Controller
         $form->attributes = \Yii::$app->request->post();
         $form->store_id = $this->store->id;
         $data = $form->search();
+
         $level_list = Level::find()->where(['store_id' => $this->store->id, 'is_delete' => 0, 'status' => 1])
             ->orderBy(['level' => SORT_ASC])->asArray()->all();
         return $this->render('index', [
@@ -455,6 +458,86 @@ class UserController extends Controller
         }
     }
 
+
+
+
+
+
+    /**
+     * @return mixed|string
+     * 后台用户积分消费股
+     */
+    public function actionRechangeXiaofeigu()
+    {
+        $amount = \Yii::$app->request->post('amount');
+        $user_id = \Yii::$app->request->post('user_id');
+        $changeType = \Yii::$app->request->post('changeType');
+        $explain = \Yii::$app->request->post('explain');
+        $user = User::findOne(['id' => $user_id, 'store_id' => $this->store->id]);
+        $amount=sprintf("%.2f",substr(sprintf("%.6f", $amount), 0, -4));
+        if (!$user) {
+            return [
+                'code' => 1,
+                'msg' => '用户不存在，或已删除',
+            ];
+        }
+
+        if ($amount==0) {
+            return [
+                'code' => 1,
+                'msg' => '充值数不能为0',
+            ];
+        }
+        $xiaofeiguLog = new XiaofeiguLog();
+        $xiaofeiguLog->user_id = $user->id;
+        $xiaofeiguLog->store_id = $this->store->id;
+        $xiaofeiguLog->proportion =  $this->store->xiaofeigu_proportion;
+        $xiaofeiguLog->change_type = 2;
+        $xiaofeiguLog->shore_desc = $explain?trim($explain):'平台操作无备注';
+        $xiaofeiguLog->create_time = date("Y-m-d H:i:s",time());
+        if ($changeType == '2') {
+            $xiaofeiguLog->amount = $amount*-1;
+        } elseif ($changeType == '1') {
+            $xiaofeiguLog->amount = $amount;
+        }
+
+        $xiaofeiguLog->type = $changeType;
+        $current_amount=$user->xiaofeigu_amount+$xiaofeiguLog->amount;
+
+
+        if($current_amount<0)$current_amount=0;
+        $xiaofeiguLog->current_amount = $current_amount;
+
+
+        if ($this->is_we7) {
+            $admin = \Yii::$app->user->identity;
+        } elseif ($this->is_ind) {
+            $admin = \Yii::$app->admin->identity;
+        } else {
+            $admin = \Yii::$app->mchRoleAdmin->identity;
+        }
+        $xiaofeiguLog->change_desc ="管理员：" . $admin->username . "后台操作账号" . $user->nickname . " 消费股操作：". $xiaofeiguLog->amount .'股';
+        $xiaofeiguLog->save();
+        $user->xiaofeigu_amount=$current_amount;
+        if (!$user->save()) {
+            return [
+                'code' => 1,
+                'msg' => '操作失败！请重试',
+            ];
+        }else{
+            return [
+                'code' => 0,
+                'msg' => '操作成功',
+            ];
+
+
+        }
+
+    }
+
+
+
+
     /**
      * 个人积分充值列表
      * @param int $user_id
@@ -492,6 +575,28 @@ class UserController extends Controller
             'exportList' => \Yii::$app->serializer->encode($exportList)
         ]);
     }
+
+
+    /**
+     * 消费股充值列表
+     * @return string
+     */
+    public function actionXiaofeigulogList()
+    {
+
+        $model = new IndexXiaofeigulogForm();
+        $exportList = $model->getList();
+        $model->attributes = \Yii::$app->request->get();
+        $res = $model->getXiaofeigulogList();
+
+
+        return $this->render('xiaofeigu-log', [
+            'list' => $res['list'],
+            'pagination' => $res['pagination'],
+            'exportList' => \Yii::$app->serializer->encode($exportList)
+        ]);
+    }
+
 
     /**
      * 会员卡券
@@ -623,6 +728,7 @@ class UserController extends Controller
             ];
         }
     }
+
 
     /**
      * 个人余额充值记录
